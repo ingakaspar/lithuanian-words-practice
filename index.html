@@ -14,6 +14,13 @@
   <body>
     <main class="app">
       <header class="hero">
+        <a
+          class="issues-link"
+          href="https://github.com/ingakaspar/lithuanian-words-practice/issues/new"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Bugs &amp; Suggestions</a
+        >
         <h1>Lithuanian Practice</h1>
         <p id="dataStats" class="hero-stats"></p>
       </header>
@@ -68,8 +75,8 @@
       </section>
 
       <section class="panel question" aria-live="polite">
-        <h2 id="promptText">Kraunama…</h2>
-        <div class="question-actions">
+        <div class="question-head">
+          <h2 id="promptText">Kraunama…</h2>
           <button id="hintBtn" type="button" class="small-btn">Hint</button>
         </div>
         <p id="personText"></p>
@@ -85,7 +92,7 @@
           autocomplete="off"
         />
         <div class="answer-actions">
-          <button id="checkBtn" type="button">Tikrinti</button>
+          <button id="checkBtn" type="button">Check</button>
           <button id="nextBtn" type="button" class="small-btn">Skip</button>
         </div>
         <p id="resultText"></p>

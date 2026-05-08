@@ -36,6 +36,26 @@ body {
   font-size: clamp(2rem, 4vw, 2.8rem);
 }
 
+.hero {
+  position: relative;
+}
+
+.issues-link {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 0.85rem;
+  background: #1f7a3f;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.45rem 0.7rem;
+  border-radius: 10px;
+}
+
+.issues-link:hover {
+  background: #145c2e;
+}
+
 .hero p {
   margin: 0;
   color: #3d6a49;
@@ -169,6 +189,14 @@ button:hover {
   min-width: 72px;
 }
 
+#nextBtn {
+  background: #b11717;
+}
+
+#nextBtn:hover {
+  background: #8f1111;
+}
+
 #hintBtn {
   background: #5cb878;
   color: #fff;
@@ -179,7 +207,7 @@ button:hover {
 }
 
 .question h2 {
-  margin: 0 0 0.35rem;
+  margin: 0;
   font-size: 1.7rem;
 }
 
@@ -188,8 +216,12 @@ button:hover {
   color: #3d6a49;
 }
 
-.question-actions {
-  margin: 0.2rem 0 0.35rem;
+.question-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.35rem;
 }
 
 .history h3 {
