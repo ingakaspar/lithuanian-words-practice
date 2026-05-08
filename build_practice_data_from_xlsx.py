@@ -5,6 +5,8 @@ import os
 import re
 import sys
 import unicodedata
+import urllib.parse
+import urllib.request
 from pathlib import Path
 
 import openpyxl
@@ -18,6 +20,7 @@ from decliner import decline_noun  # noqa: E402
 
 XLSX_PATH = ROOT / "words.xlsx"
 TEST_SHEET = "📝 Vocabulary Test"
+TRANSLATION_CACHE_PATH = ROOT / "translation_cache.json"
 
 # Strip lexical stress marks only; keep length marks so ū remains distinct from u.
 _STRESS_ORDS = frozenset(
@@ -77,6 +80,43 @@ def parse_tier_group(cell: object) -> int:
 def clean_topic_cell(cell: object) -> str:
     return str(cell or "").strip()
 
+def load_translation_cache() -> dict:
+    if not TRANSLATION_CACHE_PATH.exists():
+        return {}
+    try:
+        data = json.loads(TRANSLATION_CACHE_PATH.read_text(encoding="utf-8"))
+        return data if isinstance(data, dict) else {}
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+
+def save_translation_cache(cache: dict) -> None:
+    TRANSLATION_CACHE_PATH.write_text(
+        json.dumps(cache, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
+def auto_translate_lt_to_en(term: str, cache: dict) -> str:
+    key = strip_stress_marks(str(term or "").strip()).lower()
+    if not key:
+        return ""
+    if key in cache:
+        return str(cache[key] or "").strip()
+    url = (
+        "https://translate.googleapis.com/translate_a/single?client=gtx&sl=lt&tl=en&dt=t&q="
+        + urllib.parse.quote(key)
+    )
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    try:
+        raw = urllib.request.urlopen(req, timeout=10).read().decode("utf-8", "ignore")
+        data = json.loads(raw)
+        translated = str(data[0][0][0] if data and data[0] and data[0][0] else "").strip()
+    except Exception:
+        translated = ""
+    cache[key] = translated
+    return translated
+
 
 def tense_six(d: object) -> list:
     if not isinstance(d, dict):
@@ -115,6 +155,7 @@ def load_words_from_xlsx() -> list:
     if TEST_SHEET not in wb.sheetnames:
         raise RuntimeError(f"Missing sheet {TEST_SHEET!r} in {XLSX_PATH}")
     ws = wb[TEST_SHEET]
+    cache = load_translation_cache()
     out = []
     # B:# C:word D:topic E:tier G:translation
     for row in range(2, ws.max_row + 1):
@@ -127,6 +168,8 @@ def load_words_from_xlsx() -> list:
         topic = clean_topic_cell(ws.cell(row, 4).value)
         tier_group = parse_tier_group(ws.cell(row, 5).value)
         tr = str(ws.cell(row, 7).value or "").strip()
+        if not tr:
+            tr = auto_translate_lt_to_en(lt_raw, cache)
         out.append(
             {
                 "lt": lt_raw,
@@ -136,6 +179,7 @@ def load_words_from_xlsx() -> list:
                 "group": tier_group,
             }
         )
+    save_translation_cache(cache)
     return out
 
 

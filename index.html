@@ -15,10 +15,11 @@
     <main class="app">
       <header class="hero">
         <a
-          class="issues-link"
+          class="issues-btn"
           href="https://github.com/ingakaspar/lithuanian-words-practice/issues/new"
           target="_blank"
           rel="noopener noreferrer"
+          role="button"
           >Bugs &amp; Suggestions</a
         >
         <h1>Lithuanian Practice</h1>
@@ -27,14 +28,22 @@
 
       <section class="panel word-groups-panel" aria-label="Vocabulary groups">
         <fieldset class="word-groups-fieldset">
-          <legend>Žodžių grupės (rinkis kelias)</legend>
+          <legend>Tier grupės</legend>
+          <div class="filter-actions">
+            <button id="wordGroupAllBtn" type="button" class="tiny-btn">All</button>
+            <button id="wordGroupClearBtn" type="button" class="tiny-btn">Clear</button>
+          </div>
           <div class="word-group-checks" id="wordGroupChecks"></div>
         </fieldset>
       </section>
 
       <section class="panel word-groups-panel" aria-label="Vocabulary topics">
         <fieldset class="word-groups-fieldset">
-          <legend>Temos (rinkis kelias)</legend>
+          <legend>Temos</legend>
+          <div class="filter-actions">
+            <button id="wordTopicAllBtn" type="button" class="tiny-btn">All</button>
+            <button id="wordTopicClearBtn" type="button" class="tiny-btn">Clear</button>
+          </div>
           <div class="word-group-checks" id="wordTopicChecks"></div>
         </fieldset>
       </section>
@@ -77,6 +86,9 @@
       <section class="panel question" aria-live="polite">
         <div class="question-head">
           <h2 id="promptText">Kraunama…</h2>
+          <button id="speakBtn" type="button" class="small-btn" aria-label="Pronounce">
+            🔊
+          </button>
           <button id="hintBtn" type="button" class="small-btn">Hint</button>
         </div>
         <p id="personText"></p>

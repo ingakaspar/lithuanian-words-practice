@@ -5,11 +5,25 @@ let nounsAll = [];
 
 /** Used only until word_groups.json loads or if that file is missing. */
 const WORD_GROUPS_FALLBACK = [1, 2, 3, 4];
+const WORD_TOPICS_FALLBACK = [
+  "Asmens tapatybė",
+  "Būstas",
+  "Gamta.Regionas",
+  "Kasdienis gyvenimas",
+  "Kelionės",
+  "Laisvalaikis",
+  "Maistas ir gėrimai",
+  "Paslaugos",
+  "Prekyba",
+  "Santykiai su žmonėmis",
+  "Sveikata ir higiena",
+  "Švietimas ir mokslas"
+];
 const LS_WORD_GROUPS = "ltPractice_wordGroups";
 const LS_WORD_TOPICS = "ltPractice_wordTopics";
 
 let wordGroupIdsEffective = [...WORD_GROUPS_FALLBACK];
-let wordTopicNamesEffective = [];
+let wordTopicNamesEffective = [...WORD_TOPICS_FALLBACK];
 
 function getWordGroupIds() {
   return wordGroupIdsEffective;
@@ -230,19 +244,12 @@ function entryMatchesSelections(entry, selectedGroupSet, selectedTopicSet) {
 }
 
 function applyAllFilters() {
-  let selectedGroups = getSelectedWordGroupsFromUI();
-  if (selectedGroups.length === 0) {
-    const all = getWordGroupIds();
-    setWordGroupCheckboxes(all);
-    selectedGroups = [...all];
-    saveWordGroupsToStorage(selectedGroups);
-  }
-  let selectedTopics = getSelectedWordTopicsFromUI();
-  if (selectedTopics.length === 0) {
-    const all = getWordTopicNames();
-    setWordTopicCheckboxes(all);
-    selectedTopics = [...all];
-    saveWordTopicsToStorage(selectedTopics);
+  const selectedGroups = getSelectedWordGroupsFromUI();
+  const selectedTopics = getSelectedWordTopicsFromUI();
+  if (selectedGroups.length === 0 || selectedTopics.length === 0) {
+    verbs = [];
+    nouns = [];
+    return;
   }
   const selectedGroupSet = new Set(selectedGroups);
   const selectedTopicSet = new Set(selectedTopics.map((t) => String(t)));
@@ -260,18 +267,19 @@ function onWordGroupsChange() {
   if (!verbsAll.length && !nounsAll.length) {
     return;
   }
-  let selected = getSelectedWordGroupsFromUI();
-  if (selected.length === 0) {
-    const all = getWordGroupIds();
-    setWordGroupCheckboxes(all);
-    selected = [...all];
-  }
+  const selected = getSelectedWordGroupsFromUI();
   saveWordGroupsToStorage(selected);
   applyAllFilters();
   updateHeroDataStats();
   if (!verbs.length && !nouns.length) {
-    promptText.textContent =
-      "Pasirinktoms grupėms nėra žodžių. Pažymėk platesnį rinkinį grupių.";
+    if (!selected.length) {
+      promptText.textContent = "Pasirink bent vieną Tier grupę.";
+    } else if (!getSelectedWordTopicsFromUI().length) {
+      promptText.textContent = "Pasirink bent vieną temą.";
+    } else {
+      promptText.textContent =
+        "Pasirinktoms grupėms nėra žodžių. Pažymėk platesnį rinkinį grupių.";
+    }
     personText.textContent = "";
     return;
   }
@@ -285,18 +293,19 @@ function onWordTopicsChange() {
   if (!verbsAll.length && !nounsAll.length) {
     return;
   }
-  let selected = getSelectedWordTopicsFromUI();
-  if (selected.length === 0) {
-    const all = getWordTopicNames();
-    setWordTopicCheckboxes(all);
-    selected = [...all];
-  }
+  const selected = getSelectedWordTopicsFromUI();
   saveWordTopicsToStorage(selected);
   applyAllFilters();
   updateHeroDataStats();
   if (!verbs.length && !nouns.length) {
-    promptText.textContent =
-      "Pasirinktoms temoms nėra žodžių. Pažymėk platesnį rinkinį temų.";
+    if (!selected.length) {
+      promptText.textContent = "Pasirink bent vieną temą.";
+    } else if (!getSelectedWordGroupsFromUI().length) {
+      promptText.textContent = "Pasirink bent vieną Tier grupę.";
+    } else {
+      promptText.textContent =
+        "Pasirinktoms temoms nėra žodžių. Pažymėk platesnį rinkinį temų.";
+    }
     personText.textContent = "";
     return;
   }
@@ -368,11 +377,16 @@ const promptText = document.getElementById("promptText");
 const personText = document.getElementById("personText");
 const answerInput = document.getElementById("answerInput");
 const checkBtn = document.getElementById("checkBtn");
+const speakBtn = document.getElementById("speakBtn");
 const hintBtn = document.getElementById("hintBtn");
 const nextBtn = document.getElementById("nextBtn");
 const resultText = document.getElementById("resultText");
 const historyList = document.getElementById("historyList");
 const nounMeta = document.getElementById("nounMeta");
+const wordGroupAllBtn = document.getElementById("wordGroupAllBtn");
+const wordGroupClearBtn = document.getElementById("wordGroupClearBtn");
+const wordTopicAllBtn = document.getElementById("wordTopicAllBtn");
+const wordTopicClearBtn = document.getElementById("wordTopicClearBtn");
 
 const NOUN_CASE_ORDER = [
   "Genitive",
@@ -1177,6 +1191,23 @@ function showHint() {
   state.hintShown = true;
 }
 
+function speakCurrentWord() {
+  if (!("speechSynthesis" in window) || typeof SpeechSynthesisUtterance === "undefined") {
+    return;
+  }
+  const text =
+    getPracticeMode() === "nouns"
+      ? state.nounEntry?.decl?.Singular?.Nominative || state.nounEntry?.lt || ""
+      : state.currentEntry?.lt || "";
+  const phrase = String(text || "").trim();
+  if (!phrase) return;
+  window.speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(phrase);
+  u.lang = "lt-LT";
+  u.rate = 0.9;
+  window.speechSynthesis.speak(u);
+}
+
 function checkVerbAnswer() {
   state.checksThisQuestion = (state.checksThisQuestion || 0) + 1;
   const firstTry = state.checksThisQuestion === 1;
@@ -1282,7 +1313,8 @@ async function loadData() {
   const metaTopics = await fetchWordTopicsFromMeta();
   wordGroupIdsEffective =
     metaIds && metaIds.length > 0 ? metaIds : [...WORD_GROUPS_FALLBACK];
-  wordTopicNamesEffective = metaTopics && metaTopics.length > 0 ? metaTopics : [];
+  wordTopicNamesEffective =
+    metaTopics && metaTopics.length > 0 ? metaTopics : [...WORD_TOPICS_FALLBACK];
 
   try {
     const response = await fetch("verbs_practice.json", { cache: "no-store" });
@@ -1361,6 +1393,35 @@ function init() {
     newQuestion();
   });
   checkBtn.addEventListener("click", checkAnswer);
+  if (wordGroupAllBtn) {
+    wordGroupAllBtn.addEventListener("click", () => {
+      const all = getWordGroupIds();
+      setWordGroupCheckboxes(all);
+      onWordGroupsChange();
+    });
+  }
+  if (wordGroupClearBtn) {
+    wordGroupClearBtn.addEventListener("click", () => {
+      setWordGroupCheckboxes([]);
+      onWordGroupsChange();
+    });
+  }
+  if (wordTopicAllBtn) {
+    wordTopicAllBtn.addEventListener("click", () => {
+      const all = getWordTopicNames();
+      setWordTopicCheckboxes(all);
+      onWordTopicsChange();
+    });
+  }
+  if (wordTopicClearBtn) {
+    wordTopicClearBtn.addEventListener("click", () => {
+      setWordTopicCheckboxes([]);
+      onWordTopicsChange();
+    });
+  }
+  if (speakBtn) {
+    speakBtn.addEventListener("click", speakCurrentWord);
+  }
   hintBtn.addEventListener("click", showHint);
   nextBtn.addEventListener("click", newQuestion);
   answerInput.addEventListener("keydown", (event) => {

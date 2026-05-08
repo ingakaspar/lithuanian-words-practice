@@ -128,7 +128,7 @@
   {
     "lt": "alerija",
     "lt_ascii": "alerija",
-    "ru": "",
+    "ru": "allergy",
     "topics": [
       "Maistas ir gėrimai"
     ],
@@ -685,7 +685,7 @@
   {
     "lt": "bailys",
     "lt_ascii": "bailys",
-    "ru": "",
+    "ru": "a coward",
     "topics": [
       "Santykiai su žmonėmis"
     ],
@@ -866,7 +866,7 @@
   {
     "lt": "barzda",
     "lt_ascii": "barzda",
-    "ru": "",
+    "ru": "beard",
     "topics": [
       "Asmens tapatybė"
     ],
@@ -1729,7 +1729,7 @@
   {
     "lt": "dosnus",
     "lt_ascii": "dosnus",
-    "ru": "",
+    "ru": "generous",
     "topics": [
       "Santykiai su žmonėmis"
     ],
@@ -2565,7 +2565,7 @@
   {
     "lt": "gedimas",
     "lt_ascii": "gedimas",
-    "ru": "",
+    "ru": "failure",
     "topics": [
       "Paslaugos"
     ],
@@ -2997,7 +2997,7 @@
   {
     "lt": "gydymo įstaiga",
     "lt_ascii": "gydymoistaiga",
-    "ru": "",
+    "ru": "treatment facility",
     "topics": [
       "Sveikata ir higiena"
     ],
@@ -3246,7 +3246,7 @@
   {
     "lt": "išsilavinimas",
     "lt_ascii": "issilavinimas",
-    "ru": "",
+    "ru": "education",
     "topics": [
       "Švietimas ir mokslas"
     ],
@@ -3642,7 +3642,7 @@
   {
     "lt": "kalva",
     "lt_ascii": "kalva",
-    "ru": "",
+    "ru": "hill",
     "topics": [
       "Gamta.Regionas"
     ],
@@ -3706,7 +3706,7 @@
   {
     "lt": "kartus",
     "lt_ascii": "kartus",
-    "ru": "",
+    "ru": "times",
     "topics": [
       "Maistas ir gėrimai"
     ],
@@ -4728,7 +4728,7 @@
   {
     "lt": "krūmas",
     "lt_ascii": "krumas",
-    "ru": "",
+    "ru": "a bush",
     "topics": [
       "Gamta.Regionas"
     ],
@@ -5066,7 +5066,7 @@
   {
     "lt": "laisvalaikio veikla",
     "lt_ascii": "laisvalaikioveikla",
-    "ru": "",
+    "ru": "leisure activities",
     "topics": [
       "Laisvalaikis"
     ],
@@ -5651,7 +5651,7 @@
   {
     "lt": "mandagus",
     "lt_ascii": "mandagus",
-    "ru": "",
+    "ru": "polite",
     "topics": [
       "Santykiai su žmonėmis"
     ],
@@ -6085,7 +6085,7 @@
   {
     "lt": "mityba",
     "lt_ascii": "mityba",
-    "ru": "",
+    "ru": "nutrition",
     "topics": [
       "Sveikata ir higiena"
     ],
@@ -6740,7 +6740,7 @@
   {
     "lt": "otkritka",
     "lt_ascii": "otkritka",
-    "ru": "",
+    "ru": "postcard",
     "topics": [
       "Paslaugos"
     ],
@@ -6897,7 +6897,7 @@
   {
     "lt": "pamoka",
     "lt_ascii": "pamoka",
-    "ru": "",
+    "ru": "a lesson",
     "topics": [
       "Švietimas ir mokslas"
     ],
@@ -7146,7 +7146,7 @@
   {
     "lt": "paskaita",
     "lt_ascii": "paskaita",
-    "ru": "",
+    "ru": "a lecture",
     "topics": [
       "Švietimas ir mokslas"
     ],
@@ -7362,7 +7362,7 @@
   {
     "lt": "pažymys",
     "lt_ascii": "pazymys",
-    "ru": "",
+    "ru": "grade",
     "topics": [
       "Švietimas ir mokslas"
     ],
@@ -7485,7 +7485,7 @@
   {
     "lt": "pertrauka",
     "lt_ascii": "pertrauka",
-    "ru": "",
+    "ru": "a break",
     "topics": [
       "Švietimas ir mokslas"
     ],
@@ -7762,7 +7762,7 @@
   {
     "lt": "pomėgis",
     "lt_ascii": "pomegis",
-    "ru": "",
+    "ru": "a hobby",
     "topics": [
       "Laisvalaikis"
     ],
@@ -7946,7 +7946,7 @@
   {
     "lt": "praustuvas",
     "lt_ascii": "praustuvas",
-    "ru": "",
+    "ru": "wash basin",
     "topics": [
       "Kasdienis gyvenimas"
     ],
@@ -8253,7 +8253,7 @@
   {
     "lt": "rašiklis",
     "lt_ascii": "rasiklis",
-    "ru": "",
+    "ru": "a pen",
     "topics": [
       "Švietimas ir mokslas"
     ],
@@ -8316,7 +8316,7 @@
   {
     "lt": "referatas",
     "lt_ascii": "referatas",
-    "ru": "",
+    "ru": "report",
     "topics": [
       "Švietimas ir mokslas"
     ],
@@ -8377,7 +8377,7 @@
   {
     "lt": "remontas",
     "lt_ascii": "remontas",
-    "ru": "",
+    "ru": "repair",
     "topics": [
       "Paslaugos"
     ],
@@ -8622,7 +8622,7 @@
   {
     "lt": "rūys",
     "lt_ascii": "ruys",
-    "ru": "",
+    "ru": "basement",
     "topics": [
       "Būstas"
     ],
@@ -9552,7 +9552,7 @@
   {
     "lt": "skundas",
     "lt_ascii": "skundas",
-    "ru": "",
+    "ru": "complaint",
     "topics": [
       "Paslaugos"
     ],
@@ -10106,7 +10106,7 @@
   {
     "lt": "striukė",
     "lt_ascii": "striuke",
-    "ru": "clothing, but not sure what (jacket / jumper / shirt?)",
+    "ru": "jacket",
     "topics": [
       "Kasdienis gyvenimas"
     ],
@@ -10478,7 +10478,7 @@
   {
     "lt": "švietimas",
     "lt_ascii": "svietimas",
-    "ru": "",
+    "ru": "education",
     "topics": [
       "Švietimas ir mokslas"
     ],
@@ -10538,7 +10538,7 @@
   {
     "lt": "šykštus",
     "lt_ascii": "sykstus",
-    "ru": "",
+    "ru": "miserly",
     "topics": [
       "Santykiai su žmonėmis"
     ],
@@ -10569,7 +10569,7 @@
   {
     "lt": "taisymas",
     "lt_ascii": "taisymas",
-    "ru": "",
+    "ru": "repair",
     "topics": [
       "Paslaugos"
     ],
@@ -10630,7 +10630,7 @@
   {
     "lt": "tapyba",
     "lt_ascii": "tapyba",
-    "ru": "",
+    "ru": "painting",
     "topics": [
       "Laisvalaikis"
     ],
@@ -11123,7 +11123,7 @@
   {
     "lt": "trukmė",
     "lt_ascii": "trukme",
-    "ru": "",
+    "ru": "duration",
     "topics": [
       "Kelionės"
     ],
@@ -11430,7 +11430,7 @@
   {
     "lt": "vadovėlis",
     "lt_ascii": "vadovelis",
-    "ru": "",
+    "ru": "textbook",
     "topics": [
       "Švietimas ir mokslas"
     ],
