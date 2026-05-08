@@ -1,0 +1,2244 @@
+[
+  {
+    "lt": "imti",
+    "lt_ascii": "imti",
+    "ru": "брать",
+    "present": [
+      "imu",
+      "imi",
+      "ima",
+      "imame",
+      "imate",
+      "ima"
+    ],
+    "past": [
+      "ėmiau",
+      "ėmei",
+      "ėmė",
+      "ėmėme",
+      "ėmėte",
+      "ėmė"
+    ],
+    "future": [
+      "imsiu",
+      "imsi",
+      "ims",
+      "imsime",
+      "imsite",
+      "ims"
+    ],
+    "usedTo": [
+      "imdavau",
+      "imdavai",
+      "imdavo",
+      "imdavome",
+      "imdavote",
+      "imdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "būti",
+    "lt_ascii": "buti",
+    "ru": "быть",
+    "present": [
+      "esu",
+      "esi",
+      "yra",
+      "esame",
+      "esate",
+      "yra"
+    ],
+    "past": [
+      "buvau",
+      "buvai",
+      "buvo",
+      "buvome",
+      "buvote",
+      "buvo"
+    ],
+    "future": [
+      "būsiu",
+      "būsi",
+      "būs",
+      "būsime",
+      "būsite",
+      "būs"
+    ],
+    "usedTo": [
+      "būdavau",
+      "būdavai",
+      "būdavo",
+      "būdavome",
+      "būdavote",
+      "būdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "kalbėti",
+    "lt_ascii": "kalbeti",
+    "ru": "говорить",
+    "present": [
+      "kalbu",
+      "kalbi",
+      "kalba",
+      "kalbame",
+      "kalbate",
+      "kalba"
+    ],
+    "past": [
+      "kalbėjau",
+      "kalbėjai",
+      "kalbėjo",
+      "kalbėjome",
+      "kalbėjote",
+      "kalbėjo"
+    ],
+    "future": [
+      "kalbėsiu",
+      "kalbėsi",
+      "kalbės",
+      "kalbėsime",
+      "kalbėsite",
+      "kalbės"
+    ],
+    "usedTo": [
+      "kalbėdavau",
+      "kalbėdavai",
+      "kalbėdavo",
+      "kalbėdavome",
+      "kalbėdavote",
+      "kalbėdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "duoti",
+    "lt_ascii": "duoti",
+    "ru": "дать",
+    "present": [
+      "duodžu",
+      "duodi",
+      "duoda",
+      "duodame",
+      "duodate",
+      "duoda"
+    ],
+    "past": [
+      "daviau",
+      "davei",
+      "davė",
+      "davėme",
+      "davėte",
+      "davė"
+    ],
+    "future": [
+      "duosiu",
+      "duosi",
+      "duos",
+      "duosime",
+      "duosite",
+      "duos"
+    ],
+    "usedTo": [
+      "duodavau",
+      "duodavai",
+      "duodavo",
+      "duodavome",
+      "duodavote",
+      "duodavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "daryti",
+    "lt_ascii": "daryti",
+    "ru": "делать",
+    "present": [
+      "darau",
+      "darai",
+      "daro",
+      "darome",
+      "darote",
+      "daro"
+    ],
+    "past": [
+      "dariau",
+      "darei",
+      "darė",
+      "darėme",
+      "darėte",
+      "darė"
+    ],
+    "future": [
+      "darysiu",
+      "darysi",
+      "darys",
+      "darysime",
+      "darysite",
+      "darys"
+    ],
+    "usedTo": [
+      "darydavau",
+      "darydavai",
+      "darydavo",
+      "darydavome",
+      "darydavote",
+      "darydavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "galvoti",
+    "lt_ascii": "galvoti",
+    "ru": "думать",
+    "present": [
+      "galvoju",
+      "galvoji",
+      "galvoja",
+      "galvojame",
+      "galvojate",
+      "galvoja"
+    ],
+    "past": [
+      "galvojau",
+      "galvojai",
+      "galvojo",
+      "galvojome",
+      "galvojote",
+      "galvojo"
+    ],
+    "future": [
+      "galvosiu",
+      "galvosi",
+      "galvos",
+      "galvosime",
+      "galvosite",
+      "galvos"
+    ],
+    "usedTo": [
+      "galvodavau",
+      "galvodavai",
+      "galvodavo",
+      "galvodavome",
+      "galvodavote",
+      "galvodavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "gyventi",
+    "lt_ascii": "gyventi",
+    "ru": "жить",
+    "present": [
+      "gyvenu",
+      "gyveni",
+      "gyvena",
+      "gyvename",
+      "gyvenate",
+      "gyvena"
+    ],
+    "past": [
+      "gyvenau",
+      "gyvenai",
+      "gyveno",
+      "gyvenome",
+      "gyvenote",
+      "gyveno"
+    ],
+    "future": [
+      "gyvensiu",
+      "gyvensi",
+      "gyvens",
+      "gyvensime",
+      "gyvensite",
+      "gyvens"
+    ],
+    "usedTo": [
+      "gyvendavau",
+      "gyvendavai",
+      "gyvendavo",
+      "gyvendavome",
+      "gyvendavote",
+      "gyvendavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "skambinti",
+    "lt_ascii": "skambinti",
+    "ru": "звонить",
+    "present": [
+      "skambinu",
+      "skambini",
+      "skambina",
+      "skambiname",
+      "skambinate",
+      "skambina"
+    ],
+    "past": [
+      "skambinau",
+      "skambinai",
+      "skambino",
+      "skambinome",
+      "skambinote",
+      "skambino"
+    ],
+    "future": [
+      "skambinsiu",
+      "skambinsi",
+      "skambins",
+      "skambinsime",
+      "skambinsite",
+      "skambins"
+    ],
+    "usedTo": [
+      "skambindavau",
+      "skambindavai",
+      "skambindavo",
+      "skambindavome",
+      "skambindavote",
+      "skambindavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "žinoti",
+    "lt_ascii": "zinoti",
+    "ru": "знать",
+    "present": [
+      "žinau",
+      "žinai",
+      "žino",
+      "žinome",
+      "žinote",
+      "žino"
+    ],
+    "past": [
+      "žinojau",
+      "žinojai",
+      "žinojo",
+      "žinojome",
+      "žinojote",
+      "žinojo"
+    ],
+    "future": [
+      "žinosiu",
+      "žinosi",
+      "žinos",
+      "žinosime",
+      "žinosite",
+      "žinos"
+    ],
+    "usedTo": [
+      "žinodavau",
+      "žinodavai",
+      "žinodavo",
+      "žinodavome",
+      "žinodavote",
+      "žinodavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "eiti",
+    "lt_ascii": "eiti",
+    "ru": "идти",
+    "present": [
+      "einu",
+      "eini",
+      "eina",
+      "einame",
+      "einate",
+      "eina"
+    ],
+    "past": [
+      "ėjau",
+      "ėjai",
+      "ėjo",
+      "ėjome",
+      "ėjote",
+      "ėjo"
+    ],
+    "future": [
+      "eisiu",
+      "eisi",
+      "eis",
+      "eisime",
+      "eisite",
+      "eis"
+    ],
+    "usedTo": [
+      "eidavau",
+      "eidavai",
+      "eidavo",
+      "eidavome",
+      "eidavote",
+      "eidavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "naudoti",
+    "lt_ascii": "naudoti",
+    "ru": "использовать",
+    "present": [
+      "naudoju",
+      "naudoji",
+      "naudoja",
+      "naudojame",
+      "naudojate",
+      "naudoja"
+    ],
+    "past": [
+      "naudojau",
+      "naudojai",
+      "naudojo",
+      "naudojome",
+      "naudojote",
+      "naudojo"
+    ],
+    "future": [
+      "naudosiu",
+      "naudosi",
+      "naudos",
+      "naudosime",
+      "naudosite",
+      "naudos"
+    ],
+    "usedTo": [
+      "naudodavau",
+      "naudodavai",
+      "naudodavo",
+      "naudodavome",
+      "naudodavote",
+      "naudodavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "dėti",
+    "lt_ascii": "deti",
+    "ru": "класть",
+    "present": [
+      "dedžu",
+      "dedi",
+      "deda",
+      "dedame",
+      "dedate",
+      "deda"
+    ],
+    "past": [
+      "dėjau",
+      "dėjai",
+      "dėjo",
+      "dėjome",
+      "dėjote",
+      "dėjo"
+    ],
+    "future": [
+      "dėsiu",
+      "dėsi",
+      "dės",
+      "dėsime",
+      "dėsite",
+      "dės"
+    ],
+    "usedTo": [
+      "dėdavau",
+      "dėdavai",
+      "dėdavo",
+      "dėdavome",
+      "dėdavote",
+      "dėdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "galėti",
+    "lt_ascii": "galeti",
+    "ru": "мочь",
+    "present": [
+      "galiu",
+      "gali",
+      "gali",
+      "galime",
+      "galite",
+      "gali"
+    ],
+    "past": [
+      "galėjau",
+      "galėjai",
+      "galėjo",
+      "galėjome",
+      "galėjote",
+      "galėjo"
+    ],
+    "future": [
+      "galėsiu",
+      "galėsi",
+      "galės",
+      "galėsime",
+      "galėsite",
+      "galės"
+    ],
+    "usedTo": [
+      "galėdavau",
+      "galėdavai",
+      "galėdavo",
+      "galėdavome",
+      "galėdavote",
+      "galėdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "pirkti",
+    "lt_ascii": "pirkti",
+    "ru": "покупать",
+    "present": [
+      "perku",
+      "perki",
+      "perka",
+      "perkame",
+      "perkate",
+      "perka"
+    ],
+    "past": [
+      "pirkau",
+      "pirkai",
+      "pirko",
+      "pirkome",
+      "pirkote",
+      "pirko"
+    ],
+    "future": [
+      "pirksiu",
+      "pirksi",
+      "pirks",
+      "pirksime",
+      "pirksite",
+      "pirks"
+    ],
+    "usedTo": [
+      "pirkdavau",
+      "pirkdavai",
+      "pirkdavo",
+      "pirkdavome",
+      "pirkdavote",
+      "pirkdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "dirbti",
+    "lt_ascii": "dirbti",
+    "ru": "работать",
+    "present": [
+      "dirbu",
+      "dirbi",
+      "dirba",
+      "dirbame",
+      "dirbate",
+      "dirba"
+    ],
+    "past": [
+      "dirbau",
+      "dirbai",
+      "dirbo",
+      "dirbome",
+      "dirbote",
+      "dirbo"
+    ],
+    "future": [
+      "dirbsiu",
+      "dirbsi",
+      "dirbs",
+      "dirbsime",
+      "dirbsite",
+      "dirbs"
+    ],
+    "usedTo": [
+      "dirbdavau",
+      "dirbdavai",
+      "dirbdavo",
+      "dirbdavome",
+      "dirbdavote",
+      "dirbdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "žiūrėti",
+    "lt_ascii": "ziureti",
+    "ru": "смотреть",
+    "present": [
+      "žiūriu",
+      "žiūri",
+      "žiūri",
+      "žiūrime",
+      "žiūrite",
+      "žiūri"
+    ],
+    "past": [
+      "žiūrėjau",
+      "žiūrėjai",
+      "žiūrėjo",
+      "žiūrėjome",
+      "žiūrėjote",
+      "žiūrėjo"
+    ],
+    "future": [
+      "žiūrėsiu",
+      "žiūrėsi",
+      "žiūrės",
+      "žiūrėsime",
+      "žiūrėsite",
+      "žiūrės"
+    ],
+    "usedTo": [
+      "žiūrėdavau",
+      "žiūrėdavai",
+      "žiūrėdavo",
+      "žiūrėdavome",
+      "žiūrėdavote",
+      "žiūrėdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "klausti",
+    "lt_ascii": "klausti",
+    "ru": "спрашивать",
+    "present": [
+      "klausiu",
+      "klausi",
+      "klausia",
+      "klausiame",
+      "klausiate",
+      "klausia"
+    ],
+    "past": [
+      "klausiau",
+      "klausei",
+      "klausė",
+      "klausėme",
+      "klausėte",
+      "klausė"
+    ],
+    "future": [
+      "klausiu",
+      "klausi",
+      "klaus",
+      "klausime",
+      "klausite",
+      "klaus"
+    ],
+    "usedTo": [
+      "klausdavau",
+      "klausdavai",
+      "klausdavo",
+      "klausdavome",
+      "klausdavote",
+      "klausdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "norėti",
+    "lt_ascii": "noreti",
+    "ru": "хотеть",
+    "present": [
+      "noriu",
+      "nori",
+      "nori",
+      "norime",
+      "norite",
+      "nori"
+    ],
+    "past": [
+      "norėjau",
+      "norėjai",
+      "norėjo",
+      "norėjome",
+      "norėjote",
+      "norėjo"
+    ],
+    "future": [
+      "norėsiu",
+      "norėsi",
+      "norės",
+      "norėsime",
+      "norėsite",
+      "norės"
+    ],
+    "usedTo": [
+      "norėdavau",
+      "norėdavai",
+      "norėdavo",
+      "norėdavome",
+      "norėdavote",
+      "norėdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "dėkoti",
+    "lt_ascii": "dekoti",
+    "ru": "благодарить",
+    "present": [
+      "dėkoju",
+      "dėkoji",
+      "dėkoja",
+      "dėkojame",
+      "dėkojate",
+      "dėkoja"
+    ],
+    "past": [
+      "dėkojau",
+      "dėkojai",
+      "dėkojo",
+      "dėkojome",
+      "dėkojote",
+      "dėkojo"
+    ],
+    "future": [
+      "dėkosiu",
+      "dėkosi",
+      "dėkos",
+      "dėkosime",
+      "dėkosite",
+      "dėkos"
+    ],
+    "usedTo": [
+      "dėkodavau",
+      "dėkodavai",
+      "dėkodavo",
+      "dėkodavome",
+      "dėkodavote",
+      "dėkodavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "laukti",
+    "lt_ascii": "laukti",
+    "ru": "ждать",
+    "present": [
+      "laukiu",
+      "lauki",
+      "laukia",
+      "laukiame",
+      "laukiate",
+      "laukia"
+    ],
+    "past": [
+      "laukiau",
+      "laukei",
+      "laukė",
+      "laukėme",
+      "laukėte",
+      "laukė"
+    ],
+    "future": [
+      "lauksiu",
+      "lauksi",
+      "lauks",
+      "lauksime",
+      "lauksite",
+      "lauks"
+    ],
+    "usedTo": [
+      "laukdavau",
+      "laukdavai",
+      "laukdavo",
+      "laukdavome",
+      "laukdavote",
+      "laukdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "reikšti",
+    "lt_ascii": "reiksti",
+    "ru": "значить",
+    "present": [
+      "reiškiu",
+      "reiški",
+      "reiškia",
+      "reiškiame",
+      "reiškiate",
+      "reiškia"
+    ],
+    "past": [
+      "reiškiau",
+      "reiškei",
+      "reiškė",
+      "reiškėme",
+      "reiškėte",
+      "reiškė"
+    ],
+    "future": [
+      "reikššiu",
+      "reikšši",
+      "reikšš",
+      "reikššime",
+      "reikššite",
+      "reikšš"
+    ],
+    "usedTo": [
+      "reikšdavau",
+      "reikšdavai",
+      "reikšdavo",
+      "reikšdavome",
+      "reikšdavote",
+      "reikšdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "gulėti",
+    "lt_ascii": "guleti",
+    "ru": "лежать",
+    "present": [
+      "guliu",
+      "guli",
+      "guli",
+      "gulime",
+      "gulite",
+      "guli"
+    ],
+    "past": [
+      "gulėjau",
+      "gulėjai",
+      "gulėjo",
+      "gulėjome",
+      "gulėjote",
+      "gulėjo"
+    ],
+    "future": [
+      "gulėsiu",
+      "gulėsi",
+      "gulės",
+      "gulėsime",
+      "gulėsite",
+      "gulės"
+    ],
+    "usedTo": [
+      "gulėdavau",
+      "gulėdavai",
+      "gulėdavo",
+      "gulėdavome",
+      "gulėdavote",
+      "gulėdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "mylėti",
+    "lt_ascii": "myleti",
+    "ru": "любить",
+    "present": [
+      "myliu",
+      "myli",
+      "myli",
+      "mylime",
+      "mylite",
+      "myli"
+    ],
+    "past": [
+      "mylėjau",
+      "mylėjai",
+      "mylėjo",
+      "mylėjome",
+      "mylėjote",
+      "mylėjo"
+    ],
+    "future": [
+      "mylėsiu",
+      "mylėsi",
+      "mylės",
+      "mylėsime",
+      "mylėsite",
+      "mylės"
+    ],
+    "usedTo": [
+      "mylėdavau",
+      "mylėdavai",
+      "mylėdavo",
+      "mylėdavome",
+      "mylėdavote",
+      "mylėdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "plauti",
+    "lt_ascii": "plauti",
+    "ru": "мыть",
+    "present": [
+      "plaunu",
+      "plauni",
+      "plauna",
+      "plauname",
+      "plaunate",
+      "plauna"
+    ],
+    "past": [
+      "ploviau",
+      "plovei",
+      "plovė",
+      "plovėme",
+      "plovėte",
+      "plovė"
+    ],
+    "future": [
+      "plausiu",
+      "plausi",
+      "plaus",
+      "plausime",
+      "plausite",
+      "plaus"
+    ],
+    "usedTo": [
+      "plaudavau",
+      "plaudavai",
+      "plaudavo",
+      "plaudavome",
+      "plaudavote",
+      "plaudavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "rasti",
+    "lt_ascii": "rasti",
+    "ru": "найти",
+    "present": [
+      "randžu",
+      "randi",
+      "randa",
+      "randame",
+      "randate",
+      "randa"
+    ],
+    "past": [
+      "radau",
+      "radai",
+      "rado",
+      "radome",
+      "radote",
+      "rado"
+    ],
+    "future": [
+      "rasiu",
+      "rasi",
+      "ras",
+      "rasime",
+      "rasite",
+      "ras"
+    ],
+    "usedTo": [
+      "rasdavau",
+      "rasdavai",
+      "rasdavo",
+      "rasdavome",
+      "rasdavote",
+      "rasdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "likti",
+    "lt_ascii": "likti",
+    "ru": "остаться",
+    "present": [
+      "lieku",
+      "lieki",
+      "lieka",
+      "liekame",
+      "liekate",
+      "lieka"
+    ],
+    "past": [
+      "likau",
+      "likai",
+      "liko",
+      "likome",
+      "likote",
+      "liko"
+    ],
+    "future": [
+      "liksiu",
+      "liksi",
+      "liks",
+      "liksime",
+      "liksite",
+      "liks"
+    ],
+    "usedTo": [
+      "likdavau",
+      "likdavai",
+      "likdavo",
+      "likdavome",
+      "likdavote",
+      "likdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "rašyti",
+    "lt_ascii": "rasyti",
+    "ru": "писать",
+    "present": [
+      "rašau",
+      "rašai",
+      "rašo",
+      "rašome",
+      "rašote",
+      "rašo"
+    ],
+    "past": [
+      "rašiau",
+      "rašei",
+      "rašė",
+      "rašėme",
+      "rašėte",
+      "rašė"
+    ],
+    "future": [
+      "rašysiu",
+      "rašysi",
+      "rašys",
+      "rašysime",
+      "rašysite",
+      "rašys"
+    ],
+    "usedTo": [
+      "rašydavau",
+      "rašydavai",
+      "rašydavo",
+      "rašydavome",
+      "rašydavote",
+      "rašydavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "gauti",
+    "lt_ascii": "gauti",
+    "ru": "получить",
+    "present": [
+      "gaunu",
+      "gauni",
+      "gauna",
+      "gauname",
+      "gaunate",
+      "gauna"
+    ],
+    "past": [
+      "gavau",
+      "gavai",
+      "gavo",
+      "gavome",
+      "gavote",
+      "gavo"
+    ],
+    "future": [
+      "gausiu",
+      "gausi",
+      "gaus",
+      "gausime",
+      "gausite",
+      "gaus"
+    ],
+    "usedTo": [
+      "gaudavau",
+      "gaudavai",
+      "gaudavo",
+      "gaudavome",
+      "gaudavote",
+      "gaudavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "spręsti",
+    "lt_ascii": "spresti",
+    "ru": "решить",
+    "present": [
+      "sprendžiu",
+      "sprendži",
+      "sprendžia",
+      "sprendžiame",
+      "sprendžiate",
+      "sprendžia"
+    ],
+    "past": [
+      "",
+      "sprendei",
+      "sprendė",
+      "sprendėme",
+      "sprendėte",
+      "sprendė"
+    ],
+    "future": [
+      "spręsiu",
+      "spręsi",
+      "spręs",
+      "spręsime",
+      "spręsite",
+      "spręs"
+    ],
+    "usedTo": [
+      "spręsdavau",
+      "spręsdavai",
+      "spręsdavo",
+      "spręsdavome",
+      "spręsdavote",
+      "spręsdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "klausyti",
+    "lt_ascii": "klausyti",
+    "ru": "слушать",
+    "present": [
+      "klausau",
+      "klausai",
+      "klauso",
+      "klausome",
+      "klausote",
+      "klauso"
+    ],
+    "past": [
+      "klausiau",
+      "klausei",
+      "klausė",
+      "klausėme",
+      "klausėte",
+      "klausė"
+    ],
+    "future": [
+      "klausysiu",
+      "klausysi",
+      "klausys",
+      "klausysime",
+      "klausysite",
+      "klausys"
+    ],
+    "usedTo": [
+      "klausydavau",
+      "klausydavai",
+      "klausydavo",
+      "klausydavome",
+      "klausydavote",
+      "klausydavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "girdėti",
+    "lt_ascii": "girdeti",
+    "ru": "слышать",
+    "present": [
+      "girdžiu",
+      "girdi",
+      "girdi",
+      "girdime",
+      "girdite",
+      "girdi"
+    ],
+    "past": [
+      "girdėjau",
+      "girdėjai",
+      "girdėjo",
+      "girdėjome",
+      "girdėjote",
+      "girdėjo"
+    ],
+    "future": [
+      "girdėsiu",
+      "girdėsi",
+      "girdės",
+      "girdėsime",
+      "girdėsite",
+      "girdės"
+    ],
+    "usedTo": [
+      "girdėdavau",
+      "girdėdavai",
+      "girdėdavo",
+      "girdėdavome",
+      "girdėdavote",
+      "girdėdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "skaičiuoti",
+    "lt_ascii": "skaiciuoti",
+    "ru": "считать (счёт)",
+    "present": [
+      "skaičiuoju",
+      "skaičiuoji",
+      "skaičiuoja",
+      "skaičiuojame",
+      "skaičiuojate",
+      "skaičiuoja"
+    ],
+    "past": [
+      "skaičiavau",
+      "skaičiavai",
+      "skaičiavo",
+      "skaičiavome",
+      "skaičiavote",
+      "skaičiavo"
+    ],
+    "future": [
+      "skaičiuosiu",
+      "skaičiuosi",
+      "skaičiuos",
+      "skaičiuosime",
+      "skaičiuosite",
+      "skaičiuos"
+    ],
+    "usedTo": [
+      "skaičiuodavau",
+      "skaičiuodavai",
+      "skaičiuodavo",
+      "skaičiuodavome",
+      "skaičiuodavote",
+      "skaičiuodavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "vaikščioti",
+    "lt_ascii": "vaikscioti",
+    "ru": "ходить",
+    "present": [
+      "vaikščioju",
+      "vaikščioji",
+      "vaikščioja",
+      "vaikščiojame",
+      "vaikščiojate",
+      "vaikščioja"
+    ],
+    "past": [
+      "vaikščiojau",
+      "vaikščiojai",
+      "vaikščiojo",
+      "vaikščiojome",
+      "vaikščiojote",
+      "vaikščiojo"
+    ],
+    "future": [
+      "vaikščiosiu",
+      "vaikščiosi",
+      "vaikščios",
+      "vaikščiosime",
+      "vaikščiosite",
+      "vaikščios"
+    ],
+    "usedTo": [
+      "vaikščiodavau",
+      "vaikščiodavai",
+      "vaikščiodavo",
+      "vaikščiodavome",
+      "vaikščiodavote",
+      "vaikščiodavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "skaityti",
+    "lt_ascii": "skaityti",
+    "ru": "читать",
+    "present": [
+      "skaitau",
+      "skaitai",
+      "skaito",
+      "skaitome",
+      "skaitote",
+      "skaito"
+    ],
+    "past": [
+      "",
+      "skaitei",
+      "skaitė",
+      "skaitėme",
+      "skaitėte",
+      "skaitė"
+    ],
+    "future": [
+      "skaitysiu",
+      "skaitysi",
+      "skaitys",
+      "skaitysime",
+      "skaitysite",
+      "skaitys"
+    ],
+    "usedTo": [
+      "skaitydavau",
+      "skaitydavai",
+      "skaitydavo",
+      "skaitydavome",
+      "skaitydavote",
+      "skaitydavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "bėgti",
+    "lt_ascii": "begti",
+    "ru": "бежать",
+    "present": [
+      "bėgu",
+      "bėgi",
+      "bėga",
+      "bėgame",
+      "bėgate",
+      "bėga"
+    ],
+    "past": [
+      "bėgau",
+      "bėgai",
+      "bėgo",
+      "bėgome",
+      "bėgote",
+      "bėgo"
+    ],
+    "future": [
+      "bėgsiu",
+      "bėgsi",
+      "bėgs",
+      "bėgsime",
+      "bėgsite",
+      "bėgs"
+    ],
+    "usedTo": [
+      "bėgdavau",
+      "bėgdavai",
+      "bėgdavo",
+      "bėgdavome",
+      "bėgdavote",
+      "bėgdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "bijoti",
+    "lt_ascii": "bijoti",
+    "ru": "бояться",
+    "present": [
+      "bijau",
+      "bijai",
+      "bijo",
+      "bijome",
+      "bijote",
+      "bijo"
+    ],
+    "past": [
+      "bijojau",
+      "bijojai",
+      "bijojo",
+      "bijojome",
+      "bijojote",
+      "bijojo"
+    ],
+    "future": [
+      "bijosiu",
+      "bijosi",
+      "bijos",
+      "bijosime",
+      "bijosite",
+      "bijos"
+    ],
+    "usedTo": [
+      "bijodavau",
+      "bijodavai",
+      "bijodavo",
+      "bijodavome",
+      "bijodavote",
+      "bijodavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "vežti",
+    "lt_ascii": "vezti",
+    "ru": "везти",
+    "present": [
+      "vežu",
+      "veži",
+      "veža",
+      "vežame",
+      "vežate",
+      "veža"
+    ],
+    "past": [
+      "vežiau",
+      "vežei",
+      "vežė",
+      "vežėme",
+      "vežėte",
+      "vežė"
+    ],
+    "future": [
+      "vežšiu",
+      "vežši",
+      "vežš",
+      "vežšime",
+      "vežšite",
+      "vežš"
+    ],
+    "usedTo": [
+      "veždavau",
+      "veždavai",
+      "veždavo",
+      "veždavome",
+      "veždavote",
+      "veždavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "vesti",
+    "lt_ascii": "vesti",
+    "ru": "вести",
+    "present": [
+      "vedžu",
+      "vedi",
+      "veda",
+      "vedame",
+      "vedate",
+      "veda"
+    ],
+    "past": [
+      "",
+      "vedei",
+      "vedė",
+      "vedėme",
+      "vedėte",
+      "vedė"
+    ],
+    "future": [
+      "vesiu",
+      "vesi",
+      "ves",
+      "vesime",
+      "vesite",
+      "ves"
+    ],
+    "usedTo": [
+      "vesdavau",
+      "vesdavai",
+      "vesdavo",
+      "vesdavome",
+      "vesdavote",
+      "vesdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "turėti",
+    "lt_ascii": "tureti",
+    "ru": "иметь",
+    "present": [
+      "turiu",
+      "turi",
+      "turi",
+      "turime",
+      "turite",
+      "turi"
+    ],
+    "past": [
+      "turėjau",
+      "turėjai",
+      "turėjo",
+      "turėjome",
+      "turėjote",
+      "turėjo"
+    ],
+    "future": [
+      "turėsiu",
+      "turėsi",
+      "turės",
+      "turėsime",
+      "turėsite",
+      "turės"
+    ],
+    "usedTo": [
+      "turėdavau",
+      "turėdavai",
+      "turėdavo",
+      "turėdavome",
+      "turėdavote",
+      "turėdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "keisti",
+    "lt_ascii": "keisti",
+    "ru": "менять",
+    "present": [
+      "keičiu",
+      "keiči",
+      "keičia",
+      "keičiame",
+      "keičiate",
+      "keičia"
+    ],
+    "past": [
+      "",
+      "keitei",
+      "keitė",
+      "keitėme",
+      "keitėte",
+      "keitė"
+    ],
+    "future": [
+      "keisiu",
+      "keisi",
+      "keis",
+      "keisime",
+      "keisite",
+      "keis"
+    ],
+    "usedTo": [
+      "keisdavau",
+      "keisdavai",
+      "keisdavo",
+      "keisdavome",
+      "keisdavote",
+      "keisdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "rodyti",
+    "lt_ascii": "rodyti",
+    "ru": "показывать",
+    "present": [
+      "rodžau",
+      "rodai",
+      "rodo",
+      "rodome",
+      "rodote",
+      "rodo"
+    ],
+    "past": [
+      "",
+      "rodei",
+      "rodė",
+      "rodėme",
+      "rodėte",
+      "rodė"
+    ],
+    "future": [
+      "rodysiu",
+      "rodysi",
+      "rodys",
+      "rodysime",
+      "rodysite",
+      "rodys"
+    ],
+    "usedTo": [
+      "rodydavau",
+      "rodydavai",
+      "rodydavo",
+      "rodydavome",
+      "rodydavote",
+      "rodydavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "tęšti",
+    "lt_ascii": "testi",
+    "ru": "продолжать",
+    "present": [
+      "tešiu",
+      "teši",
+      "tešia",
+      "tešiame",
+      "tešiate",
+      "tešia"
+    ],
+    "past": [
+      "tėšiau",
+      "tėšei",
+      "tėšė",
+      "tėšėme",
+      "tėšėte",
+      "tėšė"
+    ],
+    "future": [
+      "tęššiu",
+      "tęšši",
+      "tęšš",
+      "tęššime",
+      "tęššite",
+      "tęšš"
+    ],
+    "usedTo": [
+      "tęšdavau",
+      "tęšdavai",
+      "tęšdavo",
+      "tęšdavome",
+      "tęšdavote",
+      "tęšdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "sėsti",
+    "lt_ascii": "sesti",
+    "ru": "сесть",
+    "present": [
+      "sėdžu",
+      "sėdi",
+      "sėda",
+      "sėdame",
+      "sėdate",
+      "sėda"
+    ],
+    "past": [
+      "sėdau",
+      "sėdai",
+      "sėdo",
+      "sėdome",
+      "sėdote",
+      "sėdo"
+    ],
+    "future": [
+      "sėsiu",
+      "sėsi",
+      "sės",
+      "sėsime",
+      "sėsite",
+      "sės"
+    ],
+    "usedTo": [
+      "sėsdavau",
+      "sėsdavai",
+      "sėsdavo",
+      "sėsdavome",
+      "sėsdavote",
+      "sėsdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "statyti",
+    "lt_ascii": "statyti",
+    "ru": "ставить",
+    "present": [
+      "statau",
+      "statai",
+      "stato",
+      "statome",
+      "statote",
+      "stato"
+    ],
+    "past": [
+      "",
+      "statei",
+      "statė",
+      "statėme",
+      "statėte",
+      "statė"
+    ],
+    "future": [
+      "statysiu",
+      "statysi",
+      "statys",
+      "statysime",
+      "statysite",
+      "statys"
+    ],
+    "usedTo": [
+      "statydavau",
+      "statydavai",
+      "statydavo",
+      "statydavome",
+      "statydavote",
+      "statydavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "stovėti",
+    "lt_ascii": "stoveti",
+    "ru": "стоять",
+    "present": [
+      "stoviu",
+      "stovi",
+      "stovi",
+      "stovime",
+      "stovite",
+      "stovi"
+    ],
+    "past": [
+      "stovėjau",
+      "stovėjai",
+      "stovėjo",
+      "stovėjome",
+      "stovėjote",
+      "stovėjo"
+    ],
+    "future": [
+      "stovėsiu",
+      "stovėsi",
+      "stovės",
+      "stovėsime",
+      "stovėsite",
+      "stovės"
+    ],
+    "usedTo": [
+      "stovėdavau",
+      "stovėdavai",
+      "stovėdavo",
+      "stovėdavome",
+      "stovėdavote",
+      "stovėdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "mokėti",
+    "lt_ascii": "moketi",
+    "ru": "уметь",
+    "present": [
+      "moku",
+      "moki",
+      "moka",
+      "mokame",
+      "mokate",
+      "moka"
+    ],
+    "past": [
+      "mokėjau",
+      "mokėjai",
+      "mokėjo",
+      "mokėjome",
+      "mokėjote",
+      "mokėjo"
+    ],
+    "future": [
+      "mokėsiu",
+      "mokėsi",
+      "mokės",
+      "mokėsime",
+      "mokėsite",
+      "mokės"
+    ],
+    "usedTo": [
+      "mokėdavau",
+      "mokėdavai",
+      "mokėdavo",
+      "mokėdavome",
+      "mokėdavote",
+      "mokėdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "žadinti",
+    "lt_ascii": "zadinti",
+    "ru": "будить",
+    "present": [
+      "žadinu",
+      "žadini",
+      "žadina",
+      "žadiname",
+      "žadinate",
+      "žadina"
+    ],
+    "past": [
+      "žadinau",
+      "žadinai",
+      "žadino",
+      "žadinome",
+      "žadinote",
+      "žadino"
+    ],
+    "future": [
+      "žadinsiu",
+      "žadinsi",
+      "žadins",
+      "žadinsime",
+      "žadinsite",
+      "žadins"
+    ],
+    "usedTo": [
+      "žadindavau",
+      "žadindavai",
+      "žadindavo",
+      "žadindavome",
+      "žadindavote",
+      "žadindavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "gaminti",
+    "lt_ascii": "gaminti",
+    "ru": "готовить (еду)",
+    "present": [
+      "gaminu",
+      "gamini",
+      "gamina",
+      "gaminame",
+      "gaminate",
+      "gamina"
+    ],
+    "past": [
+      "gaminau",
+      "gaminai",
+      "gamino",
+      "gaminome",
+      "gaminote",
+      "gamino"
+    ],
+    "future": [
+      "gaminsiu",
+      "gaminsi",
+      "gamins",
+      "gaminsime",
+      "gaminsite",
+      "gamins"
+    ],
+    "usedTo": [
+      "gamindavau",
+      "gamindavai",
+      "gamindavo",
+      "gamindavome",
+      "gamindavote",
+      "gamindavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "laikyti",
+    "lt_ascii": "laikyti",
+    "ru": "держать",
+    "present": [
+      "laikau",
+      "laikai",
+      "laiko",
+      "laikome",
+      "laikote",
+      "laiko"
+    ],
+    "past": [
+      "laikiau",
+      "laikei",
+      "laikė",
+      "laikėme",
+      "laikėte",
+      "laikė"
+    ],
+    "future": [
+      "laikysiu",
+      "laikysi",
+      "laikys",
+      "laikysime",
+      "laikysite",
+      "laikys"
+    ],
+    "usedTo": [
+      "laikydavau",
+      "laikydavai",
+      "laikydavo",
+      "laikydavome",
+      "laikydavote",
+      "laikydavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "važiuoti",
+    "lt_ascii": "vaziuoti",
+    "ru": "ехать",
+    "present": [
+      "važiuoju",
+      "važiuoji",
+      "važiuoja",
+      "važiuojame",
+      "važiuojate",
+      "važiuoja"
+    ],
+    "past": [
+      "važiavau",
+      "važiavai",
+      "važiavo",
+      "važiavome",
+      "važiavote",
+      "važiavo"
+    ],
+    "future": [
+      "važiuosiu",
+      "važiuosi",
+      "važiuos",
+      "važiuosime",
+      "važiuosite",
+      "važiuos"
+    ],
+    "usedTo": [
+      "važiuodavau",
+      "važiuodavai",
+      "važiuodavo",
+      "važiuodavome",
+      "važiuodavote",
+      "važiuodavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "šaukti",
+    "lt_ascii": "saukti",
+    "ru": "звать",
+    "present": [
+      "šaukiu",
+      "šauki",
+      "šaukia",
+      "šaukiame",
+      "šaukiate",
+      "šaukia"
+    ],
+    "past": [
+      "šaukiau",
+      "šaukei",
+      "šaukė",
+      "šaukėme",
+      "šaukėte",
+      "šaukė"
+    ],
+    "future": [
+      "šauksiu",
+      "šauksi",
+      "šauks",
+      "šauksime",
+      "šauksite",
+      "šauks"
+    ],
+    "usedTo": [
+      "šaukdavau",
+      "šaukdavai",
+      "šaukdavo",
+      "šaukdavome",
+      "šaukdavote",
+      "šaukdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "ieškoti",
+    "lt_ascii": "ieskoti",
+    "ru": "искать",
+    "present": [
+      "ieškau",
+      "ieškai",
+      "ieško",
+      "ieškome",
+      "ieškote",
+      "ieško"
+    ],
+    "past": [
+      "ieškojau",
+      "ieškojai",
+      "ieškojo",
+      "ieškojome",
+      "ieškojote",
+      "ieškojo"
+    ],
+    "future": [
+      "ieškosiu",
+      "ieškosi",
+      "ieškos",
+      "ieškosime",
+      "ieškosite",
+      "ieškos"
+    ],
+    "usedTo": [
+      "ieškodavau",
+      "ieškodavai",
+      "ieškodavo",
+      "ieškodavome",
+      "ieškodavote",
+      "ieškodavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "tylėti",
+    "lt_ascii": "tyleti",
+    "ru": "молчать",
+    "present": [
+      "tyliu",
+      "tyli",
+      "tyli",
+      "tylime",
+      "tylite",
+      "tyli"
+    ],
+    "past": [
+      "tylėjau",
+      "tylėjai",
+      "tylėjo",
+      "tylėjome",
+      "tylėjote",
+      "tylėjo"
+    ],
+    "future": [
+      "tylėsiu",
+      "tylėsi",
+      "tylės",
+      "tylėsime",
+      "tylėsite",
+      "tylės"
+    ],
+    "usedTo": [
+      "tylėdavau",
+      "tylėdavai",
+      "tylėdavo",
+      "tylėdavome",
+      "tylėdavote",
+      "tylėdavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "dainuoti",
+    "lt_ascii": "dainuoti",
+    "ru": "петь",
+    "present": [
+      "dainuoju",
+      "dainuoji",
+      "dainuoja",
+      "dainuojame",
+      "dainuojate",
+      "dainuoja"
+    ],
+    "past": [
+      "dainavau",
+      "dainavai",
+      "dainavo",
+      "dainavome",
+      "dainavote",
+      "dainavo"
+    ],
+    "future": [
+      "dainuosiu",
+      "dainuosi",
+      "dainuos",
+      "dainuosime",
+      "dainuosite",
+      "dainuos"
+    ],
+    "usedTo": [
+      "dainuodavau",
+      "dainuodavai",
+      "dainuodavo",
+      "dainuodavome",
+      "dainuodavote",
+      "dainuodavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "kelti",
+    "lt_ascii": "kelti",
+    "ru": "поднимать",
+    "present": [
+      "keliu",
+      "keli",
+      "kelia",
+      "keliame",
+      "keliate",
+      "kelia"
+    ],
+    "past": [
+      "kėliau",
+      "kėlei",
+      "kėlė",
+      "kėlėme",
+      "kėlėte",
+      "kėlė"
+    ],
+    "future": [
+      "kelsiu",
+      "kelsi",
+      "kels",
+      "kelsime",
+      "kelsite",
+      "kels"
+    ],
+    "usedTo": [
+      "keldavau",
+      "keldavai",
+      "keldavo",
+      "keldavome",
+      "keldavote",
+      "keldavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "kilti",
+    "lt_ascii": "kilti",
+    "ru": "подниматься",
+    "present": [
+      "kylu",
+      "kyli",
+      "kyla",
+      "kylame",
+      "kylate",
+      "kyla"
+    ],
+    "past": [
+      "kilau",
+      "kilai",
+      "kilo",
+      "kilome",
+      "kilote",
+      "kilo"
+    ],
+    "future": [
+      "kilsiu",
+      "kilsi",
+      "kils",
+      "kilsime",
+      "kilsite",
+      "kils"
+    ],
+    "usedTo": [
+      "kildavau",
+      "kildavai",
+      "kildavo",
+      "kildavome",
+      "kildavote",
+      "kildavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "pjaustyti",
+    "lt_ascii": "pjaustyti",
+    "ru": "резать",
+    "present": [
+      "pjaustau",
+      "pjaustai",
+      "pjausto",
+      "pjaustome",
+      "pjaustote",
+      "pjausto"
+    ],
+    "past": [
+      "",
+      "pjaustei",
+      "pjaustė",
+      "pjaustėme",
+      "pjaustėte",
+      "pjaustė"
+    ],
+    "future": [
+      "pjaustysiu",
+      "pjaustysi",
+      "pjaustys",
+      "pjaustysime",
+      "pjaustysite",
+      "pjaustys"
+    ],
+    "usedTo": [
+      "pjaustydavau",
+      "pjaustydavai",
+      "pjaustydavo",
+      "pjaustydavome",
+      "pjaustydavote",
+      "pjaustydavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "miegoti",
+    "lt_ascii": "miegoti",
+    "ru": "спать",
+    "present": [
+      " miegu",
+      " miegi",
+      " miega",
+      " miegame",
+      " miegate",
+      " miega"
+    ],
+    "past": [
+      " miegojau",
+      " miegojai",
+      " miegojo",
+      " miegojome",
+      " miegojote",
+      " miegojo"
+    ],
+    "future": [
+      "miegosiu",
+      "miegosi",
+      "miegos",
+      "miegosime",
+      "miegosite",
+      "miegos"
+    ],
+    "usedTo": [
+      "miegodavau",
+      "miegodavai",
+      "miegodavo",
+      "miegodavome",
+      "miegodavote",
+      "miegodavo"
+    ],
+    "participlePastMasc": ""
+  },
+  {
+    "lt": "mirti",
+    "lt_ascii": "mirti",
+    "ru": "умирать",
+    "present": [
+      "mirštu",
+      "miršti",
+      "miršta",
+      "mirštame",
+      "mirštate",
+      "miršta"
+    ],
+    "past": [
+      "miriau",
+      "mirei",
+      "mirė",
+      "mirėme",
+      "mirėte",
+      "mirė"
+    ],
+    "future": [
+      "mirsiu",
+      "mirsi",
+      "mirs",
+      "mirsime",
+      "mirsite",
+      "mirs"
+    ],
+    "usedTo": [
+      "mirdavau",
+      "mirdavai",
+      "mirdavo",
+      "mirdavome",
+      "mirdavote",
+      "mirdavo"
+    ],
+    "participlePastMasc": ""
+  }
+]
