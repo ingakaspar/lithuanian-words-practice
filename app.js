@@ -246,7 +246,7 @@ const NOUN_CASE_INPUT_PLACEHOLDER = {
 const VERB_ANSWER_PLACEHOLDER = "Įrašyk formą";
 
 /**
- * Frames per case: natural Lithuanian + short English tag + Russian gloss ({ru} = RU lemma from data).
+ * Frames per case: natural Lithuanian + short English tag.
  * Locative skips person-words; vocative only uses person-like lemmas (see newNounQuestion).
  */
 const NOUN_CASE_DRILLS = {
@@ -493,7 +493,7 @@ let state = {
   nounNumber: null,
   nounExpected: "",
   nounSentence: "",
-  nounSentenceRu: "",
+  nounSentenceEn: "",
   nounReason: "",
   hintShown: false,
   /** Count of „Tikrinti“ presses on the current question (for first-try weighting). */
@@ -713,9 +713,9 @@ function isPersonLikeLemma(ltAscii) {
   return PERSON_LIKE_LEMMAS.has(String(ltAscii || "").toLowerCase());
 }
 
-function interpolateDrillRu(template, ruLemma) {
+function interpolateDrillEn(template, enLemma) {
   if (!template) return "";
-  return String(template).replace(/\{ru\}/g, ruLemma || "");
+  return String(template).replace(/\{ru\}/g, enLemma || "");
 }
 
 /** Rough gender hint from singular nominative ending (learner aid, not exhaustive). */
@@ -865,7 +865,7 @@ function newVerbQuestion() {
   state.currentForm = formType;
   state.currentPersonIdx = personIdx;
   state.nounEntry = null;
-  state.nounSentenceRu = "";
+  state.nounSentenceEn = "";
   state.hintShown = false;
 
   state.expectedAnswers = buildVerbExpectedAnswers(ltForm, personIdx, formType);
@@ -873,7 +873,7 @@ function newVerbQuestion() {
   state.answerPrefix = `${ltPronounsDiacritic[personIdx]} `;
 
   promptText.textContent = entry.lt;
-  personText.textContent = `RU: ${entry.ru}`;
+  personText.textContent = `EN: ${entry.ru}`;
   if (nounMeta) nounMeta.textContent = "";
   resultText.textContent = "";
   resultText.className = "";
@@ -957,8 +957,7 @@ function newNounQuestion() {
   state.nounExpected = expected;
   state.nounSentence = sentence;
   state.nounReason = drill.reason;
-  const ruTpl = nounNumber === "Plural" ? drill.pluralRu : drill.singularRu;
-  state.nounSentenceRu = interpolateDrillRu(ruTpl, entry.ru);
+  state.nounSentenceEn = `EN: ${entry.ru || ""}`;
   state.currentEntry = null;
   state.answerPrefix = "";
   state.hintShown = false;
@@ -966,7 +965,7 @@ function newNounQuestion() {
   promptText.textContent = nounPromptWithNumberTag(sentence, nounNumber);
   personText.textContent = nounHeaderLine(entry);
   if (nounMeta) {
-    nounMeta.textContent = `${drill.reason}\n${state.nounSentenceRu}`;
+    nounMeta.textContent = `${drill.reason}\n${state.nounSentenceEn}`;
   }
 
   resultText.textContent = "";
@@ -1011,7 +1010,7 @@ function showHint() {
       if (hintForm) break;
     }
   }
-  const base = `RU: ${state.currentEntry.ru}`;
+  const base = `EN: ${state.currentEntry.ru}`;
   personText.textContent = hintForm ? `${base} · Hint: ${hintForm}` : `${base} · Hint: -`;
   state.hintShown = true;
 }
