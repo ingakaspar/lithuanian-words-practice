@@ -188,6 +188,10 @@ button:hover {
   color: #3d6a49;
 }
 
+.question-actions {
+  margin: 0.2rem 0 0.35rem;
+}
+
 .history h3 {
   margin: 0 0 0.6rem;
   font-size: 1.2rem;

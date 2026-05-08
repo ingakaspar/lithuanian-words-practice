@@ -6,11 +6,17 @@ let nounsAll = [];
 /** Used only until word_groups.json loads or if that file is missing. */
 const WORD_GROUPS_FALLBACK = [1, 2, 3, 4];
 const LS_WORD_GROUPS = "ltPractice_wordGroups";
+const LS_WORD_TOPICS = "ltPractice_wordTopics";
 
 let wordGroupIdsEffective = [...WORD_GROUPS_FALLBACK];
+let wordTopicNamesEffective = [];
 
 function getWordGroupIds() {
   return wordGroupIdsEffective;
+}
+
+function getWordTopicNames() {
+  return wordTopicNamesEffective;
 }
 
 async function fetchWordGroupIdsFromMeta() {
@@ -34,6 +40,32 @@ async function fetchWordGroupIdsFromMeta() {
       return null;
     }
     return [...new Set(nums)].sort((a, b) => a - b);
+  } catch {
+    return null;
+  }
+}
+
+async function fetchWordTopicsFromMeta() {
+  try {
+    const response = await fetch("word_topics.json", { cache: "no-store" });
+    if (!response.ok) {
+      return null;
+    }
+    const data = await response.json();
+    if (!Array.isArray(data) || data.length === 0) {
+      return null;
+    }
+    const topics = [];
+    for (const x of data) {
+      const t = String(x || "").trim();
+      if (t) {
+        topics.push(t);
+      }
+    }
+    if (topics.length === 0) {
+      return null;
+    }
+    return [...new Set(topics)].sort((a, b) => a.localeCompare(b));
   } catch {
     return null;
   }
@@ -66,10 +98,39 @@ function recomputeWordGroupIdsFromLoadedData() {
   wordGroupIdsEffective = [...u].sort((a, b) => a - b);
 }
 
+function recomputeWordTopicNamesFromLoadedData() {
+  const u = new Set(getWordTopicNames());
+  for (const e of verbsAll) {
+    const ts = e && e.topics;
+    if (Array.isArray(ts)) {
+      for (const t of ts) {
+        const s = String(t || "").trim();
+        if (s) u.add(s);
+      }
+    }
+  }
+  for (const e of nounsAll) {
+    const ts = e && e.topics;
+    if (Array.isArray(ts)) {
+      for (const t of ts) {
+        const s = String(t || "").trim();
+        if (s) u.add(s);
+      }
+    }
+  }
+  wordTopicNamesEffective = [...u].sort((a, b) => a.localeCompare(b));
+}
+
 function getEntryGroups(entry) {
   const g = entry && entry.groups;
   if (Array.isArray(g) && g.length) return g;
   return [...getWordGroupIds()];
+}
+
+function getEntryTopics(entry) {
+  const ts = entry && entry.topics;
+  if (Array.isArray(ts) && ts.length) return ts;
+  return [...getWordTopicNames()];
 }
 
 function getSelectedWordGroupsFromUI() {
@@ -85,12 +146,34 @@ function setWordGroupCheckboxes(values) {
   });
 }
 
+function getSelectedWordTopicsFromUI() {
+  return Array.from(document.querySelectorAll('input[name="wordTopic"]:checked'), (b) =>
+    String(b.value || "")
+  );
+}
+
+function setWordTopicCheckboxes(values) {
+  const set = new Set(values);
+  document.querySelectorAll('input[name="wordTopic"]').forEach((cb) => {
+    cb.checked = set.has(String(cb.value));
+  });
+}
+
 function isValidStoredWordGroups(arr) {
   if (!Array.isArray(arr) || arr.length === 0) return false;
   const allowed = new Set(getWordGroupIds());
   return arr.every((n) => {
     const num = Number(n);
     return !Number.isNaN(num) && allowed.has(num);
+  });
+}
+
+function isValidStoredWordTopics(arr) {
+  if (!Array.isArray(arr) || arr.length === 0) return false;
+  const allowed = new Set(getWordTopicNames());
+  return arr.every((s) => {
+    const t = String(s || "").trim();
+    return !!t && allowed.has(t);
   });
 }
 
@@ -101,6 +184,18 @@ function loadWordGroupsFromStorage() {
     const arr = JSON.parse(raw);
     if (!isValidStoredWordGroups(arr)) return;
     setWordGroupCheckboxes(arr.map((x) => Number(x)));
+  } catch {
+    /* ignore */
+  }
+}
+
+function loadWordTopicsFromStorage() {
+  try {
+    const raw = localStorage.getItem(LS_WORD_TOPICS);
+    if (!raw) return;
+    const arr = JSON.parse(raw);
+    if (!isValidStoredWordTopics(arr)) return;
+    setWordTopicCheckboxes(arr.map((x) => String(x)));
   } catch {
     /* ignore */
   }
@@ -117,44 +212,48 @@ function saveWordGroupsToStorage(selected) {
   }
 }
 
-function entryMatchesWordSelection(entry, selectedSet) {
-  return getEntryGroups(entry).some((g) => selectedSet.has(g));
+function saveWordTopicsToStorage(selected) {
+  try {
+    localStorage.setItem(
+      LS_WORD_TOPICS,
+      JSON.stringify([...selected].sort((a, b) => a.localeCompare(b)))
+    );
+  } catch {
+    /* ignore */
+  }
 }
 
-function applyWordGroupFilter() {
-  let selected = getSelectedWordGroupsFromUI();
-  if (selected.length === 0) {
+function entryMatchesSelections(entry, selectedGroupSet, selectedTopicSet) {
+  const groupOk = getEntryGroups(entry).some((g) => selectedGroupSet.has(g));
+  if (!groupOk) return false;
+  return getEntryTopics(entry).some((t) => selectedTopicSet.has(String(t)));
+}
+
+function applyAllFilters() {
+  let selectedGroups = getSelectedWordGroupsFromUI();
+  if (selectedGroups.length === 0) {
     const all = getWordGroupIds();
     setWordGroupCheckboxes(all);
-    selected = [...all];
-    saveWordGroupsToStorage(selected);
+    selectedGroups = [...all];
+    saveWordGroupsToStorage(selectedGroups);
   }
-  const selectedSet = new Set(selected);
-  verbs = verbsAll.filter((e) => entryMatchesWordSelection(e, selectedSet));
-  nouns = nounsAll.filter((e) => entryMatchesWordSelection(e, selectedSet));
+  let selectedTopics = getSelectedWordTopicsFromUI();
+  if (selectedTopics.length === 0) {
+    const all = getWordTopicNames();
+    setWordTopicCheckboxes(all);
+    selectedTopics = [...all];
+    saveWordTopicsToStorage(selectedTopics);
+  }
+  const selectedGroupSet = new Set(selectedGroups);
+  const selectedTopicSet = new Set(selectedTopics.map((t) => String(t)));
+  verbs = verbsAll.filter((e) => entryMatchesSelections(e, selectedGroupSet, selectedTopicSet));
+  nouns = nounsAll.filter((e) => entryMatchesSelections(e, selectedGroupSet, selectedTopicSet));
 }
 
 function updateHeroDataStats() {
   const statsEl = document.getElementById("dataStats");
   if (!statsEl) return;
-  const parts = [];
-  if (verbsAll.length) {
-    parts.push(
-      verbs.length === verbsAll.length
-        ? `${verbs.length} veiksmažodžiai`
-        : `${verbs.length} / ${verbsAll.length} veiksmažodžiai`
-    );
-  }
-  if (nounsAll.length) {
-    parts.push(
-      nouns.length === nounsAll.length
-        ? `${nouns.length} daiktavardžiai`
-        : `${nouns.length} / ${nounsAll.length} daiktavardžiai`
-    );
-  }
-  statsEl.textContent = parts.length
-    ? `Įkelta (pasirinktos grupės): ${parts.join(" · ")}.`
-    : "";
+  statsEl.textContent = "";
 }
 
 function onWordGroupsChange() {
@@ -168,11 +267,36 @@ function onWordGroupsChange() {
     selected = [...all];
   }
   saveWordGroupsToStorage(selected);
-  applyWordGroupFilter();
+  applyAllFilters();
   updateHeroDataStats();
   if (!verbs.length && !nouns.length) {
     promptText.textContent =
       "Pasirinktoms grupėms nėra žodžių. Pažymėk platesnį rinkinį grupių.";
+    personText.textContent = "";
+    return;
+  }
+  if (!verbs.length && nouns.length && practiceModeSelect) {
+    practiceModeSelect.value = "nouns";
+  }
+  newQuestion();
+}
+
+function onWordTopicsChange() {
+  if (!verbsAll.length && !nounsAll.length) {
+    return;
+  }
+  let selected = getSelectedWordTopicsFromUI();
+  if (selected.length === 0) {
+    const all = getWordTopicNames();
+    setWordTopicCheckboxes(all);
+    selected = [...all];
+  }
+  saveWordTopicsToStorage(selected);
+  applyAllFilters();
+  updateHeroDataStats();
+  if (!verbs.length && !nouns.length) {
+    promptText.textContent =
+      "Pasirinktoms temoms nėra žodžių. Pažymėk platesnį rinkinį temų.";
     personText.textContent = "";
     return;
   }
@@ -194,6 +318,18 @@ function renderWordGroupCheckboxes() {
     .join("");
 }
 
+function renderWordTopicCheckboxes() {
+  const host = document.getElementById("wordTopicChecks");
+  if (!host) return;
+  const topics = getWordTopicNames();
+  host.innerHTML = topics
+    .map(
+      (t) =>
+        `<label class="word-group-label"><input type="checkbox" name="wordTopic" value="${escapeHtml(t)}" checked /> ${escapeHtml(t)}</label>`
+    )
+    .join("");
+}
+
 function ensureWordGroupDelegation() {
   const host = document.getElementById("wordGroupChecks");
   if (!host || host.dataset.wordDelegated) {
@@ -204,6 +340,20 @@ function ensureWordGroupDelegation() {
     const t = ev.target;
     if (t && typeof t.matches === "function" && t.matches('input[name="wordGroup"]')) {
       onWordGroupsChange();
+    }
+  });
+}
+
+function ensureWordTopicDelegation() {
+  const host = document.getElementById("wordTopicChecks");
+  if (!host || host.dataset.wordDelegated) {
+    return;
+  }
+  host.dataset.wordDelegated = "1";
+  host.addEventListener("change", (ev) => {
+    const t = ev.target;
+    if (t && typeof t.matches === "function" && t.matches('input[name="wordTopic"]')) {
+      onWordTopicsChange();
     }
   });
 }
@@ -513,6 +663,15 @@ function normalize(text) {
   return text.trim().toLowerCase().replace(/\s+/g, " ");
 }
 
+function escapeHtml(text) {
+  return String(text ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
+}
+
 /**
  * Optional parentheses in conjugator output, e.g. imtum(ei) -> imtum, imtumei.
  */
@@ -801,9 +960,12 @@ function renderHistory() {
     .map((item) => {
       const status = item.isCorrect ? "correct" : "wrong";
       const statusText = item.isCorrect ? "OK" : "WRONG";
+      const context = escapeHtml(item.context);
+      const input = escapeHtml(item.input);
+      const correct = escapeHtml(item.correct);
       return `<div class="history-item ${status}">
-        <div><strong>${statusText}</strong> ${item.context}</div>
-        <div class="meta">Your input: ${item.input} | Correct: ${item.correct}</div>
+        <div><strong>${statusText}</strong> ${context}</div>
+        <div class="meta">Your input: ${input} | Correct: ${correct}</div>
       </div>`;
     })
     .join("");
@@ -873,7 +1035,7 @@ function newVerbQuestion() {
   state.answerPrefix = `${ltPronounsDiacritic[personIdx]} `;
 
   promptText.textContent = entry.lt;
-  personText.textContent = `EN: ${entry.ru}`;
+  personText.textContent = `${entry.ru}`;
   if (nounMeta) nounMeta.textContent = "";
   resultText.textContent = "";
   resultText.className = "";
@@ -957,7 +1119,7 @@ function newNounQuestion() {
   state.nounExpected = expected;
   state.nounSentence = sentence;
   state.nounReason = drill.reason;
-  state.nounSentenceEn = `EN: ${entry.ru || ""}`;
+  state.nounSentenceEn = `${entry.ru || ""}`;
   state.currentEntry = null;
   state.answerPrefix = "";
   state.hintShown = false;
@@ -1010,7 +1172,7 @@ function showHint() {
       if (hintForm) break;
     }
   }
-  const base = `EN: ${state.currentEntry.ru}`;
+  const base = `${state.currentEntry.ru}`;
   personText.textContent = hintForm ? `${base} · Hint: ${hintForm}` : `${base} · Hint: -`;
   state.hintShown = true;
 }
@@ -1038,12 +1200,14 @@ function checkVerbAnswer() {
   renderHistory();
 
   const refLine = verbReferenceFormsHTML(state.currentEntry, state.currentForm);
+  const safeRefLine = escapeHtml(refLine);
+  const safeExpected = escapeHtml(state.expectedAnswers[0]);
 
   if (isCorrect) {
-    resultText.innerHTML = `Teisingai!<br>Forms: ${refLine}`;
+    resultText.innerHTML = `Teisingai!<br>Forms: ${safeRefLine}`;
     resultText.className = "ok";
   } else {
-    resultText.innerHTML = `Neteisinga. Teisingas variantas: ${state.expectedAnswers[0]}<br>Forms: ${refLine}`;
+    resultText.innerHTML = `Neteisinga. Teisingas variantas: ${safeExpected}<br>Forms: ${safeRefLine}`;
     resultText.className = "bad";
   }
 }
@@ -1076,12 +1240,15 @@ function checkNounAnswer() {
   renderHistory();
 
   const caseForms = nounThisCaseFormsLine(state.nounEntry, state.nounCase);
+  const safeCaseForms = escapeHtml(caseForms);
+  const safeExpected = escapeHtml(state.nounExpected);
+  const safeCase = escapeHtml(state.nounCase);
 
   if (isCorrect) {
-    resultText.innerHTML = `Teisingai!<br>${state.nounCase}: ${caseForms}`;
+    resultText.innerHTML = `Teisingai!<br>${safeCase}: ${safeCaseForms}`;
     resultText.className = "ok";
   } else {
-    resultText.innerHTML = `Neteisinga. Teisingas variantas: ${state.nounExpected}<br>${state.nounCase}: ${caseForms}`;
+    resultText.innerHTML = `Neteisinga. Teisingas variantas: ${safeExpected}<br>${safeCase}: ${safeCaseForms}`;
     resultText.className = "bad";
   }
 }
@@ -1112,8 +1279,10 @@ async function loadData() {
   let verbLoadError = null;
 
   const metaIds = await fetchWordGroupIdsFromMeta();
+  const metaTopics = await fetchWordTopicsFromMeta();
   wordGroupIdsEffective =
     metaIds && metaIds.length > 0 ? metaIds : [...WORD_GROUPS_FALLBACK];
+  wordTopicNamesEffective = metaTopics && metaTopics.length > 0 ? metaTopics : [];
 
   try {
     const response = await fetch("verbs_practice.json", { cache: "no-store" });
@@ -1143,9 +1312,12 @@ async function loadData() {
   }
 
   recomputeWordGroupIdsFromLoadedData();
+  recomputeWordTopicNamesFromLoadedData();
   renderWordGroupCheckboxes();
+  renderWordTopicCheckboxes();
   loadWordGroupsFromStorage();
-  applyWordGroupFilter();
+  loadWordTopicsFromStorage();
+  applyAllFilters();
 
   if (!verbs.length && !nouns.length) {
     promptText.textContent =
@@ -1169,6 +1341,7 @@ function init() {
   }
 
   ensureWordGroupDelegation();
+  ensureWordTopicDelegation();
 
   if (practiceModeSelect) {
     practiceModeSelect.addEventListener("change", () => {

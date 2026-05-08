@@ -74,6 +74,10 @@ def parse_tier_group(cell: object) -> int:
     return int(m.group(1))
 
 
+def clean_topic_cell(cell: object) -> str:
+    return str(cell or "").strip()
+
+
 def tense_six(d: object) -> list:
     if not isinstance(d, dict):
         return ["", "", "", "", "", ""]
@@ -112,7 +116,7 @@ def load_words_from_xlsx() -> list:
         raise RuntimeError(f"Missing sheet {TEST_SHEET!r} in {XLSX_PATH}")
     ws = wb[TEST_SHEET]
     out = []
-    # B:# C:word E:tier G:translation
+    # B:# C:word D:topic E:tier G:translation
     for row in range(2, ws.max_row + 1):
         lt_raw = clean_word_cell(ws.cell(row, 3).value)
         if not lt_raw:
@@ -120,6 +124,7 @@ def load_words_from_xlsx() -> list:
         lt_ascii = strip_lt(lt_raw)
         if len(lt_ascii) < 2:
             continue
+        topic = clean_topic_cell(ws.cell(row, 4).value)
         tier_group = parse_tier_group(ws.cell(row, 5).value)
         tr = str(ws.cell(row, 7).value or "").strip()
         out.append(
@@ -127,25 +132,35 @@ def load_words_from_xlsx() -> list:
                 "lt": lt_raw,
                 "lt_ascii": lt_ascii,
                 "ru": tr,
+                "topic": topic,
                 "group": tier_group,
             }
         )
     return out
 
 
-def build_verbs(rows: list) -> tuple[list, set]:
+def build_verbs(rows: list) -> tuple[list, set, set]:
     merged = {}
     for r in rows:
         key = r["lt_ascii"]
         if key not in merged:
-            merged[key] = {"lt": r["lt"], "lt_ascii": key, "ru": r["ru"], "groups": {r["group"]}}
+            merged[key] = {
+                "lt": r["lt"],
+                "lt_ascii": key,
+                "ru": r["ru"],
+                "groups": {r["group"]},
+                "topics": {r["topic"]} if r["topic"] else set(),
+            }
         else:
             merged[key]["groups"].add(r["group"])
+            if r["topic"]:
+                merged[key]["topics"].add(r["topic"])
             if not merged[key]["ru"] and r["ru"]:
                 merged[key]["ru"] = r["ru"]
 
     out = []
     used_groups = set()
+    used_topics = set()
     for v in merged.values():
         lt = v["lt"]
         if not (lt.endswith("ti") or lt.endswith("tis")):
@@ -158,12 +173,15 @@ def build_verbs(rows: list) -> tuple[list, set]:
         if not (present.get("third person") or "").strip():
             continue
         groups = sorted(v["groups"])
+        topics = sorted(t for t in v["topics"] if t)
         used_groups.update(groups)
+        used_topics.update(topics)
         out.append(
             {
                 "lt": lt,
                 "lt_ascii": v["lt_ascii"],
                 "ru": v["ru"],
+                "topics": topics,
                 "present": tense_six(c.get("present")),
                 "past": tense_six(c.get("past")),
                 "future": tense_six(c.get("future")),
@@ -175,22 +193,31 @@ def build_verbs(rows: list) -> tuple[list, set]:
             }
         )
     out.sort(key=lambda x: x["lt_ascii"])
-    return out, used_groups
+    return out, used_groups, used_topics
 
 
-def build_nouns(rows: list) -> tuple[list, set]:
+def build_nouns(rows: list) -> tuple[list, set, set]:
     merged = {}
     for r in rows:
         key = r["lt_ascii"]
         if key not in merged:
-            merged[key] = {"lt": r["lt"], "lt_ascii": key, "ru": r["ru"], "groups": {r["group"]}}
+            merged[key] = {
+                "lt": r["lt"],
+                "lt_ascii": key,
+                "ru": r["ru"],
+                "groups": {r["group"]},
+                "topics": {r["topic"]} if r["topic"] else set(),
+            }
         else:
             merged[key]["groups"].add(r["group"])
+            if r["topic"]:
+                merged[key]["topics"].add(r["topic"])
             if not merged[key]["ru"] and r["ru"]:
                 merged[key]["ru"] = r["ru"]
 
     out = []
     used_groups = set()
+    used_topics = set()
     for n in merged.values():
         try:
             decl = decline_noun(n["lt"])
@@ -203,18 +230,21 @@ def build_nouns(rows: list) -> tuple[list, set]:
             continue
         nom = strip_stress_marks(str(sg["Nominative"]))
         groups = sorted(n["groups"])
+        topics = sorted(t for t in n["topics"] if t)
         used_groups.update(groups)
+        used_topics.update(topics)
         out.append(
             {
                 "lt": nom,
                 "lt_ascii": strip_lt(nom),
                 "ru": n["ru"],
+                "topics": topics,
                 "groups": groups,
                 "decl": scrub_stress(decl),
             }
         )
     out.sort(key=lambda x: x["lt_ascii"])
-    return out, used_groups
+    return out, used_groups, used_topics
 
 
 def main() -> None:
@@ -222,20 +252,24 @@ def main() -> None:
         raise FileNotFoundError(f"Missing input file: {XLSX_PATH}")
 
     rows = load_words_from_xlsx()
-    verbs, verb_groups = build_verbs(rows)
-    nouns, noun_groups = build_nouns(rows)
+    verbs, verb_groups, verb_topics = build_verbs(rows)
+    nouns, noun_groups, noun_topics = build_nouns(rows)
     groups = sorted(verb_groups | noun_groups)
+    topics = sorted(verb_topics | noun_topics)
 
     verbs_path = ROOT / "verbs_practice.json"
     nouns_path = ROOT / "nouns_practice.json"
     groups_path = ROOT / "word_groups.json"
+    topics_path = ROOT / "word_topics.json"
     verbs_path.write_text(json.dumps(verbs, ensure_ascii=False, indent=2), encoding="utf-8")
     nouns_path.write_text(json.dumps(nouns, ensure_ascii=False, indent=2), encoding="utf-8")
     groups_path.write_text(json.dumps(groups, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    topics_path.write_text(json.dumps(topics, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     print(
         f"xlsx rows: {len(rows)} -> verbs: {len(verbs)} ({verbs_path}), "
-        f"nouns: {len(nouns)} ({nouns_path}), groups: {groups} ({groups_path})"
+        f"nouns: {len(nouns)} ({nouns_path}), groups: {groups} ({groups_path}), "
+        f"topics: {len(topics)} ({topics_path})"
     )
 
 

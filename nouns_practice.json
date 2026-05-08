@@ -3,6 +3,9 @@
     "lt": "administracija",
     "lt_ascii": "administracija",
     "ru": "administration",
+    "topics": [
+      "Paslaugos"
+    ],
     "groups": [
       4
     ],
@@ -31,6 +34,10 @@
     "lt": "adreas",
     "lt_ascii": "adreas",
     "ru": "address",
+    "topics": [
+      "Asmens tapatybė",
+      "Paslaugos"
+    ],
     "groups": [
       1,
       3
@@ -59,6 +66,9 @@
     "lt": "agurkas",
     "lt_ascii": "agurkas",
     "ru": "cucumbers",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       2
     ],
@@ -86,6 +96,10 @@
     "lt": "akys",
     "lt_ascii": "akys",
     "ru": "eye",
+    "topics": [
+      "Asmens tapatybė",
+      "Sveikata ir higiena"
+    ],
     "groups": [
       1,
       2
@@ -115,6 +129,9 @@
     "lt": "alerija",
     "lt_ascii": "alerija",
     "ru": "",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       3
     ],
@@ -143,6 +160,9 @@
     "lt": "alus",
     "lt_ascii": "alus",
     "ru": "beer",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       2
     ],
@@ -171,6 +191,9 @@
     "lt": "ambulatorija",
     "lt_ascii": "ambulatorija",
     "ru": "walk in patient",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       3
     ],
@@ -199,6 +222,9 @@
     "lt": "amžius",
     "lt_ascii": "amzius",
     "ru": "age",
+    "topics": [
+      "Asmens tapatybė"
+    ],
     "groups": [
       1
     ],
@@ -227,6 +253,9 @@
     "lt": "antklodė",
     "lt_ascii": "antklode",
     "ru": "duvet? bedsheet?",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       3
     ],
@@ -255,6 +284,9 @@
     "lt": "apelsinas",
     "lt_ascii": "apelsinas",
     "ru": "oranges",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       2
     ],
@@ -282,6 +314,9 @@
     "lt": "apsipirkimas",
     "lt_ascii": "apsipirkimas",
     "ru": "something shopping related",
+    "topics": [
+      "Prekyba"
+    ],
     "groups": [
       4
     ],
@@ -309,6 +344,9 @@
     "lt": "arbata",
     "lt_ascii": "arbata",
     "ru": "tea",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       1
     ],
@@ -337,6 +375,9 @@
     "lt": "arklys",
     "lt_ascii": "arklys",
     "ru": "horse",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       2
     ],
@@ -365,6 +406,9 @@
     "lt": "asmens tapatybė",
     "lt_ascii": "asmenstapatybe",
     "ru": "personal something?",
+    "topics": [
+      "Kelionės"
+    ],
     "groups": [
       3
     ],
@@ -393,6 +437,9 @@
     "lt": "atvykimas",
     "lt_ascii": "atvykimas",
     "ru": "landing / arrival?",
+    "topics": [
+      "Kelionės"
+    ],
     "groups": [
       2
     ],
@@ -420,6 +467,9 @@
     "lt": "auditorija",
     "lt_ascii": "auditorija",
     "ru": "auditorium",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       2
     ],
@@ -448,6 +498,10 @@
     "lt": "aukštas",
     "lt_ascii": "aukstas",
     "ru": "tall / high?",
+    "topics": [
+      "Asmens tapatybė",
+      "Gamta.Regionas"
+    ],
     "groups": [
       2
     ],
@@ -475,6 +529,10 @@
     "lt": "autobuas",
     "lt_ascii": "autobuas",
     "ru": "bus",
+    "topics": [
+      "Kasdienis gyvenimas",
+      "Kelionės"
+    ],
     "groups": [
       1,
       2
@@ -503,6 +561,9 @@
     "lt": "autobuso stotelė",
     "lt_ascii": "autobusostotele",
     "ru": "bus stop",
+    "topics": [
+      "Kelionės"
+    ],
     "groups": [
       2
     ],
@@ -531,6 +592,10 @@
     "lt": "automobilis",
     "lt_ascii": "automobilis",
     "ru": "car",
+    "topics": [
+      "Kasdienis gyvenimas",
+      "Kelionės"
+    ],
     "groups": [
       1,
       2
@@ -560,6 +625,9 @@
     "lt": "auys",
     "lt_ascii": "auys",
     "ru": "ear",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       1
     ],
@@ -588,6 +656,9 @@
     "lt": "bagažas",
     "lt_ascii": "bagazas",
     "ru": "luggage",
+    "topics": [
+      "Kelionės"
+    ],
     "groups": [
       3
     ],
@@ -615,6 +686,9 @@
     "lt": "bailys",
     "lt_ascii": "bailys",
     "ru": "",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       3
     ],
@@ -643,6 +717,9 @@
     "lt": "balkonas",
     "lt_ascii": "balkonas",
     "ru": "balcony",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       2
     ],
@@ -670,6 +747,9 @@
     "lt": "bananas",
     "lt_ascii": "bananas",
     "ru": "bananas",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       2
     ],
@@ -697,6 +777,9 @@
     "lt": "bankas",
     "lt_ascii": "bankas",
     "ru": "a bank (only meaning?)",
+    "topics": [
+      "Paslaugos"
+    ],
     "groups": [
       1
     ],
@@ -724,6 +807,9 @@
     "lt": "bankomatas",
     "lt_ascii": "bankomatas",
     "ru": "ATM",
+    "topics": [
+      "Paslaugos"
+    ],
     "groups": [
       2
     ],
@@ -751,6 +837,9 @@
     "lt": "baras",
     "lt_ascii": "baras",
     "ru": "bar",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       2
     ],
@@ -778,6 +867,9 @@
     "lt": "barzda",
     "lt_ascii": "barzda",
     "ru": "",
+    "topics": [
+      "Asmens tapatybė"
+    ],
     "groups": [
       3
     ],
@@ -806,6 +898,9 @@
     "lt": "bėgimas",
     "lt_ascii": "begimas",
     "ru": "running",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "groups": [
       2
     ],
@@ -833,6 +928,9 @@
     "lt": "bendravimas",
     "lt_ascii": "bendravimas",
     "ru": "common / regular / communication?",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       4
     ],
@@ -860,6 +958,11 @@
     "lt": "biblioteka",
     "lt_ascii": "biblioteka",
     "ru": "library",
+    "topics": [
+      "Laisvalaikis",
+      "Paslaugos",
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       2,
       3
@@ -889,6 +992,9 @@
     "lt": "bilietas",
     "lt_ascii": "bilietas",
     "ru": "ticket",
+    "topics": [
+      "Kelionės"
+    ],
     "groups": [
       1
     ],
@@ -916,6 +1022,9 @@
     "lt": "bilietų kasa",
     "lt_ascii": "bilietukasa",
     "ru": "ticket office / desk",
+    "topics": [
+      "Kelionės"
+    ],
     "groups": [
       2
     ],
@@ -944,6 +1053,9 @@
     "lt": "biologija",
     "lt_ascii": "biologija",
     "ru": "biology",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       2
     ],
@@ -972,6 +1084,9 @@
     "lt": "biuras",
     "lt_ascii": "biuras",
     "ru": "office",
+    "topics": [
+      "Paslaugos"
+    ],
     "groups": [
       2
     ],
@@ -999,6 +1114,9 @@
     "lt": "brangus",
     "lt_ascii": "brangus",
     "ru": "expensive",
+    "topics": [
+      "Prekyba"
+    ],
     "groups": [
       1
     ],
@@ -1027,6 +1145,9 @@
     "lt": "braškė",
     "lt_ascii": "braske",
     "ru": "strawberries",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       2
     ],
@@ -1055,6 +1176,10 @@
     "lt": "brolis",
     "lt_ascii": "brolis",
     "ru": "brother",
+    "topics": [
+      "Asmens tapatybė",
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       1
     ],
@@ -1083,6 +1208,9 @@
     "lt": "burna",
     "lt_ascii": "burna",
     "ru": "mouth",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       1
     ],
@@ -1111,6 +1239,9 @@
     "lt": "butas",
     "lt_ascii": "butas",
     "ru": "flat",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       1
     ],
@@ -1138,6 +1269,9 @@
     "lt": "centas",
     "lt_ascii": "centas",
     "ru": "cents",
+    "topics": [
+      "Prekyba"
+    ],
     "groups": [
       1
     ],
@@ -1165,6 +1299,9 @@
     "lt": "centras",
     "lt_ascii": "centras",
     "ru": "centre",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       2
     ],
@@ -1192,6 +1329,9 @@
     "lt": "chemija",
     "lt_ascii": "chemija",
     "ru": "chemistry",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       2
     ],
@@ -1220,6 +1360,10 @@
     "lt": "dailė",
     "lt_ascii": "daile",
     "ru": "an item?",
+    "topics": [
+      "Laisvalaikis",
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       2
     ],
@@ -1248,6 +1392,9 @@
     "lt": "darbas",
     "lt_ascii": "darbas",
     "ru": "work / job",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       3
     ],
@@ -1275,6 +1422,9 @@
     "lt": "darbštus",
     "lt_ascii": "darbstus",
     "ru": "hard working?",
+    "topics": [
+      "Asmens tapatybė"
+    ],
     "groups": [
       2
     ],
@@ -1303,6 +1453,10 @@
     "lt": "dėdė",
     "lt_ascii": "dede",
     "ru": "aunt",
+    "topics": [
+      "Asmens tapatybė",
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       2
     ],
@@ -1331,6 +1485,9 @@
     "lt": "defektas",
     "lt_ascii": "defektas",
     "ru": "defective",
+    "topics": [
+      "Prekyba"
+    ],
     "groups": [
       3
     ],
@@ -1358,6 +1515,9 @@
     "lt": "desertas",
     "lt_ascii": "desertas",
     "ru": "dessert",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       2
     ],
@@ -1385,6 +1545,9 @@
     "lt": "dešra",
     "lt_ascii": "desra",
     "ru": "sausages",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       2
     ],
@@ -1413,6 +1576,9 @@
     "lt": "dezinfekcija",
     "lt_ascii": "dezinfekcija",
     "ru": "disinfection",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       3
     ],
@@ -1441,6 +1607,9 @@
     "lt": "diagnozė",
     "lt_ascii": "diagnoze",
     "ru": "diagnosis",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       3
     ],
@@ -1469,6 +1638,9 @@
     "lt": "diena",
     "lt_ascii": "diena",
     "ru": "day",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "groups": [
       1
     ],
@@ -1497,6 +1669,9 @@
     "lt": "direktorius",
     "lt_ascii": "direktorius",
     "ru": "Director / principal / headmaster-mistress",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       2
     ],
@@ -1525,6 +1700,9 @@
     "lt": "dokumentas",
     "lt_ascii": "dokumentas",
     "ru": "document",
+    "topics": [
+      "Paslaugos"
+    ],
     "groups": [
       3
     ],
@@ -1552,6 +1730,9 @@
     "lt": "dosnus",
     "lt_ascii": "dosnus",
     "ru": "",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       3
     ],
@@ -1580,6 +1761,9 @@
     "lt": "draudimas",
     "lt_ascii": "draudimas",
     "ru": "insurance",
+    "topics": [
+      "Kelionės"
+    ],
     "groups": [
       3
     ],
@@ -1607,6 +1791,11 @@
     "lt": "draugas",
     "lt_ascii": "draugas",
     "ru": "friend",
+    "topics": [
+      "Asmens tapatybė",
+      "Laisvalaikis",
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       1,
       2
@@ -1635,6 +1824,9 @@
     "lt": "drąus",
     "lt_ascii": "draus",
     "ru": "brave",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       3
     ],
@@ -1663,6 +1855,9 @@
     "lt": "dulkių siurblys",
     "lt_ascii": "dulkiusiurblys",
     "ru": "vacuum cleaner",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       3
     ],
@@ -1691,6 +1886,10 @@
     "lt": "duona",
     "lt_ascii": "duona",
     "ru": "bread",
+    "topics": [
+      "Maistas ir gėrimai",
+      "Prekyba"
+    ],
     "groups": [
       1,
       2
@@ -1720,6 +1919,9 @@
     "lt": "durys",
     "lt_ascii": "durys",
     "ru": "door",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       3
     ],
@@ -1748,6 +1950,9 @@
     "lt": "dušas",
     "lt_ascii": "dusas",
     "ru": "shower",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "groups": [
       3
     ],
@@ -1775,6 +1980,9 @@
     "lt": "egzaminas",
     "lt_ascii": "egzaminas",
     "ru": "exam",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       2
     ],
@@ -1802,6 +2010,9 @@
     "lt": "eilė",
     "lt_ascii": "eile",
     "ru": "a line / queue / an aisle",
+    "topics": [
+      "Paslaugos"
+    ],
     "groups": [
       3
     ],
@@ -1830,6 +2041,9 @@
     "lt": "ekologija",
     "lt_ascii": "ekologija",
     "ru": "ecology",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       4
     ],
@@ -1858,6 +2072,9 @@
     "lt": "ekskursija",
     "lt_ascii": "ekskursija",
     "ru": "ekscursion",
+    "topics": [
+      "Kelionės"
+    ],
     "groups": [
       3
     ],
@@ -1886,6 +2103,10 @@
     "lt": "elektra",
     "lt_ascii": "elektra",
     "ru": "electricity?",
+    "topics": [
+      "Būstas",
+      "Paslaugos"
+    ],
     "groups": [
       2,
       3
@@ -1915,6 +2136,9 @@
     "lt": "elgeys",
     "lt_ascii": "elgeys",
     "ru": "behaviour?",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       4
     ],
@@ -1943,6 +2167,9 @@
     "lt": "etiketas",
     "lt_ascii": "etiketas",
     "ru": "etiquette",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       4
     ],
@@ -1970,6 +2197,9 @@
     "lt": "euras",
     "lt_ascii": "euras",
     "ru": "Euros",
+    "topics": [
+      "Prekyba"
+    ],
     "groups": [
       1
     ],
@@ -1997,6 +2227,9 @@
     "lt": "ežeras",
     "lt_ascii": "ezeras",
     "ru": "lake",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       1
     ],
@@ -2024,6 +2257,9 @@
     "lt": "festivalis",
     "lt_ascii": "festivalis",
     "ru": "festival",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "groups": [
       2
     ],
@@ -2052,6 +2288,9 @@
     "lt": "filmas",
     "lt_ascii": "filmas",
     "ru": "a film",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "groups": [
       1
     ],
@@ -2079,6 +2318,9 @@
     "lt": "fizika",
     "lt_ascii": "fizika",
     "ru": "physics",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       2
     ],
@@ -2107,6 +2349,9 @@
     "lt": "fotelis",
     "lt_ascii": "fotelis",
     "ru": "arm chair",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       2
     ],
@@ -2135,6 +2380,9 @@
     "lt": "futbolas",
     "lt_ascii": "futbolas",
     "ru": "football",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "groups": [
       1
     ],
@@ -2162,6 +2410,9 @@
     "lt": "galerija",
     "lt_ascii": "galerija",
     "ru": "gallery",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "groups": [
       3
     ],
@@ -2190,6 +2441,9 @@
     "lt": "galva",
     "lt_ascii": "galva",
     "ru": "head",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       1
     ],
@@ -2218,6 +2472,9 @@
     "lt": "gamtos apsauga",
     "lt_ascii": "gamtosapsauga",
     "ru": "care for nature",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       4
     ],
@@ -2246,6 +2503,10 @@
     "lt": "garantija",
     "lt_ascii": "garantija",
     "ru": "guarantee",
+    "topics": [
+      "Paslaugos",
+      "Prekyba"
+    ],
     "groups": [
       3,
       4
@@ -2275,6 +2536,9 @@
     "lt": "garažas",
     "lt_ascii": "garazas",
     "ru": "garage",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       2
     ],
@@ -2302,6 +2566,9 @@
     "lt": "gedimas",
     "lt_ascii": "gedimas",
     "ru": "",
+    "topics": [
+      "Paslaugos"
+    ],
     "groups": [
       3
     ],
@@ -2329,6 +2596,9 @@
     "lt": "gėlė",
     "lt_ascii": "gele",
     "ru": "flower",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       1
     ],
@@ -2357,6 +2627,10 @@
     "lt": "geografija",
     "lt_ascii": "geografija",
     "ru": "geography",
+    "topics": [
+      "Gamta.Regionas",
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       1,
       4
@@ -2386,6 +2660,9 @@
     "lt": "gimimo data",
     "lt_ascii": "gimimodata",
     "ru": "date of birth",
+    "topics": [
+      "Asmens tapatybė"
+    ],
     "groups": [
       2
     ],
@@ -2414,6 +2691,9 @@
     "lt": "gimnazija",
     "lt_ascii": "gimnazija",
     "ru": "gymnasium / secondary school",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       3
     ],
@@ -2442,6 +2722,9 @@
     "lt": "gimtadienis",
     "lt_ascii": "gimtadienis",
     "ru": "birthday",
+    "topics": [
+      "Asmens tapatybė"
+    ],
     "groups": [
       2
     ],
@@ -2470,6 +2753,9 @@
     "lt": "gira",
     "lt_ascii": "gira",
     "ru": "gira",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       2
     ],
@@ -2498,6 +2784,9 @@
     "lt": "grafikas",
     "lt_ascii": "grafikas",
     "ru": "graphic",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "groups": [
       4
     ],
@@ -2525,6 +2814,9 @@
     "lt": "grąžinimas",
     "lt_ascii": "grazinimas",
     "ru": "returned item",
+    "topics": [
+      "Prekyba"
+    ],
     "groups": [
       3
     ],
@@ -2552,6 +2844,10 @@
     "lt": "gražus",
     "lt_ascii": "grazus",
     "ru": "beautiful",
+    "topics": [
+      "Asmens tapatybė",
+      "Gamta.Regionas"
+    ],
     "groups": [
       2
     ],
@@ -2580,6 +2876,9 @@
     "lt": "grietinė",
     "lt_ascii": "grietine",
     "ru": "cream",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       3
     ],
@@ -2608,6 +2907,9 @@
     "lt": "grindys",
     "lt_ascii": "grindys",
     "ru": "floor?",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       3
     ],
@@ -2636,6 +2938,9 @@
     "lt": "gripas",
     "lt_ascii": "gripas",
     "ru": "flu",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       3
     ],
@@ -2663,6 +2968,9 @@
     "lt": "gydymas",
     "lt_ascii": "gydymas",
     "ru": "treatment?",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       2
     ],
@@ -2690,6 +2998,9 @@
     "lt": "gydymo įstaiga",
     "lt_ascii": "gydymoistaiga",
     "ru": "",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       4
     ],
@@ -2718,6 +3029,9 @@
     "lt": "higiena",
     "lt_ascii": "higiena",
     "ru": "hygene",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       3
     ],
@@ -2746,6 +3060,9 @@
     "lt": "įdomus",
     "lt_ascii": "idomus",
     "ru": "interesting",
+    "topics": [
+      "Asmens tapatybė"
+    ],
     "groups": [
       3
     ],
@@ -2774,6 +3091,9 @@
     "lt": "informacija",
     "lt_ascii": "informacija",
     "ru": "information",
+    "topics": [
+      "Paslaugos"
+    ],
     "groups": [
       2,
       3
@@ -2803,6 +3123,9 @@
     "lt": "institucija",
     "lt_ascii": "institucija",
     "ru": "institution",
+    "topics": [
+      "Paslaugos"
+    ],
     "groups": [
       4
     ],
@@ -2831,6 +3154,9 @@
     "lt": "instrumentas",
     "lt_ascii": "instrumentas",
     "ru": "instrument",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "groups": [
       2
     ],
@@ -2858,6 +3184,10 @@
     "lt": "internetas",
     "lt_ascii": "internetas",
     "ru": "internet",
+    "topics": [
+      "Paslaugos",
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       1,
       2
@@ -2886,6 +3216,9 @@
     "lt": "įranga",
     "lt_ascii": "iranga",
     "ru": "tools?",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       4
     ],
@@ -2914,6 +3247,9 @@
     "lt": "išsilavinimas",
     "lt_ascii": "issilavinimas",
     "ru": "",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       4
     ],
@@ -2941,6 +3277,9 @@
     "lt": "istorija",
     "lt_ascii": "istorija",
     "ru": "history",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       1
     ],
@@ -2969,6 +3308,9 @@
     "lt": "išvykimas",
     "lt_ascii": "isvykimas",
     "ru": "take off / departure?",
+    "topics": [
+      "Kelionės"
+    ],
     "groups": [
       2
     ],
@@ -2996,6 +3338,9 @@
     "lt": "įvertinimas",
     "lt_ascii": "ivertinimas",
     "ru": "score / evaluation?",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       2
     ],
@@ -3023,6 +3368,9 @@
     "lt": "jautiena",
     "lt_ascii": "jautiena",
     "ru": "beef",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       2
     ],
@@ -3051,6 +3399,9 @@
     "lt": "jogurtas",
     "lt_ascii": "jogurtas",
     "ru": "yoghurt",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       3
     ],
@@ -3078,6 +3429,9 @@
     "lt": "jūra",
     "lt_ascii": "jura",
     "ru": "sea",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       1
     ],
@@ -3106,6 +3460,10 @@
     "lt": "kada",
     "lt_ascii": "kada",
     "ru": "when",
+    "topics": [
+      "Kelionės",
+      "Prekyba"
+    ],
     "groups": [
       1
     ],
@@ -3134,6 +3492,9 @@
     "lt": "kaimas",
     "lt_ascii": "kaimas",
     "ru": "village / countryside? / area around your house (like a yard)?",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       1
     ],
@@ -3161,6 +3522,9 @@
     "lt": "kaimynas",
     "lt_ascii": "kaimynas",
     "ru": "neighbour",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       2
     ],
@@ -3188,6 +3552,9 @@
     "lt": "kaklas",
     "lt_ascii": "kaklas",
     "ru": "neck / throat?",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       2
     ],
@@ -3215,6 +3582,9 @@
     "lt": "kalba",
     "lt_ascii": "kalba",
     "ru": "to speak",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       1
     ],
@@ -3243,6 +3613,9 @@
     "lt": "kalnas",
     "lt_ascii": "kalnas",
     "ru": "hill",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       2
     ],
@@ -3270,6 +3643,9 @@
     "lt": "kalva",
     "lt_ascii": "kalva",
     "ru": "",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       3
     ],
@@ -3298,6 +3674,10 @@
     "lt": "kambarys",
     "lt_ascii": "kambarys",
     "ru": "room",
+    "topics": [
+      "Būstas",
+      "Kelionės"
+    ],
     "groups": [
       1,
       2
@@ -3327,6 +3707,9 @@
     "lt": "kartus",
     "lt_ascii": "kartus",
     "ru": "",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       1
     ],
@@ -3355,6 +3738,9 @@
     "lt": "karvė",
     "lt_ascii": "karve",
     "ru": "cow",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       2
     ],
@@ -3383,6 +3769,10 @@
     "lt": "kasa",
     "lt_ascii": "kasa",
     "ru": "cash desk",
+    "topics": [
+      "Asmens tapatybė",
+      "Prekyba"
+    ],
     "groups": [
       2,
       3
@@ -3412,6 +3802,9 @@
     "lt": "kasdienybė",
     "lt_ascii": "kasdienybe",
     "ru": "something about everyday",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "groups": [
       4
     ],
@@ -3440,6 +3833,9 @@
     "lt": "katė",
     "lt_ascii": "kate",
     "ru": "cat",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       2
     ],
@@ -3468,6 +3864,9 @@
     "lt": "kava",
     "lt_ascii": "kava",
     "ru": "coffee",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       1
     ],
@@ -3496,6 +3895,9 @@
     "lt": "kavinė",
     "lt_ascii": "kavine",
     "ru": "café",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       2
     ],
@@ -3524,6 +3926,9 @@
     "lt": "kėdė",
     "lt_ascii": "kede",
     "ru": "chair",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       1
     ],
@@ -3552,6 +3957,9 @@
     "lt": "kelias",
     "lt_ascii": "kelias",
     "ru": "something to do with travel / journeys",
+    "topics": [
+      "Kelionės"
+    ],
     "groups": [
       1
     ],
@@ -3580,6 +3988,9 @@
     "lt": "kelionė",
     "lt_ascii": "kelione",
     "ru": "something to do with travel / journeys",
+    "topics": [
+      "Kelionės"
+    ],
     "groups": [
       1
     ],
@@ -3608,6 +4019,9 @@
     "lt": "kepurė",
     "lt_ascii": "kepure",
     "ru": "cap / hat",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "groups": [
       3
     ],
@@ -3636,6 +4050,9 @@
     "lt": "kiek kainuoja",
     "lt_ascii": "kiekkainuoja",
     "ru": "how much does it cost",
+    "topics": [
+      "Prekyba"
+    ],
     "groups": [
       1
     ],
@@ -3664,6 +4081,9 @@
     "lt": "kilimas",
     "lt_ascii": "kilimas",
     "ru": "carpet",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       2
     ],
@@ -3691,6 +4111,9 @@
     "lt": "kinas",
     "lt_ascii": "kinas",
     "ru": "cinema",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "groups": [
       1
     ],
@@ -3718,6 +4141,9 @@
     "lt": "kirpykla",
     "lt_ascii": "kirpykla",
     "ru": "hair dresser (location)",
+    "topics": [
+      "Paslaugos"
+    ],
     "groups": [
       2
     ],
@@ -3746,6 +4172,9 @@
     "lt": "kiškis",
     "lt_ascii": "kiskis",
     "ru": "hare or rabbit?",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       3
     ],
@@ -3774,6 +4203,9 @@
     "lt": "klasė",
     "lt_ascii": "klase",
     "ru": "class",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       2
     ],
@@ -3802,6 +4234,9 @@
     "lt": "klimatas",
     "lt_ascii": "klimatas",
     "ru": "climate",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       4
     ],
@@ -3829,6 +4264,11 @@
     "lt": "knyga",
     "lt_ascii": "knyga",
     "ru": "book",
+    "topics": [
+      "Laisvalaikis",
+      "Prekyba",
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       1,
       2
@@ -3858,6 +4298,9 @@
     "lt": "koledžas",
     "lt_ascii": "koledzas",
     "ru": "college?",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       3
     ],
@@ -3885,6 +4328,9 @@
     "lt": "kolega",
     "lt_ascii": "kolega",
     "ru": "colleague",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       2
     ],
@@ -3913,6 +4359,9 @@
     "lt": "kolekcionavimas",
     "lt_ascii": "kolekcionavimas",
     "ru": "collection?",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "groups": [
       2
     ],
@@ -3940,6 +4389,9 @@
     "lt": "komanda",
     "lt_ascii": "komanda",
     "ru": "something to do with a team",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "groups": [
       3
     ],
@@ -3968,6 +4420,9 @@
     "lt": "kompiuteris",
     "lt_ascii": "kompiuteris",
     "ru": "computer",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       2
     ],
@@ -3996,6 +4451,9 @@
     "lt": "komunikacija",
     "lt_ascii": "komunikacija",
     "ru": "communication",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       4
     ],
@@ -4024,6 +4482,9 @@
     "lt": "koncertas",
     "lt_ascii": "koncertas",
     "ru": "concert",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "groups": [
       2
     ],
@@ -4051,6 +4512,9 @@
     "lt": "konfliktas",
     "lt_ascii": "konfliktas",
     "ru": "conflict",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       4
     ],
@@ -4078,6 +4542,10 @@
     "lt": "kortelė",
     "lt_ascii": "kortele",
     "ru": "payment card",
+    "topics": [
+      "Paslaugos",
+      "Prekyba"
+    ],
     "groups": [
       2
     ],
@@ -4106,6 +4574,9 @@
     "lt": "košė",
     "lt_ascii": "kose",
     "ru": "porridge / mashed food?",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       2
     ],
@@ -4134,6 +4605,9 @@
     "lt": "kosulys",
     "lt_ascii": "kosulys",
     "ru": "cough",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       2
     ],
@@ -4162,6 +4636,9 @@
     "lt": "krepšinis",
     "lt_ascii": "krepsinis",
     "ru": "basketball",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "groups": [
       1
     ],
@@ -4190,6 +4667,9 @@
     "lt": "krepšys",
     "lt_ascii": "krepsys",
     "ru": "basket?",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       1
     ],
@@ -4218,6 +4698,9 @@
     "lt": "kriaušė",
     "lt_ascii": "kriause",
     "ru": "pears",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       2
     ],
@@ -4246,6 +4729,9 @@
     "lt": "krūmas",
     "lt_ascii": "krumas",
     "ru": "",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       3
     ],
@@ -4273,6 +4759,9 @@
     "lt": "krūtinė",
     "lt_ascii": "krutine",
     "ru": "chest / breast?",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       2
     ],
@@ -4301,6 +4790,9 @@
     "lt": "kulinarija",
     "lt_ascii": "kulinarija",
     "ru": "culinary",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       4
     ],
@@ -4329,6 +4821,9 @@
     "lt": "kultūra",
     "lt_ascii": "kultura",
     "ru": "culture",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "groups": [
       4
     ],
@@ -4357,6 +4852,9 @@
     "lt": "kuprinė",
     "lt_ascii": "kuprine",
     "ru": "rucksack",
+    "topics": [
+      "Kelionės"
+    ],
     "groups": [
       2
     ],
@@ -4385,6 +4883,9 @@
     "lt": "kvalifikacija",
     "lt_ascii": "kvalifikacija",
     "ru": "qualifidation",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       4
     ],
@@ -4413,6 +4914,9 @@
     "lt": "kvitas",
     "lt_ascii": "kvitas",
     "ru": "receipt",
+    "topics": [
+      "Prekyba"
+    ],
     "groups": [
       2
     ],
@@ -4440,6 +4944,9 @@
     "lt": "labas",
     "lt_ascii": "labas",
     "ru": "hello",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       1
     ],
@@ -4467,6 +4974,9 @@
     "lt": "lagaminas",
     "lt_ascii": "lagaminas",
     "ru": "suitcase",
+    "topics": [
+      "Kelionės"
+    ],
     "groups": [
       2
     ],
@@ -4494,6 +5004,10 @@
     "lt": "laikas",
     "lt_ascii": "laikas",
     "ru": "time",
+    "topics": [
+      "Kasdienis gyvenimas",
+      "Kelionės"
+    ],
     "groups": [
       1,
       2
@@ -4522,6 +5036,9 @@
     "lt": "laiškas",
     "lt_ascii": "laiskas",
     "ru": "letter",
+    "topics": [
+      "Paslaugos"
+    ],
     "groups": [
       1,
       2
@@ -4550,6 +5067,9 @@
     "lt": "laisvalaikio veikla",
     "lt_ascii": "laisvalaikioveikla",
     "ru": "",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "groups": [
       4
     ],
@@ -4578,6 +5098,9 @@
     "lt": "laivas",
     "lt_ascii": "laivas",
     "ru": "boat / ship",
+    "topics": [
+      "Kelionės"
+    ],
     "groups": [
       1
     ],
@@ -4605,6 +5128,9 @@
     "lt": "langas",
     "lt_ascii": "langas",
     "ru": "window",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       3
     ],
@@ -4632,6 +5158,9 @@
     "lt": "lapas",
     "lt_ascii": "lapas",
     "ru": "leaf / page (in book) / website",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       3
     ],
@@ -4659,6 +5188,9 @@
     "lt": "lapė",
     "lt_ascii": "lape",
     "ru": "fox",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       3
     ],
@@ -4687,6 +5219,9 @@
     "lt": "laukas",
     "lt_ascii": "laukas",
     "ru": "? the outdoors?",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       2
     ],
@@ -4714,6 +5249,9 @@
     "lt": "lėktuvas",
     "lt_ascii": "lektuvas",
     "ru": "airplane",
+    "topics": [
+      "Kelionės"
+    ],
     "groups": [
       1
     ],
@@ -4741,6 +5279,9 @@
     "lt": "lentyna",
     "lt_ascii": "lentyna",
     "ru": "book shelf?",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       2
     ],
@@ -4769,6 +5310,9 @@
     "lt": "lietus",
     "lt_ascii": "lietus",
     "ru": "rain (noun)",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       2
     ],
@@ -4797,6 +5341,9 @@
     "lt": "liga",
     "lt_ascii": "liga",
     "ru": "disease?",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       2
     ],
@@ -4825,6 +5372,10 @@
     "lt": "ligoninė",
     "lt_ascii": "ligonine",
     "ru": "hospital",
+    "topics": [
+      "Paslaugos",
+      "Sveikata ir higiena"
+    ],
     "groups": [
       1
     ],
@@ -4853,6 +5404,9 @@
     "lt": "limonadas",
     "lt_ascii": "limonadas",
     "ru": "lemonade",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       2
     ],
@@ -4880,6 +5434,9 @@
     "lt": "lova",
     "lt_ascii": "lova",
     "ru": "bed",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       1
     ],
@@ -4908,6 +5465,9 @@
     "lt": "lyja",
     "lt_ascii": "lyja",
     "ru": "rain (verb?)",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       1
     ],
@@ -4936,6 +5496,9 @@
     "lt": "maišelis",
     "lt_ascii": "maiselis",
     "ru": "shopping bag",
+    "topics": [
+      "Prekyba"
+    ],
     "groups": [
       2
     ],
@@ -4964,6 +5527,10 @@
     "lt": "maistas",
     "lt_ascii": "maistas",
     "ru": "food",
+    "topics": [
+      "Maistas ir gėrimai",
+      "Prekyba"
+    ],
     "groups": [
       1
     ],
@@ -4991,6 +5558,9 @@
     "lt": "maistinė vertė",
     "lt_ascii": "maistineverte",
     "ru": "food values / details (on the packet)",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       4
     ],
@@ -5019,6 +5589,9 @@
     "lt": "malonus",
     "lt_ascii": "malonus",
     "ru": "enjoyable / nice",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       2
     ],
@@ -5047,6 +5620,10 @@
     "lt": "mama",
     "lt_ascii": "mama",
     "ru": "Mum",
+    "topics": [
+      "Kasdienis gyvenimas",
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       1
     ],
@@ -5075,6 +5652,9 @@
     "lt": "mandagus",
     "lt_ascii": "mandagus",
     "ru": "",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       3
     ],
@@ -5103,6 +5683,9 @@
     "lt": "maršrutas",
     "lt_ascii": "marsrutas",
     "ru": "route? (but why do the small buses in Klaipeda have marsrutas in the name?)",
+    "topics": [
+      "Kelionės"
+    ],
     "groups": [
       1,
       4
@@ -5131,6 +5714,9 @@
     "lt": "matematika",
     "lt_ascii": "matematika",
     "ru": "mathematics",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       1
     ],
@@ -5159,6 +5745,9 @@
     "lt": "medžiaga",
     "lt_ascii": "medziaga",
     "ru": "material / wood?",
+    "topics": [
+      "Prekyba"
+    ],
     "groups": [
       3
     ],
@@ -5187,6 +5776,9 @@
     "lt": "megztinis",
     "lt_ascii": "megztinis",
     "ru": "clothing, but not sure what (jacket / jumper / shirt?)",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "groups": [
       3
     ],
@@ -5215,6 +5807,9 @@
     "lt": "mėnuo",
     "lt_ascii": "menuo",
     "ru": "month? (menulis = moon)",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "groups": [
       2
     ],
@@ -5243,6 +5838,10 @@
     "lt": "mergina",
     "lt_ascii": "mergina",
     "ru": "girl",
+    "topics": [
+      "Asmens tapatybė",
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       2
     ],
@@ -5271,6 +5870,9 @@
     "lt": "mėsa",
     "lt_ascii": "mesa",
     "ru": "meat",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       1
     ],
@@ -5299,6 +5901,9 @@
     "lt": "meška",
     "lt_ascii": "meska",
     "ru": "bear",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       3
     ],
@@ -5327,6 +5932,9 @@
     "lt": "miegas",
     "lt_ascii": "miegas",
     "ru": "sleep",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       3
     ],
@@ -5354,6 +5962,10 @@
     "lt": "miestas",
     "lt_ascii": "miestas",
     "ru": "town",
+    "topics": [
+      "Gamta.Regionas",
+      "Kelionės"
+    ],
     "groups": [
       1
     ],
@@ -5381,6 +5993,9 @@
     "lt": "mineralinis vanduo",
     "lt_ascii": "mineralinisvanduo",
     "ru": "mineral water",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       2
     ],
@@ -5409,6 +6024,9 @@
     "lt": "minutė",
     "lt_ascii": "minute",
     "ru": "minute",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "groups": [
       1
     ],
@@ -5437,6 +6055,9 @@
     "lt": "miškas",
     "lt_ascii": "miskas",
     "ru": "forest",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       1,
       3
@@ -5465,6 +6086,9 @@
     "lt": "mityba",
     "lt_ascii": "mityba",
     "ru": "",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       3
     ],
@@ -5493,6 +6117,9 @@
     "lt": "mokinys",
     "lt_ascii": "mokinys",
     "ru": "teacher?",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       1
     ],
@@ -5521,6 +6148,10 @@
     "lt": "mokykla",
     "lt_ascii": "mokykla",
     "ru": "school",
+    "topics": [
+      "Kasdienis gyvenimas",
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       1
     ],
@@ -5549,6 +6180,9 @@
     "lt": "mokytoja",
     "lt_ascii": "mokytoja",
     "ru": "teacher / lecturer",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       2
     ],
@@ -5577,6 +6211,9 @@
     "lt": "morkva",
     "lt_ascii": "morkva",
     "ru": "carrots?",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       2
     ],
@@ -5605,6 +6242,9 @@
     "lt": "motina",
     "lt_ascii": "motina",
     "ru": "mother",
+    "topics": [
+      "Asmens tapatybė"
+    ],
     "groups": [
       1
     ],
@@ -5633,6 +6273,10 @@
     "lt": "muilas",
     "lt_ascii": "muilas",
     "ru": "soap",
+    "topics": [
+      "Kasdienis gyvenimas",
+      "Sveikata ir higiena"
+    ],
     "groups": [
       1,
       3
@@ -5661,6 +6305,9 @@
     "lt": "muitinė",
     "lt_ascii": "muitine",
     "ru": "customs",
+    "topics": [
+      "Kelionės"
+    ],
     "groups": [
       4
     ],
@@ -5689,6 +6336,10 @@
     "lt": "muziejus",
     "lt_ascii": "muziejus",
     "ru": "museum",
+    "topics": [
+      "Laisvalaikis",
+      "Paslaugos"
+    ],
     "groups": [
       2,
       3
@@ -5718,6 +6369,10 @@
     "lt": "muzika",
     "lt_ascii": "muzika",
     "ru": "music",
+    "topics": [
+      "Laisvalaikis",
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       1,
       2
@@ -5747,6 +6402,9 @@
     "lt": "namas",
     "lt_ascii": "namas",
     "ru": "home / house",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       1
     ],
@@ -5774,6 +6432,9 @@
     "lt": "nemalonus",
     "lt_ascii": "nemalonus",
     "ru": "not enjoyable",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       2
     ],
@@ -5802,6 +6463,9 @@
     "lt": "nepatinka",
     "lt_ascii": "nepatinka",
     "ru": "to dislike",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       3
     ],
@@ -5830,6 +6494,9 @@
     "lt": "neskanus",
     "lt_ascii": "neskanus",
     "ru": "not tasty",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       1
     ],
@@ -5858,6 +6525,9 @@
     "lt": "nešvarus",
     "lt_ascii": "nesvarus",
     "ru": "dirty",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       2
     ],
@@ -5886,6 +6556,9 @@
     "lt": "netinka",
     "lt_ascii": "netinka",
     "ru": "doesn't fit",
+    "topics": [
+      "Prekyba"
+    ],
     "groups": [
       3
     ],
@@ -5914,6 +6587,9 @@
     "lt": "nugara",
     "lt_ascii": "nugara",
     "ru": "back?",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       2
     ],
@@ -5942,6 +6618,9 @@
     "lt": "nuolaida",
     "lt_ascii": "nuolaida",
     "ru": "discount",
+    "topics": [
+      "Prekyba"
+    ],
     "groups": [
       3
     ],
@@ -5970,6 +6649,9 @@
     "lt": "nuoma",
     "lt_ascii": "nuoma",
     "ru": "rent",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       4
     ],
@@ -5998,6 +6680,9 @@
     "lt": "obuolys",
     "lt_ascii": "obuolys",
     "ru": "apples",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       2
     ],
@@ -6026,6 +6711,9 @@
     "lt": "oras",
     "lt_ascii": "oras",
     "ru": "weather",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       1
     ],
@@ -6053,6 +6741,9 @@
     "lt": "otkritka",
     "lt_ascii": "otkritka",
     "ru": "",
+    "topics": [
+      "Paslaugos"
+    ],
     "groups": [
       2
     ],
@@ -6081,6 +6772,9 @@
     "lt": "padažas",
     "lt_ascii": "padazas",
     "ru": "sauce",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       3
     ],
@@ -6108,6 +6802,10 @@
     "lt": "pagalba",
     "lt_ascii": "pagalba",
     "ru": "help",
+    "topics": [
+      "Kelionės",
+      "Paslaugos"
+    ],
     "groups": [
       1,
       2,
@@ -6138,6 +6836,9 @@
     "lt": "pagalvė",
     "lt_ascii": "pagalve",
     "ru": "pillow?",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       3
     ],
@@ -6166,6 +6867,9 @@
     "lt": "pajūris",
     "lt_ascii": "pajuris",
     "ru": "beach",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       3
     ],
@@ -6194,6 +6898,9 @@
     "lt": "pamoka",
     "lt_ascii": "pamoka",
     "ru": "",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       1
     ],
@@ -6222,6 +6929,9 @@
     "lt": "panelė",
     "lt_ascii": "panele",
     "ru": "Ms / under 18?",
+    "topics": [
+      "Asmens tapatybė"
+    ],
     "groups": [
       3
     ],
@@ -6250,6 +6960,9 @@
     "lt": "parašas",
     "lt_ascii": "parasas",
     "ru": "signature?",
+    "topics": [
+      "Asmens tapatybė"
+    ],
     "groups": [
       3
     ],
@@ -6277,6 +6990,9 @@
     "lt": "parduotuvė",
     "lt_ascii": "parduotuve",
     "ru": "shop",
+    "topics": [
+      "Prekyba"
+    ],
     "groups": [
       1
     ],
@@ -6305,6 +7021,10 @@
     "lt": "parkas",
     "lt_ascii": "parkas",
     "ru": "park",
+    "topics": [
+      "Gamta.Regionas",
+      "Laisvalaikis"
+    ],
     "groups": [
       1,
       2
@@ -6333,6 +7053,9 @@
     "lt": "paroda",
     "lt_ascii": "paroda",
     "ru": "show",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "groups": [
       2
     ],
@@ -6361,6 +7084,10 @@
     "lt": "pas",
     "lt_ascii": "pas",
     "ru": "passport",
+    "topics": [
+      "Asmens tapatybė",
+      "Kelionės"
+    ],
     "groups": [
       2,
       3
@@ -6389,6 +7116,9 @@
     "lt": "pasienio kontrolė",
     "lt_ascii": "pasieniokontrole",
     "ru": "border control",
+    "topics": [
+      "Kelionės"
+    ],
     "groups": [
       4
     ],
@@ -6417,6 +7147,9 @@
     "lt": "paskaita",
     "lt_ascii": "paskaita",
     "ru": "",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       3
     ],
@@ -6445,6 +7178,9 @@
     "lt": "pasta",
     "lt_ascii": "pasta",
     "ru": "paste (like tooth paste) and pasta?",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       1
     ],
@@ -6473,6 +7209,9 @@
     "lt": "paštas",
     "lt_ascii": "pastas",
     "ru": "post office",
+    "topics": [
+      "Paslaugos"
+    ],
     "groups": [
       1,
       2
@@ -6501,6 +7240,9 @@
     "lt": "patiekalas",
     "lt_ascii": "patiekalas",
     "ru": "one dish?",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       3
     ],
@@ -6528,6 +7270,9 @@
     "lt": "patinka",
     "lt_ascii": "patinka",
     "ru": "to like",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       3
     ],
@@ -6556,6 +7301,9 @@
     "lt": "pavardė",
     "lt_ascii": "pavarde",
     "ru": "surname",
+    "topics": [
+      "Asmens tapatybė"
+    ],
     "groups": [
       1
     ],
@@ -6584,6 +7332,9 @@
     "lt": "pavasaris",
     "lt_ascii": "pavasaris",
     "ru": "spring",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       1
     ],
@@ -6612,6 +7363,9 @@
     "lt": "pažymys",
     "lt_ascii": "pazymys",
     "ru": "",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       2
     ],
@@ -6640,6 +7394,9 @@
     "lt": "per brangus",
     "lt_ascii": "perbrangus",
     "ru": "too expensive",
+    "topics": [
+      "Prekyba"
+    ],
     "groups": [
       3
     ],
@@ -6668,6 +7425,9 @@
     "lt": "perkūnija",
     "lt_ascii": "perkunija",
     "ru": "thunder?",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       3
     ],
@@ -6696,6 +7456,9 @@
     "lt": "peršalimas",
     "lt_ascii": "persalimas",
     "ru": "high temperature",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       3
     ],
@@ -6723,6 +7486,9 @@
     "lt": "pertrauka",
     "lt_ascii": "pertrauka",
     "ru": "",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       1
     ],
@@ -6751,6 +7517,10 @@
     "lt": "pienas",
     "lt_ascii": "pienas",
     "ru": "milk",
+    "topics": [
+      "Maistas ir gėrimai",
+      "Prekyba"
+    ],
     "groups": [
       1,
       2
@@ -6779,6 +7549,9 @@
     "lt": "pieštukas",
     "lt_ascii": "piestukas",
     "ru": "pencil",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       1
     ],
@@ -6806,6 +7579,9 @@
     "lt": "pigus",
     "lt_ascii": "pigus",
     "ru": "cheap",
+    "topics": [
+      "Prekyba"
+    ],
     "groups": [
       1
     ],
@@ -6834,6 +7610,9 @@
     "lt": "pilietybė",
     "lt_ascii": "pilietybe",
     "ru": "nationality / citizenship?",
+    "topics": [
+      "Asmens tapatybė"
+    ],
     "groups": [
       3
     ],
@@ -6862,6 +7641,9 @@
     "lt": "pilvas",
     "lt_ascii": "pilvas",
     "ru": "stomach",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       2
     ],
@@ -6889,6 +7671,9 @@
     "lt": "plaukimas",
     "lt_ascii": "plaukimas",
     "ru": "swimming?",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "groups": [
       1
     ],
@@ -6916,6 +7701,9 @@
     "lt": "plovykla",
     "lt_ascii": "plovykla",
     "ru": "wash (eg for a car)",
+    "topics": [
+      "Paslaugos"
+    ],
     "groups": [
       2
     ],
@@ -6944,6 +7732,9 @@
     "lt": "policija",
     "lt_ascii": "policija",
     "ru": "police station",
+    "topics": [
+      "Paslaugos"
+    ],
     "groups": [
       1
     ],
@@ -6972,6 +7763,9 @@
     "lt": "pomėgis",
     "lt_ascii": "pomegis",
     "ru": "",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "groups": [
       2
     ],
@@ -7000,6 +7794,9 @@
     "lt": "pomidoras",
     "lt_ascii": "pomidoras",
     "ru": "tomatoes",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       2
     ],
@@ -7027,6 +7824,9 @@
     "lt": "ponas",
     "lt_ascii": "ponas",
     "ru": "Mr",
+    "topics": [
+      "Asmens tapatybė"
+    ],
     "groups": [
       3
     ],
@@ -7054,6 +7854,9 @@
     "lt": "ponia",
     "lt_ascii": "ponia",
     "ru": "Mrs",
+    "topics": [
+      "Asmens tapatybė"
+    ],
     "groups": [
       3
     ],
@@ -7082,6 +7885,9 @@
     "lt": "popietė",
     "lt_ascii": "popiete",
     "ru": "afternoon",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "groups": [
       2
     ],
@@ -7110,6 +7916,9 @@
     "lt": "pradžios mokykla",
     "lt_ascii": "pradziosmokykla",
     "ru": "primary school",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       3
     ],
@@ -7138,6 +7947,9 @@
     "lt": "praustuvas",
     "lt_ascii": "praustuvas",
     "ru": "",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "groups": [
       3
     ],
@@ -7165,6 +7977,9 @@
     "lt": "prekė",
     "lt_ascii": "preke",
     "ru": "goods in a shop?",
+    "topics": [
+      "Prekyba"
+    ],
     "groups": [
       1
     ],
@@ -7193,6 +8008,9 @@
     "lt": "prekyba",
     "lt_ascii": "prekyba",
     "ru": "shopping?",
+    "topics": [
+      "Prekyba"
+    ],
     "groups": [
       4
     ],
@@ -7221,6 +8039,9 @@
     "lt": "pristatymas",
     "lt_ascii": "pristatymas",
     "ru": "to deliver",
+    "topics": [
+      "Prekyba"
+    ],
     "groups": [
       3
     ],
@@ -7248,6 +8069,9 @@
     "lt": "profesija",
     "lt_ascii": "profesija",
     "ru": "professor? profession?",
+    "topics": [
+      "Asmens tapatybė"
+    ],
     "groups": [
       2
     ],
@@ -7276,6 +8100,9 @@
     "lt": "profilaktika",
     "lt_ascii": "profilaktika",
     "ru": "profilatic (whatever one of those is!)",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       4
     ],
@@ -7304,6 +8131,9 @@
     "lt": "programa",
     "lt_ascii": "programa",
     "ru": "program",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "groups": [
       4
     ],
@@ -7332,6 +8162,9 @@
     "lt": "projektas",
     "lt_ascii": "projektas",
     "ru": "project or projector?",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       3
     ],
@@ -7359,6 +8192,9 @@
     "lt": "pusbrolis",
     "lt_ascii": "pusbrolis",
     "ru": "cousing / half brother?",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       2
     ],
@@ -7387,6 +8223,9 @@
     "lt": "ramus",
     "lt_ascii": "ramus",
     "ru": "calm",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       2
     ],
@@ -7415,6 +8254,9 @@
     "lt": "rašiklis",
     "lt_ascii": "rasiklis",
     "ru": "",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       1
     ],
@@ -7443,6 +8285,10 @@
     "lt": "receptas",
     "lt_ascii": "receptas",
     "ru": "prescription",
+    "topics": [
+      "Maistas ir gėrimai",
+      "Sveikata ir higiena"
+    ],
     "groups": [
       2,
       3
@@ -7471,6 +8317,9 @@
     "lt": "referatas",
     "lt_ascii": "referatas",
     "ru": "",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       3
     ],
@@ -7498,6 +8347,9 @@
     "lt": "registracija",
     "lt_ascii": "registracija",
     "ru": "registration",
+    "topics": [
+      "Paslaugos"
+    ],
     "groups": [
       3
     ],
@@ -7526,6 +8378,9 @@
     "lt": "remontas",
     "lt_ascii": "remontas",
     "ru": "",
+    "topics": [
+      "Paslaugos"
+    ],
     "groups": [
       3
     ],
@@ -7553,6 +8408,9 @@
     "lt": "renginys",
     "lt_ascii": "renginys",
     "ru": "event",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "groups": [
       4
     ],
@@ -7581,6 +8439,9 @@
     "lt": "renovacija",
     "lt_ascii": "renovacija",
     "ru": "renovation",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       4
     ],
@@ -7609,6 +8470,9 @@
     "lt": "restoranas",
     "lt_ascii": "restoranas",
     "ru": "restaurant",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       2
     ],
@@ -7636,6 +8500,9 @@
     "lt": "rezervacija",
     "lt_ascii": "rezervacija",
     "ru": "reservation",
+    "topics": [
+      "Paslaugos"
+    ],
     "groups": [
       3
     ],
@@ -7664,6 +8531,9 @@
     "lt": "ruduo",
     "lt_ascii": "ruduo",
     "ru": "autumn",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       1
     ],
@@ -7692,6 +8562,9 @@
     "lt": "rūkas",
     "lt_ascii": "rukas",
     "ru": "fog / smoke?",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       3
     ],
@@ -7719,6 +8592,9 @@
     "lt": "rutina",
     "lt_ascii": "rutina",
     "ru": "routine/?",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "groups": [
       4
     ],
@@ -7747,6 +8623,9 @@
     "lt": "rūys",
     "lt_ascii": "ruys",
     "ru": "",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       2
     ],
@@ -7775,6 +8654,9 @@
     "lt": "rytas",
     "lt_ascii": "rytas",
     "ru": "morning",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "groups": [
       2
     ],
@@ -7802,6 +8684,9 @@
     "lt": "sala",
     "lt_ascii": "sala",
     "ru": "island",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       3
     ],
@@ -7830,6 +8715,9 @@
     "lt": "saldus",
     "lt_ascii": "saldus",
     "ru": "sweet",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       1
     ],
@@ -7858,6 +8746,9 @@
     "lt": "šaldytuvas",
     "lt_ascii": "saldytuvas",
     "ru": "fridge",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       2
     ],
@@ -7885,6 +8776,9 @@
     "lt": "šalta",
     "lt_ascii": "salta",
     "ru": "cold",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       1
     ],
@@ -7913,6 +8807,10 @@
     "lt": "šampūnas",
     "lt_ascii": "sampunas",
     "ru": "shampoo",
+    "topics": [
+      "Kasdienis gyvenimas",
+      "Sveikata ir higiena"
+    ],
     "groups": [
       1,
       3
@@ -7941,6 +8839,9 @@
     "lt": "sąskaita",
     "lt_ascii": "saskaita",
     "ru": "the bill",
+    "topics": [
+      "Paslaugos"
+    ],
     "groups": [
       1,
       2
@@ -7970,6 +8871,9 @@
     "lt": "saulė",
     "lt_ascii": "saule",
     "ru": "sun",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       1
     ],
@@ -7998,6 +8902,9 @@
     "lt": "savaitė",
     "lt_ascii": "savaite",
     "ru": "week",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "groups": [
       2
     ],
@@ -8026,6 +8933,9 @@
     "lt": "savininkas",
     "lt_ascii": "savininkas",
     "ru": "self employed? volunteer?",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       4
     ],
@@ -8053,6 +8963,10 @@
     "lt": "šeima",
     "lt_ascii": "seima",
     "ru": "family",
+    "topics": [
+      "Asmens tapatybė",
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       1
     ],
@@ -8081,6 +8995,9 @@
     "lt": "seminaras",
     "lt_ascii": "seminaras",
     "ru": "seminar",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       3
     ],
@@ -8108,6 +9025,10 @@
     "lt": "senas",
     "lt_ascii": "senas",
     "ru": "old",
+    "topics": [
+      "Asmens tapatybė",
+      "Prekyba"
+    ],
     "groups": [
       1,
       2
@@ -8136,6 +9057,9 @@
     "lt": "senelė",
     "lt_ascii": "senele",
     "ru": "grandma",
+    "topics": [
+      "Asmens tapatybė"
+    ],
     "groups": [
       2
     ],
@@ -8164,6 +9088,10 @@
     "lt": "senelis",
     "lt_ascii": "senelis",
     "ru": "grandpa",
+    "topics": [
+      "Asmens tapatybė",
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       2
     ],
@@ -8192,6 +9120,9 @@
     "lt": "šepetys",
     "lt_ascii": "sepetys",
     "ru": "brush?",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "groups": [
       3
     ],
@@ -8220,6 +9151,10 @@
     "lt": "sesuo",
     "lt_ascii": "sesuo",
     "ru": "sister",
+    "topics": [
+      "Asmens tapatybė",
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       1
     ],
@@ -8248,6 +9183,10 @@
     "lt": "šiaurė",
     "lt_ascii": "siaure",
     "ru": "North",
+    "topics": [
+      "Gamta.Regionas",
+      "Kelionės"
+    ],
     "groups": [
       2
     ],
@@ -8276,6 +9215,9 @@
     "lt": "siena",
     "lt_ascii": "siena",
     "ru": "wall",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       3
     ],
@@ -8304,6 +9246,9 @@
     "lt": "sijonas",
     "lt_ascii": "sijonas",
     "ru": "skirt",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "groups": [
       3
     ],
@@ -8331,6 +9276,9 @@
     "lt": "šildymas",
     "lt_ascii": "sildymas",
     "ru": "heating / radiator",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       3
     ],
@@ -8358,6 +9306,9 @@
     "lt": "šilta",
     "lt_ascii": "silta",
     "ru": "hot",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       1
     ],
@@ -8386,6 +9337,9 @@
     "lt": "šiluma",
     "lt_ascii": "siluma",
     "ru": "something to do with heat?",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       2
     ],
@@ -8414,6 +9368,9 @@
     "lt": "šiukšliadėžė",
     "lt_ascii": "siuksliadeze",
     "ru": "bin",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       3
     ],
@@ -8442,6 +9399,9 @@
     "lt": "siunta",
     "lt_ascii": "siunta",
     "ru": "parcel",
+    "topics": [
+      "Paslaugos"
+    ],
     "groups": [
       2
     ],
@@ -8470,6 +9430,9 @@
     "lt": "skalbimo mašina",
     "lt_ascii": "skalbimomasina",
     "ru": "washing machine",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       2
     ],
@@ -8498,6 +9461,9 @@
     "lt": "skanus",
     "lt_ascii": "skanus",
     "ru": "tasty",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       1
     ],
@@ -8526,6 +9492,9 @@
     "lt": "skauda",
     "lt_ascii": "skauda",
     "ru": "pain",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       1
     ],
@@ -8554,6 +9523,9 @@
     "lt": "skausmas",
     "lt_ascii": "skausmas",
     "ru": "pain?",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       2
     ],
@@ -8581,6 +9553,9 @@
     "lt": "skundas",
     "lt_ascii": "skundas",
     "ru": "",
+    "topics": [
+      "Paslaugos"
+    ],
     "groups": [
       3
     ],
@@ -8608,6 +9583,9 @@
     "lt": "slėnis",
     "lt_ascii": "slenis",
     "ru": "valley?",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       3
     ],
@@ -8636,6 +9614,9 @@
     "lt": "slidinėjimas",
     "lt_ascii": "slidinejimas",
     "ru": "skating?",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "groups": [
       2
     ],
@@ -8663,6 +9644,9 @@
     "lt": "sloga",
     "lt_ascii": "sloga",
     "ru": "runny nose",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       2
     ],
@@ -8691,6 +9675,9 @@
     "lt": "šluota",
     "lt_ascii": "sluota",
     "ru": "mop?",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       3
     ],
@@ -8719,6 +9706,9 @@
     "lt": "sniegas",
     "lt_ascii": "sniegas",
     "ru": "snow (noun)",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       2
     ],
@@ -8746,6 +9736,9 @@
     "lt": "sninga",
     "lt_ascii": "sninga",
     "ru": "snow (verb?  vs sniegas = noun)",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       1
     ],
@@ -8774,6 +9767,9 @@
     "lt": "sodas",
     "lt_ascii": "sodas",
     "ru": "garden",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       2
     ],
@@ -8801,6 +9797,9 @@
     "lt": "sofa",
     "lt_ascii": "sofa",
     "ru": "sofa",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       2
     ],
@@ -8829,6 +9828,9 @@
     "lt": "šokoladas",
     "lt_ascii": "sokoladas",
     "ru": "chocolate",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       3
     ],
@@ -8856,6 +9858,9 @@
     "lt": "spalva",
     "lt_ascii": "spalva",
     "ru": "colour",
+    "topics": [
+      "Prekyba"
+    ],
     "groups": [
       3
     ],
@@ -8884,6 +9889,9 @@
     "lt": "spinta",
     "lt_ascii": "spinta",
     "ru": "cupboard",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       1
     ],
@@ -8912,6 +9920,10 @@
     "lt": "sportas",
     "lt_ascii": "sportas",
     "ru": "sport",
+    "topics": [
+      "Sveikata ir higiena",
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       2,
       3
@@ -8940,6 +9952,10 @@
     "lt": "sporto salė",
     "lt_ascii": "sportosale",
     "ru": "sports hall",
+    "topics": [
+      "Laisvalaikis",
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       1,
       2
@@ -8969,6 +9985,9 @@
     "lt": "sriuba",
     "lt_ascii": "sriuba",
     "ru": "soup",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       2
     ],
@@ -8997,6 +10016,9 @@
     "lt": "stalas",
     "lt_ascii": "stalas",
     "ru": "table",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       1
     ],
@@ -9024,6 +10046,9 @@
     "lt": "stiprus",
     "lt_ascii": "stiprus",
     "ru": "strong",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       2
     ],
@@ -9052,6 +10077,9 @@
     "lt": "stogas",
     "lt_ascii": "stogas",
     "ru": "roof?",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       3
     ],
@@ -9079,6 +10107,9 @@
     "lt": "striukė",
     "lt_ascii": "striuke",
     "ru": "clothing, but not sure what (jacket / jumper / shirt?)",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "groups": [
       2,
       3
@@ -9108,6 +10139,10 @@
     "lt": "studentas",
     "lt_ascii": "studentas",
     "ru": "student",
+    "topics": [
+      "Asmens tapatybė",
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       1,
       2
@@ -9136,6 +10171,9 @@
     "lt": "suknelė",
     "lt_ascii": "suknele",
     "ru": "dress",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "groups": [
       3
     ],
@@ -9164,6 +10202,9 @@
     "lt": "sultys",
     "lt_ascii": "sultys",
     "ru": "juice",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       1
     ],
@@ -9192,6 +10233,9 @@
     "lt": "šuo",
     "lt_ascii": "suo",
     "ru": "dog",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       2
     ],
@@ -9220,6 +10264,9 @@
     "lt": "sūris",
     "lt_ascii": "suris",
     "ru": "cheese",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       2
     ],
@@ -9248,6 +10295,9 @@
     "lt": "sūrus",
     "lt_ascii": "surus",
     "ru": "savoury",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       1
     ],
@@ -9276,6 +10326,9 @@
     "lt": "švarumas",
     "lt_ascii": "svarumas",
     "ru": "cleanliness",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       3
     ],
@@ -9303,6 +10356,9 @@
     "lt": "švarus",
     "lt_ascii": "svarus",
     "ru": "clean",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       2
     ],
@@ -9331,6 +10387,9 @@
     "lt": "švelnus",
     "lt_ascii": "svelnus",
     "ru": "gentle",
+    "topics": [
+      "Asmens tapatybė"
+    ],
     "groups": [
       3
     ],
@@ -9359,6 +10418,9 @@
     "lt": "svetainė",
     "lt_ascii": "svetaine",
     "ru": "sitting room / living room?",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       2
     ],
@@ -9387,6 +10449,9 @@
     "lt": "sviestas",
     "lt_ascii": "sviestas",
     "ru": "butter",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       2
     ],
@@ -9414,6 +10479,9 @@
     "lt": "švietimas",
     "lt_ascii": "svietimas",
     "ru": "",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       4
     ],
@@ -9441,6 +10509,9 @@
     "lt": "svogūnas",
     "lt_ascii": "svogunas",
     "ru": "onions",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       2
     ],
@@ -9468,6 +10539,9 @@
     "lt": "šykštus",
     "lt_ascii": "sykstus",
     "ru": "",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       3
     ],
@@ -9496,6 +10570,9 @@
     "lt": "taisymas",
     "lt_ascii": "taisymas",
     "ru": "",
+    "topics": [
+      "Paslaugos"
+    ],
     "groups": [
       2
     ],
@@ -9523,6 +10600,9 @@
     "lt": "taksė",
     "lt_ascii": "takse",
     "ru": "taxi",
+    "topics": [
+      "Kelionės"
+    ],
     "groups": [
       2
     ],
@@ -9551,6 +10631,9 @@
     "lt": "tapyba",
     "lt_ascii": "tapyba",
     "ru": "",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "groups": [
       2
     ],
@@ -9579,6 +10662,9 @@
     "lt": "tautybė",
     "lt_ascii": "tautybe",
     "ru": "nationality",
+    "topics": [
+      "Asmens tapatybė"
+    ],
     "groups": [
       1
     ],
@@ -9607,6 +10693,9 @@
     "lt": "teatras",
     "lt_ascii": "teatras",
     "ru": "theatre",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "groups": [
       1
     ],
@@ -9634,6 +10723,10 @@
     "lt": "telefonas",
     "lt_ascii": "telefonas",
     "ru": "tel no",
+    "topics": [
+      "Asmens tapatybė",
+      "Paslaugos"
+    ],
     "groups": [
       1,
       2
@@ -9662,6 +10755,9 @@
     "lt": "televizorius",
     "lt_ascii": "televizorius",
     "ru": "TV",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       2
     ],
@@ -9690,6 +10786,9 @@
     "lt": "temperatūra",
     "lt_ascii": "temperatura",
     "ru": "temperature",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       2
     ],
@@ -9718,6 +10817,9 @@
     "lt": "tenias",
     "lt_ascii": "tenias",
     "ru": "tennis",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "groups": [
       2
     ],
@@ -9745,6 +10847,9 @@
     "lt": "testas",
     "lt_ascii": "testas",
     "ru": "test",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       2
     ],
@@ -9772,6 +10877,10 @@
     "lt": "teta",
     "lt_ascii": "teta",
     "ru": "uncle",
+    "topics": [
+      "Asmens tapatybė",
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       2
     ],
@@ -9800,6 +10909,11 @@
     "lt": "tėvas",
     "lt_ascii": "tevas",
     "ru": "father",
+    "topics": [
+      "Asmens tapatybė",
+      "Kasdienis gyvenimas",
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       1
     ],
@@ -9827,6 +10941,9 @@
     "lt": "tinginys",
     "lt_ascii": "tinginys",
     "ru": "lazy",
+    "topics": [
+      "Asmens tapatybė"
+    ],
     "groups": [
       3
     ],
@@ -9855,6 +10972,9 @@
     "lt": "tranzitas",
     "lt_ascii": "tranzitas",
     "ru": "transit area",
+    "topics": [
+      "Kelionės"
+    ],
     "groups": [
       4
     ],
@@ -9882,6 +11002,9 @@
     "lt": "traukinys",
     "lt_ascii": "traukinys",
     "ru": "train",
+    "topics": [
+      "Kelionės"
+    ],
     "groups": [
       1
     ],
@@ -9910,6 +11033,9 @@
     "lt": "treneruotė",
     "lt_ascii": "treneruote",
     "ru": "something to do with training / a trainer",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "groups": [
       3
     ],
@@ -9938,6 +11064,9 @@
     "lt": "trimestras",
     "lt_ascii": "trimestras",
     "ru": "trimester",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       1
     ],
@@ -9965,6 +11094,9 @@
     "lt": "troleibuas",
     "lt_ascii": "troleibuas",
     "ru": "tram",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "groups": [
       2
     ],
@@ -9992,6 +11124,9 @@
     "lt": "trukmė",
     "lt_ascii": "trukme",
     "ru": "",
+    "topics": [
+      "Kelionės"
+    ],
     "groups": [
       2
     ],
@@ -10020,6 +11155,9 @@
     "lt": "tualetas",
     "lt_ascii": "tualetas",
     "ru": "toilet",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       1
     ],
@@ -10047,6 +11185,9 @@
     "lt": "tualetinis popierius",
     "lt_ascii": "tualetinispopierius",
     "ru": "toilet paper",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       2
     ],
@@ -10075,6 +11216,9 @@
     "lt": "turgus",
     "lt_ascii": "turgus",
     "ru": "market",
+    "topics": [
+      "Prekyba"
+    ],
     "groups": [
       1,
       2
@@ -10104,6 +11248,9 @@
     "lt": "tyrimas",
     "lt_ascii": "tyrimas",
     "ru": "test",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       3
     ],
@@ -10131,6 +11278,9 @@
     "lt": "universitetas",
     "lt_ascii": "universitetas",
     "ru": "university",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       1
     ],
@@ -10158,6 +11308,9 @@
     "lt": "upė",
     "lt_ascii": "upe",
     "ru": "river",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       2
     ],
@@ -10186,6 +11339,9 @@
     "lt": "uždavinys",
     "lt_ascii": "uzdavinys",
     "ru": "exercise?",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       2
     ],
@@ -10214,6 +11370,10 @@
     "lt": "užsakymas",
     "lt_ascii": "uzsakymas",
     "ru": "order",
+    "topics": [
+      "Maistas ir gėrimai",
+      "Paslaugos"
+    ],
     "groups": [
       3
     ],
@@ -10241,6 +11401,9 @@
     "lt": "vadovas",
     "lt_ascii": "vadovas",
     "ru": "leader / guide?",
+    "topics": [
+      "Kelionės"
+    ],
     "groups": [
       3
     ],
@@ -10268,6 +11431,9 @@
     "lt": "vadovėlis",
     "lt_ascii": "vadovelis",
     "ru": "",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       2
     ],
@@ -10296,6 +11462,9 @@
     "lt": "vaikas",
     "lt_ascii": "vaikas",
     "ru": "child",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "groups": [
       1
     ],
@@ -10323,6 +11492,10 @@
     "lt": "vaikinas",
     "lt_ascii": "vaikinas",
     "ru": "child",
+    "topics": [
+      "Asmens tapatybė",
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       2
     ],
@@ -10350,6 +11523,10 @@
     "lt": "vaistinė",
     "lt_ascii": "vaistine",
     "ru": "pharmacy",
+    "topics": [
+      "Prekyba",
+      "Sveikata ir higiena"
+    ],
     "groups": [
       1,
       2
@@ -10379,6 +11556,9 @@
     "lt": "vakaras",
     "lt_ascii": "vakaras",
     "ru": "evening",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "groups": [
       2
     ],
@@ -10406,6 +11586,10 @@
     "lt": "vakarienė",
     "lt_ascii": "vakariene",
     "ru": "evening meal",
+    "topics": [
+      "Kasdienis gyvenimas",
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       1
     ],
@@ -10434,6 +11618,9 @@
     "lt": "valanda",
     "lt_ascii": "valanda",
     "ru": "hour",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "groups": [
       1
     ],
@@ -10462,6 +11649,10 @@
     "lt": "valgykla",
     "lt_ascii": "valgykla",
     "ru": "dining room / canteen",
+    "topics": [
+      "Maistas ir gėrimai",
+      "Švietimas ir mokslas"
+    ],
     "groups": [
       2
     ],
@@ -10490,6 +11681,9 @@
     "lt": "valymas",
     "lt_ascii": "valymas",
     "ru": "cleaning of some kind?",
+    "topics": [
+      "Paslaugos"
+    ],
     "groups": [
       2
     ],
@@ -10517,6 +11711,12 @@
     "lt": "vanduo",
     "lt_ascii": "vanduo",
     "ru": "water",
+    "topics": [
+      "Būstas",
+      "Gamta.Regionas",
+      "Maistas ir gėrimai",
+      "Paslaugos"
+    ],
     "groups": [
       1,
       2,
@@ -10547,6 +11747,9 @@
     "lt": "vardas",
     "lt_ascii": "vardas",
     "ru": "name",
+    "topics": [
+      "Asmens tapatybė"
+    ],
     "groups": [
       1
     ],
@@ -10574,6 +11777,9 @@
     "lt": "vasara",
     "lt_ascii": "vasara",
     "ru": "summer",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       1
     ],
@@ -10602,6 +11808,9 @@
     "lt": "veganas",
     "lt_ascii": "veganas",
     "ru": "vegan",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       3
     ],
@@ -10629,6 +11838,9 @@
     "lt": "verslininkas",
     "lt_ascii": "verslininkas",
     "ru": "business person? manager?",
+    "topics": [
+      "Asmens tapatybė"
+    ],
     "groups": [
       3
     ],
@@ -10656,6 +11868,9 @@
     "lt": "vežimėlis",
     "lt_ascii": "vezimelis",
     "ru": "shopping cart",
+    "topics": [
+      "Prekyba"
+    ],
     "groups": [
       2
     ],
@@ -10684,6 +11899,9 @@
     "lt": "vieta",
     "lt_ascii": "vieta",
     "ru": "place",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       1
     ],
@@ -10712,6 +11930,9 @@
     "lt": "vilkas",
     "lt_ascii": "vilkas",
     "ru": "wolf",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       3
     ],
@@ -10739,6 +11960,10 @@
     "lt": "virtuvė",
     "lt_ascii": "virtuve",
     "ru": "kitchen",
+    "topics": [
+      "Būstas",
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       1,
       4
@@ -10768,6 +11993,9 @@
     "lt": "viryklė",
     "lt_ascii": "virykle",
     "ru": "oven?",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       2
     ],
@@ -10796,6 +12024,9 @@
     "lt": "vištiena",
     "lt_ascii": "vistiena",
     "ru": "chicken",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       2
     ],
@@ -10824,6 +12055,9 @@
     "lt": "vitaminas",
     "lt_ascii": "vitaminas",
     "ru": "vitamin",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "groups": [
       3
     ],
@@ -10851,6 +12085,9 @@
     "lt": "vonia",
     "lt_ascii": "vonia",
     "ru": "bathroom",
+    "topics": [
+      "Būstas"
+    ],
     "groups": [
       1
     ],
@@ -10879,6 +12116,9 @@
     "lt": "vynas",
     "lt_ascii": "vynas",
     "ru": "wine",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "groups": [
       2
     ],
@@ -10906,6 +12146,9 @@
     "lt": "žaidimas",
     "lt_ascii": "zaidimas",
     "ru": "a game",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "groups": [
       1
     ],
@@ -10933,6 +12176,9 @@
     "lt": "žemėlapis",
     "lt_ascii": "zemelapis",
     "ru": "map",
+    "topics": [
+      "Kelionės"
+    ],
     "groups": [
       2
     ],
@@ -10961,6 +12207,9 @@
     "lt": "žiedas",
     "lt_ascii": "ziedas",
     "ru": "ring?",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       3
     ],
@@ -10988,6 +12237,9 @@
     "lt": "žiema",
     "lt_ascii": "ziema",
     "ru": "winter",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       1
     ],
@@ -11016,6 +12268,9 @@
     "lt": "žmogus",
     "lt_ascii": "zmogus",
     "ru": "person",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "groups": [
       1
     ],
@@ -11044,6 +12299,9 @@
     "lt": "žolė",
     "lt_ascii": "zole",
     "ru": "grass",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "groups": [
       1
     ],

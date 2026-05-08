@@ -3,6 +3,9 @@
     "lt": "apkabinti",
     "lt_ascii": "apkabinti",
     "ru": "to hug",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "present": [
       "apkabinu",
       "apkabini",
@@ -38,17 +41,17 @@
     "participlePastMasc": "",
     "conditional": [
       "apkabinčiau",
-      "apkabintum(ei)",
+      "apkabintum",
       "apkabintų",
-      "apkabintu(mė)me",
-      "apkabintu(mė)te",
+      "apkabintume",
+      "apkabintute",
       "apkabintų"
     ],
     "imperative": [
       "",
       "apkabink",
       "",
-      "apkabinkime",
+      "",
       "apkabinkite",
       ""
     ],
@@ -59,7 +62,10 @@
   {
     "lt": "aplankyti",
     "lt_ascii": "aplankyti",
-    "ru": "",
+    "ru": "to visit",
+    "topics": [
+      "Kelionės"
+    ],
     "present": [
       "aplankau",
       "aplankai",
@@ -95,17 +101,17 @@
     "participlePastMasc": "",
     "conditional": [
       "aplankyčiau",
-      "aplankytum(ei)",
+      "aplankytum",
       "aplankytų",
-      "aplankytu(mė)me",
-      "aplankytu(mė)te",
+      "aplankytume",
+      "aplankytute",
       "aplankytų"
     ],
     "imperative": [
       "",
       "aplankyk",
       "",
-      "aplankykime",
+      "",
       "aplankykite",
       ""
     ],
@@ -116,10 +122,13 @@
   {
     "lt": "atleisti",
     "lt_ascii": "atleisti",
-    "ru": "to let / allow?",
+    "ru": "to forgive",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "present": [
       "atleidžiu",
-      "atleidži",
+      "atleidi",
       "atleidžia",
       "atleidžiame",
       "atleidžiate",
@@ -152,17 +161,17 @@
     "participlePastMasc": "",
     "conditional": [
       "atleisčiau",
-      "atleistum(ei)",
+      "atleistum",
       "atleistų",
-      "atleistu(mė)me",
-      "atleistu(mė)te",
+      "atleistume",
+      "atleistute",
       "atleistų"
     ],
     "imperative": [
       "",
       "atleisk",
       "",
-      "atleiskime",
+      "",
       "atleiskite",
       ""
     ],
@@ -173,7 +182,10 @@
   {
     "lt": "atsakyti",
     "lt_ascii": "atsakyti",
-    "ru": "",
+    "ru": "to respond",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "present": [
       "atsakau",
       "atsakai",
@@ -209,17 +221,17 @@
     "participlePastMasc": "",
     "conditional": [
       "atsakyčiau",
-      "atsakytum(ei)",
+      "atsakytum",
       "atsakytų",
-      "atsakytu(mė)me",
-      "atsakytu(mė)te",
+      "atsakytume",
+      "atsakytute",
       "atsakytų"
     ],
     "imperative": [
       "",
       "atsakyk",
       "",
-      "atsakykime",
+      "",
       "atsakykite",
       ""
     ],
@@ -230,7 +242,10 @@
   {
     "lt": "atsigauti",
     "lt_ascii": "atsigauti",
-    "ru": "",
+    "ru": "to recover",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "present": [
       "atsigaunu",
       "atsigauni",
@@ -266,17 +281,17 @@
     "participlePastMasc": "",
     "conditional": [
       "atsigaučiau",
-      "atsigautum(ei)",
+      "atsigautum",
       "atsigautų",
-      "atsigautu(mė)me",
-      "atsigautu(mė)te",
+      "atsigautume",
+      "atsigautute",
       "atsigautų"
     ],
     "imperative": [
       "",
       "atsigauk",
       "",
-      "atsigaukime",
+      "",
       "atsigaukite",
       ""
     ],
@@ -287,7 +302,10 @@
   {
     "lt": "atvažiuoti",
     "lt_ascii": "atvaziuoti",
-    "ru": "to drive towards?",
+    "ru": "to come by vehicle",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "present": [
       "atvažiuoju",
       "atvažiuoji",
@@ -323,17 +341,17 @@
     "participlePastMasc": "",
     "conditional": [
       "atvažiuočiau",
-      "atvažiuotum(ei)",
+      "atvažiuotum",
       "atvažiuotų",
-      "atvažiuotu(mė)me",
-      "atvažiuotu(mė)te",
+      "atvažiuotume",
+      "atvažiuotute",
       "atvažiuotų"
     ],
     "imperative": [
       "",
       "atvažiuok",
       "",
-      "atvažiuokime",
+      "",
       "atvažiuokite",
       ""
     ],
@@ -344,7 +362,10 @@
   {
     "lt": "atvykti",
     "lt_ascii": "atvykti",
-    "ru": "",
+    "ru": "to arrive",
+    "topics": [
+      "Kelionės"
+    ],
     "present": [
       "atvykstu",
       "atvyksti",
@@ -380,17 +401,17 @@
     "participlePastMasc": "",
     "conditional": [
       "atvykčiau",
-      "atvyktum(ei)",
+      "atvyktum",
       "atvyktų",
-      "atvyktu(mė)me",
-      "atvyktu(mė)te",
+      "atvyktume",
+      "atvyktute",
       "atvyktų"
     ],
     "imperative": [
       "",
       "atvyk",
       "",
-      "atvykime",
+      "",
       "atvykite",
       ""
     ],
@@ -401,7 +422,10 @@
   {
     "lt": "bijoti",
     "lt_ascii": "bijoti",
-    "ru": "",
+    "ru": "to fear",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "present": [
       "bijau",
       "bijai",
@@ -437,17 +461,17 @@
     "participlePastMasc": "",
     "conditional": [
       "bijočiau",
-      "bijotum(ei)",
+      "bijotum",
       "bijotų",
-      "bijotu(mė)me",
-      "bijotu(mė)te",
+      "bijotume",
+      "bijotute",
       "bijotų"
     ],
     "imperative": [
       "",
       "bijok",
       "",
-      "bijokime",
+      "",
       "bijokite",
       ""
     ],
@@ -459,12 +483,16 @@
     "lt": "būti",
     "lt_ascii": "buti",
     "ru": "to be",
+    "topics": [
+      "Asmens tapatybė",
+      "Būstas"
+    ],
     "present": [
-      "yru",
-      "yri",
+      "esu",
+      "esi",
       "yra",
-      "yrame",
-      "yrate",
+      "esame",
+      "esate",
       "yra"
     ],
     "past": [
@@ -478,10 +506,10 @@
     "future": [
       "būsiu",
       "būsi",
-      "būs",
+      "bus",
       "būsime",
       "būsite",
-      "būs"
+      "bus"
     ],
     "usedTo": [
       "būdavau",
@@ -494,17 +522,17 @@
     "participlePastMasc": "",
     "conditional": [
       "būčiau",
-      "būtum(ei)",
+      "būtum",
       "būtų",
-      "būtu(mė)me",
-      "būtu(mė)te",
+      "būtumėme",
+      "būtumėte",
       "būtų"
     ],
     "imperative": [
       "",
       "būk",
       "",
-      "būkime",
+      "",
       "būkite",
       ""
     ],
@@ -516,6 +544,9 @@
     "lt": "dainuoti",
     "lt_ascii": "dainuoti",
     "ru": "to sing",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "present": [
       "dainuoju",
       "dainuoji",
@@ -551,17 +582,17 @@
     "participlePastMasc": "",
     "conditional": [
       "dainuočiau",
-      "dainuotum(ei)",
+      "dainuotum",
       "dainuotų",
-      "dainuotu(mė)me",
-      "dainuotu(mė)te",
+      "dainuotume",
+      "dainuotute",
       "dainuotų"
     ],
     "imperative": [
       "",
       "dainuok",
       "",
-      "dainuokime",
+      "",
       "dainuokite",
       ""
     ],
@@ -573,6 +604,9 @@
     "lt": "daryti",
     "lt_ascii": "daryti",
     "ru": "to do",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "present": [
       "darau",
       "darai",
@@ -608,17 +642,17 @@
     "participlePastMasc": "",
     "conditional": [
       "daryčiau",
-      "darytum(ei)",
+      "darytum",
       "darytų",
-      "darytu(mė)me",
-      "darytu(mė)te",
+      "darytume",
+      "darytute",
       "darytų"
     ],
     "imperative": [
       "",
       "daryk",
       "",
-      "darykime",
+      "",
       "darykite",
       ""
     ],
@@ -630,6 +664,10 @@
     "lt": "dirbti",
     "lt_ascii": "dirbti",
     "ru": "to work",
+    "topics": [
+      "Asmens tapatybė",
+      "Kasdienis gyvenimas"
+    ],
     "present": [
       "dirbu",
       "dirbi",
@@ -665,17 +703,17 @@
     "participlePastMasc": "",
     "conditional": [
       "dirbčiau",
-      "dirbtum(ei)",
+      "dirbtum",
       "dirbtų",
-      "dirbtu(mė)me",
-      "dirbtu(mė)te",
+      "dirbtume",
+      "dirbtute",
       "dirbtų"
     ],
     "imperative": [
       "",
       "dirbk",
       "",
-      "dirbkime",
+      "",
       "dirbkite",
       ""
     ],
@@ -686,7 +724,11 @@
   {
     "lt": "eiti",
     "lt_ascii": "eiti",
-    "ru": "to go",
+    "ru": "to go on foot",
+    "topics": [
+      "Kasdienis gyvenimas",
+      "Kelionės"
+    ],
     "present": [
       "einu",
       "eini",
@@ -722,17 +764,17 @@
     "participlePastMasc": "",
     "conditional": [
       "eičiau",
-      "eitum(ei)",
+      "eitum",
       "eitų",
-      "eitu(mė)me",
-      "eitu(mė)te",
+      "eitume",
+      "eitute",
       "eitų"
     ],
     "imperative": [
       "",
       "eik",
       "",
-      "eikime",
+      "",
       "eikite",
       ""
     ],
@@ -744,6 +786,10 @@
     "lt": "fotografuoti",
     "lt_ascii": "fotografuoti",
     "ru": "to photograph",
+    "topics": [
+      "Kelionės",
+      "Laisvalaikis"
+    ],
     "present": [
       "fotografuoju",
       "fotografuoji",
@@ -779,17 +825,17 @@
     "participlePastMasc": "",
     "conditional": [
       "fotografuočiau",
-      "fotografuotum(ei)",
+      "fotografuotum",
       "fotografuotų",
-      "fotografuotu(mė)me",
-      "fotografuotu(mė)te",
+      "fotografuotume",
+      "fotografuotute",
       "fotografuotų"
     ],
     "imperative": [
       "",
       "fotografuok",
       "",
-      "fotografuokime",
+      "",
       "fotografuokite",
       ""
     ],
@@ -800,7 +846,12 @@
   {
     "lt": "gaminti",
     "lt_ascii": "gaminti",
-    "ru": "to produce / make / cook",
+    "ru": "to make",
+    "topics": [
+      "Būstas",
+      "Kasdienis gyvenimas",
+      "Maistas ir gėrimai"
+    ],
     "present": [
       "gaminu",
       "gamini",
@@ -836,17 +887,17 @@
     "participlePastMasc": "",
     "conditional": [
       "gaminčiau",
-      "gamintum(ei)",
+      "gamintum",
       "gamintų",
-      "gamintu(mė)me",
-      "gamintu(mė)te",
+      "gamintume",
+      "gamintute",
       "gamintų"
     ],
     "imperative": [
       "",
       "gamink",
       "",
-      "gaminkime",
+      "",
       "gaminkite",
       ""
     ],
@@ -858,7 +909,10 @@
   {
     "lt": "garbanoti",
     "lt_ascii": "garbanoti",
-    "ru": "curly?",
+    "ru": "to curl",
+    "topics": [
+      "Asmens tapatybė"
+    ],
     "present": [
       "garbanoju",
       "garbanoji",
@@ -894,17 +948,17 @@
     "participlePastMasc": "",
     "conditional": [
       "garbanočiau",
-      "garbanotum(ei)",
+      "garbanotum",
       "garbanotų",
-      "garbanotu(mė)me",
-      "garbanotu(mė)te",
+      "garbanotume",
+      "garbanotute",
       "garbanotų"
     ],
     "imperative": [
       "",
       "garbanok",
       "",
-      "garbanokime",
+      "",
       "garbanokite",
       ""
     ],
@@ -915,7 +969,10 @@
   {
     "lt": "gauti",
     "lt_ascii": "gauti",
-    "ru": "to receive",
+    "ru": "to get",
+    "topics": [
+      "Paslaugos"
+    ],
     "present": [
       "gaunu",
       "gauni",
@@ -951,17 +1008,17 @@
     "participlePastMasc": "",
     "conditional": [
       "gaučiau",
-      "gautum(ei)",
+      "gautum",
       "gautų",
-      "gautu(mė)me",
-      "gautu(mė)te",
+      "gautume",
+      "gautute",
       "gautų"
     ],
     "imperative": [
       "",
       "gauk",
       "",
-      "gaukime",
+      "",
       "gaukite",
       ""
     ],
@@ -973,6 +1030,10 @@
     "lt": "gerti",
     "lt_ascii": "gerti",
     "ru": "to drink",
+    "topics": [
+      "Kasdienis gyvenimas",
+      "Maistas ir gėrimai"
+    ],
     "present": [
       "geriu",
       "geri",
@@ -1008,17 +1069,17 @@
     "participlePastMasc": "",
     "conditional": [
       "gerčiau",
-      "gertum(ei)",
+      "gertum",
       "gertų",
-      "gertu(mė)me",
-      "gertu(mė)te",
+      "gertume",
+      "gertute",
       "gertų"
     ],
     "imperative": [
       "",
       "gerk",
       "",
-      "gerkime",
+      "",
       "gerkite",
       ""
     ],
@@ -1030,6 +1091,9 @@
     "lt": "gimti",
     "lt_ascii": "gimti",
     "ru": "to be born",
+    "topics": [
+      "Asmens tapatybė"
+    ],
     "present": [
       "gimstu",
       "gimsti",
@@ -1065,17 +1129,17 @@
     "participlePastMasc": "",
     "conditional": [
       "gimčiau",
-      "gimtum(ei)",
+      "gimtum",
       "gimtų",
-      "gimtu(mė)me",
-      "gimtu(mė)te",
+      "gimtume",
+      "gimtute",
       "gimtų"
     ],
     "imperative": [
       "",
       "gimk",
       "",
-      "gimkime",
+      "",
       "gimkite",
       ""
     ],
@@ -1086,7 +1150,10 @@
   {
     "lt": "ginčytis",
     "lt_ascii": "gincytis",
-    "ru": "",
+    "ru": "to argue",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "present": [
       "ginčijuosi",
       "ginčijiesi",
@@ -1104,12 +1171,12 @@
       "ginčijosi"
     ],
     "future": [
-      "ginčysiusi",
-      "ginčysisi",
-      "ginčisis",
+      "ginčysiuosi",
+      "ginčysiesi",
+      "ginčysis",
       "ginčysimės",
       "ginčysitės",
-      "ginčisis"
+      "ginčysis"
     ],
     "usedTo": [
       "ginčydavausi",
@@ -1122,17 +1189,17 @@
     "participlePastMasc": "",
     "conditional": [
       "ginčyčiausi",
-      "ginčytumeisi",
+      "ginčytumsi",
       "ginčytųsi",
-      "ginčytu(mė)mės",
-      "ginčytu(mė)tės",
+      "ginčytumesi",
+      "ginčytutesi",
       "ginčytųsi"
     ],
     "imperative": [
       "",
-      "ginčyks",
+      "ginčykis",
       "",
-      "ginčykimės",
+      "",
       "ginčykitės",
       ""
     ],
@@ -1144,6 +1211,9 @@
     "lt": "grąžinti",
     "lt_ascii": "grazinti",
     "ru": "to return (bought goods)",
+    "topics": [
+      "Prekyba"
+    ],
     "present": [
       "gražinu",
       "gražini",
@@ -1200,9 +1270,12 @@
   {
     "lt": "gydyti",
     "lt_ascii": "gydyti",
-    "ru": "to treat? (gydytoja)",
+    "ru": "to heal something",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "present": [
-      "gydžau",
+      "gydau",
       "gydai",
       "gydo",
       "gydome",
@@ -1210,7 +1283,7 @@
       "gydo"
     ],
     "past": [
-      "",
+      "gydžiau",
       "gydei",
       "gydė",
       "gydėme",
@@ -1236,17 +1309,17 @@
     "participlePastMasc": "",
     "conditional": [
       "gydyčiau",
-      "gydytum(ei)",
+      "gydytum",
       "gydytų",
-      "gydytu(mė)me",
-      "gydytu(mė)te",
+      "gydytume",
+      "gydytute",
       "gydytų"
     ],
     "imperative": [
       "",
       "gydyk",
       "",
-      "gydykime",
+      "",
       "gydykite",
       ""
     ],
@@ -1257,7 +1330,11 @@
   {
     "lt": "gyventi",
     "lt_ascii": "gyventi",
-    "ru": "place where you live",
+    "ru": "to live",
+    "topics": [
+      "Asmens tapatybė",
+      "Būstas"
+    ],
     "present": [
       "gyvenu",
       "gyveni",
@@ -1293,17 +1370,17 @@
     "participlePastMasc": "",
     "conditional": [
       "gyvenčiau",
-      "gyventum(ei)",
+      "gyventum",
       "gyventų",
-      "gyventu(mė)me",
-      "gyventu(mė)te",
+      "gyventume",
+      "gyventute",
       "gyventų"
     ],
     "imperative": [
       "",
       "gyvenk",
       "",
-      "gyvenkime",
+      "",
       "gyvenkite",
       ""
     ],
@@ -1314,9 +1391,12 @@
   {
     "lt": "išbandyti",
     "lt_ascii": "isbandyti",
-    "ru": "",
+    "ru": "to try out",
+    "topics": [
+      "Prekyba"
+    ],
     "present": [
-      "išbandžau",
+      "išbandau",
       "išbandai",
       "išbando",
       "išbandome",
@@ -1324,7 +1404,7 @@
       "išbando"
     ],
     "past": [
-      "",
+      "išbandžiau",
       "išbandei",
       "išbandė",
       "išbandėme",
@@ -1350,17 +1430,17 @@
     "participlePastMasc": "",
     "conditional": [
       "išbandyčiau",
-      "išbandytum(ei)",
+      "išbandytum",
       "išbandytų",
-      "išbandytu(mė)me",
-      "išbandytu(mė)te",
+      "išbandytume",
+      "išbandytute",
       "išbandytų"
     ],
     "imperative": [
       "",
       "išbandyk",
       "",
-      "išbandykime",
+      "",
       "išbandykite",
       ""
     ],
@@ -1371,7 +1451,10 @@
   {
     "lt": "išeiti",
     "lt_ascii": "iseiti",
-    "ru": "to go?",
+    "ru": "to leave",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "present": [
       "išeinu",
       "išeini",
@@ -1407,17 +1490,17 @@
     "participlePastMasc": "",
     "conditional": [
       "išeičiau",
-      "išeitum(ei)",
+      "išeitum",
       "išeitų",
-      "išeitu(mė)me",
-      "išeitu(mė)te",
+      "išeitume",
+      "išeitute",
       "išeitų"
     ],
     "imperative": [
       "",
       "išeik",
       "",
-      "išeikime",
+      "",
       "išeikite",
       ""
     ],
@@ -1428,7 +1511,10 @@
   {
     "lt": "išlaikyti",
     "lt_ascii": "islaikyti",
-    "ru": "",
+    "ru": "to support",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "present": [
       "išlaikau",
       "išlaikai",
@@ -1464,17 +1550,17 @@
     "participlePastMasc": "",
     "conditional": [
       "išlaikyčiau",
-      "išlaikytum(ei)",
+      "išlaikytum",
       "išlaikytų",
-      "išlaikytu(mė)me",
-      "išlaikytu(mė)te",
+      "išlaikytume",
+      "išlaikytute",
       "išlaikytų"
     ],
     "imperative": [
       "",
       "išlaikyk",
       "",
-      "išlaikykime",
+      "",
       "išlaikykite",
       ""
     ],
@@ -1486,6 +1572,9 @@
     "lt": "išsiimti",
     "lt_ascii": "issiimti",
     "ru": "to get cash from an ATM",
+    "topics": [
+      "Paslaugos"
+    ],
     "present": [
       "išsiimu",
       "išsiimi",
@@ -1542,7 +1631,10 @@
   {
     "lt": "išvažiuoti",
     "lt_ascii": "isvaziuoti",
-    "ru": "to drive away from?",
+    "ru": "to go away by vehicle",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "present": [
       "išvažiuoju",
       "išvažiuoji",
@@ -1578,17 +1670,17 @@
     "participlePastMasc": "",
     "conditional": [
       "išvažiuočiau",
-      "išvažiuotum(ei)",
+      "išvažiuotum",
       "išvažiuotų",
-      "išvažiuotu(mė)me",
-      "išvažiuotu(mė)te",
+      "išvažiuotume",
+      "išvažiuotute",
       "išvažiuotų"
     ],
     "imperative": [
       "",
       "išvažiuok",
       "",
-      "išvažiuokime",
+      "",
       "išvažiuokite",
       ""
     ],
@@ -1599,7 +1691,10 @@
   {
     "lt": "išvykti",
     "lt_ascii": "isvykti",
-    "ru": "",
+    "ru": "to depart",
+    "topics": [
+      "Kelionės"
+    ],
     "present": [
       "išvykstu",
       "išvyksti",
@@ -1635,17 +1730,17 @@
     "participlePastMasc": "",
     "conditional": [
       "išvykčiau",
-      "išvyktum(ei)",
+      "išvyktum",
       "išvyktų",
-      "išvyktu(mė)me",
-      "išvyktu(mė)te",
+      "išvyktume",
+      "išvyktute",
       "išvyktų"
     ],
     "imperative": [
       "",
       "išvyk",
       "",
-      "išvykime",
+      "",
       "išvykite",
       ""
     ],
@@ -1656,7 +1751,10 @@
   {
     "lt": "jaudintis",
     "lt_ascii": "jaudintis",
-    "ru": "",
+    "ru": "to be nervous",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "present": [
       "jaudinuosi",
       "jaudiniesi",
@@ -1674,8 +1772,8 @@
       "jaudinosi"
     ],
     "future": [
-      "jaudinsiusi",
-      "jaudinsisi",
+      "jaudinsiuosi",
+      "jaudinsiesi",
       "jaudinsis",
       "jaudinsimės",
       "jaudinsitės",
@@ -1692,17 +1790,17 @@
     "participlePastMasc": "",
     "conditional": [
       "jaudinčiausi",
-      "jaudintumeisi",
+      "jaudintumsi",
       "jaudintųsi",
-      "jaudintu(mė)mės",
-      "jaudintu(mė)tės",
+      "jaudintumesi",
+      "jaudintutesi",
       "jaudintųsi"
     ],
     "imperative": [
       "",
-      "jaudinks",
+      "jaudinkis",
       "",
-      "jaudinkimės",
+      "",
       "jaudinkitės",
       ""
     ],
@@ -1713,17 +1811,20 @@
   {
     "lt": "jausti",
     "lt_ascii": "jausti",
-    "ru": "to feel",
+    "ru": "to feel something",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "present": [
       "jaučiu",
-      "jauči",
+      "jauti",
       "jaučia",
       "jaučiame",
       "jaučiate",
       "jaučia"
     ],
     "past": [
-      "",
+      "jaučiau",
       "jautei",
       "jautė",
       "jautėme",
@@ -1749,17 +1850,17 @@
     "participlePastMasc": "",
     "conditional": [
       "jausčiau",
-      "jaustum(ei)",
+      "jaustum",
       "jaustų",
-      "jaustu(mė)me",
-      "jaustu(mė)te",
+      "jaustume",
+      "jaustute",
       "jaustų"
     ],
     "imperative": [
       "",
       "jausk",
       "",
-      "jauskime",
+      "",
       "jauskite",
       ""
     ],
@@ -1771,16 +1872,19 @@
     "lt": "jaustis",
     "lt_ascii": "jaustis",
     "ru": "to feel",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "present": [
       "jaučiuosi",
-      "jaučiesi",
+      "jautiesi",
       "jaučiasi",
       "jaučiamės",
       "jaučiatės",
       "jaučiasi"
     ],
     "past": [
-      "",
+      "jaučiausi",
       "jauteisi",
       "jautėsi",
       "jautėmės",
@@ -1788,8 +1892,8 @@
       "jautėsi"
     ],
     "future": [
-      "jausiusi",
-      "jausisi",
+      "jausiuosi",
+      "jausiesi",
       "jausis",
       "jausimės",
       "jausitės",
@@ -1806,17 +1910,17 @@
     "participlePastMasc": "",
     "conditional": [
       "jausčiausi",
-      "jaustumeisi",
+      "jaustumsi",
       "jaustųsi",
-      "jaustu(mė)mės",
-      "jaustu(mė)tės",
+      "jaustumesi",
+      "jaustutesi",
       "jaustųsi"
     ],
     "imperative": [
       "",
-      "jausks",
+      "jauskis",
       "",
-      "jauskimės",
+      "",
       "jauskitės",
       ""
     ],
@@ -1827,7 +1931,10 @@
   {
     "lt": "kainuoti",
     "lt_ascii": "kainuoti",
-    "ru": "",
+    "ru": "to cost",
+    "topics": [
+      "Prekyba"
+    ],
     "present": [
       "kainuoju",
       "kainuoji",
@@ -1863,17 +1970,17 @@
     "participlePastMasc": "",
     "conditional": [
       "kainuočiau",
-      "kainuotum(ei)",
+      "kainuotum",
       "kainuotų",
-      "kainuotu(mė)me",
-      "kainuotu(mė)te",
+      "kainuotume",
+      "kainuotute",
       "kainuotų"
     ],
     "imperative": [
       "",
       "kainuok",
       "",
-      "kainuokime",
+      "",
       "kainuokite",
       ""
     ],
@@ -1884,7 +1991,11 @@
   {
     "lt": "kalbėtis",
     "lt_ascii": "kalbetis",
-    "ru": "to talk?",
+    "ru": "to converse",
+    "topics": [
+      "Laisvalaikis",
+      "Santykiai su žmonėmis"
+    ],
     "present": [
       "kalbuosi",
       "kalbiesi",
@@ -1902,8 +2013,8 @@
       "kalbėjosi"
     ],
     "future": [
-      "kalbėsiusi",
-      "kalbėsisi",
+      "kalbėsiuosi",
+      "kalbėsiesi",
       "kalbėsis",
       "kalbėsimės",
       "kalbėsitės",
@@ -1920,17 +2031,17 @@
     "participlePastMasc": "",
     "conditional": [
       "kalbėčiausi",
-      "kalbėtumeisi",
+      "kalbėtumsi",
       "kalbėtųsi",
-      "kalbėtu(mė)mės",
-      "kalbėtu(mė)tės",
+      "kalbėtumesi",
+      "kalbėtutesi",
       "kalbėtųsi"
     ],
     "imperative": [
       "",
-      "kalbėks",
+      "kalbėkis",
       "",
-      "kalbėkimės",
+      "",
       "kalbėkitės",
       ""
     ],
@@ -1942,7 +2053,10 @@
   {
     "lt": "kartoti",
     "lt_ascii": "kartoti",
-    "ru": "together",
+    "ru": "to repeat",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "present": [
       "kartoju",
       "kartoji",
@@ -1978,17 +2092,17 @@
     "participlePastMasc": "",
     "conditional": [
       "kartočiau",
-      "kartotum(ei)",
+      "kartotum",
       "kartotų",
-      "kartotu(mė)me",
-      "kartotu(mė)te",
+      "kartotume",
+      "kartotute",
       "kartotų"
     ],
     "imperative": [
       "",
       "kartok",
       "",
-      "kartokime",
+      "",
       "kartokite",
       ""
     ],
@@ -1999,17 +2113,20 @@
   {
     "lt": "keisti",
     "lt_ascii": "keisti",
-    "ru": "to exchange (also to change clothes?)",
+    "ru": "to change",
+    "topics": [
+      "Prekyba"
+    ],
     "present": [
       "keičiu",
-      "keiči",
+      "keiti",
       "keičia",
       "keičiame",
       "keičiate",
       "keičia"
     ],
     "past": [
-      "",
+      "keičiau",
       "keitei",
       "keitė",
       "keitėme",
@@ -2035,17 +2152,17 @@
     "participlePastMasc": "",
     "conditional": [
       "keisčiau",
-      "keistum(ei)",
+      "keistum",
       "keistų",
-      "keistu(mė)me",
-      "keistu(mė)te",
+      "keistume",
+      "keistute",
       "keistų"
     ],
     "imperative": [
       "",
       "keisk",
       "",
-      "keiskime",
+      "",
       "keiskite",
       ""
     ],
@@ -2056,7 +2173,11 @@
   {
     "lt": "keliauti",
     "lt_ascii": "keliauti",
-    "ru": "something to do with journeys",
+    "ru": "to travel",
+    "topics": [
+      "Kelionės",
+      "Laisvalaikis"
+    ],
     "present": [
       "keliauju",
       "keliauji",
@@ -2092,17 +2213,17 @@
     "participlePastMasc": "",
     "conditional": [
       "keliaučiau",
-      "keliautum(ei)",
+      "keliautum",
       "keliautų",
-      "keliautu(mė)me",
-      "keliautu(mė)te",
+      "keliautume",
+      "keliautute",
       "keliautų"
     ],
     "imperative": [
       "",
       "keliauk",
       "",
-      "keliaukime",
+      "",
       "keliaukite",
       ""
     ],
@@ -2114,7 +2235,10 @@
   {
     "lt": "keltis",
     "lt_ascii": "keltis",
-    "ru": "to get up? stand up / get out of bed?",
+    "ru": "to rise",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "present": [
       "keliuosi",
       "keliesi",
@@ -2132,8 +2256,8 @@
       "kėlėsi"
     ],
     "future": [
-      "kelsiusi",
-      "kelsisi",
+      "kelsiuosi",
+      "kelsiesi",
       "kelsis",
       "kelsimės",
       "kelsitės",
@@ -2150,17 +2274,17 @@
     "participlePastMasc": "",
     "conditional": [
       "kelčiausi",
-      "keltumeisi",
+      "keltumsi",
       "keltųsi",
-      "keltu(mė)mės",
-      "keltu(mė)tės",
+      "keltumesi",
+      "keltutesi",
       "keltųsi"
     ],
     "imperative": [
       "",
-      "kelks",
+      "kelkis",
       "",
-      "kelkimės",
+      "",
       "kelkitės",
       ""
     ],
@@ -2171,7 +2295,10 @@
   {
     "lt": "kepti",
     "lt_ascii": "kepti",
-    "ru": "to fry",
+    "ru": "to bake",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "present": [
       "kepu",
       "kepi",
@@ -2207,17 +2334,17 @@
     "participlePastMasc": "",
     "conditional": [
       "kepčiau",
-      "keptum(ei)",
+      "keptum",
       "keptų",
-      "keptu(mė)me",
-      "keptu(mė)te",
+      "keptume",
+      "keptute",
       "keptų"
     ],
     "imperative": [
       "",
       "kepk",
       "",
-      "kepkime",
+      "",
       "kepkite",
       ""
     ],
@@ -2229,6 +2356,9 @@
     "lt": "kirptis",
     "lt_ascii": "kirptis",
     "ru": "something to do with hair dressers",
+    "topics": [
+      "Paslaugos"
+    ],
     "present": [
       "kerpuosi",
       "kerpiesi",
@@ -2286,6 +2416,9 @@
     "lt": "klausyti",
     "lt_ascii": "klausyti",
     "ru": "to listen",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "present": [
       "klausau",
       "klausai",
@@ -2321,17 +2454,17 @@
     "participlePastMasc": "",
     "conditional": [
       "klausyčiau",
-      "klausytum(ei)",
+      "klausytum",
       "klausytų",
-      "klausytu(mė)me",
-      "klausytu(mė)te",
+      "klausytume",
+      "klausytute",
       "klausytų"
     ],
     "imperative": [
       "",
       "klausyk",
       "",
-      "klausykime",
+      "",
       "klausykite",
       ""
     ],
@@ -2342,7 +2475,10 @@
   {
     "lt": "lankytis",
     "lt_ascii": "lankytis",
-    "ru": "",
+    "ru": "to visit",
+    "topics": [
+      "Kelionės"
+    ],
     "present": [
       "lankausi",
       "lankaisi",
@@ -2360,8 +2496,8 @@
       "lankėsi"
     ],
     "future": [
-      "lankysiusi",
-      "lankysisi",
+      "lankysiuosi",
+      "lankysiesi",
       "lankysis",
       "lankysimės",
       "lankysitės",
@@ -2378,17 +2514,17 @@
     "participlePastMasc": "",
     "conditional": [
       "lankyčiausi",
-      "lankytumeisi",
+      "lankytumsi",
       "lankytųsi",
-      "lankytu(mė)mės",
-      "lankytu(mė)tės",
+      "lankytumesi",
+      "lankytutesi",
       "lankytųsi"
     ],
     "imperative": [
       "",
-      "lankyks",
+      "lankykis",
       "",
-      "lankykimės",
+      "",
       "lankykitės",
       ""
     ],
@@ -2399,7 +2535,10 @@
   {
     "lt": "laukti",
     "lt_ascii": "laukti",
-    "ru": "to wait?",
+    "ru": "to wait",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "present": [
       "laukiu",
       "lauki",
@@ -2435,17 +2574,17 @@
     "participlePastMasc": "",
     "conditional": [
       "laukčiau",
-      "lauktum(ei)",
+      "lauktum",
       "lauktų",
-      "lauktu(mė)me",
-      "lauktu(mė)te",
+      "lauktume",
+      "lauktute",
       "lauktų"
     ],
     "imperative": [
       "",
       "lauk",
       "",
-      "laukime",
+      "",
       "laukite",
       ""
     ],
@@ -2456,9 +2595,13 @@
   {
     "lt": "maudytis",
     "lt_ascii": "maudytis",
-    "ru": "to bathe (in a bath or splash around in body of water?)",
+    "ru": "to bathe",
+    "topics": [
+      "Kasdienis gyvenimas",
+      "Sveikata ir higiena"
+    ],
     "present": [
-      "maudžausi",
+      "maudausi",
       "maudaisi",
       "maudosi",
       "maudomės",
@@ -2466,7 +2609,7 @@
       "maudosi"
     ],
     "past": [
-      "",
+      "maudžiausi",
       "maudeisi",
       "maudėsi",
       "maudėmės",
@@ -2474,8 +2617,8 @@
       "maudėsi"
     ],
     "future": [
-      "maudysiusi",
-      "maudysisi",
+      "maudysiuosi",
+      "maudysiesi",
       "maudysis",
       "maudysimės",
       "maudysitės",
@@ -2492,17 +2635,17 @@
     "participlePastMasc": "",
     "conditional": [
       "maudyčiausi",
-      "maudytumeisi",
+      "maudytumsi",
       "maudytųsi",
-      "maudytu(mė)mės",
-      "maudytu(mė)tės",
+      "maudytumesi",
+      "maudytutesi",
       "maudytųsi"
     ],
     "imperative": [
       "",
-      "maudyks",
+      "maudykis",
       "",
-      "maudykimės",
+      "",
       "maudykitės",
       ""
     ],
@@ -2514,7 +2657,11 @@
   {
     "lt": "mėgti",
     "lt_ascii": "megti",
-    "ru": "to like?",
+    "ru": "to like",
+    "topics": [
+      "Laisvalaikis",
+      "Santykiai su žmonėmis"
+    ],
     "present": [
       "mėgstu",
       "mėgsti",
@@ -2550,17 +2697,17 @@
     "participlePastMasc": "",
     "conditional": [
       "mėgčiau",
-      "mėgtum(ei)",
+      "mėgtum",
       "mėgtų",
-      "mėgtu(mė)me",
-      "mėgtu(mė)te",
+      "mėgtume",
+      "mėgtute",
       "mėgtų"
     ],
     "imperative": [
       "",
       "mėk",
       "",
-      "mėkime",
+      "",
       "mėkite",
       ""
     ],
@@ -2572,6 +2719,10 @@
     "lt": "miegoti",
     "lt_ascii": "miegoti",
     "ru": "to sleep",
+    "topics": [
+      "Būstas",
+      "Kasdienis gyvenimas"
+    ],
     "present": [
       "miegu",
       "miegi",
@@ -2607,17 +2758,17 @@
     "participlePastMasc": "",
     "conditional": [
       "miegočiau",
-      "miegotum(ei)",
+      "miegotum",
       "miegotų",
-      "miegotu(mė)me",
-      "miegotu(mė)te",
+      "miegotume",
+      "miegotute",
       "miegotų"
     ],
     "imperative": [
       "",
       "miegok",
       "",
-      "miegokime",
+      "",
       "miegokite",
       ""
     ],
@@ -2628,7 +2779,11 @@
   {
     "lt": "mokėti",
     "lt_ascii": "moketi",
-    "ru": "to pay",
+    "ru": "to know",
+    "topics": [
+      "Paslaugos",
+      "Prekyba"
+    ],
     "present": [
       "moku",
       "moki",
@@ -2664,17 +2819,17 @@
     "participlePastMasc": "",
     "conditional": [
       "mokėčiau",
-      "mokėtum(ei)",
+      "mokėtum",
       "mokėtų",
-      "mokėtu(mė)me",
-      "mokėtu(mė)te",
+      "mokėtume",
+      "mokėtute",
       "mokėtų"
     ],
     "imperative": [
       "",
       "mokėk",
       "",
-      "mokėkime",
+      "",
       "mokėkite",
       ""
     ],
@@ -2686,7 +2841,10 @@
   {
     "lt": "mokyti",
     "lt_ascii": "mokyti",
-    "ru": "",
+    "ru": "to teach",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "present": [
       "mokau",
       "mokai",
@@ -2722,17 +2880,17 @@
     "participlePastMasc": "",
     "conditional": [
       "mokyčiau",
-      "mokytum(ei)",
+      "mokytum",
       "mokytų",
-      "mokytu(mė)me",
-      "mokytu(mė)te",
+      "mokytume",
+      "mokytute",
       "mokytų"
     ],
     "imperative": [
       "",
       "mokyk",
       "",
-      "mokykime",
+      "",
       "mokykite",
       ""
     ],
@@ -2743,7 +2901,12 @@
   {
     "lt": "mokytis",
     "lt_ascii": "mokytis",
-    "ru": "to learn / to teach?",
+    "ru": "to learn",
+    "topics": [
+      "Asmens tapatybė",
+      "Kasdienis gyvenimas",
+      "Švietimas ir mokslas"
+    ],
     "present": [
       "mokausi",
       "mokaisi",
@@ -2761,8 +2924,8 @@
       "mokėsi"
     ],
     "future": [
-      "mokysiusi",
-      "mokysisi",
+      "mokysiuosi",
+      "mokysiesi",
       "mokysis",
       "mokysimės",
       "mokysitės",
@@ -2779,17 +2942,17 @@
     "participlePastMasc": "",
     "conditional": [
       "mokyčiausi",
-      "mokytumeisi",
+      "mokytumsi",
       "mokytųsi",
-      "mokytu(mė)mės",
-      "mokytu(mė)tės",
+      "mokytumesi",
+      "mokytutesi",
       "mokytųsi"
     ],
     "imperative": [
       "",
-      "mokyks",
+      "mokykis",
       "",
-      "mokykimės",
+      "",
       "mokykitės",
       ""
     ],
@@ -2801,6 +2964,9 @@
     "lt": "mylėti",
     "lt_ascii": "myleti",
     "ru": "to love",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "present": [
       "myliu",
       "myli",
@@ -2836,17 +3002,17 @@
     "participlePastMasc": "",
     "conditional": [
       "mylėčiau",
-      "mylėtum(ei)",
+      "mylėtum",
       "mylėtų",
-      "mylėtu(mė)me",
-      "mylėtu(mė)te",
+      "mylėtume",
+      "mylėtute",
       "mylėtų"
     ],
     "imperative": [
       "",
       "mylėk",
       "",
-      "mylėkime",
+      "",
       "mylėkite",
       ""
     ],
@@ -2858,6 +3024,9 @@
     "lt": "neišlaikyti",
     "lt_ascii": "neislaikyti",
     "ru": "",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "present": [
       "neišlaikau",
       "neišlaikai",
@@ -2915,6 +3084,9 @@
     "lt": "nesutarti",
     "lt_ascii": "nesutarti",
     "ru": "",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "present": [
       "nesutariu",
       "nesutari",
@@ -2972,6 +3144,9 @@
     "lt": "nesutikti",
     "lt_ascii": "nesutikti",
     "ru": "",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "present": [
       "nesutinku",
       "nesutinki",
@@ -3029,6 +3204,9 @@
     "lt": "norėti",
     "lt_ascii": "noreti",
     "ru": "to want",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "present": [
       "noriu",
       "nori",
@@ -3064,17 +3242,17 @@
     "participlePastMasc": "",
     "conditional": [
       "norėčiau",
-      "norėtum(ei)",
+      "norėtum",
       "norėtų",
-      "norėtu(mė)me",
-      "norėtu(mė)te",
+      "norėtume",
+      "norėtute",
       "norėtų"
     ],
     "imperative": [
       "",
       "norėk",
       "",
-      "norėkime",
+      "",
       "norėkite",
       ""
     ],
@@ -3086,6 +3264,9 @@
     "lt": "pabučiuoti",
     "lt_ascii": "pabuciuoti",
     "ru": "to kiss",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "present": [
       "pabučiuoju",
       "pabučiuoji",
@@ -3121,17 +3302,17 @@
     "participlePastMasc": "",
     "conditional": [
       "pabučiuočiau",
-      "pabučiuotum(ei)",
+      "pabučiuotum",
       "pabučiuotų",
-      "pabučiuotu(mė)me",
-      "pabučiuotu(mė)te",
+      "pabučiuotume",
+      "pabučiuotute",
       "pabučiuotų"
     ],
     "imperative": [
       "",
       "pabučiuok",
       "",
-      "pabučiuokime",
+      "",
       "pabučiuokite",
       ""
     ],
@@ -3142,7 +3323,10 @@
   {
     "lt": "padėkoti",
     "lt_ascii": "padekoti",
-    "ru": "",
+    "ru": "to thank",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "present": [
       "padėkoju",
       "padėkoji",
@@ -3178,17 +3362,17 @@
     "participlePastMasc": "",
     "conditional": [
       "padėkočiau",
-      "padėkotum(ei)",
+      "padėkotum",
       "padėkotų",
-      "padėkotu(mė)me",
-      "padėkotu(mė)te",
+      "padėkotume",
+      "padėkotute",
       "padėkotų"
     ],
     "imperative": [
       "",
       "padėkok",
       "",
-      "padėkokime",
+      "",
       "padėkokite",
       ""
     ],
@@ -3200,8 +3384,12 @@
     "lt": "padėti",
     "lt_ascii": "padeti",
     "ru": "to help",
+    "topics": [
+      "Paslaugos",
+      "Santykiai su žmonėmis"
+    ],
     "present": [
-      "padedžu",
+      "padedu",
       "padedi",
       "padeda",
       "padedame",
@@ -3235,17 +3423,17 @@
     "participlePastMasc": "",
     "conditional": [
       "padėčiau",
-      "padėtum(ei)",
+      "padėtum",
       "padėtų",
-      "padėtu(mė)me",
-      "padėtu(mė)te",
+      "padėtume",
+      "padėtute",
       "padėtų"
     ],
     "imperative": [
       "",
       "padėk",
       "",
-      "padėkime",
+      "",
       "padėkite",
       ""
     ],
@@ -3257,9 +3445,12 @@
   {
     "lt": "pagydyti",
     "lt_ascii": "pagydyti",
-    "ru": "",
+    "ru": "to heal",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "present": [
-      "pagydžau",
+      "pagydau",
       "pagydai",
       "pagydo",
       "pagydome",
@@ -3267,12 +3458,12 @@
       "pagydo"
     ],
     "past": [
-      "",
-      "pagydei",
-      "pagydė",
-      "pagydėme",
-      "pagydėte",
-      "pagydė"
+      "pagydau",
+      "pagydai",
+      "pagydo",
+      "pagydome",
+      "pagydote",
+      "pagydo"
     ],
     "future": [
       "pagydysiu",
@@ -3293,17 +3484,17 @@
     "participlePastMasc": "",
     "conditional": [
       "pagydyčiau",
-      "pagydytum(ei)",
+      "pagydytum",
       "pagydytų",
-      "pagydytu(mė)me",
-      "pagydytu(mė)te",
+      "pagydytume",
+      "pagydytute",
       "pagydytų"
     ],
     "imperative": [
       "",
       "pagydyk",
       "",
-      "pagydykime",
+      "",
       "pagydykite",
       ""
     ],
@@ -3315,6 +3506,9 @@
     "lt": "paklausti",
     "lt_ascii": "paklausti",
     "ru": "to ask",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "present": [
       "paklausiu",
       "paklausi",
@@ -3350,17 +3544,17 @@
     "participlePastMasc": "",
     "conditional": [
       "paklausčiau",
-      "paklaustum(ei)",
+      "paklaustum",
       "paklaustų",
-      "paklaustu(mė)me",
-      "paklaustu(mė)te",
+      "paklaustume",
+      "paklaustute",
       "paklaustų"
     ],
     "imperative": [
       "",
       "paklausk",
       "",
-      "paklauskime",
+      "",
       "paklauskite",
       ""
     ],
@@ -3371,9 +3565,12 @@
   {
     "lt": "parduoti",
     "lt_ascii": "parduoti",
-    "ru": "to sell?",
+    "ru": "to sell",
+    "topics": [
+      "Prekyba"
+    ],
     "present": [
-      "parduodžu",
+      "parduodu",
       "parduodi",
       "parduoda",
       "parduodame",
@@ -3407,17 +3604,17 @@
     "participlePastMasc": "",
     "conditional": [
       "parduočiau",
-      "parduotum(ei)",
+      "parduotum",
       "parduotų",
-      "parduotu(mė)me",
-      "parduotu(mė)te",
+      "parduotume",
+      "parduotute",
       "parduotų"
     ],
     "imperative": [
       "",
       "parduok",
       "",
-      "parduokime",
+      "",
       "parduokite",
       ""
     ],
@@ -3428,7 +3625,10 @@
   {
     "lt": "pareiti",
     "lt_ascii": "pareiti",
-    "ru": "",
+    "ru": "to come back",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "present": [
       "pareinu",
       "pareini",
@@ -3464,17 +3664,17 @@
     "participlePastMasc": "",
     "conditional": [
       "pareičiau",
-      "pareitum(ei)",
+      "pareitum",
       "pareitų",
-      "pareitu(mė)me",
-      "pareitu(mė)te",
+      "pareitume",
+      "pareitute",
       "pareitų"
     ],
     "imperative": [
       "",
       "pareik",
       "",
-      "pareikime",
+      "",
       "pareikite",
       ""
     ],
@@ -3485,7 +3685,10 @@
   {
     "lt": "pasakyti",
     "lt_ascii": "pasakyti",
-    "ru": "to tell (someone something)",
+    "ru": "to tell",
+    "topics": [
+      "Asmens tapatybė"
+    ],
     "present": [
       "pasakau",
       "pasakai",
@@ -3521,17 +3724,17 @@
     "participlePastMasc": "",
     "conditional": [
       "pasakyčiau",
-      "pasakytum(ei)",
+      "pasakytum",
       "pasakytų",
-      "pasakytu(mė)me",
-      "pasakytu(mė)te",
+      "pasakytume",
+      "pasakytute",
       "pasakytų"
     ],
     "imperative": [
       "",
       "pasakyk",
       "",
-      "pasakykime",
+      "",
       "pasakykite",
       ""
     ],
@@ -3543,6 +3746,9 @@
     "lt": "pasiklysti",
     "lt_ascii": "pasiklysti",
     "ru": "",
+    "topics": [
+      "Kelionės"
+    ],
     "present": [
       "pasiklystu",
       "pasiklysti",
@@ -3599,7 +3805,10 @@
   {
     "lt": "pasirašyti",
     "lt_ascii": "pasirasyti",
-    "ru": "to sign?",
+    "ru": "to sign",
+    "topics": [
+      "Paslaugos"
+    ],
     "present": [
       "pasirašau",
       "pasirašai",
@@ -3635,17 +3844,17 @@
     "participlePastMasc": "",
     "conditional": [
       "pasirašyčiau",
-      "pasirašytum(ei)",
+      "pasirašytum",
       "pasirašytų",
-      "pasirašytu(mė)me",
-      "pasirašytu(mė)te",
+      "pasirašytume",
+      "pasirašytute",
       "pasirašytų"
     ],
     "imperative": [
       "",
       "pasirašyk",
       "",
-      "pasirašykime",
+      "",
       "pasirašykite",
       ""
     ],
@@ -3656,7 +3865,10 @@
   {
     "lt": "pasirinkti",
     "lt_ascii": "pasirinkti",
-    "ru": "something to do with a set or choosing",
+    "ru": "to choose",
+    "topics": [
+      "Prekyba"
+    ],
     "present": [
       "pasirenku",
       "pasirenki",
@@ -3692,17 +3904,17 @@
     "participlePastMasc": "",
     "conditional": [
       "pasirinkčiau",
-      "pasirinktum(ei)",
+      "pasirinktum",
       "pasirinktų",
-      "pasirinktu(mė)me",
-      "pasirinktu(mė)te",
+      "pasirinktume",
+      "pasirinktute",
       "pasirinktų"
     ],
     "imperative": [
       "",
       "pasirink",
       "",
-      "pasirinkime",
+      "",
       "pasirinkite",
       ""
     ],
@@ -3714,6 +3926,9 @@
     "lt": "pasiūlyti",
     "lt_ascii": "pasiulyti",
     "ru": "",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "present": [
       "pasiūlau",
       "pasiūlai",
@@ -3770,7 +3985,10 @@
   {
     "lt": "pasveikti",
     "lt_ascii": "pasveikti",
-    "ru": "to recover / get better?",
+    "ru": "to get well",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "present": [
       "pasveikstu",
       "pasveiksti",
@@ -3806,17 +4024,17 @@
     "participlePastMasc": "",
     "conditional": [
       "pasveikčiau",
-      "pasveiktum(ei)",
+      "pasveiktum",
       "pasveiktų",
-      "pasveiktu(mė)me",
-      "pasveiktu(mė)te",
+      "pasveiktume",
+      "pasveiktute",
       "pasveiktų"
     ],
     "imperative": [
       "",
       "pasveik",
       "",
-      "pasveikime",
+      "",
       "pasveikite",
       ""
     ],
@@ -3827,7 +4045,10 @@
   {
     "lt": "patiekti",
     "lt_ascii": "patiekti",
-    "ru": "",
+    "ru": "to supply",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "present": [
       "patiekiu",
       "patieki",
@@ -3863,17 +4084,17 @@
     "participlePastMasc": "",
     "conditional": [
       "patiekčiau",
-      "patiektum(ei)",
+      "patiektum",
       "patiektų",
-      "patiektu(mė)me",
-      "patiektu(mė)te",
+      "patiektume",
+      "patiektute",
       "patiektų"
     ],
     "imperative": [
       "",
       "patiek",
       "",
-      "patiekime",
+      "",
       "patiekite",
       ""
     ],
@@ -3884,7 +4105,10 @@
   {
     "lt": "patikti",
     "lt_ascii": "patikti",
-    "ru": "to like?",
+    "ru": "to be liked",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "present": [
       "patinku",
       "patinki",
@@ -3920,17 +4144,17 @@
     "participlePastMasc": "",
     "conditional": [
       "patikčiau",
-      "patiktum(ei)",
+      "patiktum",
       "patiktų",
-      "patiktu(mė)me",
-      "patiktu(mė)te",
+      "patiktume",
+      "patiktute",
       "patiktų"
     ],
     "imperative": [
       "",
       "patik",
       "",
-      "patikime",
+      "",
       "patikite",
       ""
     ],
@@ -3941,7 +4165,11 @@
   {
     "lt": "pavėluoti",
     "lt_ascii": "paveluoti",
-    "ru": "something to do  with late",
+    "ru": "to be late",
+    "topics": [
+      "Kasdienis gyvenimas",
+      "Kelionės"
+    ],
     "present": [
       "pavėluoju",
       "pavėluoji",
@@ -3977,17 +4205,17 @@
     "participlePastMasc": "",
     "conditional": [
       "pavėluočiau",
-      "pavėluotum(ei)",
+      "pavėluotum",
       "pavėluotų",
-      "pavėluotu(mė)me",
-      "pavėluotu(mė)te",
+      "pavėluotume",
+      "pavėluotute",
       "pavėluotų"
     ],
     "imperative": [
       "",
       "pavėluok",
       "",
-      "pavėluokime",
+      "",
       "pavėluokite",
       ""
     ],
@@ -3998,9 +4226,12 @@
   {
     "lt": "pervesti",
     "lt_ascii": "pervesti",
-    "ru": "to transfer (funds)",
+    "ru": "to transfer money",
+    "topics": [
+      "Paslaugos"
+    ],
     "present": [
-      "pervedžu",
+      "pervedu",
       "pervedi",
       "perveda",
       "pervedame",
@@ -4008,7 +4239,7 @@
       "perveda"
     ],
     "past": [
-      "",
+      "pervedžiau",
       "pervedei",
       "pervedė",
       "pervedėme",
@@ -4034,17 +4265,17 @@
     "participlePastMasc": "",
     "conditional": [
       "pervesčiau",
-      "pervestum(ei)",
+      "pervestum",
       "pervestų",
-      "pervestu(mė)me",
-      "pervestu(mė)te",
+      "pervestume",
+      "pervestute",
       "pervestų"
     ],
     "imperative": [
       "",
       "pervesk",
       "",
-      "perveskime",
+      "",
       "perveskite",
       ""
     ],
@@ -4056,6 +4287,9 @@
     "lt": "piešti",
     "lt_ascii": "piesti",
     "ru": "to paint?",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "present": [
       "piešiu",
       "pieši",
@@ -4112,9 +4346,12 @@
   {
     "lt": "pildyti",
     "lt_ascii": "pildyti",
-    "ru": "to fill up?",
+    "ru": "to fill",
+    "topics": [
+      "Paslaugos"
+    ],
     "present": [
-      "pildžau",
+      "pildau",
       "pildai",
       "pildo",
       "pildome",
@@ -4122,7 +4359,7 @@
       "pildo"
     ],
     "past": [
-      "",
+      "pildžiau",
       "pildei",
       "pildė",
       "pildėme",
@@ -4148,17 +4385,17 @@
     "participlePastMasc": "",
     "conditional": [
       "pildyčiau",
-      "pildytum(ei)",
+      "pildytum",
       "pildytų",
-      "pildytu(mė)me",
-      "pildytu(mė)te",
+      "pildytume",
+      "pildytute",
       "pildytų"
     ],
     "imperative": [
       "",
       "pildyk",
       "",
-      "pildykime",
+      "",
       "pildykite",
       ""
     ],
@@ -4170,6 +4407,10 @@
     "lt": "pirkti",
     "lt_ascii": "pirkti",
     "ru": "to buy",
+    "topics": [
+      "Kasdienis gyvenimas",
+      "Prekyba"
+    ],
     "present": [
       "perku",
       "perki",
@@ -4205,17 +4446,17 @@
     "participlePastMasc": "",
     "conditional": [
       "pirkčiau",
-      "pirktum(ei)",
+      "pirktum",
       "pirktų",
-      "pirktu(mė)me",
-      "pirktu(mė)te",
+      "pirktume",
+      "pirktute",
       "pirktų"
     ],
     "imperative": [
       "",
       "pirk",
       "",
-      "pirkime",
+      "",
       "pirkite",
       ""
     ],
@@ -4227,7 +4468,12 @@
   {
     "lt": "plauti",
     "lt_ascii": "plauti",
-    "ru": "to clean / wash? plaukti = to swim?",
+    "ru": "to wash",
+    "topics": [
+      "Būstas",
+      "Kasdienis gyvenimas",
+      "Sveikata ir higiena"
+    ],
     "present": [
       "plaunu",
       "plauni",
@@ -4263,17 +4509,17 @@
     "participlePastMasc": "",
     "conditional": [
       "plaučiau",
-      "plautum(ei)",
+      "plautum",
       "plautų",
-      "plautu(mė)me",
-      "plautu(mė)te",
+      "plautume",
+      "plautute",
       "plautų"
     ],
     "imperative": [
       "",
       "plauk",
       "",
-      "plaukime",
+      "",
       "plaukite",
       ""
     ],
@@ -4285,7 +4531,10 @@
   {
     "lt": "pranešti",
     "lt_ascii": "pranesti",
-    "ru": "",
+    "ru": "to inform",
+    "topics": [
+      "Paslaugos"
+    ],
     "present": [
       "pranešu",
       "praneši",
@@ -4303,12 +4552,12 @@
       "pranešė"
     ],
     "future": [
-      "praneššiu",
-      "pranešši",
-      "pranešš",
-      "praneššime",
-      "praneššite",
-      "pranešš"
+      "pranešiu",
+      "praneši",
+      "praneš",
+      "pranešime",
+      "pranešite",
+      "praneš"
     ],
     "usedTo": [
       "pranešdavau",
@@ -4321,17 +4570,17 @@
     "participlePastMasc": "",
     "conditional": [
       "praneščiau",
-      "praneštum(ei)",
+      "praneštum",
       "praneštų",
-      "praneštu(mė)me",
-      "praneštu(mė)te",
+      "praneštume",
+      "praneštute",
       "praneštų"
     ],
     "imperative": [
       "",
       "pranešk",
       "",
-      "praneškime",
+      "",
       "praneškite",
       ""
     ],
@@ -4342,9 +4591,12 @@
   {
     "lt": "prarasti",
     "lt_ascii": "prarasti",
-    "ru": "",
+    "ru": "to lose",
+    "topics": [
+      "Kelionės"
+    ],
     "present": [
-      "prarandžu",
+      "prarandu",
       "prarandi",
       "praranda",
       "prarandame",
@@ -4378,17 +4630,17 @@
     "participlePastMasc": "",
     "conditional": [
       "prarasčiau",
-      "prarastum(ei)",
+      "prarastum",
       "prarastų",
-      "prarastu(mė)me",
-      "prarastu(mė)te",
+      "prarastume",
+      "prarastute",
       "prarastų"
     ],
     "imperative": [
       "",
       "prarask",
       "",
-      "praraskime",
+      "",
       "praraskite",
       ""
     ],
@@ -4399,7 +4651,10 @@
   {
     "lt": "pyktis",
     "lt_ascii": "pyktis",
-    "ru": "something related to anger",
+    "ru": "to quarrel",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "present": [
       "pykstuosi",
       "pykstiesi",
@@ -4417,8 +4672,8 @@
       "pykosi"
     ],
     "future": [
-      "pyksiusi",
-      "pyksisi",
+      "pyksiuosi",
+      "pyksiesi",
       "pyksis",
       "pyksimės",
       "pyksitės",
@@ -4435,17 +4690,17 @@
     "participlePastMasc": "",
     "conditional": [
       "pykčiausi",
-      "pyktumeisi",
+      "pyktumsi",
       "pyktųsi",
-      "pyktu(mė)mės",
-      "pyktu(mė)tės",
+      "pyktumesi",
+      "pyktutesi",
       "pyktųsi"
     ],
     "imperative": [
       "",
-      "pyks",
+      "pykis",
       "",
-      "pykimės",
+      "",
       "pykitės",
       ""
     ],
@@ -4456,7 +4711,10 @@
   {
     "lt": "ragauti",
     "lt_ascii": "ragauti",
-    "ru": "fermented?",
+    "ru": "to taste",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "present": [
       "ragauju",
       "ragauji",
@@ -4492,17 +4750,17 @@
     "participlePastMasc": "",
     "conditional": [
       "ragaučiau",
-      "ragautum(ei)",
+      "ragautum",
       "ragautų",
-      "ragautu(mė)me",
-      "ragautu(mė)te",
+      "ragautume",
+      "ragautute",
       "ragautų"
     ],
     "imperative": [
       "",
       "ragauk",
       "",
-      "ragaukime",
+      "",
       "ragaukite",
       ""
     ],
@@ -4514,6 +4772,11 @@
     "lt": "rašyti",
     "lt_ascii": "rasyti",
     "ru": "to write",
+    "topics": [
+      "Asmens tapatybė",
+      "Kasdienis gyvenimas",
+      "Švietimas ir mokslas"
+    ],
     "present": [
       "rašau",
       "rašai",
@@ -4549,17 +4812,17 @@
     "participlePastMasc": "",
     "conditional": [
       "rašyčiau",
-      "rašytum(ei)",
+      "rašytum",
       "rašytų",
-      "rašytu(mė)me",
-      "rašytu(mė)te",
+      "rašytume",
+      "rašytute",
       "rašytų"
     ],
     "imperative": [
       "",
       "rašyk",
       "",
-      "rašykime",
+      "",
       "rašykite",
       ""
     ],
@@ -4570,7 +4833,10 @@
   {
     "lt": "registruotis",
     "lt_ascii": "registruotis",
-    "ru": "registration",
+    "ru": "to register",
+    "topics": [
+      "Kelionės"
+    ],
     "present": [
       "registruojuosi",
       "registruojiesi",
@@ -4588,8 +4854,8 @@
       "registravosi"
     ],
     "future": [
-      "registruosiusi",
-      "registruosisi",
+      "registruosiuosi",
+      "registruosiesi",
       "registruosis",
       "registruosimės",
       "registruositės",
@@ -4606,17 +4872,17 @@
     "participlePastMasc": "",
     "conditional": [
       "registruočiausi",
-      "registruotumeisi",
+      "registruotumsi",
       "registruotųsi",
-      "registruotu(mė)mės",
-      "registruotu(mė)tės",
+      "registruotumesi",
+      "registruotutesi",
       "registruotųsi"
     ],
     "imperative": [
       "",
-      "registruoks",
+      "registruokis",
       "",
-      "registruokimės",
+      "",
       "registruokitės",
       ""
     ],
@@ -4627,7 +4893,11 @@
   {
     "lt": "rezervuoti",
     "lt_ascii": "rezervuoti",
-    "ru": "reservation",
+    "ru": "to make a reservation",
+    "topics": [
+      "Kelionės",
+      "Prekyba"
+    ],
     "present": [
       "rezervuoju",
       "rezervuoji",
@@ -4663,17 +4933,17 @@
     "participlePastMasc": "",
     "conditional": [
       "rezervuočiau",
-      "rezervuotum(ei)",
+      "rezervuotum",
       "rezervuotų",
-      "rezervuotu(mė)me",
-      "rezervuotu(mė)te",
+      "rezervuotume",
+      "rezervuotute",
       "rezervuotų"
     ],
     "imperative": [
       "",
       "rezervuok",
       "",
-      "rezervuokime",
+      "",
       "rezervuokite",
       ""
     ],
@@ -4685,30 +4955,33 @@
   {
     "lt": "rinktis",
     "lt_ascii": "rinktis",
-    "ru": "something to do with a set or choosing",
+    "ru": "to come together",
+    "topics": [
+      "Prekyba"
+    ],
     "present": [
       "renkuosi",
+      "come together",
       "renkiesi",
+      "come together",
       "renkasi",
-      "renkamės",
-      "renkatės",
-      "renkasi"
+      "comes together"
     ],
     "past": [
       "rinkausi",
+      "came together",
       "rinkaisi",
+      "came together",
       "rinkosi",
-      "rinkomės",
-      "rinkotės",
-      "rinkosi"
+      "came together"
     ],
     "future": [
-      "rinksiusi",
-      "rinksisi",
-      "rinksis",
-      "rinksimės",
-      "rinksitės",
-      "rinksis"
+      "rinkdavausi",
+      "will come together",
+      "rinkdavaisi",
+      "will come together",
+      "rinkdavosi",
+      "will come together"
     ],
     "usedTo": [
       "rinkdavausi",
@@ -4721,17 +4994,17 @@
     "participlePastMasc": "",
     "conditional": [
       "rinkčiausi",
-      "rinktumeisi",
+      "would come together",
+      "rinktumsi",
+      "would come together",
       "rinktųsi",
-      "rinktu(mė)mės",
-      "rinktu(mė)tės",
-      "rinktųsi"
+      "would come together"
     ],
     "imperative": [
       "",
-      "rinks",
+      "rinkis",
       "",
-      "rinkimės",
+      "",
       "rinkitės",
       ""
     ],
@@ -4742,7 +5015,10 @@
   {
     "lt": "ruošti",
     "lt_ascii": "ruosti",
-    "ru": "",
+    "ru": "to prepare",
+    "topics": [
+      "Būstas"
+    ],
     "present": [
       "ruošiu",
       "ruoši",
@@ -4760,12 +5036,12 @@
       "ruošė"
     ],
     "future": [
-      "ruoššiu",
-      "ruošši",
-      "ruošš",
-      "ruoššime",
-      "ruoššite",
-      "ruošš"
+      "ruošiu",
+      "ruoši",
+      "ruoš",
+      "ruošime",
+      "ruošite",
+      "ruoš"
     ],
     "usedTo": [
       "ruošdavau",
@@ -4778,17 +5054,17 @@
     "participlePastMasc": "",
     "conditional": [
       "ruoščiau",
-      "ruoštum(ei)",
+      "ruoštum",
       "ruoštų",
-      "ruoštu(mė)me",
-      "ruoštu(mė)te",
+      "ruoštume",
+      "ruoštute",
       "ruoštų"
     ],
     "imperative": [
       "",
       "ruošk",
       "",
-      "ruoškime",
+      "",
       "ruoškite",
       ""
     ],
@@ -4799,7 +5075,11 @@
   {
     "lt": "ruoštis",
     "lt_ascii": "ruostis",
-    "ru": "",
+    "ru": "to prepare",
+    "topics": [
+      "Kasdienis gyvenimas",
+      "Švietimas ir mokslas"
+    ],
     "present": [
       "ruošiuosi",
       "ruošiesi",
@@ -4817,12 +5097,12 @@
       "ruošėsi"
     ],
     "future": [
-      "ruoššiusi",
-      "ruoššisi",
-      "ruoššis",
-      "ruoššimės",
-      "ruoššitės",
-      "ruoššis"
+      "ruošiuosi",
+      "ruošiesi",
+      "ruošis",
+      "ruošimės",
+      "ruošitės",
+      "ruošis"
     ],
     "usedTo": [
       "ruošdavausi",
@@ -4835,17 +5115,17 @@
     "participlePastMasc": "",
     "conditional": [
       "ruoščiausi",
-      "ruoštumeisi",
+      "ruoštumsi",
       "ruoštųsi",
-      "ruoštu(mė)mės",
-      "ruoštu(mė)tės",
+      "ruoštumesi",
+      "ruoštutesi",
       "ruoštųsi"
     ],
     "imperative": [
       "",
-      "ruošks",
+      "ruoškis",
       "",
-      "ruoškimės",
+      "",
       "ruoškitės",
       ""
     ],
@@ -4857,7 +5137,10 @@
   {
     "lt": "rūpintis",
     "lt_ascii": "rupintis",
-    "ru": "",
+    "ru": "to care",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "present": [
       "rūpinuosi",
       "rūpiniesi",
@@ -4875,8 +5158,8 @@
       "rūpinosi"
     ],
     "future": [
-      "rūpinsiusi",
-      "rūpinsisi",
+      "rūpinsiuosi",
+      "rūpinsiesi",
       "rūpinsis",
       "rūpinsimės",
       "rūpinsitės",
@@ -4893,17 +5176,17 @@
     "participlePastMasc": "",
     "conditional": [
       "rūpinčiausi",
-      "rūpintumeisi",
+      "rūpintumsi",
       "rūpintųsi",
-      "rūpintu(mė)mės",
-      "rūpintu(mė)tės",
+      "rūpintumesi",
+      "rūpintutesi",
       "rūpintųsi"
     ],
     "imperative": [
       "",
-      "rūpinks",
+      "rūpinkis",
       "",
-      "rūpinkimės",
+      "",
       "rūpinkitės",
       ""
     ],
@@ -4915,6 +5198,9 @@
     "lt": "šaltis",
     "lt_ascii": "saltis",
     "ru": "something to do with cold",
+    "topics": [
+      "Gamta.Regionas"
+    ],
     "present": [
       "šąluosi",
       "šąliesi",
@@ -4971,7 +5257,10 @@
   {
     "lt": "sirgti",
     "lt_ascii": "sirgti",
-    "ru": "to get sick",
+    "ru": "to be ill",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "present": [
       "sergu",
       "sergi",
@@ -5007,17 +5296,17 @@
     "participlePastMasc": "",
     "conditional": [
       "sirgčiau",
-      "sirgtum(ei)",
+      "sirgtum",
       "sirgtų",
-      "sirgtu(mė)me",
-      "sirgtu(mė)te",
+      "sirgtume",
+      "sirgtute",
       "sirgtų"
     ],
     "imperative": [
       "",
       "sirk",
       "",
-      "sirkime",
+      "",
       "sirkite",
       ""
     ],
@@ -5029,16 +5318,19 @@
     "lt": "siųsti",
     "lt_ascii": "siusti",
     "ru": "to send",
+    "topics": [
+      "Paslaugos"
+    ],
     "present": [
       "siunčiu",
-      "siunči",
+      "siunti",
       "siunčia",
       "siunčiame",
       "siunčiate",
       "siunčia"
     ],
     "past": [
-      "",
+      "siunčiau",
       "siuntei",
       "siuntė",
       "siuntėme",
@@ -5064,17 +5356,17 @@
     "participlePastMasc": "",
     "conditional": [
       "siųsčiau",
-      "siųstum(ei)",
+      "siųstum",
       "siųstų",
-      "siųstu(mė)me",
-      "siųstu(mė)te",
+      "siųstume",
+      "siųstute",
       "siųstų"
     ],
     "imperative": [
       "",
       "siųsk",
       "",
-      "siųskime",
+      "",
       "siųskite",
       ""
     ],
@@ -5087,6 +5379,11 @@
     "lt": "skaityti",
     "lt_ascii": "skaityti",
     "ru": "to read",
+    "topics": [
+      "Kasdienis gyvenimas",
+      "Laisvalaikis",
+      "Švietimas ir mokslas"
+    ],
     "present": [
       "skaitau",
       "skaitai",
@@ -5096,7 +5393,7 @@
       "skaito"
     ],
     "past": [
-      "",
+      "skaičiau",
       "skaitei",
       "skaitė",
       "skaitėme",
@@ -5122,17 +5419,17 @@
     "participlePastMasc": "",
     "conditional": [
       "skaityčiau",
-      "skaitytum(ei)",
+      "skaitytum",
       "skaitytų",
-      "skaitytu(mė)me",
-      "skaitytu(mė)te",
+      "skaitytume",
+      "skaitytute",
       "skaitytų"
     ],
     "imperative": [
       "",
       "skaityk",
       "",
-      "skaitykime",
+      "",
       "skaitykite",
       ""
     ],
@@ -5143,7 +5440,11 @@
   {
     "lt": "skambinti",
     "lt_ascii": "skambinti",
-    "ru": "to call / telephone",
+    "ru": "to call on the phone",
+    "topics": [
+      "Asmens tapatybė",
+      "Paslaugos"
+    ],
     "present": [
       "skambinu",
       "skambini",
@@ -5179,17 +5480,17 @@
     "participlePastMasc": "",
     "conditional": [
       "skambinčiau",
-      "skambintum(ei)",
+      "skambintum",
       "skambintų",
-      "skambintu(mė)me",
-      "skambintu(mė)te",
+      "skambintume",
+      "skambintute",
       "skambintų"
     ],
     "imperative": [
       "",
       "skambink",
       "",
-      "skambinkime",
+      "",
       "skambinkite",
       ""
     ],
@@ -5201,9 +5502,12 @@
   {
     "lt": "skaudėti",
     "lt_ascii": "skaudeti",
-    "ru": "to hurt / pain",
+    "ru": "to hurt",
+    "topics": [
+      "Sveikata ir higiena"
+    ],
     "present": [
-      "skaudžu",
+      "skaudu",
       "skaudi",
       "skauda",
       "skaudame",
@@ -5237,17 +5541,17 @@
     "participlePastMasc": "",
     "conditional": [
       "skaudėčiau",
-      "skaudėtum(ei)",
+      "skaudėtum",
       "skaudėtų",
-      "skaudėtu(mė)me",
-      "skaudėtu(mė)te",
+      "skaudėtume",
+      "skaudėtute",
       "skaudėtų"
     ],
     "imperative": [
       "",
       "skaudėk",
       "",
-      "skaudėkime",
+      "",
       "skaudėkite",
       ""
     ],
@@ -5258,7 +5562,10 @@
   {
     "lt": "skubėti",
     "lt_ascii": "skubeti",
-    "ru": "to hurry / rush",
+    "ru": "to hurry",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "present": [
       "skubu",
       "skubi",
@@ -5294,17 +5601,17 @@
     "participlePastMasc": "",
     "conditional": [
       "skubėčiau",
-      "skubėtum(ei)",
+      "skubėtum",
       "skubėtų",
-      "skubėtu(mė)me",
-      "skubėtu(mė)te",
+      "skubėtume",
+      "skubėtute",
       "skubėtų"
     ],
     "imperative": [
       "",
       "skubėk",
       "",
-      "skubėkime",
+      "",
       "skubėkite",
       ""
     ],
@@ -5315,7 +5622,10 @@
   {
     "lt": "šluoti",
     "lt_ascii": "sluoti",
-    "ru": "to mop?",
+    "ru": "to sweep",
+    "topics": [
+      "Būstas"
+    ],
     "present": [
       "šluoju",
       "šluoji",
@@ -5351,17 +5661,17 @@
     "participlePastMasc": "",
     "conditional": [
       "šluočiau",
-      "šluotum(ei)",
+      "šluotum",
       "šluotų",
-      "šluotu(mė)me",
-      "šluotu(mė)te",
+      "šluotume",
+      "šluotute",
       "šluotų"
     ],
     "imperative": [
       "",
       "šluok",
       "",
-      "šluokime",
+      "",
       "šluokite",
       ""
     ],
@@ -5372,7 +5682,10 @@
   {
     "lt": "šokti",
     "lt_ascii": "sokti",
-    "ru": "dance / gymnastics?",
+    "ru": "to dance",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "present": [
       "šoku",
       "šoki",
@@ -5408,17 +5721,17 @@
     "participlePastMasc": "",
     "conditional": [
       "šokčiau",
-      "šoktum(ei)",
+      "šoktum",
       "šoktų",
-      "šoktu(mė)me",
-      "šoktu(mė)te",
+      "šoktume",
+      "šoktute",
       "šoktų"
     ],
     "imperative": [
       "",
       "šok",
       "",
-      "šokime",
+      "",
       "šokite",
       ""
     ],
@@ -5429,7 +5742,10 @@
   {
     "lt": "sportuoti",
     "lt_ascii": "sportuoti",
-    "ru": "to play sport",
+    "ru": "to do sports",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "present": [
       "sportuoju",
       "sportuoji",
@@ -5465,17 +5781,17 @@
     "participlePastMasc": "",
     "conditional": [
       "sportuočiau",
-      "sportuotum(ei)",
+      "sportuotum",
       "sportuotų",
-      "sportuotu(mė)me",
-      "sportuotu(mė)te",
+      "sportuotume",
+      "sportuotute",
       "sportuotų"
     ],
     "imperative": [
       "",
       "sportuok",
       "",
-      "sportuokime",
+      "",
       "sportuokite",
       ""
     ],
@@ -5486,30 +5802,33 @@
   {
     "lt": "stotis",
     "lt_ascii": "stotis",
-    "ru": "stop (eg for a bus)",
+    "ru": "to stand up",
+    "topics": [
+      "Kelionės"
+    ],
     "present": [
       "stojuosi",
+      "stand up",
       "stojiesi",
+      "stand up",
       "stojasi",
-      "stojamės",
-      "stojatės",
-      "stojasi"
+      "stands up"
     ],
     "past": [
       "stojausi",
+      "stood up",
       "stojaisi",
+      "stood up",
       "stojosi",
-      "stojomės",
-      "stojotės",
-      "stojosi"
+      "stood up"
     ],
     "future": [
-      "stosiusi",
-      "stosisi",
-      "stosis",
-      "stosimės",
-      "stositės",
-      "stosis"
+      "stodavausi",
+      "will stand up",
+      "stodavaisi",
+      "will stand up",
+      "stodavosi",
+      "will stand up"
     ],
     "usedTo": [
       "stodavausi",
@@ -5522,17 +5841,17 @@
     "participlePastMasc": "",
     "conditional": [
       "stočiausi",
-      "stotumeisi",
+      "would stand up",
+      "stotumsi",
+      "would stand up",
       "stotųsi",
-      "stotu(mė)mės",
-      "stotu(mė)tės",
-      "stotųsi"
+      "would stand up"
     ],
     "imperative": [
       "",
-      "stoks",
+      "stokis",
       "",
-      "stokimės",
+      "",
       "stokitės",
       ""
     ],
@@ -5544,6 +5863,9 @@
     "lt": "studijuoti",
     "lt_ascii": "studijuoti",
     "ru": "to study",
+    "topics": [
+      "Švietimas ir mokslas"
+    ],
     "present": [
       "studijuoju",
       "studijuoji",
@@ -5579,17 +5901,17 @@
     "participlePastMasc": "",
     "conditional": [
       "studijuočiau",
-      "studijuotum(ei)",
+      "studijuotum",
       "studijuotų",
-      "studijuotu(mė)me",
-      "studijuotu(mė)te",
+      "studijuotume",
+      "studijuotute",
       "studijuotų"
     ],
     "imperative": [
       "",
       "studijuok",
       "",
-      "studijuokime",
+      "",
       "studijuokite",
       ""
     ],
@@ -5600,7 +5922,10 @@
   {
     "lt": "šukuotis",
     "lt_ascii": "sukuotis",
-    "ru": "",
+    "ru": "to comb",
+    "topics": [
+      "Kasdienis gyvenimas"
+    ],
     "present": [
       "šukuojuosi",
       "šukuojiesi",
@@ -5618,8 +5943,8 @@
       "šukavosi"
     ],
     "future": [
-      "šukuosiusi",
-      "šukuosisi",
+      "šukuosiuosi",
+      "šukuosiesi",
       "šukuosis",
       "šukuosimės",
       "šukuositės",
@@ -5636,17 +5961,17 @@
     "participlePastMasc": "",
     "conditional": [
       "šukuočiausi",
-      "šukuotumeisi",
+      "šukuotumsi",
       "šukuotųsi",
-      "šukuotu(mė)mės",
-      "šukuotu(mė)tės",
+      "šukuotumesi",
+      "šukuotutesi",
       "šukuotųsi"
     ],
     "imperative": [
       "",
-      "šukuoks",
+      "šukuokis",
       "",
-      "šukuokimės",
+      "",
       "šukuokitės",
       ""
     ],
@@ -5657,7 +5982,12 @@
   {
     "lt": "susitikti",
     "lt_ascii": "susitikti",
-    "ru": "to agree / to meet?",
+    "ru": "to meet up",
+    "topics": [
+      "Kasdienis gyvenimas",
+      "Laisvalaikis",
+      "Santykiai su žmonėmis"
+    ],
     "present": [
       "susitinku",
       "susitinki",
@@ -5693,17 +6023,17 @@
     "participlePastMasc": "",
     "conditional": [
       "susitikčiau",
-      "susitiktum(ei)",
+      "susitiktum",
       "susitiktų",
-      "susitiktu(mė)me",
-      "susitiktu(mė)te",
+      "susitiktume",
+      "susitiktumėte",
       "susitiktų"
     ],
     "imperative": [
       "",
       "susitik",
       "",
-      "susitikime",
+      "",
       "susitikite",
       ""
     ],
@@ -5715,7 +6045,10 @@
   {
     "lt": "sutikti",
     "lt_ascii": "sutikti",
-    "ru": "",
+    "ru": "to agree",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "present": [
       "sutinku",
       "sutinki",
@@ -5751,17 +6084,17 @@
     "participlePastMasc": "",
     "conditional": [
       "sutikčiau",
-      "sutiktum(ei)",
+      "sutiktum",
       "sutiktų",
-      "sutiktu(mė)me",
-      "sutiktu(mė)te",
+      "sutiktume",
+      "sutiktute",
       "sutiktų"
     ],
     "imperative": [
       "",
       "sutik",
       "",
-      "sutikime",
+      "",
       "sutikite",
       ""
     ],
@@ -5772,7 +6105,10 @@
   {
     "lt": "taikytis",
     "lt_ascii": "taikytis",
-    "ru": "",
+    "ru": "to aim",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "present": [
       "taikausi",
       "taikaisi",
@@ -5790,8 +6126,8 @@
       "taikėsi"
     ],
     "future": [
-      "taikysiusi",
-      "taikysisi",
+      "taikysiuosi",
+      "taikysiesi",
       "taikysis",
       "taikysimės",
       "taikysitės",
@@ -5808,17 +6144,17 @@
     "participlePastMasc": "",
     "conditional": [
       "taikyčiausi",
-      "taikytumeisi",
+      "taikytumsi",
       "taikytųsi",
-      "taikytu(mė)mės",
-      "taikytu(mė)tės",
+      "taikytumesi",
+      "taikytutesi",
       "taikytųsi"
     ],
     "imperative": [
       "",
-      "taikyks",
+      "taikykis",
       "",
-      "taikykimės",
+      "",
       "taikykitės",
       ""
     ],
@@ -5829,7 +6165,10 @@
   {
     "lt": "troškinti",
     "lt_ascii": "troskinti",
-    "ru": "dried?",
+    "ru": "to stew",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "present": [
       "troškinu",
       "troškini",
@@ -5865,17 +6204,17 @@
     "participlePastMasc": "",
     "conditional": [
       "troškinčiau",
-      "troškintum(ei)",
+      "troškintum",
       "troškintų",
-      "troškintu(mė)me",
-      "troškintu(mė)te",
+      "troškintume",
+      "troškintute",
       "troškintų"
     ],
     "imperative": [
       "",
       "troškink",
       "",
-      "troškinkime",
+      "",
       "troškinkite",
       ""
     ],
@@ -5886,7 +6225,11 @@
   {
     "lt": "tvarkyti",
     "lt_ascii": "tvarkyti",
-    "ru": "to tidy up / clean?",
+    "ru": "to put in order",
+    "topics": [
+      "Būstas",
+      "Kasdienis gyvenimas"
+    ],
     "present": [
       "tvarkau",
       "tvarkai",
@@ -5922,17 +6265,17 @@
     "participlePastMasc": "",
     "conditional": [
       "tvarkyčiau",
-      "tvarkytum(ei)",
+      "tvarkytum",
       "tvarkytų",
-      "tvarkytu(mė)me",
-      "tvarkytu(mė)te",
+      "tvarkytume",
+      "tvarkytute",
       "tvarkytų"
     ],
     "imperative": [
       "",
       "tvarkyk",
       "",
-      "tvarkykime",
+      "",
       "tvarkykite",
       ""
     ],
@@ -5943,7 +6286,11 @@
   {
     "lt": "užsisakyti",
     "lt_ascii": "uzsisakyti",
-    "ru": "(order?)",
+    "ru": "to order",
+    "topics": [
+      "Maistas ir gėrimai",
+      "Prekyba"
+    ],
     "present": [
       "užsisakau",
       "užsisakai",
@@ -5979,17 +6326,17 @@
     "participlePastMasc": "",
     "conditional": [
       "užsisakyčiau",
-      "užsisakytum(ei)",
+      "užsisakytum",
       "užsisakytų",
-      "užsisakytu(mė)me",
-      "užsisakytu(mė)te",
+      "užsisakytume",
+      "užsisakytute",
       "užsisakytų"
     ],
     "imperative": [
       "",
       "užsisakyk",
       "",
-      "užsisakykime",
+      "",
       "užsisakykite",
       ""
     ],
@@ -6002,6 +6349,9 @@
     "lt": "vaišinti",
     "lt_ascii": "vaisinti",
     "ru": "fruit? medicine?",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "present": [
       "vaisinu",
       "vaisini",
@@ -6059,6 +6409,11 @@
     "lt": "valgyti",
     "lt_ascii": "valgyti",
     "ru": "to eat",
+    "topics": [
+      "Būstas",
+      "Kasdienis gyvenimas",
+      "Maistas ir gėrimai"
+    ],
     "present": [
       "valgau",
       "valgai",
@@ -6094,17 +6449,17 @@
     "participlePastMasc": "",
     "conditional": [
       "valgyčiau",
-      "valgytum(ei)",
+      "valgytum",
       "valgytų",
-      "valgytu(mė)me",
-      "valgytu(mė)te",
+      "valgytume",
+      "valgytute",
       "valgytų"
     ],
     "imperative": [
       "",
       "valgyk",
       "",
-      "valgykime",
+      "",
       "valgykite",
       ""
     ],
@@ -6115,7 +6470,12 @@
   {
     "lt": "valyti",
     "lt_ascii": "valyti",
-    "ru": "to clean / wash?",
+    "ru": "to clean",
+    "topics": [
+      "Būstas",
+      "Kasdienis gyvenimas",
+      "Sveikata ir higiena"
+    ],
     "present": [
       "valau",
       "valai",
@@ -6151,17 +6511,17 @@
     "participlePastMasc": "",
     "conditional": [
       "valyčiau",
-      "valytum(ei)",
+      "valytum",
       "valytų",
-      "valytu(mė)me",
-      "valytu(mė)te",
+      "valytume",
+      "valytute",
       "valytų"
     ],
     "imperative": [
       "",
       "valyk",
       "",
-      "valykime",
+      "",
       "valykite",
       ""
     ],
@@ -6173,7 +6533,11 @@
   {
     "lt": "važiuoti",
     "lt_ascii": "vaziuoti",
-    "ru": "to drive / go by transport",
+    "ru": "to go by vehicle",
+    "topics": [
+      "Kasdienis gyvenimas",
+      "Kelionės"
+    ],
     "present": [
       "važiuoju",
       "važiuoji",
@@ -6209,17 +6573,17 @@
     "participlePastMasc": "",
     "conditional": [
       "važiuočiau",
-      "važiuotum(ei)",
+      "važiuotum",
       "važiuotų",
-      "važiuotu(mė)me",
-      "važiuotu(mė)te",
+      "važiuotume",
+      "važiuotute",
       "važiuotų"
     ],
     "imperative": [
       "",
       "važiuok",
       "",
-      "važiuokime",
+      "",
       "važiuokite",
       ""
     ],
@@ -6231,6 +6595,9 @@
     "lt": "verkti",
     "lt_ascii": "verkti",
     "ru": "to cry",
+    "topics": [
+      "Santykiai su žmonėmis"
+    ],
     "present": [
       "verkiu",
       "verki",
@@ -6266,17 +6633,17 @@
     "participlePastMasc": "",
     "conditional": [
       "verkčiau",
-      "verktum(ei)",
+      "verktum",
       "verktų",
-      "verktu(mė)me",
-      "verktu(mė)te",
+      "verktume",
+      "verktute",
       "verktų"
     ],
     "imperative": [
       "",
       "verk",
       "",
-      "verkime",
+      "",
       "verkite",
       ""
     ],
@@ -6287,9 +6654,12 @@
   {
     "lt": "virti",
     "lt_ascii": "virti",
-    "ru": "to cook / produce / make / manufacture?",
+    "ru": "to boil",
+    "topics": [
+      "Maistas ir gėrimai"
+    ],
     "present": [
-      "verdžu",
+      "verdu",
       "verdi",
       "verda",
       "verdame",
@@ -6323,17 +6693,17 @@
     "participlePastMasc": "",
     "conditional": [
       "virčiau",
-      "virtum(ei)",
+      "virtum",
       "virtų",
-      "virtu(mė)me",
-      "virtu(mė)te",
+      "virtume",
+      "virtute",
       "virtų"
     ],
     "imperative": [
       "",
       "virk",
       "",
-      "virkime",
+      "",
       "virkite",
       ""
     ],
@@ -6344,17 +6714,20 @@
   {
     "lt": "žaisti",
     "lt_ascii": "zaisti",
-    "ru": "to play (games)",
+    "ru": "to play",
+    "topics": [
+      "Laisvalaikis"
+    ],
     "present": [
       "žaidžiu",
-      "žaidži",
+      "žaidi",
       "žaidžia",
       "žaidžiame",
       "žaidžiate",
       "žaidžia"
     ],
     "past": [
-      "",
+      "žaidžiau",
       "žaidei",
       "žaidė",
       "žaidėme",
@@ -6380,17 +6753,17 @@
     "participlePastMasc": "",
     "conditional": [
       "žaisčiau",
-      "žaistum(ei)",
+      "žaistum",
       "žaistų",
-      "žaistu(mė)me",
-      "žaistu(mė)te",
+      "žaistume",
+      "žaistute",
       "žaistų"
     ],
     "imperative": [
       "",
       "žaisk",
       "",
-      "žaiskime",
+      "",
       "žaiskite",
       ""
     ],
@@ -6402,6 +6775,10 @@
     "lt": "žiūrėti",
     "lt_ascii": "ziureti",
     "ru": "to watch",
+    "topics": [
+      "Kasdienis gyvenimas",
+      "Laisvalaikis"
+    ],
     "present": [
       "žiūriu",
       "žiūri",
@@ -6437,17 +6814,17 @@
     "participlePastMasc": "",
     "conditional": [
       "žiūrėčiau",
-      "žiūrėtum(ei)",
+      "žiūrėtum",
       "žiūrėtų",
-      "žiūrėtu(mė)me",
-      "žiūrėtu(mė)te",
+      "žiūrėtume",
+      "žiūrėtute",
       "žiūrėtų"
     ],
     "imperative": [
       "",
       "žiūrėk",
       "",
-      "žiūrėkime",
+      "",
       "žiūrėkite",
       ""
     ],
