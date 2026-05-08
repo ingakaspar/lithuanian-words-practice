@@ -226,9 +226,9 @@ def main() -> None:
     nouns, noun_groups = build_nouns(rows)
     groups = sorted(verb_groups | noun_groups)
 
-    verbs_path = ROOT / "conjugations_group0_4.json"
-    nouns_path = ROOT / "nouns_group0_4.json"
-    groups_path = ROOT / "pdf_group_ids.json"
+    verbs_path = ROOT / "verbs_practice.json"
+    nouns_path = ROOT / "nouns_practice.json"
+    groups_path = ROOT / "word_groups.json"
     verbs_path.write_text(json.dumps(verbs, ensure_ascii=False, indent=2), encoding="utf-8")
     nouns_path.write_text(json.dumps(nouns, ensure_ascii=False, indent=2), encoding="utf-8")
     groups_path.write_text(json.dumps(groups, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

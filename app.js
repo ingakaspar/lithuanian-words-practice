@@ -3,19 +3,19 @@ let nouns = [];
 let verbsAll = [];
 let nounsAll = [];
 
-/** Used only until pdf_group_ids.json loads or if that file is missing. */
-const PDF_GROUPS_FALLBACK = [1, 2, 3, 4];
-const LS_PDF_GROUPS = "ltPractice_pdfGroups";
+/** Used only until word_groups.json loads or if that file is missing. */
+const WORD_GROUPS_FALLBACK = [1, 2, 3, 4];
+const LS_WORD_GROUPS = "ltPractice_wordGroups";
 
-let pdfGroupIdsEffective = [...PDF_GROUPS_FALLBACK];
+let wordGroupIdsEffective = [...WORD_GROUPS_FALLBACK];
 
-function getPdfGroupIds() {
-  return pdfGroupIdsEffective;
+function getWordGroupIds() {
+  return wordGroupIdsEffective;
 }
 
-async function fetchPdfGroupIdsFromMeta() {
+async function fetchWordGroupIdsFromMeta() {
   try {
-    const response = await fetch("pdf_group_ids.json", { cache: "no-store" });
+    const response = await fetch("word_groups.json", { cache: "no-store" });
     if (!response.ok) {
       return null;
     }
@@ -39,8 +39,8 @@ async function fetchPdfGroupIdsFromMeta() {
   }
 }
 
-function recomputePdfGroupIdsFromLoadedData() {
-  const u = new Set(getPdfGroupIds());
+function recomputeWordGroupIdsFromLoadedData() {
+  const u = new Set(getWordGroupIds());
   for (const e of verbsAll) {
     const g = e && e.groups;
     if (Array.isArray(g)) {
@@ -63,53 +63,53 @@ function recomputePdfGroupIdsFromLoadedData() {
       }
     }
   }
-  pdfGroupIdsEffective = [...u].sort((a, b) => a - b);
+  wordGroupIdsEffective = [...u].sort((a, b) => a - b);
 }
 
 function getEntryGroups(entry) {
   const g = entry && entry.groups;
   if (Array.isArray(g) && g.length) return g;
-  return [...getPdfGroupIds()];
+  return [...getWordGroupIds()];
 }
 
-function getSelectedPdfGroupsFromUI() {
-  return Array.from(document.querySelectorAll('input[name="pdfGroup"]:checked'), (b) =>
+function getSelectedWordGroupsFromUI() {
+  return Array.from(document.querySelectorAll('input[name="wordGroup"]:checked'), (b) =>
     Number(b.value)
   );
 }
 
-function setPdfGroupCheckboxes(values) {
+function setWordGroupCheckboxes(values) {
   const set = new Set(values);
-  document.querySelectorAll('input[name="pdfGroup"]').forEach((cb) => {
+  document.querySelectorAll('input[name="wordGroup"]').forEach((cb) => {
     cb.checked = set.has(Number(cb.value));
   });
 }
 
-function isValidStoredPdfGroups(arr) {
+function isValidStoredWordGroups(arr) {
   if (!Array.isArray(arr) || arr.length === 0) return false;
-  const allowed = new Set(getPdfGroupIds());
+  const allowed = new Set(getWordGroupIds());
   return arr.every((n) => {
     const num = Number(n);
     return !Number.isNaN(num) && allowed.has(num);
   });
 }
 
-function loadPdfGroupsFromStorage() {
+function loadWordGroupsFromStorage() {
   try {
-    const raw = localStorage.getItem(LS_PDF_GROUPS);
+    const raw = localStorage.getItem(LS_WORD_GROUPS);
     if (!raw) return;
     const arr = JSON.parse(raw);
-    if (!isValidStoredPdfGroups(arr)) return;
-    setPdfGroupCheckboxes(arr.map((x) => Number(x)));
+    if (!isValidStoredWordGroups(arr)) return;
+    setWordGroupCheckboxes(arr.map((x) => Number(x)));
   } catch {
     /* ignore */
   }
 }
 
-function savePdfGroupsToStorage(selected) {
+function saveWordGroupsToStorage(selected) {
   try {
     localStorage.setItem(
-      LS_PDF_GROUPS,
+      LS_WORD_GROUPS,
       JSON.stringify([...selected].sort((a, b) => a - b))
     );
   } catch {
@@ -117,21 +117,21 @@ function savePdfGroupsToStorage(selected) {
   }
 }
 
-function entryMatchesPdfSelection(entry, selectedSet) {
+function entryMatchesWordSelection(entry, selectedSet) {
   return getEntryGroups(entry).some((g) => selectedSet.has(g));
 }
 
-function applyPdfGroupFilter() {
-  let selected = getSelectedPdfGroupsFromUI();
+function applyWordGroupFilter() {
+  let selected = getSelectedWordGroupsFromUI();
   if (selected.length === 0) {
-    const all = getPdfGroupIds();
-    setPdfGroupCheckboxes(all);
+    const all = getWordGroupIds();
+    setWordGroupCheckboxes(all);
     selected = [...all];
-    savePdfGroupsToStorage(selected);
+    saveWordGroupsToStorage(selected);
   }
   const selectedSet = new Set(selected);
-  verbs = verbsAll.filter((e) => entryMatchesPdfSelection(e, selectedSet));
-  nouns = nounsAll.filter((e) => entryMatchesPdfSelection(e, selectedSet));
+  verbs = verbsAll.filter((e) => entryMatchesWordSelection(e, selectedSet));
+  nouns = nounsAll.filter((e) => entryMatchesWordSelection(e, selectedSet));
 }
 
 function updateHeroDataStats() {
@@ -157,18 +157,18 @@ function updateHeroDataStats() {
     : "";
 }
 
-function onPdfGroupsChange() {
+function onWordGroupsChange() {
   if (!verbsAll.length && !nounsAll.length) {
     return;
   }
-  let selected = getSelectedPdfGroupsFromUI();
+  let selected = getSelectedWordGroupsFromUI();
   if (selected.length === 0) {
-    const all = getPdfGroupIds();
-    setPdfGroupCheckboxes(all);
+    const all = getWordGroupIds();
+    setWordGroupCheckboxes(all);
     selected = [...all];
   }
-  savePdfGroupsToStorage(selected);
-  applyPdfGroupFilter();
+  saveWordGroupsToStorage(selected);
+  applyWordGroupFilter();
   updateHeroDataStats();
   if (!verbs.length && !nouns.length) {
     promptText.textContent =
@@ -182,28 +182,28 @@ function onPdfGroupsChange() {
   newQuestion();
 }
 
-function renderPdfGroupCheckboxes() {
-  const host = document.getElementById("pdfGroupChecks");
+function renderWordGroupCheckboxes() {
+  const host = document.getElementById("wordGroupChecks");
   if (!host) return;
-  const ids = getPdfGroupIds();
+  const ids = getWordGroupIds();
   host.innerHTML = ids
     .map(
       (g) =>
-        `<label class="pdf-group-label"><input type="checkbox" name="pdfGroup" value="${g}" checked /> ${g}</label>`
+        `<label class="word-group-label"><input type="checkbox" name="wordGroup" value="${g}" checked /> ${g}</label>`
     )
     .join("");
 }
 
-function ensurePdfGroupDelegation() {
-  const host = document.getElementById("pdfGroupChecks");
-  if (!host || host.dataset.pdfDelegated) {
+function ensureWordGroupDelegation() {
+  const host = document.getElementById("wordGroupChecks");
+  if (!host || host.dataset.wordDelegated) {
     return;
   }
-  host.dataset.pdfDelegated = "1";
+  host.dataset.wordDelegated = "1";
   host.addEventListener("change", (ev) => {
     const t = ev.target;
-    if (t && typeof t.matches === "function" && t.matches('input[name="pdfGroup"]')) {
-      onPdfGroupsChange();
+    if (t && typeof t.matches === "function" && t.matches('input[name="wordGroup"]')) {
+      onWordGroupsChange();
     }
   });
 }
@@ -832,7 +832,7 @@ function newVerbQuestion() {
   const pool = verbs.filter((e) => verbHasAnyFormFor(e, formType));
   if (!pool.length) {
     promptText.textContent =
-      "Šiai formai nėra lentelių JSON faile (conditional / imperative ir kt.). Atnaujink conjugations_group0_4.json: paleisk iš projekto aplanko python3 build_verb_conditional_imperative.py (arba python3 build_all_practice_data.py).";
+      "Šiai formai nėra lentelių JSON faile. Atnaujink verbs_practice.json: paleisk python3 build_all_practice_data.py.";
     personText.textContent = "";
     return;
   }
@@ -854,7 +854,7 @@ function newVerbQuestion() {
   }
   if (!ltForm || personIdx === null) {
     promptText.textContent =
-      "Nepavyko sugeneruoti formos. Patikrink naršyklės talpyklą (bandyk perkrauti be talpyklos) ir ar conjugations_group0_4.json turi šios paradigmos masyvus.";
+      "Nepavyko sugeneruoti formos. Patikrink naršyklės talpyklą (bandyk perkrauti be talpyklos) ir ar verbs_practice.json turi šios paradigmos masyvus.";
     personText.textContent = "";
     return;
   }
@@ -900,7 +900,7 @@ function newNounQuestion() {
   if (nouns.length === 0) {
     promptText.textContent = nounsAll.length
       ? "Nėra daiktavardžių pasirinktose grupėse. Pažymėk daugiau grupių viršuje."
-      : "Nėra daiktavardžių duomenų. Patikrink nouns_group0_4.json ir serverį (python3 -m http.server).";
+      : "Nėra daiktavardžių duomenų. Patikrink nouns_practice.json ir serverį (python3 -m http.server).";
     personText.textContent = "";
     if (answerInput) answerInput.placeholder = VERB_ANSWER_PLACEHOLDER;
     return;
@@ -1111,14 +1111,14 @@ async function loadData() {
   nouns = [];
   let verbLoadError = null;
 
-  const metaIds = await fetchPdfGroupIdsFromMeta();
-  pdfGroupIdsEffective =
-    metaIds && metaIds.length > 0 ? metaIds : [...PDF_GROUPS_FALLBACK];
+  const metaIds = await fetchWordGroupIdsFromMeta();
+  wordGroupIdsEffective =
+    metaIds && metaIds.length > 0 ? metaIds : [...WORD_GROUPS_FALLBACK];
 
   try {
-    const response = await fetch("conjugations_group0_4.json", { cache: "no-store" });
+    const response = await fetch("verbs_practice.json", { cache: "no-store" });
     if (!response.ok) {
-      throw new Error("Nepavyko užkrauti conjugations_group0_4.json");
+      throw new Error("Nepavyko užkrauti verbs_practice.json");
     }
     verbsAll = await response.json();
   } catch (error) {
@@ -1126,9 +1126,9 @@ async function loadData() {
   }
 
   try {
-    const response = await fetch("nouns_group0_4.json", { cache: "no-store" });
+    const response = await fetch("nouns_practice.json", { cache: "no-store" });
     if (!response.ok) {
-      throw new Error("Nepavyko užkrauti nouns_group0_4.json");
+      throw new Error("Nepavyko užkrauti nouns_practice.json");
     }
     nounsAll = await response.json();
   } catch {
@@ -1142,10 +1142,10 @@ async function loadData() {
     return;
   }
 
-  recomputePdfGroupIdsFromLoadedData();
-  renderPdfGroupCheckboxes();
-  loadPdfGroupsFromStorage();
-  applyPdfGroupFilter();
+  recomputeWordGroupIdsFromLoadedData();
+  renderWordGroupCheckboxes();
+  loadWordGroupsFromStorage();
+  applyWordGroupFilter();
 
   if (!verbs.length && !nouns.length) {
     promptText.textContent =
@@ -1168,7 +1168,7 @@ function init() {
     return;
   }
 
-  ensurePdfGroupDelegation();
+  ensureWordGroupDelegation();
 
   if (practiceModeSelect) {
     practiceModeSelect.addEventListener("change", () => {
