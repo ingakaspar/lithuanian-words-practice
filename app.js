@@ -1133,6 +1133,18 @@ function checkAnswer() {
   checkVerbAnswer();
 }
 
+/** Same outcome as Enter: check, then if correct another action advances (Enter again; here one click). */
+function handleCheckButtonClick() {
+  if (resultText.classList.contains("ok")) {
+    newQuestion();
+    return;
+  }
+  checkAnswer();
+  if (resultText.classList.contains("ok")) {
+    newQuestion();
+  }
+}
+
 async function loadData() {
   verbsAll = [];
   nounsAll = [];
@@ -1217,7 +1229,7 @@ function init() {
       newQuestion();
     }
   });
-  checkBtn.addEventListener("click", checkAnswer);
+  checkBtn.addEventListener("click", handleCheckButtonClick);
   if (speakBtn) {
     speakBtn.addEventListener("click", speakCurrentWord);
   }
