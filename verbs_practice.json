@@ -3,6 +3,9 @@
     "lt": "apsirengti",
     "lt_ascii": "apsirengti",
     "ru": "одеться",
+    "groups": [
+      100
+    ],
     "present": [
       "apsirengiu",
       "apsirengi",
@@ -57,6 +60,9 @@
     "lt": "arti",
     "lt_ascii": "arti",
     "ru": "близко",
+    "groups": [
+      400
+    ],
     "present": [
       "ariu",
       "ari",
@@ -111,6 +117,9 @@
     "lt": "ateiti",
     "lt_ascii": "ateiti",
     "ru": "подойти",
+    "groups": [
+      800
+    ],
     "present": [
       "ateinu",
       "ateini",
@@ -165,6 +174,9 @@
     "lt": "atlikti",
     "lt_ascii": "atlikti",
     "ru": "выполнить",
+    "groups": [
+      700
+    ],
     "present": [
       "atlieku",
       "atlieki",
@@ -219,6 +231,9 @@
     "lt": "atnešti",
     "lt_ascii": "atnesti",
     "ru": "принести",
+    "groups": [
+      300
+    ],
     "present": [
       "atnešu",
       "atneši",
@@ -273,6 +288,9 @@
     "lt": "atrodyti",
     "lt_ascii": "atrodyti",
     "ru": "выглядеть",
+    "groups": [
+      900
+    ],
     "present": [
       "atrodžau",
       "atrodai",
@@ -327,6 +345,9 @@
     "lt": "atsakyti",
     "lt_ascii": "atsakyti",
     "ru": "ответить",
+    "groups": [
+      100
+    ],
     "present": [
       "atsakau",
       "atsakai",
@@ -381,6 +402,9 @@
     "lt": "atsidurti",
     "lt_ascii": "atsidurti",
     "ru": "оказаться",
+    "groups": [
+      300
+    ],
     "present": [
       "atsiduriu",
       "atsiduri",
@@ -435,6 +459,9 @@
     "lt": "atsiminti",
     "lt_ascii": "atsiminti",
     "ru": "помнить",
+    "groups": [
+      200
+    ],
     "present": [
       "atsiminu",
       "atsimini",
@@ -489,6 +516,9 @@
     "lt": "atsisakyti",
     "lt_ascii": "atsisakyti",
     "ru": "отказаться",
+    "groups": [
+      300
+    ],
     "present": [
       "atsisakau",
       "atsisakai",
@@ -543,6 +573,9 @@
     "lt": "atsitikti",
     "lt_ascii": "atsitikti",
     "ru": "случиться",
+    "groups": [
+      400
+    ],
     "present": [
       "atsitinku",
       "atsitinki",
@@ -597,6 +630,9 @@
     "lt": "atvažiuoti",
     "lt_ascii": "atvaziuoti",
     "ru": "приехать",
+    "groups": [
+      300
+    ],
     "present": [
       "atvažiuoju",
       "atvažiuoji",
@@ -651,6 +687,9 @@
     "lt": "augti",
     "lt_ascii": "augti",
     "ru": "расти",
+    "groups": [
+      500
+    ],
     "present": [
       "augu",
       "augi",
@@ -705,6 +744,9 @@
     "lt": "baigtis",
     "lt_ascii": "baigtis",
     "ru": "кончиться",
+    "groups": [
+      700
+    ],
     "present": [
       "baigiuosi",
       "baigiesi",
@@ -759,6 +801,9 @@
     "lt": "bandyti",
     "lt_ascii": "bandyti",
     "ru": "пытаться",
+    "groups": [
+      600
+    ],
     "present": [
       "bandžau",
       "bandai",
@@ -813,6 +858,9 @@
     "lt": "bėgti",
     "lt_ascii": "begti",
     "ru": "бежать",
+    "groups": [
+      300
+    ],
     "present": [
       "bėgu",
       "bėgi",
@@ -867,6 +915,9 @@
     "lt": "bijoti",
     "lt_ascii": "bijoti",
     "ru": "бояться",
+    "groups": [
+      300
+    ],
     "present": [
       "bijau",
       "bijai",
@@ -921,6 +972,9 @@
     "lt": "bučiuoti",
     "lt_ascii": "buciuoti",
     "ru": "целовать",
+    "groups": [
+      800
+    ],
     "present": [
       "bučiuoju",
       "bučiuoji",
@@ -975,6 +1029,9 @@
     "lt": "budintis",
     "lt_ascii": "budintis",
     "ru": "дежурный",
+    "groups": [
+      900
+    ],
     "present": [
       "budinuosi",
       "budiniesi",
@@ -1029,6 +1086,10 @@
     "lt": "būti",
     "lt_ascii": "buti",
     "ru": "быть",
+    "groups": [
+      100,
+      400
+    ],
     "present": [
       "yru",
       "yri",
@@ -1083,6 +1144,9 @@
     "lt": "dainuoti",
     "lt_ascii": "dainuoti",
     "ru": "петь",
+    "groups": [
+      400
+    ],
     "present": [
       "dainuoju",
       "dainuoji",
@@ -1137,6 +1201,9 @@
     "lt": "dalinti",
     "lt_ascii": "dalinti",
     "ru": "делить",
+    "groups": [
+      800
+    ],
     "present": [
       "dalinu",
       "dalini",
@@ -1191,6 +1258,9 @@
     "lt": "dalyvauti",
     "lt_ascii": "dalyvauti",
     "ru": "участвовать",
+    "groups": [
+      900
+    ],
     "present": [
       "dalyvauju",
       "dalyvauji",
@@ -1245,6 +1315,9 @@
     "lt": "daryti",
     "lt_ascii": "daryti",
     "ru": "делать",
+    "groups": [
+      100
+    ],
     "present": [
       "darau",
       "darai",
@@ -1299,6 +1372,9 @@
     "lt": "darytis",
     "lt_ascii": "darytis",
     "ru": "делаться",
+    "groups": [
+      700
+    ],
     "present": [
       "darausi",
       "daraisi",
@@ -1353,6 +1429,9 @@
     "lt": "degti",
     "lt_ascii": "degti",
     "ru": "гореть",
+    "groups": [
+      700
+    ],
     "present": [
       "degu",
       "degi",
@@ -1407,6 +1486,9 @@
     "lt": "dėkoti",
     "lt_ascii": "dekoti",
     "ru": "благодарить",
+    "groups": [
+      200
+    ],
     "present": [
       "dėkoju",
       "dėkoji",
@@ -1461,6 +1543,9 @@
     "lt": "dėti",
     "lt_ascii": "deti",
     "ru": "класть",
+    "groups": [
+      100
+    ],
     "present": [
       "dedžu",
       "dedi",
@@ -1515,6 +1600,9 @@
     "lt": "dingti",
     "lt_ascii": "dingti",
     "ru": "исчезнуть",
+    "groups": [
+      800
+    ],
     "present": [
       "dingstu",
       "dingsti",
@@ -1569,6 +1657,10 @@
     "lt": "dirbti",
     "lt_ascii": "dirbti",
     "ru": "работать",
+    "groups": [
+      100,
+      600
+    ],
     "present": [
       "dirbu",
       "dirbi",
@@ -1623,6 +1715,9 @@
     "lt": "duoti",
     "lt_ascii": "duoti",
     "ru": "дать",
+    "groups": [
+      100
+    ],
     "present": [
       "duodžu",
       "duodi",
@@ -1677,6 +1772,9 @@
     "lt": "eiti",
     "lt_ascii": "eiti",
     "ru": "идти",
+    "groups": [
+      100
+    ],
     "present": [
       "einu",
       "eini",
@@ -1731,6 +1829,9 @@
     "lt": "galėti",
     "lt_ascii": "galeti",
     "ru": "мочь",
+    "groups": [
+      100
+    ],
     "present": [
       "galiu",
       "gali",
@@ -1785,6 +1886,9 @@
     "lt": "galvoti",
     "lt_ascii": "galvoti",
     "ru": "думать",
+    "groups": [
+      100
+    ],
     "present": [
       "galvoju",
       "galvoji",
@@ -1839,6 +1943,10 @@
     "lt": "gaminti",
     "lt_ascii": "gaminti",
     "ru": "готовить (еду)",
+    "groups": [
+      400,
+      700
+    ],
     "present": [
       "gaminu",
       "gamini",
@@ -1893,6 +2001,9 @@
     "lt": "gauti",
     "lt_ascii": "gauti",
     "ru": "получить",
+    "groups": [
+      200
+    ],
     "present": [
       "gaunu",
       "gauni",
@@ -1947,6 +2058,9 @@
     "lt": "gautis",
     "lt_ascii": "gautis",
     "ru": "получиться",
+    "groups": [
+      500
+    ],
     "present": [
       "gaunuosi",
       "gauniesi",
@@ -2001,6 +2115,9 @@
     "lt": "gerti",
     "lt_ascii": "gerti",
     "ru": "пить",
+    "groups": [
+      900
+    ],
     "present": [
       "geriu",
       "geri",
@@ -2055,6 +2172,9 @@
     "lt": "gimti",
     "lt_ascii": "gimti",
     "ru": "родиться",
+    "groups": [
+      900
+    ],
     "present": [
       "gimstu",
       "gimsti",
@@ -2109,6 +2229,9 @@
     "lt": "girdėti",
     "lt_ascii": "girdeti",
     "ru": "слышать",
+    "groups": [
+      200
+    ],
     "present": [
       "girdžiu",
       "girdi",
@@ -2163,6 +2286,9 @@
     "lt": "griebti",
     "lt_ascii": "griebti",
     "ru": "хватать",
+    "groups": [
+      800
+    ],
     "present": [
       "griebiu",
       "griebi",
@@ -2217,6 +2343,9 @@
     "lt": "groti",
     "lt_ascii": "groti",
     "ru": "играть (на инструменте)",
+    "groups": [
+      700
+    ],
     "present": [
       "groju",
       "groji",
@@ -2271,6 +2400,9 @@
     "lt": "gulėti",
     "lt_ascii": "guleti",
     "ru": "лежать",
+    "groups": [
+      200
+    ],
     "present": [
       "guliu",
       "guli",
@@ -2325,6 +2457,9 @@
     "lt": "gyventi",
     "lt_ascii": "gyventi",
     "ru": "жить",
+    "groups": [
+      100
+    ],
     "present": [
       "gyvenu",
       "gyveni",
@@ -2379,6 +2514,9 @@
     "lt": "ieškoti",
     "lt_ascii": "ieskoti",
     "ru": "искать",
+    "groups": [
+      400
+    ],
     "present": [
       "ieškau",
       "ieškai",
@@ -2433,6 +2571,9 @@
     "lt": "ilsėtis",
     "lt_ascii": "ilsetis",
     "ru": "отдыхать",
+    "groups": [
+      900
+    ],
     "present": [
       "ilsiusi",
       "ilsisi",
@@ -2487,6 +2628,9 @@
     "lt": "imti",
     "lt_ascii": "imti",
     "ru": "брать",
+    "groups": [
+      100
+    ],
     "present": [
       "imu",
       "imi",
@@ -2541,6 +2685,9 @@
     "lt": "imtis",
     "lt_ascii": "imtis",
     "ru": "браться",
+    "groups": [
+      800
+    ],
     "present": [
       "imuosi",
       "imiesi",
@@ -2595,6 +2742,10 @@
     "lt": "išeiti",
     "lt_ascii": "iseiti",
     "ru": "выйти",
+    "groups": [
+      200,
+      400
+    ],
     "present": [
       "išeinu",
       "išeini",
@@ -2649,6 +2800,9 @@
     "lt": "iškviesti",
     "lt_ascii": "iskviesti",
     "ru": "вызвать",
+    "groups": [
+      600
+    ],
     "present": [
       "iškviečiu",
       "iškvieči",
@@ -2703,6 +2857,9 @@
     "lt": "išvažiuoti",
     "lt_ascii": "isvaziuoti",
     "ru": "уехать",
+    "groups": [
+      600
+    ],
     "present": [
       "išvažiuoju",
       "išvažiuoji",
@@ -2757,6 +2914,9 @@
     "lt": "jausti",
     "lt_ascii": "jausti",
     "ru": "чувствовать, ощущать",
+    "groups": [
+      500
+    ],
     "present": [
       "jaučiu",
       "jauči",
@@ -2811,6 +2971,9 @@
     "lt": "jungti",
     "lt_ascii": "jungti",
     "ru": "соединять",
+    "groups": [
+      800
+    ],
     "present": [
       "jungiu",
       "jungi",
@@ -2865,6 +3028,9 @@
     "lt": "kabėti",
     "lt_ascii": "kabeti",
     "ru": "висеть",
+    "groups": [
+      700
+    ],
     "present": [
       "kabu",
       "kabi",
@@ -2919,6 +3085,9 @@
     "lt": "kainuoti",
     "lt_ascii": "kainuoti",
     "ru": "стоить",
+    "groups": [
+      500
+    ],
     "present": [
       "kainuoju",
       "kainuoji",
@@ -2973,6 +3142,10 @@
     "lt": "kalbėti",
     "lt_ascii": "kalbeti",
     "ru": "говорить",
+    "groups": [
+      100,
+      500
+    ],
     "present": [
       "kalbu",
       "kalbi",
@@ -3027,6 +3200,9 @@
     "lt": "keisti",
     "lt_ascii": "keisti",
     "ru": "менять",
+    "groups": [
+      300
+    ],
     "present": [
       "keičiu",
       "keiči",
@@ -3081,6 +3257,9 @@
     "lt": "kelti",
     "lt_ascii": "kelti",
     "ru": "поднимать",
+    "groups": [
+      400
+    ],
     "present": [
       "keliu",
       "keli",
@@ -3135,6 +3314,9 @@
     "lt": "keltis",
     "lt_ascii": "keltis",
     "ru": "вставать",
+    "groups": [
+      300
+    ],
     "present": [
       "keliuosi",
       "keliesi",
@@ -3189,6 +3371,9 @@
     "lt": "kilti",
     "lt_ascii": "kilti",
     "ru": "подниматься",
+    "groups": [
+      400
+    ],
     "present": [
       "kylu",
       "kyli",
@@ -3243,6 +3428,9 @@
     "lt": "klausti",
     "lt_ascii": "klausti",
     "ru": "спрашивать",
+    "groups": [
+      100
+    ],
     "present": [
       "klausiu",
       "klausi",
@@ -3297,6 +3485,9 @@
     "lt": "klausyti",
     "lt_ascii": "klausyti",
     "ru": "слушать",
+    "groups": [
+      200
+    ],
     "present": [
       "klausau",
       "klausai",
@@ -3351,6 +3542,9 @@
     "lt": "kovoti",
     "lt_ascii": "kovoti",
     "ru": "бороться",
+    "groups": [
+      900
+    ],
     "present": [
       "kovoju",
       "kovoji",
@@ -3405,6 +3599,9 @@
     "lt": "kreiptis",
     "lt_ascii": "kreiptis",
     "ru": "обращаться",
+    "groups": [
+      600
+    ],
     "present": [
       "kreipiuosi",
       "kreipiesi",
@@ -3459,6 +3656,9 @@
     "lt": "kristi",
     "lt_ascii": "kristi",
     "ru": "падать",
+    "groups": [
+      700
+    ],
     "present": [
       "krentu",
       "krenti",
@@ -3513,6 +3713,9 @@
     "lt": "kviesti",
     "lt_ascii": "kviesti",
     "ru": "приглашать",
+    "groups": [
+      900
+    ],
     "present": [
       "kviečiu",
       "kvieči",
@@ -3567,6 +3770,9 @@
     "lt": "laikyti",
     "lt_ascii": "laikyti",
     "ru": "держать",
+    "groups": [
+      400
+    ],
     "present": [
       "laikau",
       "laikai",
@@ -3621,6 +3827,9 @@
     "lt": "laikytis",
     "lt_ascii": "laikytis",
     "ru": "держаться",
+    "groups": [
+      800
+    ],
     "present": [
       "laikausi",
       "laikaisi",
@@ -3675,6 +3884,10 @@
     "lt": "laukti",
     "lt_ascii": "laukti",
     "ru": "ждать",
+    "groups": [
+      200,
+      800
+    ],
     "present": [
       "laukiu",
       "lauki",
@@ -3729,6 +3942,9 @@
     "lt": "laužyti",
     "lt_ascii": "lauzyti",
     "ru": "ломать",
+    "groups": [
+      800
+    ],
     "present": [
       "laužau",
       "laužai",
@@ -3783,6 +3999,11 @@
     "lt": "leisti",
     "lt_ascii": "leisti",
     "ru": "проводить (время)",
+    "groups": [
+      500,
+      800,
+      900
+    ],
     "present": [
       "leidžiu",
       "leidži",
@@ -3837,6 +4058,9 @@
     "lt": "likti",
     "lt_ascii": "likti",
     "ru": "остаться",
+    "groups": [
+      200
+    ],
     "present": [
       "lieku",
       "lieki",
@@ -3891,6 +4115,9 @@
     "lt": "lošti",
     "lt_ascii": "losti",
     "ru": "играть (в азартные игры)",
+    "groups": [
+      700
+    ],
     "present": [
       "lošiu",
       "loši",
@@ -3945,6 +4172,9 @@
     "lt": "mesti",
     "lt_ascii": "mesti",
     "ru": "бросить",
+    "groups": [
+      500
+    ],
     "present": [
       "metu",
       "meti",
@@ -3999,6 +4229,9 @@
     "lt": "miegoti",
     "lt_ascii": "miegoti",
     "ru": "спать",
+    "groups": [
+      400
+    ],
     "present": [
       "miegu",
       "miegi",
@@ -4053,6 +4286,9 @@
     "lt": "mirti",
     "lt_ascii": "mirti",
     "ru": "умирать",
+    "groups": [
+      400
+    ],
     "present": [
       "mirštu",
       "miršti",
@@ -4107,6 +4343,10 @@
     "lt": "mokėti",
     "lt_ascii": "moketi",
     "ru": "уметь",
+    "groups": [
+      300,
+      900
+    ],
     "present": [
       "moku",
       "moki",
@@ -4161,6 +4401,9 @@
     "lt": "mokyti",
     "lt_ascii": "mokyti",
     "ru": "учить",
+    "groups": [
+      500
+    ],
     "present": [
       "mokau",
       "mokai",
@@ -4215,6 +4458,9 @@
     "lt": "mokytis",
     "lt_ascii": "mokytis",
     "ru": "учиться",
+    "groups": [
+      500
+    ],
     "present": [
       "mokausi",
       "mokaisi",
@@ -4269,6 +4515,9 @@
     "lt": "mušti",
     "lt_ascii": "musti",
     "ru": "бить",
+    "groups": [
+      600
+    ],
     "present": [
       "mušu",
       "muši",
@@ -4323,6 +4572,9 @@
     "lt": "mylėti",
     "lt_ascii": "myleti",
     "ru": "любить",
+    "groups": [
+      200
+    ],
     "present": [
       "myliu",
       "myli",
@@ -4377,6 +4629,9 @@
     "lt": "naudoti",
     "lt_ascii": "naudoti",
     "ru": "использовать",
+    "groups": [
+      100
+    ],
     "present": [
       "naudoju",
       "naudoji",
@@ -4431,6 +4686,9 @@
     "lt": "naudotis",
     "lt_ascii": "naudotis",
     "ru": "пользоваться",
+    "groups": [
+      600
+    ],
     "present": [
       "naudojuosi",
       "naudojiesi",
@@ -4485,6 +4743,9 @@
     "lt": "nešioti",
     "lt_ascii": "nesioti",
     "ru": "носить (одежду)",
+    "groups": [
+      900
+    ],
     "present": [
       "nešioju",
       "nešioji",
@@ -4539,6 +4800,9 @@
     "lt": "nešti",
     "lt_ascii": "nesti",
     "ru": "нести",
+    "groups": [
+      500
+    ],
     "present": [
       "nešu",
       "neši",
@@ -4593,6 +4857,9 @@
     "lt": "norėti",
     "lt_ascii": "noreti",
     "ru": "хотеть",
+    "groups": [
+      100
+    ],
     "present": [
       "noriu",
       "nori",
@@ -4647,6 +4914,10 @@
     "lt": "nuimti",
     "lt_ascii": "nuimti",
     "ru": "снять",
+    "groups": [
+      500,
+      900
+    ],
     "present": [
       "nuimu",
       "nuimi",
@@ -4701,6 +4972,9 @@
     "lt": "nurengti",
     "lt_ascii": "nurengti",
     "ru": "раздеть",
+    "groups": [
+      700
+    ],
     "present": [
       "nurengiu",
       "nurengi",
@@ -4755,6 +5029,9 @@
     "lt": "nustoti",
     "lt_ascii": "nustoti",
     "ru": "перестать",
+    "groups": [
+      600
+    ],
     "present": [
       "nustoju",
       "nustoji",
@@ -4809,6 +5086,9 @@
     "lt": "padėti",
     "lt_ascii": "padeti",
     "ru": "помочь",
+    "groups": [
+      300
+    ],
     "present": [
       "padedžu",
       "padedi",
@@ -4863,6 +5143,9 @@
     "lt": "palikti",
     "lt_ascii": "palikti",
     "ru": "оставить",
+    "groups": [
+      400
+    ],
     "present": [
       "palieku",
       "palieki",
@@ -4917,6 +5200,9 @@
     "lt": "parduoti",
     "lt_ascii": "parduoti",
     "ru": "продать",
+    "groups": [
+      100
+    ],
     "present": [
       "parduodžu",
       "parduodi",
@@ -4971,6 +5257,9 @@
     "lt": "pasakyti",
     "lt_ascii": "pasakyti",
     "ru": "сказать",
+    "groups": [
+      300
+    ],
     "present": [
       "pasakau",
       "pasakai",
@@ -5025,6 +5314,10 @@
     "lt": "pasekti",
     "lt_ascii": "pasekti",
     "ru": "достать (до чего-либо)",
+    "groups": [
+      500,
+      700
+    ],
     "present": [
       "pasenku",
       "pasenki",
@@ -5079,6 +5372,9 @@
     "lt": "pasirodyti",
     "lt_ascii": "pasirodyti",
     "ru": "появиться",
+    "groups": [
+      300
+    ],
     "present": [
       "pasirodžau",
       "pasirodai",
@@ -5133,6 +5429,9 @@
     "lt": "pastebėti",
     "lt_ascii": "pastebeti",
     "ru": "заметить",
+    "groups": [
+      300
+    ],
     "present": [
       "pastebiu",
       "pastebi",
@@ -5187,6 +5486,9 @@
     "lt": "pataikyti",
     "lt_ascii": "pataikyti",
     "ru": "попасть",
+    "groups": [
+      400
+    ],
     "present": [
       "pataikau",
       "pataikai",
@@ -5241,6 +5543,9 @@
     "lt": "patarti",
     "lt_ascii": "patarti",
     "ru": "посоветовать",
+    "groups": [
+      800
+    ],
     "present": [
       "patariu",
       "patari",
@@ -5295,6 +5600,9 @@
     "lt": "perduoti",
     "lt_ascii": "perduoti",
     "ru": "передавать",
+    "groups": [
+      500
+    ],
     "present": [
       "perduodžu",
       "perduodi",
@@ -5349,6 +5657,9 @@
     "lt": "pereiti",
     "lt_ascii": "pereiti",
     "ru": "перейти",
+    "groups": [
+      500
+    ],
     "present": [
       "pereinu",
       "pereini",
@@ -5403,6 +5714,9 @@
     "lt": "pirkti",
     "lt_ascii": "pirkti",
     "ru": "покупать",
+    "groups": [
+      100
+    ],
     "present": [
       "perku",
       "perki",
@@ -5457,6 +5771,9 @@
     "lt": "pjaustyti",
     "lt_ascii": "pjaustyti",
     "ru": "резать",
+    "groups": [
+      400
+    ],
     "present": [
       "pjaustau",
       "pjaustai",
@@ -5511,6 +5828,9 @@
     "lt": "plaukti",
     "lt_ascii": "plaukti",
     "ru": "плыть",
+    "groups": [
+      600
+    ],
     "present": [
       "plaukiu",
       "plauki",
@@ -5565,6 +5885,9 @@
     "lt": "plauti",
     "lt_ascii": "plauti",
     "ru": "мыть",
+    "groups": [
+      200
+    ],
     "present": [
       "plaunu",
       "plauni",
@@ -5619,6 +5942,9 @@
     "lt": "pradėti",
     "lt_ascii": "pradeti",
     "ru": "начать",
+    "groups": [
+      300
+    ],
     "present": [
       "pradedžu",
       "pradedi",
@@ -5673,6 +5999,9 @@
     "lt": "praeiti",
     "lt_ascii": "praeiti",
     "ru": "пройти",
+    "groups": [
+      400
+    ],
     "present": [
       "praeinu",
       "praeini",
@@ -5727,6 +6056,9 @@
     "lt": "pranešti",
     "lt_ascii": "pranesti",
     "ru": "сообщить",
+    "groups": [
+      700
+    ],
     "present": [
       "pranešu",
       "praneši",
@@ -5781,6 +6113,9 @@
     "lt": "prarasti",
     "lt_ascii": "prarasti",
     "ru": "потерять",
+    "groups": [
+      600
+    ],
     "present": [
       "prarandžu",
       "prarandi",
@@ -5835,6 +6170,10 @@
     "lt": "prasidėti",
     "lt_ascii": "prasideti",
     "ru": "начаться",
+    "groups": [
+      300,
+      900
+    ],
     "present": [
       "prasidedžu",
       "prasidedi",
@@ -5889,6 +6228,9 @@
     "lt": "pridėti",
     "lt_ascii": "prideti",
     "ru": "добавить",
+    "groups": [
+      600
+    ],
     "present": [
       "pridedžu",
       "pridedi",
@@ -5943,6 +6285,9 @@
     "lt": "priimti",
     "lt_ascii": "priimti",
     "ru": "принять",
+    "groups": [
+      800
+    ],
     "present": [
       "priimu",
       "priimi",
@@ -5997,6 +6342,9 @@
     "lt": "priklausyti",
     "lt_ascii": "priklausyti",
     "ru": "зависеть",
+    "groups": [
+      900
+    ],
     "present": [
       "priklausau",
       "priklausai",
@@ -6051,6 +6399,9 @@
     "lt": "prisiminti",
     "lt_ascii": "prisiminti",
     "ru": "вспомнить",
+    "groups": [
+      400
+    ],
     "present": [
       "prisiminu",
       "prisimini",
@@ -6105,6 +6456,9 @@
     "lt": "ragauti",
     "lt_ascii": "ragauti",
     "ru": "пробовать (еду)",
+    "groups": [
+      600
+    ],
     "present": [
       "ragauju",
       "ragauji",
@@ -6159,6 +6513,9 @@
     "lt": "rasti",
     "lt_ascii": "rasti",
     "ru": "найти",
+    "groups": [
+      200
+    ],
     "present": [
       "randžu",
       "randi",
@@ -6213,6 +6570,9 @@
     "lt": "rašyti",
     "lt_ascii": "rasyti",
     "ru": "писать",
+    "groups": [
+      200
+    ],
     "present": [
       "rašau",
       "rašai",
@@ -6267,6 +6627,9 @@
     "lt": "reikalauti",
     "lt_ascii": "reikalauti",
     "ru": "требовать",
+    "groups": [
+      500
+    ],
     "present": [
       "reikalauju",
       "reikalauji",
@@ -6321,6 +6684,10 @@
     "lt": "reikšti",
     "lt_ascii": "reiksti",
     "ru": "значить",
+    "groups": [
+      200,
+      900
+    ],
     "present": [
       "reiškiu",
       "reiški",
@@ -6375,6 +6742,9 @@
     "lt": "rinktis",
     "lt_ascii": "rinktis",
     "ru": "выбирать",
+    "groups": [
+      900
+    ],
     "present": [
       "renkuosi",
       "renkiesi",
@@ -6429,6 +6799,9 @@
     "lt": "rodyti",
     "lt_ascii": "rodyti",
     "ru": "показывать",
+    "groups": [
+      300
+    ],
     "present": [
       "rodžau",
       "rodai",
@@ -6483,6 +6856,9 @@
     "lt": "ruoštis",
     "lt_ascii": "ruostis",
     "ru": "готовиться",
+    "groups": [
+      500
+    ],
     "present": [
       "ruošiuosi",
       "ruošiesi",
@@ -6537,6 +6913,9 @@
     "lt": "šaukti",
     "lt_ascii": "saukti",
     "ru": "звать",
+    "groups": [
+      400
+    ],
     "present": [
       "šaukiu",
       "šauki",
@@ -6591,6 +6970,9 @@
     "lt": "sekti",
     "lt_ascii": "sekti",
     "ru": "следить",
+    "groups": [
+      500
+    ],
     "present": [
       "senku",
       "senki",
@@ -6645,6 +7027,9 @@
     "lt": "sėsti",
     "lt_ascii": "sesti",
     "ru": "сесть",
+    "groups": [
+      300
+    ],
     "present": [
       "sėdžu",
       "sėdi",
@@ -6699,6 +7084,9 @@
     "lt": "siūlyti",
     "lt_ascii": "siulyti",
     "ru": "предлагать",
+    "groups": [
+      500
+    ],
     "present": [
       "siūlau",
       "siūlai",
@@ -6753,6 +7141,9 @@
     "lt": "siųsti",
     "lt_ascii": "siusti",
     "ru": "посылать",
+    "groups": [
+      900
+    ],
     "present": [
       "siunčiu",
       "siunči",
@@ -6807,6 +7198,9 @@
     "lt": "siūti",
     "lt_ascii": "siuti",
     "ru": "шить",
+    "groups": [
+      600
+    ],
     "present": [
       "siuvu",
       "siuvi",
@@ -6861,6 +7255,9 @@
     "lt": "skaičiuoti",
     "lt_ascii": "skaiciuoti",
     "ru": "считать (счёт)",
+    "groups": [
+      200
+    ],
     "present": [
       "skaičiuoju",
       "skaičiuoji",
@@ -6915,6 +7312,9 @@
     "lt": "skaityti",
     "lt_ascii": "skaityti",
     "ru": "читать",
+    "groups": [
+      200
+    ],
     "present": [
       "skaitau",
       "skaitai",
@@ -6969,6 +7369,9 @@
     "lt": "skambinti",
     "lt_ascii": "skambinti",
     "ru": "звонить",
+    "groups": [
+      100
+    ],
     "present": [
       "skambinu",
       "skambini",
@@ -7023,6 +7426,9 @@
     "lt": "skolinti",
     "lt_ascii": "skolinti",
     "ru": "одалживать",
+    "groups": [
+      700
+    ],
     "present": [
       "skolinu",
       "skolini",
@@ -7077,6 +7483,9 @@
     "lt": "skristi",
     "lt_ascii": "skristi",
     "ru": "лететь",
+    "groups": [
+      900
+    ],
     "present": [
       "skrendžu",
       "skrendi",
@@ -7131,6 +7540,9 @@
     "lt": "skubėti",
     "lt_ascii": "skubeti",
     "ru": "торопиться",
+    "groups": [
+      900
+    ],
     "present": [
       "skubu",
       "skubi",
@@ -7185,6 +7597,9 @@
     "lt": "smogti",
     "lt_ascii": "smogti",
     "ru": "ударить",
+    "groups": [
+      900
+    ],
     "present": [
       "smogiu",
       "smogi",
@@ -7239,6 +7654,10 @@
     "lt": "šokti",
     "lt_ascii": "sokti",
     "ru": "прыгать",
+    "groups": [
+      700,
+      800
+    ],
     "present": [
       "šoku",
       "šoki",
@@ -7293,6 +7712,9 @@
     "lt": "spėti",
     "lt_ascii": "speti",
     "ru": "успеть",
+    "groups": [
+      700
+    ],
     "present": [
       "spėju",
       "spėji",
@@ -7347,6 +7769,9 @@
     "lt": "spręsti",
     "lt_ascii": "spresti",
     "ru": "решить",
+    "groups": [
+      200
+    ],
     "present": [
       "sprendžiu",
       "sprendži",
@@ -7401,6 +7826,10 @@
     "lt": "statyti",
     "lt_ascii": "statyti",
     "ru": "ставить",
+    "groups": [
+      300,
+      500
+    ],
     "present": [
       "statau",
       "statai",
@@ -7455,6 +7884,9 @@
     "lt": "stovėti",
     "lt_ascii": "stoveti",
     "ru": "стоять",
+    "groups": [
+      300
+    ],
     "present": [
       "stoviu",
       "stovi",
@@ -7509,6 +7941,9 @@
     "lt": "sugalvoti",
     "lt_ascii": "sugalvoti",
     "ru": "придумать",
+    "groups": [
+      800
+    ],
     "present": [
       "sugalvoju",
       "sugalvoji",
@@ -7563,6 +7998,9 @@
     "lt": "sukurti",
     "lt_ascii": "sukurti",
     "ru": "создать",
+    "groups": [
+      700
+    ],
     "present": [
       "sukuriu",
       "sukuri",
@@ -7617,6 +8055,9 @@
     "lt": "surinkti",
     "lt_ascii": "surinkti",
     "ru": "собрать",
+    "groups": [
+      700
+    ],
     "present": [
       "surenku",
       "surenki",
@@ -7671,6 +8112,9 @@
     "lt": "susirinkti",
     "lt_ascii": "susirinkti",
     "ru": "собраться",
+    "groups": [
+      400
+    ],
     "present": [
       "susirenku",
       "susirenki",
@@ -7725,6 +8169,9 @@
     "lt": "susitikti",
     "lt_ascii": "susitikti",
     "ru": "встретиться",
+    "groups": [
+      600
+    ],
     "present": [
       "susitinku",
       "susitinki",
@@ -7779,6 +8226,9 @@
     "lt": "sustoti",
     "lt_ascii": "sustoti",
     "ru": "остановиться",
+    "groups": [
+      400
+    ],
     "present": [
       "sustoju",
       "sustoji",
@@ -7833,6 +8283,10 @@
     "lt": "sutikti",
     "lt_ascii": "sutikti",
     "ru": "встретить",
+    "groups": [
+      100,
+      600
+    ],
     "present": [
       "sutinku",
       "sutinki",
@@ -7887,6 +8341,9 @@
     "lt": "svajoti",
     "lt_ascii": "svajoti",
     "ru": "мечтать",
+    "groups": [
+      600
+    ],
     "present": [
       "svajoju",
       "svajoji",
@@ -7941,6 +8398,9 @@
     "lt": "sveikinti",
     "lt_ascii": "sveikinti",
     "ru": "приветствовать",
+    "groups": [
+      700
+    ],
     "present": [
       "sveikinu",
       "sveikini",
@@ -7995,6 +8455,9 @@
     "lt": "sveikti",
     "lt_ascii": "sveikti",
     "ru": "поправляться",
+    "groups": [
+      900
+    ],
     "present": [
       "sveikstu",
       "sveiksti",
@@ -8049,6 +8512,9 @@
     "lt": "tikėti",
     "lt_ascii": "tiketi",
     "ru": "верить",
+    "groups": [
+      500
+    ],
     "present": [
       "tikiu",
       "tiki",
@@ -8103,6 +8569,9 @@
     "lt": "tikėtis",
     "lt_ascii": "tiketis",
     "ru": "надеяться",
+    "groups": [
+      900
+    ],
     "present": [
       "tikiusi",
       "tikisi",
@@ -8157,6 +8626,9 @@
     "lt": "traukti",
     "lt_ascii": "traukti",
     "ru": "тянуть",
+    "groups": [
+      800
+    ],
     "present": [
       "traukiu",
       "trauki",
@@ -8211,6 +8683,9 @@
     "lt": "trukdyti",
     "lt_ascii": "trukdyti",
     "ru": "мешать",
+    "groups": [
+      600
+    ],
     "present": [
       "trukdžau",
       "trukdai",
@@ -8265,6 +8740,9 @@
     "lt": "tuoktis",
     "lt_ascii": "tuoktis",
     "ru": "жениться",
+    "groups": [
+      600
+    ],
     "present": [
       "tuokiuosi",
       "tuokiesi",
@@ -8319,6 +8797,9 @@
     "lt": "turėti",
     "lt_ascii": "tureti",
     "ru": "иметь",
+    "groups": [
+      300
+    ],
     "present": [
       "turiu",
       "turi",
@@ -8373,6 +8854,9 @@
     "lt": "tylėti",
     "lt_ascii": "tyleti",
     "ru": "молчать",
+    "groups": [
+      400
+    ],
     "present": [
       "tyliu",
       "tyli",
@@ -8427,6 +8911,9 @@
     "lt": "užaugti",
     "lt_ascii": "uzaugti",
     "ru": "вырасти",
+    "groups": [
+      400
+    ],
     "present": [
       "užaugu",
       "užaugi",
@@ -8481,6 +8968,9 @@
     "lt": "užbaigti",
     "lt_ascii": "uzbaigti",
     "ru": "закончить",
+    "groups": [
+      600
+    ],
     "present": [
       "užbaigiu",
       "užbaigi",
@@ -8535,6 +9025,9 @@
     "lt": "uždaryti",
     "lt_ascii": "uzdaryti",
     "ru": "закрыть",
+    "groups": [
+      800
+    ],
     "present": [
       "uždarau",
       "uždarai",
@@ -8589,6 +9082,9 @@
     "lt": "užeiti",
     "lt_ascii": "uzeiti",
     "ru": "зайти",
+    "groups": [
+      200
+    ],
     "present": [
       "užeinu",
       "užeini",
@@ -8643,6 +9139,9 @@
     "lt": "užimti",
     "lt_ascii": "uzimti",
     "ru": "занять (место)",
+    "groups": [
+      500
+    ],
     "present": [
       "užimu",
       "užimi",
@@ -8697,6 +9196,9 @@
     "lt": "užsiimti",
     "lt_ascii": "uzsiimti",
     "ru": "заняться",
+    "groups": [
+      300
+    ],
     "present": [
       "užsiimu",
       "užsiimi",
@@ -8751,6 +9253,9 @@
     "lt": "užtekti",
     "lt_ascii": "uztekti",
     "ru": "хватить (на всех)",
+    "groups": [
+      700
+    ],
     "present": [
       "užtenku",
       "užtenki",
@@ -8805,6 +9310,9 @@
     "lt": "vadinti",
     "lt_ascii": "vadinti",
     "ru": "называть",
+    "groups": [
+      500
+    ],
     "present": [
       "vadinu",
       "vadini",
@@ -8859,6 +9367,9 @@
     "lt": "vadintis",
     "lt_ascii": "vadintis",
     "ru": "называться",
+    "groups": [
+      500
+    ],
     "present": [
       "vadinuosi",
       "vadiniesi",
@@ -8913,6 +9424,9 @@
     "lt": "vaidinti",
     "lt_ascii": "vaidinti",
     "ru": "играть (на сцене)",
+    "groups": [
+      700
+    ],
     "present": [
       "vaidinu",
       "vaidini",
@@ -8967,6 +9481,9 @@
     "lt": "vaikščioti",
     "lt_ascii": "vaikscioti",
     "ru": "ходить",
+    "groups": [
+      200
+    ],
     "present": [
       "vaikščioju",
       "vaikščioji",
@@ -9021,6 +9538,9 @@
     "lt": "vaizduoti",
     "lt_ascii": "vaizduoti",
     "ru": "представлять (воображать)",
+    "groups": [
+      600
+    ],
     "present": [
       "vaizduoju",
       "vaizduoji",
@@ -9075,6 +9595,9 @@
     "lt": "valgyti",
     "lt_ascii": "valgyti",
     "ru": "есть (кушать)",
+    "groups": [
+      600
+    ],
     "present": [
       "valgau",
       "valgai",
@@ -9129,6 +9652,9 @@
     "lt": "valyti",
     "lt_ascii": "valyti",
     "ru": "чистить",
+    "groups": [
+      900
+    ],
     "present": [
       "valau",
       "valai",
@@ -9183,6 +9709,9 @@
     "lt": "važiuoti",
     "lt_ascii": "vaziuoti",
     "ru": "ехать",
+    "groups": [
+      400
+    ],
     "present": [
       "važiuoju",
       "važiuoji",
@@ -9237,6 +9766,9 @@
     "lt": "veikti",
     "lt_ascii": "veikti",
     "ru": "действовать",
+    "groups": [
+      800
+    ],
     "present": [
       "veikiu",
       "veiki",
@@ -9291,6 +9823,9 @@
     "lt": "verkti",
     "lt_ascii": "verkti",
     "ru": "плакать",
+    "groups": [
+      800
+    ],
     "present": [
       "verkiu",
       "verki",
@@ -9345,6 +9880,9 @@
     "lt": "versti",
     "lt_ascii": "versti",
     "ru": "заставлять",
+    "groups": [
+      700
+    ],
     "present": [
       "verčiu",
       "verči",
@@ -9399,6 +9937,9 @@
     "lt": "vesti",
     "lt_ascii": "vesti",
     "ru": "вести",
+    "groups": [
+      300
+    ],
     "present": [
       "vedžu",
       "vedi",
@@ -9453,6 +9994,9 @@
     "lt": "vežti",
     "lt_ascii": "vezti",
     "ru": "везти",
+    "groups": [
+      300
+    ],
     "present": [
       "vežu",
       "veži",
@@ -9507,6 +10051,9 @@
     "lt": "vykti",
     "lt_ascii": "vykti",
     "ru": "отправляться",
+    "groups": [
+      800
+    ],
     "present": [
       "vykstu",
       "vyksti",
@@ -9561,6 +10108,9 @@
     "lt": "žadėti",
     "lt_ascii": "zadeti",
     "ru": "обещать",
+    "groups": [
+      700
+    ],
     "present": [
       "žadžu",
       "žadi",
@@ -9615,6 +10165,9 @@
     "lt": "žadinti",
     "lt_ascii": "zadinti",
     "ru": "будить",
+    "groups": [
+      400
+    ],
     "present": [
       "žadinu",
       "žadini",
@@ -9669,6 +10222,9 @@
     "lt": "žaisti",
     "lt_ascii": "zaisti",
     "ru": "играть (в игры)",
+    "groups": [
+      700
+    ],
     "present": [
       "žaidžiu",
       "žaidži",
@@ -9723,6 +10279,9 @@
     "lt": "žinoti",
     "lt_ascii": "zinoti",
     "ru": "знать",
+    "groups": [
+      100
+    ],
     "present": [
       "žinau",
       "žinai",
@@ -9777,6 +10336,9 @@
     "lt": "žiūrėti",
     "lt_ascii": "ziureti",
     "ru": "смотреть",
+    "groups": [
+      100
+    ],
     "present": [
       "žiūriu",
       "žiūri",
@@ -9831,6 +10393,9 @@
     "lt": "žvilgtelėti",
     "lt_ascii": "zvilgteleti",
     "ru": "заглянуть",
+    "groups": [
+      800
+    ],
     "present": [
       "žvilgtelėju",
       "žvilgtelėji",

@@ -5,99 +5,165 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; media-src 'self' https://translate.google.com https://translate.googleapis.com data: blob:; connect-src 'self' https://translate.google.com https://translate.googleapis.com; object-src 'none'; base-uri 'none'; frame-ancestors 'none';"
+      content="default-src 'self'; img-src 'self' data:; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com data:; script-src 'self'; media-src 'self' https://translate.google.com https://translate.googleapis.com data: blob:; connect-src 'self' https://translate.google.com https://translate.googleapis.com; object-src 'none'; base-uri 'none'; frame-ancestors 'none';"
     />
     <meta http-equiv="Referrer-Policy" content="no-referrer" />
     <title>Lithuanian Practice</title>
-    <link rel="stylesheet" href="styles.css?v=20260509b" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=20260509g" />
   </head>
   <body>
-    <div class="app-shell">
-      <aside class="mode-dock panel" aria-label="Practice mode">
-        <label for="practiceMode">Choose what to practice</label>
-        <select id="practiceMode">
-          <option value="verbs">Verbs</option>
-          <option value="nouns">Noun cases</option>
-        </select>
-      </aside>
-      <main class="app">
-      <header class="hero">
+    <div class="page">
+      <header class="topbar">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true">LT</span>
+          <div class="brand-text">
+            <span class="brand-title">Lithuanian Practice</span>
+            <span class="brand-sub">veiksmažodžiai &amp; linksniai</span>
+          </div>
+        </div>
         <a
-          class="issues-btn"
+          class="ghost-link"
           href="https://github.com/ingakaspar/lithuanian-words-practice/issues/new"
           target="_blank"
           rel="noopener noreferrer"
-          role="button"
-          >Bugs &amp; Suggestions</a
+          >Report a bug ↗</a
         >
-        <h1>Lithuanian Practice</h1>
-        <p id="dataStats" class="hero-stats"></p>
       </header>
 
-      <section class="panel controls">
-        <div class="controls-main">
-          <div id="verbControls" class="control-block">
-          <label for="formSelect">Verb tense / form</label>
-          <select id="formSelect">
-            <option value="present">Esamasis</option>
-            <option value="past">Būtasis</option>
-            <option value="future">Būsimasis</option>
-            <option value="usedTo">Būdavo / used to</option>
-            <option value="conditional">Sąlyginis (conditional)</option>
-            <option value="imperative">Liepiamoji (imperative)</option>
-          </select>
-        </div>
+      <div class="layout">
+        <aside class="sidebar" aria-label="Practice controls">
+          <div class="control-group">
+            <div class="eyebrow">Practice</div>
+            <div class="seg" role="radiogroup" id="modeSeg">
+              <select id="practiceMode" aria-label="Choose what to practice">
+                <option value="verbs">Verbs</option>
+                <option value="nouns">Nouns</option>
+                <option value="pronouns">Pronouns</option>
+                <option value="adjectives">Adjectives</option>
+                <option value="adverbs">Adverbs</option>
+                <option value="numerals">Numerals</option>
+              </select>
+            </div>
+          </div>
 
-          <div id="nounControls" class="control-block">
-            <label for="nounCaseSelect">Noun case</label>
-            <select id="nounCaseSelect">
-              <option value="random">All cases (random)</option>
-              <option value="Genitive">Genitive</option>
-              <option value="Dative">Dative</option>
-              <option value="Accusative">Accusative</option>
-              <option value="Instrumental">Instrumental</option>
-              <option value="Locative">Locative</option>
-              <option value="Vocative">Vocative</option>
+          <div class="control-group freq-group">
+            <div class="freq-head">
+              <span class="eyebrow">Difficulty</span>
+              <span id="freqHint" class="freq-hint">All groups</span>
+            </div>
+            <div
+              id="freqChips"
+              class="freq-chips"
+              role="radiogroup"
+              aria-label="Word frequency band"
+            ></div>
+            <select id="wordGroupSelect" class="visually-hidden" aria-hidden="true" tabindex="-1">
+              <option value="all">All groups (0-900)</option>
+            </select>
+            <div class="freq-legend" aria-hidden="true">
+              <span>common</span>
+              <span class="freq-legend-rule"></span>
+              <span>rare</span>
+            </div>
+          </div>
+
+          <div id="verbControls" class="control-group">
+            <label for="formSelect" class="eyebrow">Tense / form</label>
+            <select id="formSelect">
+              <option value="present">Esamasis · present</option>
+              <option value="past">Būtasis · past</option>
+              <option value="future">Būsimasis · future</option>
+              <option value="usedTo">Būdavo · used to</option>
+              <option value="conditional">Sąlyginis · conditional</option>
+              <option value="imperative">Liepiamoji · imperative</option>
             </select>
           </div>
-        </div>
-      </section>
 
-      <section class="panel question" aria-live="polite">
-        <div class="question-head">
-          <h2 id="promptText">Kraunama…</h2>
-          <button id="speakBtn" type="button" class="small-btn" aria-label="Pronounce">
-            🔊
-          </button>
-          <button id="hintBtn" type="button" class="small-btn">Hint</button>
-        </div>
-        <p id="personText"></p>
-        <p id="nounMeta" class="noun-meta"></p>
-      </section>
+          <div id="nounControls" class="control-group">
+            <label for="nounCaseSelect" class="eyebrow">Noun case</label>
+            <select id="nounCaseSelect">
+              <option value="random">All cases (random)</option>
+              <option value="Genitive">Genitive · Ko? Kieno?</option>
+              <option value="Dative">Dative · Kam?</option>
+              <option value="Accusative">Accusative · Ką?</option>
+              <option value="Instrumental">Instrumental · Kuo?</option>
+              <option value="Locative">Locative · Kur?</option>
+              <option value="Vocative">Vocative · Kreipinys</option>
+            </select>
+          </div>
 
-      <section class="panel answer">
-        <label for="answerInput">Atsakymas</label>
-        <input
-          id="answerInput"
-          type="text"
-          placeholder="Įrašyk formą"
-          autocomplete="off"
-        />
-        <div class="answer-actions">
-          <button id="checkBtn" type="button">Check</button>
-          <button id="nextBtn" type="button" class="small-btn">Skip</button>
-        </div>
-        <p id="resultText"></p>
-      </section>
+          <p id="dataStats" class="stats"></p>
+        </aside>
 
-      <section class="panel history">
-        <h3>Atsakymų istorija</h3>
-        <div id="historyList" class="history-list" aria-live="polite"></div>
-      </section>
-      </main>
+        <main class="study">
+          <section class="card prompt-card" aria-live="polite">
+            <div class="prompt-meta">
+              <span class="eyebrow" id="promptKicker">Translate &amp; conjugate</span>
+              <div class="prompt-actions">
+                <button id="speakBtn" type="button" class="icon-btn" aria-label="Pronounce">
+                  <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                    <path
+                      d="M4 9v6h4l5 4V5L8 9H4z"
+                      fill="currentColor"
+                    />
+                    <path
+                      d="M16 8.5a4.5 4.5 0 0 1 0 7M18.5 5.5a8 8 0 0 1 0 13"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.6"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </button>
+                <button id="hintBtn" type="button" class="ghost-btn">Hint</button>
+              </div>
+            </div>
+
+            <h1 id="promptText" class="prompt-word">Kraunama…</h1>
+            <p id="personText" class="prompt-translation"></p>
+            <p id="nounMeta" class="prompt-context"></p>
+          </section>
+
+          <section class="card answer-card">
+            <label for="answerInput" class="eyebrow">Atsakymas</label>
+            <input
+              id="answerInput"
+              type="text"
+              placeholder="Įrašyk formą"
+              autocomplete="off"
+              spellcheck="false"
+            />
+            <div class="answer-actions">
+              <button id="checkBtn" type="button" class="primary-btn">Check answer</button>
+              <button id="nextBtn" type="button" class="ghost-btn">Skip →</button>
+            </div>
+            <p id="resultText" class="result"></p>
+          </section>
+
+          <section class="card history-card">
+            <header class="history-head">
+              <h2>Atsakymų istorija</h2>
+              <span class="history-hint">most recent first</span>
+            </header>
+            <div id="historyList" class="history-list" aria-live="polite"></div>
+          </section>
+        </main>
+      </div>
+
+      <footer class="footer">
+        <span>Press <kbd>Enter</kbd> to check · <kbd>Enter</kbd> again for next</span>
+      </footer>
     </div>
 
     <script src="app-config.js"></script>
-    <script src="app.js?v=20260509b"></script>
+    <script src="app.js?v=20260509f"></script>
+    <script src="frequency-chips.js?v=20260509a"></script>
+    <script src="tweaks.js?v=20260509b"></script>
   </body>
 </html>

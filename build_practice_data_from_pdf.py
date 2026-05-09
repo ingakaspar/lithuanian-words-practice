@@ -169,7 +169,9 @@ def build_verbs(rows: list[dict]) -> list[dict]:
             continue
         key = r["lt_ascii"]
         if key not in merged:
-            merged[key] = {"lt": r["lt"], "lt_ascii": key, "ru": r["ru"]}
+            merged[key] = {"lt": r["lt"], "lt_ascii": key, "ru": r["ru"], "groups": {r["group"]}}
+        else:
+            merged[key]["groups"].add(r["group"])
 
     out = []
     for v in merged.values():
@@ -188,6 +190,7 @@ def build_verbs(rows: list[dict]) -> list[dict]:
                 "lt": lt,
                 "lt_ascii": v["lt_ascii"],
                 "ru": v["ru"],
+                "groups": sorted(v["groups"]),
                 "present": tense_six(c.get("present")),
                 "past": tense_six(c.get("past")),
                 "future": tense_six(c.get("future")),
@@ -208,7 +211,9 @@ def build_nouns(rows: list[dict]) -> list[dict]:
             continue
         key = r["lt_ascii"]
         if key not in merged:
-            merged[key] = {"lt": r["lt"], "lt_ascii": key, "ru": r["ru"]}
+            merged[key] = {"lt": r["lt"], "lt_ascii": key, "ru": r["ru"], "groups": {r["group"]}}
+        else:
+            merged[key]["groups"].add(r["group"])
 
     out = []
     for n in merged.values():
@@ -227,6 +232,7 @@ def build_nouns(rows: list[dict]) -> list[dict]:
                 "lt": nom,
                 "lt_ascii": strip_lt(nom),
                 "ru": n["ru"],
+                "groups": sorted(n["groups"]),
                 "decl": scrub_stress(decl),
             }
         )
@@ -242,11 +248,29 @@ def main() -> None:
     nouns = build_nouns(rows)
     verbs_path = ROOT / "verbs_practice.json"
     nouns_path = ROOT / "nouns_practice.json"
+    stats_path = ROOT / "pdf_stats.json"
     verbs_path.write_text(json.dumps(verbs, ensure_ascii=False, indent=2), encoding="utf-8")
     nouns_path.write_text(json.dumps(nouns, ensure_ascii=False, indent=2), encoding="utf-8")
+    group_counts = {}
+    for g in sorted({int(r["group"]) for r in rows}):
+        group_counts[str(g)] = {
+            "nouns_raw": sum(1 for r in rows if r["group"] == g and r["section"] == "noun"),
+            "verbs_raw": sum(1 for r in rows if r["group"] == g and r["section"] == "verb"),
+            "nouns_included": sum(1 for n in nouns if g in (n.get("groups") or [])),
+            "verbs_included": sum(1 for v in verbs if g in (v.get("groups") or [])),
+        }
+    stats = {
+        "rows_total": len(rows),
+        "nouns_raw": sum(1 for r in rows if r["section"] == "noun"),
+        "verbs_raw": sum(1 for r in rows if r["section"] == "verb"),
+        "nouns_included": len(nouns),
+        "verbs_included": len(verbs),
+        "group_counts": group_counts,
+    }
+    stats_path.write_text(json.dumps(stats, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(
         f"dictt rows: {len(rows)} -> verbs: {len(verbs)} ({verbs_path}), "
-        f"nouns: {len(nouns)} ({nouns_path})"
+        f"nouns: {len(nouns)} ({nouns_path}), stats: {stats_path}"
     )
 
 

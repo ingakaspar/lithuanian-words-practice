@@ -3,6 +3,9 @@
     "lt": "aikštė",
     "lt_ascii": "aikste",
     "ru": "площадь (уличная)",
+    "groups": [
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "aikštė",
@@ -28,6 +31,9 @@
     "lt": "akis",
     "lt_ascii": "akis",
     "ru": "глаз",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "akis",
@@ -53,6 +59,9 @@
     "lt": "akmuo",
     "lt_ascii": "akmuo",
     "ru": "камень",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "akmuo",
@@ -78,6 +87,9 @@
     "lt": "alėjus",
     "lt_ascii": "alejus",
     "ru": "масло (подсолнечное)",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "alėjus",
@@ -103,6 +115,9 @@
     "lt": "alus",
     "lt_ascii": "alus",
     "ru": "пиво",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "alus",
@@ -128,6 +143,9 @@
     "lt": "alyva",
     "lt_ascii": "alyva",
     "ru": "масло (автомобильное)",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "alyva",
@@ -153,6 +171,9 @@
     "lt": "antradienis",
     "lt_ascii": "antradienis",
     "ru": "вторник",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "antradienis",
@@ -178,6 +199,9 @@
     "lt": "apačia",
     "lt_ascii": "apacia",
     "ru": "низ",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "apačia",
@@ -203,6 +227,9 @@
     "lt": "apetitas",
     "lt_ascii": "apetitas",
     "ru": "аппетит",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "apetitas",
@@ -227,6 +254,9 @@
     "lt": "arba",
     "lt_ascii": "arba",
     "ru": "или",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "arba",
@@ -252,6 +282,9 @@
     "lt": "arbata",
     "lt_ascii": "arbata",
     "ru": "чай",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "arbata",
@@ -277,6 +310,9 @@
     "lt": "arklys",
     "lt_ascii": "arklys",
     "ru": "лошадь",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "arklys",
@@ -302,6 +338,9 @@
     "lt": "asmenybė",
     "lt_ascii": "asmenybe",
     "ru": "личность",
+    "groups": [
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "asmenybė",
@@ -327,6 +366,9 @@
     "lt": "aštuoniolika",
     "lt_ascii": "astuoniolika",
     "ru": "18",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "aštuoniolika",
@@ -352,6 +394,9 @@
     "lt": "atlyginimas",
     "lt_ascii": "atlyginimas",
     "ru": "зарплата",
+    "groups": [
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "atlyginimas",
@@ -376,6 +421,9 @@
     "lt": "atsakymas",
     "lt_ascii": "atsakymas",
     "ru": "ответ",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "atsakymas",
@@ -400,6 +448,9 @@
     "lt": "aukštas",
     "lt_ascii": "aukstas",
     "ru": "этаж",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "aukštas",
@@ -424,6 +475,9 @@
     "lt": "automobilis",
     "lt_ascii": "automobilis",
     "ru": "автомобиль",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "automobilis",
@@ -449,6 +503,9 @@
     "lt": "baimė",
     "lt_ascii": "baime",
     "ru": "страх",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "baimė",
@@ -474,6 +531,9 @@
     "lt": "balas",
     "lt_ascii": "balas",
     "ru": "голос",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "balas",
@@ -498,6 +558,9 @@
     "lt": "batas",
     "lt_ascii": "batas",
     "ru": "ботинок",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "batas",
@@ -522,6 +585,9 @@
     "lt": "beda",
     "lt_ascii": "beda",
     "ru": "беда",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "beda",
@@ -547,6 +613,9 @@
     "lt": "berniukas",
     "lt_ascii": "berniukas",
     "ru": "мальчик",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "berniukas",
@@ -571,6 +640,9 @@
     "lt": "bičiulis",
     "lt_ascii": "biciulis",
     "ru": "приятель",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "bičiulis",
@@ -596,6 +668,9 @@
     "lt": "bilietas",
     "lt_ascii": "bilietas",
     "ru": "билет",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "bilietas",
@@ -620,6 +695,9 @@
     "lt": "birželis",
     "lt_ascii": "birzelis",
     "ru": "июнь",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "birželis",
@@ -645,6 +723,9 @@
     "lt": "bokštas",
     "lt_ascii": "bokstas",
     "ru": "башня",
+    "groups": [
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "bokštas",
@@ -669,6 +750,9 @@
     "lt": "brolis",
     "lt_ascii": "brolis",
     "ru": "брат",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "brolis",
@@ -694,6 +778,9 @@
     "lt": "burna",
     "lt_ascii": "burna",
     "ru": "рот",
+    "groups": [
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "burna",
@@ -719,6 +806,9 @@
     "lt": "butas",
     "lt_ascii": "butas",
     "ru": "квартира",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "butas",
@@ -743,6 +833,9 @@
     "lt": "centimetras",
     "lt_ascii": "centimetras",
     "ru": "сантиметр",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "centimetras",
@@ -767,6 +860,9 @@
     "lt": "centras",
     "lt_ascii": "centras",
     "ru": "центр",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "centras",
@@ -791,6 +887,9 @@
     "lt": "charakteris",
     "lt_ascii": "charakteris",
     "ru": "характер",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "charakteris",
@@ -816,6 +915,9 @@
     "lt": "čia",
     "lt_ascii": "cia",
     "ru": "тут, здесь",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "čia",
@@ -841,6 +943,9 @@
     "lt": "cukrus",
     "lt_ascii": "cukrus",
     "ru": "сахар",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "cukrus",
@@ -866,6 +971,9 @@
     "lt": "daiktas",
     "lt_ascii": "daiktas",
     "ru": "вещь",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "daiktas",
@@ -890,6 +998,9 @@
     "lt": "daina",
     "lt_ascii": "daina",
     "ru": "песня",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "daina",
@@ -915,6 +1026,9 @@
     "lt": "dalyvis",
     "lt_ascii": "dalyvis",
     "ru": "участник",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "dalyvis",
@@ -940,6 +1054,9 @@
     "lt": "dangus",
     "lt_ascii": "dangus",
     "ru": "небо",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "dangus",
@@ -965,6 +1082,9 @@
     "lt": "darbas",
     "lt_ascii": "darbas",
     "ru": "работа",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "darbas",
@@ -989,6 +1109,9 @@
     "lt": "data",
     "lt_ascii": "data",
     "ru": "дата",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "data",
@@ -1014,6 +1137,9 @@
     "lt": "dėdė",
     "lt_ascii": "dede",
     "ru": "дядя",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "dėdė",
@@ -1039,6 +1165,9 @@
     "lt": "delnas",
     "lt_ascii": "delnas",
     "ru": "ладонь",
+    "groups": [
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "delnas",
@@ -1063,6 +1192,9 @@
     "lt": "dėmeys",
     "lt_ascii": "demeys",
     "ru": "внимание",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "dėmeys",
@@ -1088,6 +1220,9 @@
     "lt": "devyniolika",
     "lt_ascii": "devyniolika",
     "ru": "19",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "devyniolika",
@@ -1113,6 +1248,9 @@
     "lt": "dėžė",
     "lt_ascii": "deze",
     "ru": "коробка, ящик",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "dėžė",
@@ -1138,6 +1276,9 @@
     "lt": "diena",
     "lt_ascii": "diena",
     "ru": "день",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "diena",
@@ -1163,6 +1304,9 @@
     "lt": "dievas",
     "lt_ascii": "dievas",
     "ru": "бог",
+    "groups": [
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "dievas",
@@ -1187,6 +1331,9 @@
     "lt": "direktorius",
     "lt_ascii": "direktorius",
     "ru": "директор",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "direktorius",
@@ -1212,6 +1359,9 @@
     "lt": "dovana",
     "lt_ascii": "dovana",
     "ru": "подарок",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "dovana",
@@ -1237,6 +1387,9 @@
     "lt": "draugas",
     "lt_ascii": "draugas",
     "ru": "друг",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "draugas",
@@ -1261,6 +1414,9 @@
     "lt": "draugystė",
     "lt_ascii": "draugyste",
     "ru": "дружба",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "draugystė",
@@ -1286,6 +1442,9 @@
     "lt": "druska",
     "lt_ascii": "druska",
     "ru": "соль",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "druska",
@@ -1311,6 +1470,9 @@
     "lt": "duktė",
     "lt_ascii": "dukte",
     "ru": "дочь",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "duktė",
@@ -1336,6 +1498,9 @@
     "lt": "duona",
     "lt_ascii": "duona",
     "ru": "хлеб",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "duona",
@@ -1361,6 +1526,9 @@
     "lt": "durys",
     "lt_ascii": "durys",
     "ru": "дверь",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "durys",
@@ -1386,6 +1554,9 @@
     "lt": "dvylika",
     "lt_ascii": "dvylika",
     "ru": "12",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "dvylika",
@@ -1411,6 +1582,9 @@
     "lt": "džiaugsmas",
     "lt_ascii": "dziaugsmas",
     "ru": "радость",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "džiaugsmas",
@@ -1435,6 +1609,10 @@
     "lt": "eilė",
     "lt_ascii": "eile",
     "ru": "очередь",
+    "groups": [
+      400,
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "eilė",
@@ -1460,6 +1638,9 @@
     "lt": "eismas",
     "lt_ascii": "eismas",
     "ru": "движение (дорожное)",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "eismas",
@@ -1484,6 +1665,9 @@
     "lt": "ežeras",
     "lt_ascii": "ezeras",
     "ru": "озеро",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "ežeras",
@@ -1508,6 +1692,9 @@
     "lt": "forma",
     "lt_ascii": "forma",
     "ru": "форма",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "forma",
@@ -1533,6 +1720,9 @@
     "lt": "gabalas",
     "lt_ascii": "gabalas",
     "ru": "кусок",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "gabalas",
@@ -1557,6 +1747,9 @@
     "lt": "galas",
     "lt_ascii": "galas",
     "ru": "зад",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "galas",
@@ -1581,6 +1774,9 @@
     "lt": "galimybė",
     "lt_ascii": "galimybe",
     "ru": "возможность",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "galimybė",
@@ -1606,6 +1802,9 @@
     "lt": "galva",
     "lt_ascii": "galva",
     "ru": "голова",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "galva",
@@ -1631,6 +1830,9 @@
     "lt": "gamta",
     "lt_ascii": "gamta",
     "ru": "природа",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "gamta",
@@ -1656,6 +1858,9 @@
     "lt": "gamyba",
     "lt_ascii": "gamyba",
     "ru": "производство",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "gamyba",
@@ -1681,6 +1886,9 @@
     "lt": "gamykla",
     "lt_ascii": "gamykla",
     "ru": "завод",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "gamykla",
@@ -1706,6 +1914,9 @@
     "lt": "garas",
     "lt_ascii": "garas",
     "ru": "звук",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "garas",
@@ -1730,6 +1941,9 @@
     "lt": "gatvė",
     "lt_ascii": "gatve",
     "ru": "улица",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "gatvė",
@@ -1755,6 +1969,9 @@
     "lt": "gegužė",
     "lt_ascii": "geguze",
     "ru": "май",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "gegužė",
@@ -1780,6 +1997,9 @@
     "lt": "gėlė",
     "lt_ascii": "gele",
     "ru": "цветок",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "gėlė",
@@ -1805,6 +2025,9 @@
     "lt": "geležinkelis",
     "lt_ascii": "gelezinkelis",
     "ru": "железная дорога",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "geležinkelis",
@@ -1830,6 +2053,9 @@
     "lt": "gėrimas",
     "lt_ascii": "gerimas",
     "ru": "напиток",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "gėrimas",
@@ -1854,6 +2080,9 @@
     "lt": "gimtinė",
     "lt_ascii": "gimtine",
     "ru": "родина",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "gimtinė",
@@ -1879,6 +2108,9 @@
     "lt": "grindys",
     "lt_ascii": "grindys",
     "ru": "пол (под ногами)",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "grindys",
@@ -1904,6 +2136,9 @@
     "lt": "grupė",
     "lt_ascii": "grupe",
     "ru": "группа",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "grupė",
@@ -1929,6 +2164,9 @@
     "lt": "gyvenimas",
     "lt_ascii": "gyvenimas",
     "ru": "жизнь",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "gyvenimas",
@@ -1953,6 +2191,9 @@
     "lt": "herojus",
     "lt_ascii": "herojus",
     "ru": "герой",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "herojus",
@@ -1978,6 +2219,9 @@
     "lt": "intereas",
     "lt_ascii": "intereas",
     "ru": "интерес",
+    "groups": [
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "intereas",
@@ -2002,6 +2246,9 @@
     "lt": "išsilavinimas",
     "lt_ascii": "issilavinimas",
     "ru": "образование",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "išsilavinimas",
@@ -2026,6 +2273,9 @@
     "lt": "išskyrus",
     "lt_ascii": "isskyrus",
     "ru": "кроме",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "išskyrus",
@@ -2051,6 +2301,9 @@
     "lt": "įstatymas",
     "lt_ascii": "istatymas",
     "ru": "закон",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "įstatymas",
@@ -2075,6 +2328,9 @@
     "lt": "istorija",
     "lt_ascii": "istorija",
     "ru": "история",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "istorija",
@@ -2100,6 +2356,9 @@
     "lt": "išvada",
     "lt_ascii": "isvada",
     "ru": "вывод",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "išvada",
@@ -2125,6 +2384,9 @@
     "lt": "jaunimas",
     "lt_ascii": "jaunimas",
     "ru": "молодежь",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "jaunimas",
@@ -2149,6 +2411,9 @@
     "lt": "jaunuolis",
     "lt_ascii": "jaunuolis",
     "ru": "юноша",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "jaunuolis",
@@ -2174,6 +2439,9 @@
     "lt": "jėga",
     "lt_ascii": "jega",
     "ru": "сила",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "jėga",
@@ -2199,6 +2467,9 @@
     "lt": "judėjimas",
     "lt_ascii": "judejimas",
     "ru": "движение",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "judėjimas",
@@ -2223,6 +2494,9 @@
     "lt": "juokas",
     "lt_ascii": "juokas",
     "ru": "смех",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "juokas",
@@ -2247,6 +2521,9 @@
     "lt": "jūra",
     "lt_ascii": "jura",
     "ru": "море",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "jūra",
@@ -2272,6 +2549,9 @@
     "lt": "kada",
     "lt_ascii": "kada",
     "ru": "когда",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kada",
@@ -2297,6 +2577,9 @@
     "lt": "kaimas",
     "lt_ascii": "kaimas",
     "ru": "деревня",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kaimas",
@@ -2321,6 +2604,9 @@
     "lt": "kaimynas",
     "lt_ascii": "kaimynas",
     "ru": "сосед",
+    "groups": [
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kaimynas",
@@ -2345,6 +2631,9 @@
     "lt": "kaina",
     "lt_ascii": "kaina",
     "ru": "цена",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kaina",
@@ -2370,6 +2659,9 @@
     "lt": "kaklas",
     "lt_ascii": "kaklas",
     "ru": "шея",
+    "groups": [
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kaklas",
@@ -2394,6 +2686,9 @@
     "lt": "kakta",
     "lt_ascii": "kakta",
     "ru": "лоб",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kakta",
@@ -2419,6 +2714,9 @@
     "lt": "kalba",
     "lt_ascii": "kalba",
     "ru": "язык (речь)",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kalba",
@@ -2444,6 +2742,9 @@
     "lt": "kalnas",
     "lt_ascii": "kalnas",
     "ru": "гора",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kalnas",
@@ -2468,6 +2769,9 @@
     "lt": "kambarys",
     "lt_ascii": "kambarys",
     "ru": "комната",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kambarys",
@@ -2493,6 +2797,9 @@
     "lt": "kampas",
     "lt_ascii": "kampas",
     "ru": "угол",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kampas",
@@ -2517,6 +2824,9 @@
     "lt": "kapitalas",
     "lt_ascii": "kapitalas",
     "ru": "капитал",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kapitalas",
@@ -2541,6 +2851,9 @@
     "lt": "karas",
     "lt_ascii": "karas",
     "ru": "война",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "karas",
@@ -2565,6 +2878,9 @@
     "lt": "kariuomenė",
     "lt_ascii": "kariuomene",
     "ru": "армия",
+    "groups": [
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kariuomenė",
@@ -2590,6 +2906,9 @@
     "lt": "katė",
     "lt_ascii": "kate",
     "ru": "кошка",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "katė",
@@ -2615,6 +2934,9 @@
     "lt": "kava",
     "lt_ascii": "kava",
     "ru": "кофе",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kava",
@@ -2640,6 +2962,9 @@
     "lt": "kavinė",
     "lt_ascii": "kavine",
     "ru": "кафе",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kavinė",
@@ -2665,6 +2990,10 @@
     "lt": "kėdė",
     "lt_ascii": "kede",
     "ru": "кресло",
+    "groups": [
+      300,
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kėdė",
@@ -2690,6 +3019,9 @@
     "lt": "keitimas",
     "lt_ascii": "keitimas",
     "ru": "замена",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "keitimas",
@@ -2714,6 +3046,10 @@
     "lt": "kelias",
     "lt_ascii": "kelias",
     "ru": "дорога",
+    "groups": [
+      100,
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kelias",
@@ -2739,6 +3075,9 @@
     "lt": "kelionė",
     "lt_ascii": "kelione",
     "ru": "путешествие",
+    "groups": [
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kelionė",
@@ -2764,6 +3103,9 @@
     "lt": "kepurė",
     "lt_ascii": "kepure",
     "ru": "шапка",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kepurė",
@@ -2789,6 +3131,9 @@
     "lt": "keturiolika",
     "lt_ascii": "keturiolika",
     "ru": "14",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "keturiolika",
@@ -2814,6 +3159,9 @@
     "lt": "ketvirtadienis",
     "lt_ascii": "ketvirtadienis",
     "ru": "четверг",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "ketvirtadienis",
@@ -2839,6 +3187,9 @@
     "lt": "kiaušinis",
     "lt_ascii": "kiausinis",
     "ru": "яйцо",
+    "groups": [
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kiaušinis",
@@ -2864,6 +3215,9 @@
     "lt": "kiekis",
     "lt_ascii": "kiekis",
     "ru": "количество",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kiekis",
@@ -2889,6 +3243,9 @@
     "lt": "kiemas",
     "lt_ascii": "kiemas",
     "ru": "двор",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kiemas",
@@ -2913,6 +3270,9 @@
     "lt": "kilometras",
     "lt_ascii": "kilometras",
     "ru": "километр",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kilometras",
@@ -2937,6 +3297,9 @@
     "lt": "kinas",
     "lt_ascii": "kinas",
     "ru": "кино",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kinas",
@@ -2961,6 +3324,9 @@
     "lt": "kišenė",
     "lt_ascii": "kisene",
     "ru": "карман",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kišenė",
@@ -2986,6 +3352,9 @@
     "lt": "klasė",
     "lt_ascii": "klase",
     "ru": "класс",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "klasė",
@@ -3011,6 +3380,9 @@
     "lt": "klausimas",
     "lt_ascii": "klausimas",
     "ru": "вопрос",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "klausimas",
@@ -3035,6 +3407,9 @@
     "lt": "klubas",
     "lt_ascii": "klubas",
     "ru": "клуб",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "klubas",
@@ -3059,6 +3434,9 @@
     "lt": "knyga",
     "lt_ascii": "knyga",
     "ru": "книга",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "knyga",
@@ -3084,6 +3462,9 @@
     "lt": "koja",
     "lt_ascii": "koja",
     "ru": "нога",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "koja",
@@ -3109,6 +3490,9 @@
     "lt": "kojinė",
     "lt_ascii": "kojine",
     "ru": "носок",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kojinė",
@@ -3134,6 +3518,9 @@
     "lt": "kokybė",
     "lt_ascii": "kokybe",
     "ru": "качество",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kokybė",
@@ -3159,6 +3546,9 @@
     "lt": "komanda",
     "lt_ascii": "komanda",
     "ru": "команда",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "komanda",
@@ -3184,6 +3574,9 @@
     "lt": "koncertas",
     "lt_ascii": "koncertas",
     "ru": "концерт",
+    "groups": [
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "koncertas",
@@ -3208,6 +3601,9 @@
     "lt": "koridorius",
     "lt_ascii": "koridorius",
     "ru": "коридор",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "koridorius",
@@ -3233,6 +3629,9 @@
     "lt": "kostiumas",
     "lt_ascii": "kostiumas",
     "ru": "костюм",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kostiumas",
@@ -3257,6 +3656,9 @@
     "lt": "kovas",
     "lt_ascii": "kovas",
     "ru": "март",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kovas",
@@ -3281,6 +3683,9 @@
     "lt": "krantas",
     "lt_ascii": "krantas",
     "ru": "берег",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "krantas",
@@ -3305,6 +3710,9 @@
     "lt": "kraštas",
     "lt_ascii": "krastas",
     "ru": "край",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kraštas",
@@ -3329,6 +3737,9 @@
     "lt": "krūtinė",
     "lt_ascii": "krutine",
     "ru": "грудь",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "krūtinė",
@@ -3354,6 +3765,9 @@
     "lt": "kultūra",
     "lt_ascii": "kultura",
     "ru": "культура",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kultūra",
@@ -3379,6 +3793,9 @@
     "lt": "kuo",
     "lt_ascii": "kuo",
     "ru": "кем, чем",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kuo",
@@ -3404,6 +3821,9 @@
     "lt": "kuras",
     "lt_ascii": "kuras",
     "ru": "топливо",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "kuras",
@@ -3428,6 +3848,9 @@
     "lt": "laba diena",
     "lt_ascii": "labadiena",
     "ru": "добрый день",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "laba diena",
@@ -3453,6 +3876,9 @@
     "lt": "labas",
     "lt_ascii": "labas",
     "ru": "привет",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "labas",
@@ -3477,6 +3903,9 @@
     "lt": "laida",
     "lt_ascii": "laida",
     "ru": "передача (программа )",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "laida",
@@ -3502,6 +3931,9 @@
     "lt": "laikas",
     "lt_ascii": "laikas",
     "ru": "время",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "laikas",
@@ -3526,6 +3958,9 @@
     "lt": "laimė",
     "lt_ascii": "laime",
     "ru": "счастье",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "laimė",
@@ -3551,6 +3986,9 @@
     "lt": "laipsnis",
     "lt_ascii": "laipsnis",
     "ru": "градус",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "laipsnis",
@@ -3576,6 +4014,9 @@
     "lt": "laiškas",
     "lt_ascii": "laiskas",
     "ru": "письмо",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "laiškas",
@@ -3600,6 +4041,9 @@
     "lt": "laivas",
     "lt_ascii": "laivas",
     "ru": "корабль",
+    "groups": [
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "laivas",
@@ -3624,6 +4068,9 @@
     "lt": "langas",
     "lt_ascii": "langas",
     "ru": "окно",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "langas",
@@ -3648,6 +4095,9 @@
     "lt": "lapas",
     "lt_ascii": "lapas",
     "ru": "лист",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "lapas",
@@ -3672,6 +4122,9 @@
     "lt": "laukas",
     "lt_ascii": "laukas",
     "ru": "поле",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "laukas",
@@ -3696,6 +4149,9 @@
     "lt": "laužas",
     "lt_ascii": "lauzas",
     "ru": "костер",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "laužas",
@@ -3720,6 +4176,9 @@
     "lt": "lėkštė",
     "lt_ascii": "lekste",
     "ru": "тарелка",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "lėkštė",
@@ -3745,6 +4204,9 @@
     "lt": "lėktuvas",
     "lt_ascii": "lektuvas",
     "ru": "самолет",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "lėktuvas",
@@ -3769,6 +4231,9 @@
     "lt": "lenta",
     "lt_ascii": "lenta",
     "ru": "доска",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "lenta",
@@ -3794,6 +4259,9 @@
     "lt": "lepa",
     "lt_ascii": "lepa",
     "ru": "июль",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "lepa",
@@ -3819,6 +4287,9 @@
     "lt": "lietus",
     "lt_ascii": "lietus",
     "ru": "дождь",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "lietus",
@@ -3844,6 +4315,9 @@
     "lt": "likimas",
     "lt_ascii": "likimas",
     "ru": "судьба",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "likimas",
@@ -3868,6 +4342,9 @@
     "lt": "linija",
     "lt_ascii": "linija",
     "ru": "линия",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "linija",
@@ -3893,6 +4370,9 @@
     "lt": "lova",
     "lt_ascii": "lova",
     "ru": "кровать",
+    "groups": [
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "lova",
@@ -3918,6 +4398,9 @@
     "lt": "maistas",
     "lt_ascii": "maistas",
     "ru": "еда",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "maistas",
@@ -3942,6 +4425,9 @@
     "lt": "mama",
     "lt_ascii": "mama",
     "ru": "мама",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "mama",
@@ -3967,6 +4453,9 @@
     "lt": "mašina",
     "lt_ascii": "masina",
     "ru": "машина",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "mašina",
@@ -3992,6 +4481,9 @@
     "lt": "medžiaga",
     "lt_ascii": "medziaga",
     "ru": "материал",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "medžiaga",
@@ -4017,6 +4509,9 @@
     "lt": "meilė",
     "lt_ascii": "meile",
     "ru": "любовь",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "meilė",
@@ -4042,6 +4537,10 @@
     "lt": "meistras",
     "lt_ascii": "meistras",
     "ru": "хозяин",
+    "groups": [
+      400,
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "meistras",
@@ -4066,6 +4565,9 @@
     "lt": "mėnuo",
     "lt_ascii": "menuo",
     "ru": "месяц",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "mėnuo",
@@ -4091,6 +4593,9 @@
     "lt": "mergaitė",
     "lt_ascii": "mergaite",
     "ru": "девочка",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "mergaitė",
@@ -4116,6 +4621,9 @@
     "lt": "mergina",
     "lt_ascii": "mergina",
     "ru": "девушка",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "mergina",
@@ -4141,6 +4649,9 @@
     "lt": "mėsa",
     "lt_ascii": "mesa",
     "ru": "мясо",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "mėsa",
@@ -4166,6 +4677,9 @@
     "lt": "metras",
     "lt_ascii": "metras",
     "ru": "метр",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "metras",
@@ -4190,6 +4704,9 @@
     "lt": "miestas",
     "lt_ascii": "miestas",
     "ru": "город",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "miestas",
@@ -4214,6 +4731,9 @@
     "lt": "milimetras",
     "lt_ascii": "milimetras",
     "ru": "миллиметр",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "milimetras",
@@ -4238,6 +4758,9 @@
     "lt": "minutė",
     "lt_ascii": "minute",
     "ru": "минута",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "minutė",
@@ -4263,6 +4786,9 @@
     "lt": "miškas",
     "lt_ascii": "miskas",
     "ru": "лес",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "miškas",
@@ -4287,6 +4813,9 @@
     "lt": "močiutė",
     "lt_ascii": "mociute",
     "ru": "бабушка",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "močiutė",
@@ -4312,6 +4841,9 @@
     "lt": "mokinys",
     "lt_ascii": "mokinys",
     "ru": "ученик",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "mokinys",
@@ -4337,6 +4869,10 @@
     "lt": "mokslas",
     "lt_ascii": "mokslas",
     "ru": "наука",
+    "groups": [
+      600,
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "mokslas",
@@ -4361,6 +4897,9 @@
     "lt": "moksleivis",
     "lt_ascii": "moksleivis",
     "ru": "школьник",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "moksleivis",
@@ -4386,6 +4925,9 @@
     "lt": "mokykla",
     "lt_ascii": "mokykla",
     "ru": "школа",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "mokykla",
@@ -4411,6 +4953,9 @@
     "lt": "momentas",
     "lt_ascii": "momentas",
     "ru": "момент",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "momentas",
@@ -4435,6 +4980,9 @@
     "lt": "monė",
     "lt_ascii": "mone",
     "ru": "предприятие",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "monė",
@@ -4460,6 +5008,9 @@
     "lt": "moteris",
     "lt_ascii": "moteris",
     "ru": "женщина",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "moteris",
@@ -4485,6 +5036,9 @@
     "lt": "motina",
     "lt_ascii": "motina",
     "ru": "мать",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "motina",
@@ -4510,6 +5064,9 @@
     "lt": "muzika",
     "lt_ascii": "muzika",
     "ru": "музыка",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "muzika",
@@ -4535,6 +5092,9 @@
     "lt": "namas",
     "lt_ascii": "namas",
     "ru": "дом",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "namas",
@@ -4559,6 +5119,9 @@
     "lt": "narys",
     "lt_ascii": "narys",
     "ru": "член (общества)",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "narys",
@@ -4584,6 +5147,9 @@
     "lt": "nosinė",
     "lt_ascii": "nosine",
     "ru": "платок (носовой)",
+    "groups": [
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "nosinė",
@@ -4609,6 +5175,9 @@
     "lt": "nugara",
     "lt_ascii": "nugara",
     "ru": "спина",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "nugara",
@@ -4634,6 +5203,9 @@
     "lt": "numeris",
     "lt_ascii": "numeris",
     "ru": "номер",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "numeris",
@@ -4659,6 +5231,9 @@
     "lt": "nuo",
     "lt_ascii": "nuo",
     "ru": "от",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "nuo",
@@ -4684,6 +5259,9 @@
     "lt": "nuomonė",
     "lt_ascii": "nuomone",
     "ru": "мнение",
+    "groups": [
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "nuomonė",
@@ -4709,6 +5287,9 @@
     "lt": "obuolys",
     "lt_ascii": "obuolys",
     "ru": "яблоко",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "obuolys",
@@ -4734,6 +5315,9 @@
     "lt": "oda",
     "lt_ascii": "oda",
     "ru": "кожа",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "oda",
@@ -4759,6 +5343,9 @@
     "lt": "oras",
     "lt_ascii": "oras",
     "ru": "воздух",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "oras",
@@ -4783,6 +5370,9 @@
     "lt": "pagalba",
     "lt_ascii": "pagalba",
     "ru": "помощь",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "pagalba",
@@ -4808,6 +5398,9 @@
     "lt": "pamoka",
     "lt_ascii": "pamoka",
     "ru": "урок",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "pamoka",
@@ -4833,6 +5426,9 @@
     "lt": "para",
     "lt_ascii": "para",
     "ru": "сутки",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "para",
@@ -4858,6 +5454,9 @@
     "lt": "parduotuvė",
     "lt_ascii": "parduotuve",
     "ru": "магазин",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "parduotuvė",
@@ -4883,6 +5482,9 @@
     "lt": "parkas",
     "lt_ascii": "parkas",
     "ru": "парк",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "parkas",
@@ -4907,6 +5509,9 @@
     "lt": "pasaka",
     "lt_ascii": "pasaka",
     "ru": "сказка",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "pasaka",
@@ -4932,6 +5537,9 @@
     "lt": "pasaulis",
     "lt_ascii": "pasaulis",
     "ru": "мир (территория)",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "pasaulis",
@@ -4957,6 +5565,9 @@
     "lt": "pastatas",
     "lt_ascii": "pastatas",
     "ru": "здание",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "pastatas",
@@ -4981,6 +5592,9 @@
     "lt": "patalpa",
     "lt_ascii": "patalpa",
     "ru": "помещение",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "patalpa",
@@ -5006,6 +5620,9 @@
     "lt": "patarimas",
     "lt_ascii": "patarimas",
     "ru": "совет",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "patarimas",
@@ -5030,6 +5647,9 @@
     "lt": "pavardė",
     "lt_ascii": "pavarde",
     "ru": "фамилия",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "pavardė",
@@ -5055,6 +5675,9 @@
     "lt": "pavasaris",
     "lt_ascii": "pavasaris",
     "ru": "весна",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "pavasaris",
@@ -5080,6 +5703,9 @@
     "lt": "paveikslas",
     "lt_ascii": "paveikslas",
     "ru": "картина",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "paveikslas",
@@ -5104,6 +5730,9 @@
     "lt": "pavyzdys",
     "lt_ascii": "pavyzdys",
     "ru": "пример",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "pavyzdys",
@@ -5129,6 +5758,9 @@
     "lt": "pėdsakas",
     "lt_ascii": "pedsakas",
     "ru": "след",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "pėdsakas",
@@ -5153,6 +5785,9 @@
     "lt": "peilis",
     "lt_ascii": "peilis",
     "ru": "нож",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "peilis",
@@ -5178,6 +5813,9 @@
     "lt": "penas",
     "lt_ascii": "penas",
     "ru": "молоко",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "penas",
@@ -5202,6 +5840,9 @@
     "lt": "penkiolika",
     "lt_ascii": "penkiolika",
     "ru": "15",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "penkiolika",
@@ -5227,6 +5868,9 @@
     "lt": "penktadienis",
     "lt_ascii": "penktadienis",
     "ru": "пятница",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "penktadienis",
@@ -5252,6 +5896,9 @@
     "lt": "pergalė",
     "lt_ascii": "pergale",
     "ru": "победа",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "pergalė",
@@ -5277,6 +5924,9 @@
     "lt": "petys",
     "lt_ascii": "petys",
     "ru": "плечо",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "petys",
@@ -5302,6 +5952,9 @@
     "lt": "pieštukas",
     "lt_ascii": "piestukas",
     "ru": "карандаш",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "pieštukas",
@@ -5326,6 +5979,9 @@
     "lt": "pirmadienis",
     "lt_ascii": "pirmadienis",
     "ru": "понедельник",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "pirmadienis",
@@ -5351,6 +6007,9 @@
     "lt": "pirštas",
     "lt_ascii": "pirstas",
     "ru": "палец",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "pirštas",
@@ -5375,6 +6034,9 @@
     "lt": "planas",
     "lt_ascii": "planas",
     "ru": "план",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "planas",
@@ -5399,6 +6061,9 @@
     "lt": "plėtra",
     "lt_ascii": "pletra",
     "ru": "развитие",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "plėtra",
@@ -5424,6 +6089,9 @@
     "lt": "pokalbis",
     "lt_ascii": "pokalbis",
     "ru": "разговор",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "pokalbis",
@@ -5449,6 +6117,9 @@
     "lt": "popierius",
     "lt_ascii": "popierius",
     "ru": "бумага",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "popierius",
@@ -5474,6 +6145,9 @@
     "lt": "pradžia",
     "lt_ascii": "pradzia",
     "ru": "начало",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "pradžia",
@@ -5499,6 +6173,9 @@
     "lt": "prasmė",
     "lt_ascii": "prasme",
     "ru": "смысл",
+    "groups": [
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "prasmė",
@@ -5524,6 +6201,9 @@
     "lt": "prekė",
     "lt_ascii": "preke",
     "ru": "товар",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "prekė",
@@ -5549,6 +6229,9 @@
     "lt": "premonė",
     "lt_ascii": "premone",
     "ru": "средство (мера)",
+    "groups": [
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "premonė",
@@ -5574,6 +6257,9 @@
     "lt": "prezidentas",
     "lt_ascii": "prezidentas",
     "ru": "президент",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "prezidentas",
@@ -5598,6 +6284,9 @@
     "lt": "profesija",
     "lt_ascii": "profesija",
     "ru": "профессия",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "profesija",
@@ -5623,6 +6312,9 @@
     "lt": "puodelis",
     "lt_ascii": "puodelis",
     "ru": "чашка",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "puodelis",
@@ -5648,6 +6340,10 @@
     "lt": "pusė",
     "lt_ascii": "puse",
     "ru": "сторона",
+    "groups": [
+      0,
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "pusė",
@@ -5673,6 +6369,9 @@
     "lt": "puslapis",
     "lt_ascii": "puslapis",
     "ru": "страница",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "puslapis",
@@ -5698,6 +6397,9 @@
     "lt": "rajonas",
     "lt_ascii": "rajonas",
     "ru": "район",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "rajonas",
@@ -5722,6 +6424,9 @@
     "lt": "ranka",
     "lt_ascii": "ranka",
     "ru": "рука",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "ranka",
@@ -5747,6 +6452,9 @@
     "lt": "rankena",
     "lt_ascii": "rankena",
     "ru": "ручка (дверная)",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "rankena",
@@ -5772,6 +6480,9 @@
     "lt": "rašiklis",
     "lt_ascii": "rasiklis",
     "ru": "ручка (для письма)",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "rašiklis",
@@ -5797,6 +6508,9 @@
     "lt": "ratas",
     "lt_ascii": "ratas",
     "ru": "круг",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "ratas",
@@ -5821,6 +6535,9 @@
     "lt": "renginys",
     "lt_ascii": "renginys",
     "ru": "мероприятие",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "renginys",
@@ -5846,6 +6563,9 @@
     "lt": "rezultatas",
     "lt_ascii": "rezultatas",
     "ru": "результат",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "rezultatas",
@@ -5870,6 +6590,9 @@
     "lt": "riba",
     "lt_ascii": "riba",
     "ru": "граница (участка)",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "riba",
@@ -5895,6 +6618,9 @@
     "lt": "rinka",
     "lt_ascii": "rinka",
     "ru": "рынок",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "rinka",
@@ -5920,6 +6646,9 @@
     "lt": "ruduo",
     "lt_ascii": "ruduo",
     "ru": "осень",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "ruduo",
@@ -5945,6 +6674,9 @@
     "lt": "rūkas",
     "lt_ascii": "rukas",
     "ru": "туман",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "rūkas",
@@ -5969,6 +6701,9 @@
     "lt": "ryšys",
     "lt_ascii": "rysys",
     "ru": "связь",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "ryšys",
@@ -5994,6 +6729,9 @@
     "lt": "rytas",
     "lt_ascii": "rytas",
     "ru": "утро",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "rytas",
@@ -6018,6 +6756,9 @@
     "lt": "šakutė",
     "lt_ascii": "sakute",
     "ru": "вилка",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "šakutė",
@@ -6043,6 +6784,9 @@
     "lt": "sala",
     "lt_ascii": "sala",
     "ru": "остров",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "sala",
@@ -6068,6 +6812,9 @@
     "lt": "salė",
     "lt_ascii": "sale",
     "ru": "зал",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "salė",
@@ -6093,6 +6840,9 @@
     "lt": "šalia",
     "lt_ascii": "salia",
     "ru": "около",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "šalia",
@@ -6118,6 +6868,9 @@
     "lt": "sąlyga",
     "lt_ascii": "salyga",
     "ru": "условие",
+    "groups": [
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "sąlyga",
@@ -6143,6 +6896,9 @@
     "lt": "sąskaita",
     "lt_ascii": "saskaita",
     "ru": "счет",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "sąskaita",
@@ -6168,6 +6924,9 @@
     "lt": "šaukštas",
     "lt_ascii": "saukstas",
     "ru": "ложка",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "šaukštas",
@@ -6192,6 +6951,9 @@
     "lt": "saulė",
     "lt_ascii": "saule",
     "ru": "солнце",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "saulė",
@@ -6217,6 +6979,9 @@
     "lt": "savaitė",
     "lt_ascii": "savaite",
     "ru": "неделя",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "savaitė",
@@ -6242,6 +7007,9 @@
     "lt": "šeima",
     "lt_ascii": "seima",
     "ru": "семья",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "šeima",
@@ -6267,6 +7035,9 @@
     "lt": "sekmadienis",
     "lt_ascii": "sekmadienis",
     "ru": "воскресенье",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "sekmadienis",
@@ -6292,6 +7063,9 @@
     "lt": "sėkmė",
     "lt_ascii": "sekme",
     "ru": "успех",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "sėkmė",
@@ -6317,6 +7091,9 @@
     "lt": "sekundė",
     "lt_ascii": "sekunde",
     "ru": "секунда",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "sekundė",
@@ -6342,6 +7119,9 @@
     "lt": "sela",
     "lt_ascii": "sela",
     "ru": "душа, дух",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "sela",
@@ -6367,6 +7147,10 @@
     "lt": "sena",
     "lt_ascii": "sena",
     "ru": "стена",
+    "groups": [
+      200,
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "sena",
@@ -6392,6 +7176,9 @@
     "lt": "senelis",
     "lt_ascii": "senelis",
     "ru": "дедушка",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "senelis",
@@ -6417,6 +7204,9 @@
     "lt": "septyniolika",
     "lt_ascii": "septyniolika",
     "ru": "17",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "septyniolika",
@@ -6442,6 +7232,9 @@
     "lt": "šešiolika",
     "lt_ascii": "sesiolika",
     "ru": "16",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "šešiolika",
@@ -6467,6 +7260,9 @@
     "lt": "šeštadienis",
     "lt_ascii": "sestadienis",
     "ru": "суббота",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "šeštadienis",
@@ -6492,6 +7288,9 @@
     "lt": "sesuo",
     "lt_ascii": "sesuo",
     "ru": "сестра",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "sesuo",
@@ -6517,6 +7316,9 @@
     "lt": "šiaurė",
     "lt_ascii": "siaure",
     "ru": "север",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "šiaurė",
@@ -6542,6 +7344,10 @@
     "lt": "skaičius",
     "lt_ascii": "skaicius",
     "ru": "число",
+    "groups": [
+      700,
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "skaičius",
@@ -6567,6 +7373,9 @@
     "lt": "sklypas",
     "lt_ascii": "sklypas",
     "ru": "участок",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "sklypas",
@@ -6591,6 +7400,9 @@
     "lt": "skruostas",
     "lt_ascii": "skruostas",
     "ru": "щека",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "skruostas",
@@ -6615,6 +7427,9 @@
     "lt": "sniegas",
     "lt_ascii": "sniegas",
     "ru": "снег",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "sniegas",
@@ -6639,6 +7454,9 @@
     "lt": "sodas",
     "lt_ascii": "sodas",
     "ru": "сад",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "sodas",
@@ -6663,6 +7481,9 @@
     "lt": "šonas",
     "lt_ascii": "sonas",
     "ru": "бок",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "šonas",
@@ -6687,6 +7508,9 @@
     "lt": "spalis",
     "lt_ascii": "spalis",
     "ru": "октябрь",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "spalis",
@@ -6712,6 +7536,9 @@
     "lt": "spalva",
     "lt_ascii": "spalva",
     "ru": "цвет",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "spalva",
@@ -6737,6 +7564,9 @@
     "lt": "spinta",
     "lt_ascii": "spinta",
     "ru": "шкаф",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "spinta",
@@ -6762,6 +7592,9 @@
     "lt": "sprendimas",
     "lt_ascii": "sprendimas",
     "ru": "решение",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "sprendimas",
@@ -6786,6 +7619,9 @@
     "lt": "sriuba",
     "lt_ascii": "sriuba",
     "ru": "суп",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "sriuba",
@@ -6811,6 +7647,9 @@
     "lt": "staiga",
     "lt_ascii": "staiga",
     "ru": "организация (учреждение)",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "staiga",
@@ -6836,6 +7675,9 @@
     "lt": "stalas",
     "lt_ascii": "stalas",
     "ru": "стол",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "stalas",
@@ -6860,6 +7702,9 @@
     "lt": "statyba",
     "lt_ascii": "statyba",
     "ru": "стройка",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "statyba",
@@ -6885,6 +7730,9 @@
     "lt": "statybininkas",
     "lt_ascii": "statybininkas",
     "ru": "строитель",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "statybininkas",
@@ -6909,6 +7757,9 @@
     "lt": "stiklas",
     "lt_ascii": "stiklas",
     "ru": "стекло",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "stiklas",
@@ -6933,6 +7784,9 @@
     "lt": "stiklinė",
     "lt_ascii": "stikline",
     "ru": "стакан",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "stiklinė",
@@ -6958,6 +7812,9 @@
     "lt": "stogas",
     "lt_ascii": "stogas",
     "ru": "крыша",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "stogas",
@@ -6982,6 +7839,9 @@
     "lt": "stotelė",
     "lt_ascii": "stotele",
     "ru": "остановка (автобусная )",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "stotelė",
@@ -7007,6 +7867,9 @@
     "lt": "straipsnis",
     "lt_ascii": "straipsnis",
     "ru": "статья",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "straipsnis",
@@ -7032,6 +7895,9 @@
     "lt": "striukė",
     "lt_ascii": "striuke",
     "ru": "куртка",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "striukė",
@@ -7057,6 +7923,9 @@
     "lt": "studentas",
     "lt_ascii": "studentas",
     "ru": "студент",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "studentas",
@@ -7081,6 +7950,9 @@
     "lt": "suknelė",
     "lt_ascii": "suknele",
     "ru": "платье",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "suknelė",
@@ -7106,6 +7978,9 @@
     "lt": "sūnus",
     "lt_ascii": "sunus",
     "ru": "сын",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "sūnus",
@@ -7131,6 +8006,9 @@
     "lt": "šuo",
     "lt_ascii": "suo",
     "ru": "собака",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "šuo",
@@ -7156,6 +8034,9 @@
     "lt": "sūris",
     "lt_ascii": "suris",
     "ru": "сыр",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "sūris",
@@ -7181,6 +8062,9 @@
     "lt": "susirinkimas",
     "lt_ascii": "susirinkimas",
     "ru": "собрание",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "susirinkimas",
@@ -7205,6 +8089,9 @@
     "lt": "susitikimas",
     "lt_ascii": "susitikimas",
     "ru": "встреча",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "susitikimas",
@@ -7229,6 +8116,9 @@
     "lt": "svajonė",
     "lt_ascii": "svajone",
     "ru": "мечта",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "svajonė",
@@ -7254,6 +8144,9 @@
     "lt": "svečias",
     "lt_ascii": "svecias",
     "ru": "гость",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "svečias",
@@ -7279,6 +8172,9 @@
     "lt": "sveikata",
     "lt_ascii": "sveikata",
     "ru": "здоровье",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "sveikata",
@@ -7304,6 +8200,9 @@
     "lt": "šventė",
     "lt_ascii": "svente",
     "ru": "праздник",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "šventė",
@@ -7329,6 +8228,9 @@
     "lt": "šviesa",
     "lt_ascii": "sviesa",
     "ru": "свет",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "šviesa",
@@ -7354,6 +8256,9 @@
     "lt": "svoris",
     "lt_ascii": "svoris",
     "ru": "вес",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "svoris",
@@ -7379,6 +8284,9 @@
     "lt": "šypsena",
     "lt_ascii": "sypsena",
     "ru": "улыбка",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "šypsena",
@@ -7404,6 +8312,9 @@
     "lt": "taika",
     "lt_ascii": "taika",
     "ru": "мир (состояние)",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "taika",
@@ -7429,6 +8340,9 @@
     "lt": "tamsa",
     "lt_ascii": "tamsa",
     "ru": "темнота",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "tamsa",
@@ -7454,6 +8368,9 @@
     "lt": "tauta",
     "lt_ascii": "tauta",
     "ru": "народ",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "tauta",
@@ -7479,6 +8396,9 @@
     "lt": "teatras",
     "lt_ascii": "teatras",
     "ru": "театр",
+    "groups": [
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "teatras",
@@ -7503,6 +8423,9 @@
     "lt": "technika",
     "lt_ascii": "technika",
     "ru": "техника",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "technika",
@@ -7528,6 +8451,9 @@
     "lt": "teisė",
     "lt_ascii": "teise",
     "ru": "право",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "teisė",
@@ -7553,6 +8479,9 @@
     "lt": "telefonas",
     "lt_ascii": "telefonas",
     "ru": "телефон",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "telefonas",
@@ -7577,6 +8506,9 @@
     "lt": "tema",
     "lt_ascii": "tema",
     "ru": "тема",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "tema",
@@ -7602,6 +8534,9 @@
     "lt": "teta",
     "lt_ascii": "teta",
     "ru": "тетя",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "teta",
@@ -7627,6 +8562,9 @@
     "lt": "tėvas",
     "lt_ascii": "tevas",
     "ru": "отец",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "tėvas",
@@ -7651,6 +8589,9 @@
     "lt": "tiesa",
     "lt_ascii": "tiesa",
     "ru": "правда",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "tiesa",
@@ -7676,6 +8617,9 @@
     "lt": "tikslas",
     "lt_ascii": "tikslas",
     "ru": "цель",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "tikslas",
@@ -7700,6 +8644,9 @@
     "lt": "tiltas",
     "lt_ascii": "tiltas",
     "ru": "мост",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "tiltas",
@@ -7724,6 +8671,9 @@
     "lt": "traukinys",
     "lt_ascii": "traukinys",
     "ru": "поезд",
+    "groups": [
+      900
+    ],
     "decl": {
       "Singular": {
         "Nominative": "traukinys",
@@ -7749,6 +8699,9 @@
     "lt": "trečiadienis",
     "lt_ascii": "treciadienis",
     "ru": "среда",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "trečiadienis",
@@ -7774,6 +8727,9 @@
     "lt": "triukšmas",
     "lt_ascii": "triuksmas",
     "ru": "шум",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "triukšmas",
@@ -7798,6 +8754,9 @@
     "lt": "trylika",
     "lt_ascii": "trylika",
     "ru": "13",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "trylika",
@@ -7823,6 +8782,9 @@
     "lt": "trys",
     "lt_ascii": "trys",
     "ru": "3",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "trys",
@@ -7848,6 +8810,9 @@
     "lt": "tvarka",
     "lt_ascii": "tvarka",
     "ru": "порядок",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "tvarka",
@@ -7873,6 +8838,9 @@
     "lt": "ūgis",
     "lt_ascii": "ugis",
     "ru": "рост",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "ūgis",
@@ -7898,6 +8866,9 @@
     "lt": "ūkis",
     "lt_ascii": "ukis",
     "ru": "хозяйство",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "ūkis",
@@ -7923,6 +8894,9 @@
     "lt": "universitetas",
     "lt_ascii": "universitetas",
     "ru": "университет",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "universitetas",
@@ -7947,6 +8921,9 @@
     "lt": "upė",
     "lt_ascii": "upe",
     "ru": "река",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "upė",
@@ -7972,6 +8949,9 @@
     "lt": "užsiėmimas",
     "lt_ascii": "uzsiemimas",
     "ru": "занятие",
+    "groups": [
+      400
+    ],
     "decl": {
       "Singular": {
         "Nominative": "užsiėmimas",
@@ -7996,6 +8976,9 @@
     "lt": "užuolaida",
     "lt_ascii": "uzuolaida",
     "ru": "штора",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "užuolaida",
@@ -8021,6 +9004,9 @@
     "lt": "vadovas",
     "lt_ascii": "vadovas",
     "ru": "руководитель",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "vadovas",
@@ -8045,6 +9031,9 @@
     "lt": "vadybininkas",
     "lt_ascii": "vadybininkas",
     "ru": "менеджер",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "vadybininkas",
@@ -8069,6 +9058,9 @@
     "lt": "vaikas",
     "lt_ascii": "vaikas",
     "ru": "ребенок",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "vaikas",
@@ -8093,6 +9085,9 @@
     "lt": "vaikinas",
     "lt_ascii": "vaikinas",
     "ru": "парень",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "vaikinas",
@@ -8117,6 +9112,10 @@
     "lt": "vaizdas",
     "lt_ascii": "vaizdas",
     "ru": "вид",
+    "groups": [
+      200,
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "vaizdas",
@@ -8141,6 +9140,9 @@
     "lt": "vakaras",
     "lt_ascii": "vakaras",
     "ru": "вечер",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "vakaras",
@@ -8165,6 +9167,9 @@
     "lt": "vakarienė",
     "lt_ascii": "vakariene",
     "ru": "ужин",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "vakarienė",
@@ -8190,6 +9195,9 @@
     "lt": "valanda",
     "lt_ascii": "valanda",
     "ru": "час",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "valanda",
@@ -8215,6 +9223,9 @@
     "lt": "valdžia",
     "lt_ascii": "valdzia",
     "ru": "власть",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "valdžia",
@@ -8240,6 +9251,9 @@
     "lt": "valstybė",
     "lt_ascii": "valstybe",
     "ru": "государство",
+    "groups": [
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "valstybė",
@@ -8265,6 +9279,9 @@
     "lt": "vandenynas",
     "lt_ascii": "vandenynas",
     "ru": "океан",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "vandenynas",
@@ -8289,6 +9306,9 @@
     "lt": "vanduo",
     "lt_ascii": "vanduo",
     "ru": "вода",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "vanduo",
@@ -8314,6 +9334,9 @@
     "lt": "vardas",
     "lt_ascii": "vardas",
     "ru": "имя",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "vardas",
@@ -8338,6 +9361,9 @@
     "lt": "vasara",
     "lt_ascii": "vasara",
     "ru": "лето",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "vasara",
@@ -8363,6 +9389,9 @@
     "lt": "vasaris",
     "lt_ascii": "vasaris",
     "ru": "февраль",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "vasaris",
@@ -8388,6 +9417,9 @@
     "lt": "veidas",
     "lt_ascii": "veidas",
     "ru": "лицо",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "veidas",
@@ -8412,6 +9444,9 @@
     "lt": "velnias",
     "lt_ascii": "velnias",
     "ru": "черт",
+    "groups": [
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "velnias",
@@ -8437,6 +9472,9 @@
     "lt": "vidurdienis",
     "lt_ascii": "vidurdienis",
     "ru": "полдень",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "vidurdienis",
@@ -8462,6 +9500,9 @@
     "lt": "vienuolika",
     "lt_ascii": "vienuolika",
     "ru": "11",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "vienuolika",
@@ -8487,6 +9528,9 @@
     "lt": "vieta",
     "lt_ascii": "vieta",
     "ru": "место",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "vieta",
@@ -8512,6 +9556,9 @@
     "lt": "viršininkas",
     "lt_ascii": "virsininkas",
     "ru": "начальник",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "viršininkas",
@@ -8536,6 +9583,9 @@
     "lt": "viršus",
     "lt_ascii": "virsus",
     "ru": "верх",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "viršus",
@@ -8561,6 +9611,9 @@
     "lt": "virtuvė",
     "lt_ascii": "virtuve",
     "ru": "кухня",
+    "groups": [
+      600
+    ],
     "decl": {
       "Singular": {
         "Nominative": "virtuvė",
@@ -8586,6 +9639,9 @@
     "lt": "visuomenė",
     "lt_ascii": "visuomene",
     "ru": "общество",
+    "groups": [
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "visuomenė",
@@ -8611,6 +9667,9 @@
     "lt": "vynas",
     "lt_ascii": "vynas",
     "ru": "вино",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "vynas",
@@ -8635,6 +9694,9 @@
     "lt": "vyras",
     "lt_ascii": "vyras",
     "ru": "мужчина",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "vyras",
@@ -8659,6 +9721,9 @@
     "lt": "žaidimas",
     "lt_ascii": "zaidimas",
     "ru": "игра",
+    "groups": [
+      500
+    ],
     "decl": {
       "Singular": {
         "Nominative": "žaidimas",
@@ -8683,6 +9748,9 @@
     "lt": "žandikaulis",
     "lt_ascii": "zandikaulis",
     "ru": "челюсть",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "žandikaulis",
@@ -8708,6 +9776,9 @@
     "lt": "žemė",
     "lt_ascii": "zeme",
     "ru": "земля",
+    "groups": [
+      100
+    ],
     "decl": {
       "Singular": {
         "Nominative": "žemė",
@@ -8733,6 +9804,9 @@
     "lt": "žiema",
     "lt_ascii": "ziema",
     "ru": "зима",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "žiema",
@@ -8758,6 +9832,9 @@
     "lt": "žingsnis",
     "lt_ascii": "zingsnis",
     "ru": "шаг",
+    "groups": [
+      200
+    ],
     "decl": {
       "Singular": {
         "Nominative": "žingsnis",
@@ -8783,6 +9860,9 @@
     "lt": "žmogus",
     "lt_ascii": "zmogus",
     "ru": "человек",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "žmogus",
@@ -8808,6 +9888,9 @@
     "lt": "žmona",
     "lt_ascii": "zmona",
     "ru": "жена",
+    "groups": [
+      0
+    ],
     "decl": {
       "Singular": {
         "Nominative": "žmona",
@@ -8833,6 +9916,9 @@
     "lt": "žolė",
     "lt_ascii": "zole",
     "ru": "трава",
+    "groups": [
+      700
+    ],
     "decl": {
       "Singular": {
         "Nominative": "žolė",
@@ -8858,6 +9944,9 @@
     "lt": "žurnalas",
     "lt_ascii": "zurnalas",
     "ru": "журнал",
+    "groups": [
+      800
+    ],
     "decl": {
       "Singular": {
         "Nominative": "žurnalas",
@@ -8882,6 +9971,9 @@
     "lt": "žvilgsnis",
     "lt_ascii": "zvilgsnis",
     "ru": "взгляд",
+    "groups": [
+      300
+    ],
     "decl": {
       "Singular": {
         "Nominative": "žvilgsnis",

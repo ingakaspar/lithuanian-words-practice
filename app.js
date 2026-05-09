@@ -2,11 +2,107 @@ let verbs = [];
 let nouns = [];
 let verbsAll = [];
 let nounsAll = [];
+let pdfStats = null;
+
+const GROUP_LABELS = {
+  0: "Group 0 - helper words",
+  100: "Group 1 - most popular words",
+  200: "Group 2 - next most popular",
+  300: "Group 3 - medium-high frequency",
+  400: "Group 4 - medium frequency",
+  500: "Group 5 - medium-lower frequency",
+  600: "Group 6 - less frequent",
+  700: "Group 7 - less frequent",
+  800: "Group 8 - advanced frequency",
+  900: "Group 9 - rarest in this PDF set",
+};
 
 function updateHeroDataStats() {
   const statsEl = document.getElementById("dataStats");
   if (!statsEl) return;
-  statsEl.textContent = `Слов в PDF: глаголы ${verbsAll.length}, существительные ${nounsAll.length}`;
+  const totalRaw = Number(pdfStats?.rows_total || 0);
+  const rawNouns = Number(pdfStats?.nouns_raw || 0);
+  const rawVerbs = Number(pdfStats?.verbs_raw || 0);
+  if (totalRaw > 0) {
+    statsEl.textContent = `Слов в PDF: всего ${totalRaw} (сущ. ${rawNouns}, глаг. ${rawVerbs}) · в тренажере: ${verbs.length + nouns.length}`;
+    return;
+  }
+  statsEl.textContent = `В тренажере: глаголы ${verbs.length}, существительные ${nouns.length}`;
+}
+
+function getEntryGroups(entry) {
+  const gs = Array.isArray(entry?.groups) ? entry.groups.map((x) => Number(x)).filter(Number.isFinite) : [];
+  return gs.length ? gs : [0];
+}
+
+function collectAvailableGroups() {
+  const set = new Set();
+  for (const v of verbsAll) for (const g of getEntryGroups(v)) set.add(g);
+  for (const n of nounsAll) for (const g of getEntryGroups(n)) set.add(g);
+  return [...set].sort((a, b) => a - b);
+}
+
+function getSelectedGroup() {
+  if (!wordGroupSelect) return "all";
+  const v = String(wordGroupSelect.value || "all");
+  if (v === "all") return "all";
+  const num = Number(v);
+  return Number.isFinite(num) ? num : "all";
+}
+
+function applyWordGroupFilter() {
+  const selected = getSelectedGroup();
+  if (selected === "all") {
+    verbs = [...verbsAll];
+    nouns = [...nounsAll];
+    return;
+  }
+  verbs = verbsAll.filter((e) => getEntryGroups(e).includes(selected));
+  nouns = nounsAll.filter((e) => getEntryGroups(e).includes(selected));
+}
+
+function renderGroupSelector() {
+  if (!wordGroupSelect) return;
+  const groups = collectAvailableGroups();
+  const minGroup = groups.length ? groups[0] : 0;
+  const maxGroup = groups.length ? groups[groups.length - 1] : 0;
+  const options = [`<option value="all">All groups (${minGroup}-${maxGroup})</option>`];
+  const nonZeroGroups = groups.filter((g) => g !== 0);
+  const rankedLabels = [
+    "most popular words",
+    "next most popular",
+    "medium-high frequency",
+    "medium frequency",
+    "medium-lower frequency",
+    "less frequent",
+    "less frequent",
+    "advanced frequency",
+    "rarest in this PDF set",
+  ];
+
+  function labelForGroup(groupId) {
+    if (GROUP_LABELS[groupId]) {
+      return GROUP_LABELS[groupId];
+    }
+    if (groupId === 0) {
+      return "Group 0 - helper words";
+    }
+    const idx = nonZeroGroups.indexOf(groupId);
+    if (idx >= 0) {
+      const ordinal = idx + 1;
+      const tail = rankedLabels[idx] || "frequency band";
+      return `Group ${ordinal} - ${tail}`;
+    }
+    return `Group ${groupId}`;
+  }
+
+  for (const g of groups) {
+    const meta = pdfStats?.group_counts?.[String(g)];
+    const count = meta ? ` (${Number(meta.nouns_raw || 0) + Number(meta.verbs_raw || 0)} words in PDF)` : "";
+    const label = labelForGroup(g);
+    options.push(`<option value="${g}">${label}${count}</option>`);
+  }
+  wordGroupSelect.innerHTML = options.join("");
 }
 
 const practiceModeSelect = document.getElementById("practiceMode");
@@ -24,6 +120,7 @@ const nextBtn = document.getElementById("nextBtn");
 const resultText = document.getElementById("resultText");
 const historyList = document.getElementById("historyList");
 const nounMeta = document.getElementById("nounMeta");
+const wordGroupSelect = document.getElementById("wordGroupSelect");
 
 const NOUN_CASE_ORDER = [
   "Genitive",
@@ -573,7 +670,44 @@ function nounThisCaseFormsLine(entry, nounCase) {
 }
 
 function getPracticeMode() {
-  return practiceModeSelect && practiceModeSelect.value === "nouns" ? "nouns" : "verbs";
+  const v = practiceModeSelect ? String(practiceModeSelect.value || "verbs") : "verbs";
+  return v;
+}
+
+const COMING_SOON_MODES = {
+  pronouns:   { lt: "Įvardžiai",      en: "Pronouns",  blurb: "aš, tu, jis, mūsų, savęs…" },
+  adjectives: { lt: "Būdvardžiai",    en: "Adjectives", blurb: "geras, didelė, mažas, gražus…" },
+  adverbs:    { lt: "Prieveiksmiai",  en: "Adverbs",   blurb: "greitai, labai, dažnai, jau…" },
+  numerals:   { lt: "Skaitvardžiai",  en: "Numerals",  blurb: "vienas, du, trys, penki…" }
+};
+
+function showComingSoonForMode(mode) {
+  const meta = COMING_SOON_MODES[mode];
+  if (!meta) return false;
+  if (promptText) promptText.textContent = meta.lt;
+  if (personText) personText.textContent = meta.en;
+  if (nounMeta) {
+    nounMeta.textContent =
+      `Coming soon · ${meta.blurb}\nThis category is being parsed from the PDF — drills will land here next.`;
+  }
+  if (resultText) {
+    resultText.textContent = "";
+    resultText.className = "";
+  }
+  if (answerInput) {
+    answerInput.value = "";
+    answerInput.placeholder = "—";
+    answerInput.disabled = true;
+  }
+  state.practiceMode = mode;
+  state.currentEntry = null;
+  state.nounEntry = null;
+  state.expectedAnswers = [];
+  return true;
+}
+
+function ensureAnswerEnabled() {
+  if (answerInput && answerInput.disabled) answerInput.disabled = false;
 }
 
 function updateModePanels() {
@@ -804,6 +938,8 @@ function newNounQuestion() {
 function newQuestion() {
   state.practiceMode = getPracticeMode();
   updateModePanels();
+  if (showComingSoonForMode(state.practiceMode)) return;
+  ensureAnswerEnabled();
   if (state.practiceMode === "nouns") {
     newNounQuestion();
   } else {
@@ -1002,7 +1138,17 @@ async function loadData() {
   nounsAll = [];
   verbs = [];
   nouns = [];
+  pdfStats = null;
   let verbLoadError = null;
+
+  try {
+    const statsResponse = await fetch("pdf_stats.json", { cache: "no-store" });
+    if (statsResponse.ok) {
+      pdfStats = await statsResponse.json();
+    }
+  } catch {
+    /* optional */
+  }
 
   try {
     const response = await fetch("verbs_practice.json", { cache: "no-store" });
@@ -1030,8 +1176,8 @@ async function loadData() {
     personText.textContent = verbLoadError && verbLoadError.message ? String(verbLoadError.message) : "";
     return;
   }
-  verbs = [...verbsAll];
-  nouns = [...nounsAll];
+  renderGroupSelector();
+  applyWordGroupFilter();
 
   if (!verbs.length && nouns.length && practiceModeSelect) {
     practiceModeSelect.value = "nouns";
@@ -1057,6 +1203,13 @@ function init() {
       if (getPracticeMode() === "nouns") {
         newQuestion();
       }
+    });
+  }
+  if (wordGroupSelect) {
+    wordGroupSelect.addEventListener("change", () => {
+      applyWordGroupFilter();
+      updateHeroDataStats();
+      newQuestion();
     });
   }
   formSelect.addEventListener("change", () => {
