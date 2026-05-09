@@ -47,6 +47,37 @@ python3 -m http.server
 
 Then open `http://localhost:8000`.
 
+## Pronunciation setup (Google-first)
+
+The `🔊` button uses this order:
+
+1. `TTS_PROXY_URL` from `app-config.js` (if set)
+2. Google Translate TTS audio URL fallback (default)
+
+### Minimal setup (no backend)
+
+Keep `app-config.js` as:
+
+```js
+window.APP_CONFIG = {
+  TTS_PROXY_URL: ""
+};
+```
+
+No Google account setup is required for this fallback mode.
+
+### Optional setup with your own endpoint
+
+If you have a proxy endpoint, set:
+
+```js
+window.APP_CONFIG = {
+  TTS_PROXY_URL: "https://<your-endpoint>/api/tts"
+};
+```
+
+Then rebuild/push as usual.
+
 ## Deploy (GitHub Pages)
 
 1. Push the repository to GitHub (`main` branch).

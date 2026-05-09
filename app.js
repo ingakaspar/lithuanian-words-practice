@@ -19,6 +19,20 @@ const WORD_TOPICS_FALLBACK = [
   "Sveikata ir higiena",
   "Švietimas ir mokslas"
 ];
+const TOPIC_EMOJI = {
+  "Asmens tapatybė": "🪪",
+  "Būstas": "🏠",
+  "Gamta.Regionas": "🌿",
+  "Kasdienis gyvenimas": "🗓️",
+  "Kelionės": "✈️",
+  "Laisvalaikis": "🎯",
+  "Maistas ir gėrimai": "🍽️",
+  "Paslaugos": "🛎️",
+  "Prekyba": "🛍️",
+  "Santykiai su žmonėmis": "🤝",
+  "Sveikata ir higiena": "🩺",
+  "Švietimas ir mokslas": "📚"
+};
 const LS_WORD_GROUPS = "ltPractice_wordGroups";
 const LS_WORD_TOPICS = "ltPractice_wordTopics";
 
@@ -334,7 +348,7 @@ function renderWordTopicCheckboxes() {
   host.innerHTML = topics
     .map(
       (t) =>
-        `<label class="word-group-label"><input type="checkbox" name="wordTopic" value="${escapeHtml(t)}" checked /> ${escapeHtml(t)}</label>`
+        `<label class="word-group-label"><input type="checkbox" name="wordTopic" value="${escapeHtml(t)}" checked /> ${TOPIC_EMOJI[t] ? `${escapeHtml(TOPIC_EMOJI[t])} ` : ""}${escapeHtml(t)}</label>`
     )
     .join("");
 }
@@ -677,6 +691,15 @@ function normalize(text) {
   return text.trim().toLowerCase().replace(/\s+/g, " ");
 }
 
+function safeFocus(el) {
+  if (!el || typeof el.focus !== "function") return;
+  try {
+    el.focus({ preventScroll: true });
+  } catch {
+    el.focus();
+  }
+}
+
 function escapeHtml(text) {
   return String(text ?? "")
     .replaceAll("&", "&amp;")
@@ -684,6 +707,12 @@ function escapeHtml(text) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#39;");
+}
+
+function getTtsProxyUrl() {
+  const cfg = window.APP_CONFIG || {};
+  const url = typeof cfg.TTS_PROXY_URL === "string" ? cfg.TTS_PROXY_URL.trim() : "";
+  return url;
 }
 
 /**
@@ -886,11 +915,6 @@ function isPersonLikeLemma(ltAscii) {
   return PERSON_LIKE_LEMMAS.has(String(ltAscii || "").toLowerCase());
 }
 
-function interpolateDrillEn(template, enLemma) {
-  if (!template) return "";
-  return String(template).replace(/\{ru\}/g, enLemma || "");
-}
-
 /** Rough gender hint from singular nominative ending (learner aid, not exhaustive). */
 function guessNounGender(nomSg) {
   const n = String(nomSg || "")
@@ -1055,7 +1079,7 @@ function newVerbQuestion() {
   resultText.className = "";
   if (answerInput) answerInput.placeholder = verbInputPlaceholder(formType);
   answerInput.value = state.answerPrefix;
-  answerInput.focus();
+  safeFocus(answerInput);
   const end = answerInput.value.length;
   try {
     answerInput.setSelectionRange(end, end);
@@ -1151,7 +1175,7 @@ function newNounQuestion() {
     answerInput.placeholder =
       NOUN_CASE_INPUT_PLACEHOLDER[nounCase] || "Įrašyk linksnio formą";
   }
-  answerInput.focus();
+  safeFocus(answerInput);
 }
 
 function newQuestion() {
@@ -1191,21 +1215,69 @@ function showHint() {
   state.hintShown = true;
 }
 
-function speakCurrentWord() {
-  if (!("speechSynthesis" in window) || typeof SpeechSynthesisUtterance === "undefined") {
-    return;
+let ttsAudio = null;
+
+function playFallbackTts(text) {
+  const phrase = String(text || "").trim();
+  if (!phrase) return;
+  const url =
+    "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=lt&q=" +
+    encodeURIComponent(phrase.slice(0, 180));
+  try {
+    if (ttsAudio) {
+      ttsAudio.pause();
+      ttsAudio = null;
+    }
+    ttsAudio = new Audio(url);
+    ttsAudio.play().catch(() => {
+      /* ignore autoplay blocks */
+    });
+  } catch {
+    /* ignore */
   }
+}
+
+async function speakViaProxy(text) {
+  const endpoint = getTtsProxyUrl();
+  if (!endpoint) return false;
+  try {
+    const response = await fetch(endpoint, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ text: String(text || ""), lang: "lt-LT" })
+    });
+    if (!response.ok) return false;
+    const blob = await response.blob();
+    if (!blob || !blob.size) return false;
+    if (ttsAudio) {
+      ttsAudio.pause();
+      ttsAudio = null;
+    }
+    const objectUrl = URL.createObjectURL(blob);
+    ttsAudio = new Audio(objectUrl);
+    ttsAudio.onended = () => URL.revokeObjectURL(objectUrl);
+    ttsAudio.play().catch(() => URL.revokeObjectURL(objectUrl));
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+async function speakCurrentWord() {
   const text =
     getPracticeMode() === "nouns"
       ? state.nounEntry?.decl?.Singular?.Nominative || state.nounEntry?.lt || ""
       : state.currentEntry?.lt || "";
   const phrase = String(text || "").trim();
   if (!phrase) return;
-  window.speechSynthesis.cancel();
-  const u = new SpeechSynthesisUtterance(phrase);
-  u.lang = "lt-LT";
-  u.rate = 0.9;
-  window.speechSynthesis.speak(u);
+
+  const proxyOk = await speakViaProxy(phrase);
+  if (proxyOk) return;
+
+  // Primary path without backend: Google Translate TTS URL.
+  playFallbackTts(phrase);
+
+  return;
 }
 
 function checkVerbAnswer() {
