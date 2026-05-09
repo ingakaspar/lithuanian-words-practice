@@ -25,7 +25,8 @@
   function chipLabel(value) {
     if (value === "all") return "All";
     const n = Number(value);
-    return Number.isFinite(n) ? String(Math.floor(n / 100)) : String(value);
+    if (!Number.isFinite(n)) return String(value);
+    return String(Math.floor(n / 100));
   }
 
   function describe(value) {
