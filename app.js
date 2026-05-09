@@ -120,7 +120,25 @@ const nextBtn = document.getElementById("nextBtn");
 const resultText = document.getElementById("resultText");
 const historyList = document.getElementById("historyList");
 const nounMeta = document.getElementById("nounMeta");
+const promptKicker = document.getElementById("promptKicker");
 const wordGroupSelect = document.getElementById("wordGroupSelect");
+
+/** Short labels for the verb drill line (Lithuanian + English). */
+const VERB_TENSE_UI = {
+  present: { lt: "Esamasis", en: "present" },
+  past: { lt: "Būtasis", en: "past" },
+  future: { lt: "Būsimasis", en: "future" },
+  usedTo: { lt: "Būdavo", en: "used to" },
+  conditional: { lt: "Sąlyginis", en: "conditional" },
+  imperative: { lt: "Liepiamoji", en: "imperative" }
+};
+
+function verbQuestionKicker(formType, personIdx) {
+  const row = VERB_TENSE_UI[formType];
+  const tense = row ? `${row.lt} (${row.en})` : String(formType);
+  const who = ltPronounsDiacritic[personIdx] || "—";
+  return `Conjugate · ${tense} · ${who}`;
+}
 
 const NOUN_CASE_ORDER = [
   "Genitive",
@@ -767,6 +785,7 @@ function renderHistory() {
 }
 
 function formLabel(formType) {
+  if (formType === "random") return "random";
   if (formType === "present") return "present";
   if (formType === "past") return "past";
   if (formType === "future") return "future";
@@ -782,15 +801,28 @@ function newVerbQuestion() {
       ? "Нет доступных глаголов в текущих данных."
       : "Nėra veiksložodžių duomenų. Paleisk serverį iš aplanko: python3 -m http.server";
     personText.textContent = "";
+    if (promptKicker) promptKicker.textContent = "Verbs";
     return;
   }
-  const formType = formSelect.value;
+  const selectedFormType = formSelect.value;
+  const availableFormTypes = ["present", "past", "future", "usedTo", "conditional", "imperative"];
+  const candidateFormTypes =
+    selectedFormType === "random" ? availableFormTypes : [selectedFormType];
+  const eligibleFormTypes = candidateFormTypes.filter((ft) =>
+    verbs.some((e) => verbHasAnyFormFor(e, ft))
+  );
+  const formType = eligibleFormTypes.length
+    ? randomChoice(eligibleFormTypes)
+    : selectedFormType === "random"
+      ? "present"
+      : selectedFormType;
 
   const pool = verbs.filter((e) => verbHasAnyFormFor(e, formType));
   if (!pool.length) {
     promptText.textContent =
       "Šiai formai nėra lentelių JSON faile. Atnaujink verbs_practice.json: paleisk python3 build_all_practice_data.py.";
     personText.textContent = "";
+    if (promptKicker) promptKicker.textContent = "Verbs";
     return;
   }
 
@@ -813,6 +845,7 @@ function newVerbQuestion() {
     promptText.textContent =
       "Nepavyko sugeneruoti formos. Patikrink naršyklės talpyklą (bandyk perkrauti be talpyklos) ir ar verbs_practice.json turi šios paradigmos masyvus.";
     personText.textContent = "";
+    if (promptKicker) promptKicker.textContent = "Verbs";
     return;
   }
 
@@ -831,6 +864,7 @@ function newVerbQuestion() {
 
   promptText.textContent = entry.lt;
   personText.textContent = `${entry.ru}`;
+  if (promptKicker) promptKicker.textContent = verbQuestionKicker(formType, personIdx);
   if (nounMeta) nounMeta.textContent = "";
   resultText.textContent = "";
   resultText.className = "";
@@ -859,6 +893,7 @@ function newNounQuestion() {
       ? "Нет доступных существительных в текущих данных."
       : "Nėra daiktavardžių duomenų. Patikrink nouns_practice.json ir serverį (python3 -m http.server).";
     personText.textContent = "";
+    if (promptKicker) promptKicker.textContent = "Nouns";
     if (answerInput) answerInput.placeholder = VERB_ANSWER_PLACEHOLDER;
     return;
   }
@@ -899,6 +934,7 @@ function newNounQuestion() {
   if (!entry || !expected) {
     promptText.textContent = "Nepavyko parinkti daiktavardžio. Pabandyk dar kartą.";
     personText.textContent = "";
+    if (promptKicker) promptKicker.textContent = "Nouns";
     if (answerInput) answerInput.placeholder = VERB_ANSWER_PLACEHOLDER;
     return;
   }
@@ -921,6 +957,10 @@ function newNounQuestion() {
 
   promptText.textContent = nounPromptWithNumberTag(sentence, nounNumber);
   personText.textContent = nounHeaderLine(entry);
+  if (promptKicker) {
+    const numTag = nounNumber === "Plural" ? "plural" : "singular";
+    promptKicker.textContent = `Decline · ${nounCase} · ${numTag}`;
+  }
   if (nounMeta) {
     nounMeta.textContent = `${drill.reason}\n${state.nounSentenceEn}`;
   }
@@ -1133,16 +1173,13 @@ function checkAnswer() {
   checkVerbAnswer();
 }
 
-/** Same outcome as Enter: check, then if correct another action advances (Enter again; here one click). */
+/** Same as Enter: first action checks; when result is already correct, advance to next. */
 function handleCheckButtonClick() {
   if (resultText.classList.contains("ok")) {
     newQuestion();
     return;
   }
   checkAnswer();
-  if (resultText.classList.contains("ok")) {
-    newQuestion();
-  }
 }
 
 async function loadData() {
