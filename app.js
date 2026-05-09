@@ -3,382 +3,10 @@ let nouns = [];
 let verbsAll = [];
 let nounsAll = [];
 
-/** Used only until word_groups.json loads or if that file is missing. */
-const WORD_GROUPS_FALLBACK = [1, 2, 3, 4];
-const WORD_TOPICS_FALLBACK = [
-  "Asmens tapatybė",
-  "Būstas",
-  "Gamta.Regionas",
-  "Kasdienis gyvenimas",
-  "Kelionės",
-  "Laisvalaikis",
-  "Maistas ir gėrimai",
-  "Paslaugos",
-  "Prekyba",
-  "Santykiai su žmonėmis",
-  "Sveikata ir higiena",
-  "Švietimas ir mokslas"
-];
-const TOPIC_EMOJI = {
-  "Asmens tapatybė": "🪪",
-  "Būstas": "🏠",
-  "Gamta.Regionas": "🌿",
-  "Kasdienis gyvenimas": "🗓️",
-  "Kelionės": "✈️",
-  "Laisvalaikis": "🎯",
-  "Maistas ir gėrimai": "🍽️",
-  "Paslaugos": "🛎️",
-  "Prekyba": "🛍️",
-  "Santykiai su žmonėmis": "🤝",
-  "Sveikata ir higiena": "🩺",
-  "Švietimas ir mokslas": "📚"
-};
-const LS_WORD_GROUPS = "ltPractice_wordGroups";
-const LS_WORD_TOPICS = "ltPractice_wordTopics";
-
-let wordGroupIdsEffective = [...WORD_GROUPS_FALLBACK];
-let wordTopicNamesEffective = [...WORD_TOPICS_FALLBACK];
-
-function getWordGroupIds() {
-  return wordGroupIdsEffective;
-}
-
-function getWordTopicNames() {
-  return wordTopicNamesEffective;
-}
-
-async function fetchWordGroupIdsFromMeta() {
-  try {
-    const response = await fetch("word_groups.json", { cache: "no-store" });
-    if (!response.ok) {
-      return null;
-    }
-    const data = await response.json();
-    if (!Array.isArray(data) || data.length === 0) {
-      return null;
-    }
-    const nums = [];
-    for (const x of data) {
-      const n = Number(x);
-      if (!Number.isNaN(n)) {
-        nums.push(n);
-      }
-    }
-    if (nums.length === 0) {
-      return null;
-    }
-    return [...new Set(nums)].sort((a, b) => a - b);
-  } catch {
-    return null;
-  }
-}
-
-async function fetchWordTopicsFromMeta() {
-  try {
-    const response = await fetch("word_topics.json", { cache: "no-store" });
-    if (!response.ok) {
-      return null;
-    }
-    const data = await response.json();
-    if (!Array.isArray(data) || data.length === 0) {
-      return null;
-    }
-    const topics = [];
-    for (const x of data) {
-      const t = String(x || "").trim();
-      if (t) {
-        topics.push(t);
-      }
-    }
-    if (topics.length === 0) {
-      return null;
-    }
-    return [...new Set(topics)].sort((a, b) => a.localeCompare(b));
-  } catch {
-    return null;
-  }
-}
-
-function recomputeWordGroupIdsFromLoadedData() {
-  const u = new Set(getWordGroupIds());
-  for (const e of verbsAll) {
-    const g = e && e.groups;
-    if (Array.isArray(g)) {
-      for (const x of g) {
-        const n = Number(x);
-        if (!Number.isNaN(n)) {
-          u.add(n);
-        }
-      }
-    }
-  }
-  for (const e of nounsAll) {
-    const g = e && e.groups;
-    if (Array.isArray(g)) {
-      for (const x of g) {
-        const n = Number(x);
-        if (!Number.isNaN(n)) {
-          u.add(n);
-        }
-      }
-    }
-  }
-  wordGroupIdsEffective = [...u].sort((a, b) => a - b);
-}
-
-function recomputeWordTopicNamesFromLoadedData() {
-  const u = new Set(getWordTopicNames());
-  for (const e of verbsAll) {
-    const ts = e && e.topics;
-    if (Array.isArray(ts)) {
-      for (const t of ts) {
-        const s = String(t || "").trim();
-        if (s) u.add(s);
-      }
-    }
-  }
-  for (const e of nounsAll) {
-    const ts = e && e.topics;
-    if (Array.isArray(ts)) {
-      for (const t of ts) {
-        const s = String(t || "").trim();
-        if (s) u.add(s);
-      }
-    }
-  }
-  wordTopicNamesEffective = [...u].sort((a, b) => a.localeCompare(b));
-}
-
-function getEntryGroups(entry) {
-  const g = entry && entry.groups;
-  if (Array.isArray(g) && g.length) return g;
-  return [...getWordGroupIds()];
-}
-
-function getEntryTopics(entry) {
-  const ts = entry && entry.topics;
-  if (Array.isArray(ts) && ts.length) return ts;
-  return [...getWordTopicNames()];
-}
-
-function getSelectedWordGroupsFromUI() {
-  return Array.from(document.querySelectorAll('input[name="wordGroup"]:checked'), (b) =>
-    Number(b.value)
-  );
-}
-
-function setWordGroupCheckboxes(values) {
-  const set = new Set(values);
-  document.querySelectorAll('input[name="wordGroup"]').forEach((cb) => {
-    cb.checked = set.has(Number(cb.value));
-  });
-}
-
-function getSelectedWordTopicsFromUI() {
-  return Array.from(document.querySelectorAll('input[name="wordTopic"]:checked'), (b) =>
-    String(b.value || "")
-  );
-}
-
-function setWordTopicCheckboxes(values) {
-  const set = new Set(values);
-  document.querySelectorAll('input[name="wordTopic"]').forEach((cb) => {
-    cb.checked = set.has(String(cb.value));
-  });
-}
-
-function isValidStoredWordGroups(arr) {
-  if (!Array.isArray(arr) || arr.length === 0) return false;
-  const allowed = new Set(getWordGroupIds());
-  return arr.every((n) => {
-    const num = Number(n);
-    return !Number.isNaN(num) && allowed.has(num);
-  });
-}
-
-function isValidStoredWordTopics(arr) {
-  if (!Array.isArray(arr) || arr.length === 0) return false;
-  const allowed = new Set(getWordTopicNames());
-  return arr.every((s) => {
-    const t = String(s || "").trim();
-    return !!t && allowed.has(t);
-  });
-}
-
-function loadWordGroupsFromStorage() {
-  try {
-    const raw = localStorage.getItem(LS_WORD_GROUPS);
-    if (!raw) return;
-    const arr = JSON.parse(raw);
-    if (!isValidStoredWordGroups(arr)) return;
-    setWordGroupCheckboxes(arr.map((x) => Number(x)));
-  } catch {
-    /* ignore */
-  }
-}
-
-function loadWordTopicsFromStorage() {
-  try {
-    const raw = localStorage.getItem(LS_WORD_TOPICS);
-    if (!raw) return;
-    const arr = JSON.parse(raw);
-    if (!isValidStoredWordTopics(arr)) return;
-    setWordTopicCheckboxes(arr.map((x) => String(x)));
-  } catch {
-    /* ignore */
-  }
-}
-
-function saveWordGroupsToStorage(selected) {
-  try {
-    localStorage.setItem(
-      LS_WORD_GROUPS,
-      JSON.stringify([...selected].sort((a, b) => a - b))
-    );
-  } catch {
-    /* ignore */
-  }
-}
-
-function saveWordTopicsToStorage(selected) {
-  try {
-    localStorage.setItem(
-      LS_WORD_TOPICS,
-      JSON.stringify([...selected].sort((a, b) => a.localeCompare(b)))
-    );
-  } catch {
-    /* ignore */
-  }
-}
-
-function entryMatchesSelections(entry, selectedGroupSet, selectedTopicSet) {
-  const groupOk = getEntryGroups(entry).some((g) => selectedGroupSet.has(g));
-  if (!groupOk) return false;
-  return getEntryTopics(entry).some((t) => selectedTopicSet.has(String(t)));
-}
-
-function applyAllFilters() {
-  const selectedGroups = getSelectedWordGroupsFromUI();
-  const selectedTopics = getSelectedWordTopicsFromUI();
-  if (selectedGroups.length === 0 || selectedTopics.length === 0) {
-    verbs = [];
-    nouns = [];
-    return;
-  }
-  const selectedGroupSet = new Set(selectedGroups);
-  const selectedTopicSet = new Set(selectedTopics.map((t) => String(t)));
-  verbs = verbsAll.filter((e) => entryMatchesSelections(e, selectedGroupSet, selectedTopicSet));
-  nouns = nounsAll.filter((e) => entryMatchesSelections(e, selectedGroupSet, selectedTopicSet));
-}
-
 function updateHeroDataStats() {
   const statsEl = document.getElementById("dataStats");
   if (!statsEl) return;
-  statsEl.textContent = "";
-}
-
-function onWordGroupsChange() {
-  if (!verbsAll.length && !nounsAll.length) {
-    return;
-  }
-  const selected = getSelectedWordGroupsFromUI();
-  saveWordGroupsToStorage(selected);
-  applyAllFilters();
-  updateHeroDataStats();
-  if (!verbs.length && !nouns.length) {
-    if (!selected.length) {
-      promptText.textContent = "Pasirink bent vieną Tier grupę.";
-    } else if (!getSelectedWordTopicsFromUI().length) {
-      promptText.textContent = "Pasirink bent vieną temą.";
-    } else {
-      promptText.textContent =
-        "Pasirinktoms grupėms nėra žodžių. Pažymėk platesnį rinkinį grupių.";
-    }
-    personText.textContent = "";
-    return;
-  }
-  if (!verbs.length && nouns.length && practiceModeSelect) {
-    practiceModeSelect.value = "nouns";
-  }
-  newQuestion();
-}
-
-function onWordTopicsChange() {
-  if (!verbsAll.length && !nounsAll.length) {
-    return;
-  }
-  const selected = getSelectedWordTopicsFromUI();
-  saveWordTopicsToStorage(selected);
-  applyAllFilters();
-  updateHeroDataStats();
-  if (!verbs.length && !nouns.length) {
-    if (!selected.length) {
-      promptText.textContent = "Pasirink bent vieną temą.";
-    } else if (!getSelectedWordGroupsFromUI().length) {
-      promptText.textContent = "Pasirink bent vieną Tier grupę.";
-    } else {
-      promptText.textContent =
-        "Pasirinktoms temoms nėra žodžių. Pažymėk platesnį rinkinį temų.";
-    }
-    personText.textContent = "";
-    return;
-  }
-  if (!verbs.length && nouns.length && practiceModeSelect) {
-    practiceModeSelect.value = "nouns";
-  }
-  newQuestion();
-}
-
-function renderWordGroupCheckboxes() {
-  const host = document.getElementById("wordGroupChecks");
-  if (!host) return;
-  const ids = getWordGroupIds();
-  host.innerHTML = ids
-    .map(
-      (g) =>
-        `<label class="word-group-label"><input type="checkbox" name="wordGroup" value="${g}" checked /> ${g}</label>`
-    )
-    .join("");
-}
-
-function renderWordTopicCheckboxes() {
-  const host = document.getElementById("wordTopicChecks");
-  if (!host) return;
-  const topics = getWordTopicNames();
-  host.innerHTML = topics
-    .map(
-      (t) =>
-        `<label class="word-group-label"><input type="checkbox" name="wordTopic" value="${escapeHtml(t)}" checked /> ${TOPIC_EMOJI[t] ? `${escapeHtml(TOPIC_EMOJI[t])} ` : ""}${escapeHtml(t)}</label>`
-    )
-    .join("");
-}
-
-function ensureWordGroupDelegation() {
-  const host = document.getElementById("wordGroupChecks");
-  if (!host || host.dataset.wordDelegated) {
-    return;
-  }
-  host.dataset.wordDelegated = "1";
-  host.addEventListener("change", (ev) => {
-    const t = ev.target;
-    if (t && typeof t.matches === "function" && t.matches('input[name="wordGroup"]')) {
-      onWordGroupsChange();
-    }
-  });
-}
-
-function ensureWordTopicDelegation() {
-  const host = document.getElementById("wordTopicChecks");
-  if (!host || host.dataset.wordDelegated) {
-    return;
-  }
-  host.dataset.wordDelegated = "1";
-  host.addEventListener("change", (ev) => {
-    const t = ev.target;
-    if (t && typeof t.matches === "function" && t.matches('input[name="wordTopic"]')) {
-      onWordTopicsChange();
-    }
-  });
+  statsEl.textContent = `Слов в PDF: глаголы ${verbsAll.length}, существительные ${nounsAll.length}`;
 }
 
 const practiceModeSelect = document.getElementById("practiceMode");
@@ -386,7 +14,6 @@ const verbControls = document.getElementById("verbControls");
 const nounControls = document.getElementById("nounControls");
 const formSelect = document.getElementById("formSelect");
 const nounCaseSelect = document.getElementById("nounCaseSelect");
-const newQuestionBtn = document.getElementById("newQuestionBtn");
 const promptText = document.getElementById("promptText");
 const personText = document.getElementById("personText");
 const answerInput = document.getElementById("answerInput");
@@ -397,10 +24,6 @@ const nextBtn = document.getElementById("nextBtn");
 const resultText = document.getElementById("resultText");
 const historyList = document.getElementById("historyList");
 const nounMeta = document.getElementById("nounMeta");
-const wordGroupAllBtn = document.getElementById("wordGroupAllBtn");
-const wordGroupClearBtn = document.getElementById("wordGroupClearBtn");
-const wordTopicAllBtn = document.getElementById("wordTopicAllBtn");
-const wordTopicClearBtn = document.getElementById("wordTopicClearBtn");
 
 const NOUN_CASE_ORDER = [
   "Genitive",
@@ -1022,7 +645,7 @@ function formLabel(formType) {
 function newVerbQuestion() {
   if (verbs.length === 0) {
     promptText.textContent = verbsAll.length
-      ? "Nėra veiksmažodžių pasirinktose grupėse. Pažymėk daugiau grupių viršuje."
+      ? "Нет доступных глаголов в текущих данных."
       : "Nėra veiksložodžių duomenų. Paleisk serverį iš aplanko: python3 -m http.server";
     personText.textContent = "";
     return;
@@ -1099,7 +722,7 @@ function pickNounCase() {
 function newNounQuestion() {
   if (nouns.length === 0) {
     promptText.textContent = nounsAll.length
-      ? "Nėra daiktavardžių pasirinktose grupėse. Pažymėk daugiau grupių viršuje."
+      ? "Нет доступных существительных в текущих данных."
       : "Nėra daiktavardžių duomenų. Patikrink nouns_practice.json ir serverį (python3 -m http.server).";
     personText.textContent = "";
     if (answerInput) answerInput.placeholder = VERB_ANSWER_PLACEHOLDER;
@@ -1381,13 +1004,6 @@ async function loadData() {
   nouns = [];
   let verbLoadError = null;
 
-  const metaIds = await fetchWordGroupIdsFromMeta();
-  const metaTopics = await fetchWordTopicsFromMeta();
-  wordGroupIdsEffective =
-    metaIds && metaIds.length > 0 ? metaIds : [...WORD_GROUPS_FALLBACK];
-  wordTopicNamesEffective =
-    metaTopics && metaTopics.length > 0 ? metaTopics : [...WORD_TOPICS_FALLBACK];
-
   try {
     const response = await fetch("verbs_practice.json", { cache: "no-store" });
     if (!response.ok) {
@@ -1414,22 +1030,8 @@ async function loadData() {
     personText.textContent = verbLoadError && verbLoadError.message ? String(verbLoadError.message) : "";
     return;
   }
-
-  recomputeWordGroupIdsFromLoadedData();
-  recomputeWordTopicNamesFromLoadedData();
-  renderWordGroupCheckboxes();
-  renderWordTopicCheckboxes();
-  loadWordGroupsFromStorage();
-  loadWordTopicsFromStorage();
-  applyAllFilters();
-
-  if (!verbs.length && !nouns.length) {
-    promptText.textContent =
-      "Pasirinktoms grupėms nėra žodžių. Pažymėk platesnį rinkinį grupių.";
-    personText.textContent = "";
-    updateHeroDataStats();
-    return;
-  }
+  verbs = [...verbsAll];
+  nouns = [...nounsAll];
 
   if (!verbs.length && nouns.length && practiceModeSelect) {
     practiceModeSelect.value = "nouns";
@@ -1440,12 +1042,9 @@ async function loadData() {
 }
 
 function init() {
-  if (!formSelect || !newQuestionBtn || !answerInput || !checkBtn || !hintBtn || !nextBtn || !historyList) {
+  if (!formSelect || !answerInput || !checkBtn || !hintBtn || !nextBtn || !historyList) {
     return;
   }
-
-  ensureWordGroupDelegation();
-  ensureWordTopicDelegation();
 
   if (practiceModeSelect) {
     practiceModeSelect.addEventListener("change", () => {
@@ -1460,37 +1059,12 @@ function init() {
       }
     });
   }
-
-  newQuestionBtn.addEventListener("click", () => {
-    newQuestion();
+  formSelect.addEventListener("change", () => {
+    if (getPracticeMode() === "verbs") {
+      newQuestion();
+    }
   });
   checkBtn.addEventListener("click", checkAnswer);
-  if (wordGroupAllBtn) {
-    wordGroupAllBtn.addEventListener("click", () => {
-      const all = getWordGroupIds();
-      setWordGroupCheckboxes(all);
-      onWordGroupsChange();
-    });
-  }
-  if (wordGroupClearBtn) {
-    wordGroupClearBtn.addEventListener("click", () => {
-      setWordGroupCheckboxes([]);
-      onWordGroupsChange();
-    });
-  }
-  if (wordTopicAllBtn) {
-    wordTopicAllBtn.addEventListener("click", () => {
-      const all = getWordTopicNames();
-      setWordTopicCheckboxes(all);
-      onWordTopicsChange();
-    });
-  }
-  if (wordTopicClearBtn) {
-    wordTopicClearBtn.addEventListener("click", () => {
-      setWordTopicCheckboxes([]);
-      onWordTopicsChange();
-    });
-  }
   if (speakBtn) {
     speakBtn.addEventListener("click", speakCurrentWord);
   }

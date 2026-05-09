@@ -9,10 +9,18 @@
     />
     <meta http-equiv="Referrer-Policy" content="no-referrer" />
     <title>Lithuanian Practice</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=20260509b" />
   </head>
   <body>
-    <main class="app">
+    <div class="app-shell">
+      <aside class="mode-dock panel" aria-label="Practice mode">
+        <label for="practiceMode">Choose what to practice</label>
+        <select id="practiceMode">
+          <option value="verbs">Verbs</option>
+          <option value="nouns">Noun cases</option>
+        </select>
+      </aside>
+      <main class="app">
       <header class="hero">
         <a
           class="issues-btn"
@@ -26,36 +34,9 @@
         <p id="dataStats" class="hero-stats"></p>
       </header>
 
-      <section class="panel word-groups-panel" aria-label="Vocabulary groups">
-        <fieldset class="word-groups-fieldset">
-          <legend>Tier grupės</legend>
-          <div class="filter-actions">
-            <button id="wordGroupAllBtn" type="button" class="tiny-btn">All</button>
-            <button id="wordGroupClearBtn" type="button" class="tiny-btn">Clear</button>
-          </div>
-          <div class="word-group-checks" id="wordGroupChecks"></div>
-        </fieldset>
-      </section>
-
-      <section class="panel word-groups-panel" aria-label="Vocabulary topics">
-        <fieldset class="word-groups-fieldset">
-          <legend>Temos</legend>
-          <div class="filter-actions">
-            <button id="wordTopicAllBtn" type="button" class="tiny-btn">All</button>
-            <button id="wordTopicClearBtn" type="button" class="tiny-btn">Clear</button>
-          </div>
-          <div class="word-group-checks" id="wordTopicChecks"></div>
-        </fieldset>
-      </section>
-
       <section class="panel controls">
-        <label for="practiceMode">Practice</label>
-        <select id="practiceMode">
-          <option value="verbs">Verbs</option>
-          <option value="nouns">Noun cases</option>
-        </select>
-
-        <div id="verbControls" class="control-block">
+        <div class="controls-main">
+          <div id="verbControls" class="control-block">
           <label for="formSelect">Verb tense / form</label>
           <select id="formSelect">
             <option value="present">Esamasis</option>
@@ -67,20 +48,19 @@
           </select>
         </div>
 
-        <div id="nounControls" class="control-block">
-          <label for="nounCaseSelect">Noun case</label>
-          <select id="nounCaseSelect">
-            <option value="random">All cases (random)</option>
-            <option value="Genitive">Genitive</option>
-            <option value="Dative">Dative</option>
-            <option value="Accusative">Accusative</option>
-            <option value="Instrumental">Instrumental</option>
-            <option value="Locative">Locative</option>
-            <option value="Vocative">Vocative</option>
-          </select>
+          <div id="nounControls" class="control-block">
+            <label for="nounCaseSelect">Noun case</label>
+            <select id="nounCaseSelect">
+              <option value="random">All cases (random)</option>
+              <option value="Genitive">Genitive</option>
+              <option value="Dative">Dative</option>
+              <option value="Accusative">Accusative</option>
+              <option value="Instrumental">Instrumental</option>
+              <option value="Locative">Locative</option>
+              <option value="Vocative">Vocative</option>
+            </select>
+          </div>
         </div>
-
-        <button id="newQuestionBtn" type="button">Naujas klausimas</button>
       </section>
 
       <section class="panel question" aria-live="polite">
@@ -114,9 +94,10 @@
         <h3>Atsakymų istorija</h3>
         <div id="historyList" class="history-list" aria-live="polite"></div>
       </section>
-    </main>
+      </main>
+    </div>
 
     <script src="app-config.js"></script>
-    <script src="app.js"></script>
+    <script src="app.js?v=20260509b"></script>
   </body>
 </html>

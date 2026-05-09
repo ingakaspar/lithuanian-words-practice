@@ -14,8 +14,7 @@ def run(name: str) -> None:
 
 
 def main() -> None:
-    run("build_practice_data_from_xlsx.py")
-    run("sync_verbs_from_cooljugator.py")
+    run("build_practice_data_from_pdf.py")
     print("All practice data rebuilt.")
 
 

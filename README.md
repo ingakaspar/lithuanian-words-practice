@@ -1,9 +1,10 @@
 # lithuanian-words-practice
 
-Workbook-driven Lithuanian practice app (verbs + noun cases) with:
+PDF-driven Lithuanian practice app (verbs + noun cases) with:
 
-- multi-select Tier filters
-- multi-select Topic filters
+- data sourced from `dictt.pdf`
+- Russian translations in prompts
+- left-side nouns/verbs selector
 - hint, skip, pronunciation, and answer history
 - static hosting support (GitHub Pages)
 
@@ -11,9 +12,7 @@ Workbook-driven Lithuanian practice app (verbs + noun cases) with:
 
 All practice data is generated from:
 
-- `words.xlsx` (sheet: `📝 Vocabulary Test`)
-
-No PDF pipeline is used.
+- `dictt.pdf`
 
 ## Build data
 
@@ -25,9 +24,6 @@ This generates:
 
 - `verbs_practice.json`
 - `nouns_practice.json`
-- `word_groups.json`
-- `word_topics.json`
-- `translation_cache.json` (auto-translation cache for missing EN cells)
 
 ## Optional: sync verbs from Cooljugator
 
@@ -91,6 +87,5 @@ Then rebuild/push as usual.
 
 ## Notes
 
-- Topic/Tier selectors use localStorage to remember your choices.
 - If UI changes are not visible on Pages, hard-refresh (`Cmd+Shift+R`).
-- If you edit `words.xlsx`, rebuild JSON before pushing.
+- If you edit `dictt.pdf`, rebuild JSON before pushing.
