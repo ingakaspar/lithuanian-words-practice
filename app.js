@@ -20,14 +20,7 @@ const GROUP_LABELS = {
 function updateHeroDataStats() {
   const statsEl = document.getElementById("dataStats");
   if (!statsEl) return;
-  const totalRaw = Number(pdfStats?.rows_total || 0);
-  const rawNouns = Number(pdfStats?.nouns_raw || 0);
-  const rawVerbs = Number(pdfStats?.verbs_raw || 0);
-  if (totalRaw > 0) {
-    statsEl.textContent = `Слов в PDF: всего ${totalRaw} (сущ. ${rawNouns}, глаг. ${rawVerbs}) · в тренажере: ${verbs.length + nouns.length}`;
-    return;
-  }
-  statsEl.textContent = `В тренажере: глаголы ${verbs.length}, существительные ${nouns.length}`;
+  statsEl.textContent = "";
 }
 
 function getEntryGroups(entry) {
@@ -708,11 +701,21 @@ function guessNounGender(nomSg) {
   return "?";
 }
 
-/** Headword line: singular nominative + gender (answer number is on the sentence). */
+function nounGenderLabel(genderCode) {
+  if (genderCode === "f") return "feminine";
+  if (genderCode === "m") return "masculine";
+  return "unknown gender";
+}
+
+/** One compact translation line under the noun prompt. */
 function nounHeaderLine(entry) {
   const nomSg = entry.decl.Singular.Nominative;
-  const g = guessNounGender(nomSg);
-  return `${nomSg} (sg ${g}) ${entry.ru}`;
+  const storedGender = String(entry.gender || "").trim().toLowerCase();
+  const g = storedGender === "m" || storedGender === "f" ? storedGender : guessNounGender(nomSg);
+  const ru = String(entry.ru || "").trim();
+  const en = String(entry.en || "").trim();
+  const core = en ? `${en} ${ru}` : ru;
+  return `${core} (${nounGenderLabel(g)})`;
 }
 
 function nounPromptWithNumberTag(sentence, nounNumber) {
@@ -1012,30 +1015,26 @@ function newNounQuestion() {
     return;
   }
 
-  const drills = NOUN_CASE_DRILLS[nounCase];
-  const drill = Array.isArray(drills) ? randomChoice(drills) : drills;
-  const sentence = nounNumber === "Plural" ? drill.plural : drill.singular;
-
   state.practiceMode = "nouns";
   state.nounEntry = entry;
   state.nounCase = nounCase;
   state.nounNumber = nounNumber;
   state.nounExpected = expected;
-  state.nounSentence = sentence;
-  state.nounReason = drill.reason;
+  state.nounSentence = "";
+  state.nounReason = "";
   state.nounSentenceEn = `${entry.ru || ""}`;
   state.currentEntry = null;
   state.answerPrefix = "";
   state.hintShown = false;
 
-  promptText.textContent = nounPromptWithNumberTag(sentence, nounNumber);
+  promptText.textContent = entry.decl.Singular.Nominative;
   personText.textContent = nounHeaderLine(entry);
   if (promptKicker) {
     const numTag = nounNumber === "Plural" ? "plural" : "singular";
     promptKicker.textContent = `Decline · ${nounCase} · ${numTag}`;
   }
   if (nounMeta) {
-    nounMeta.textContent = `${drill.reason}\n${state.nounSentenceEn}`;
+    nounMeta.textContent = "";
   }
 
   resultText.textContent = "";
@@ -1044,8 +1043,9 @@ function newNounQuestion() {
   renderNounAnswerDrillMeta(nounCase, nounNumber, entry.decl.Singular.Nominative);
   answerInput.value = "";
   if (answerInput) {
-    answerInput.placeholder =
-      NOUN_CASE_INPUT_PLACEHOLDER[nounCase] || "Įrašyk linksnio formą";
+    const numTag = nounNumber === "Plural" ? "(pl)" : "(sg)";
+    const caseHint = NOUN_CASE_INPUT_PLACEHOLDER[nounCase] || "Įrašyk linksnio formą";
+    answerInput.placeholder = `${numTag} ${caseHint}`;
   }
   safeFocus(answerInput);
 }

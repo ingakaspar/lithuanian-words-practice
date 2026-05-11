@@ -25,7 +25,8 @@
         "Locative": "aikštėse",
         "Vocative": "aikštės"
       }
-    }
+    },
+    "en": "glade, clearing (in a forest)"
   },
   {
     "lt": "akis",
@@ -53,7 +54,8 @@
         "Locative": "akyse",
         "Vocative": "akys"
       }
-    }
+    },
+    "en": "eye"
   },
   {
     "lt": "akmuo",
@@ -81,7 +83,8 @@
         "Locative": "akmenyse",
         "Vocative": "akmenys"
       }
-    }
+    },
+    "en": "stone"
   },
   {
     "lt": "alėjus",
@@ -109,7 +112,8 @@
         "Locative": "alėjuose",
         "Vocative": "alėjūs"
       }
-    }
+    },
+    "en": "alley"
   },
   {
     "lt": "alus",
@@ -137,7 +141,8 @@
         "Locative": "aluose",
         "Vocative": "alūs"
       }
-    }
+    },
+    "en": "beer"
   },
   {
     "lt": "alyva",
@@ -165,7 +170,8 @@
         "Locative": "alyvose",
         "Vocative": "alyvos"
       }
-    }
+    },
+    "en": "oil"
   },
   {
     "lt": "antradienis",
@@ -193,7 +199,8 @@
         "Locative": "antradieniuose",
         "Vocative": "antradieniai"
       }
-    }
+    },
+    "en": "tuesday"
   },
   {
     "lt": "apačia",
@@ -221,7 +228,8 @@
         "Locative": "apačiose",
         "Vocative": "apačios"
       }
-    }
+    },
+    "en": "below"
   },
   {
     "lt": "apetitas",
@@ -248,7 +256,8 @@
         "Locative": "apetituose",
         "Vocative": "apetitai"
       }
-    }
+    },
+    "en": "appetite"
   },
   {
     "lt": "arba",
@@ -276,7 +285,8 @@
         "Locative": "arbose",
         "Vocative": "arbos"
       }
-    }
+    },
+    "en": "or"
   },
   {
     "lt": "arbata",
@@ -304,7 +314,8 @@
         "Locative": "arbatose",
         "Vocative": "arbatos"
       }
-    }
+    },
+    "en": "tea"
   },
   {
     "lt": "arklys",
@@ -332,7 +343,8 @@
         "Locative": "arkliuose",
         "Vocative": "arkliai"
       }
-    }
+    },
+    "en": "a horse"
   },
   {
     "lt": "asmenybė",
@@ -360,7 +372,8 @@
         "Locative": "asmenybėse",
         "Vocative": "asmenybės"
       }
-    }
+    },
+    "en": "personality"
   },
   {
     "lt": "aštuoniolika",
@@ -388,7 +401,8 @@
         "Locative": "aštuoniolikose",
         "Vocative": "aštuoniolikos"
       }
-    }
+    },
+    "en": "eighteen"
   },
   {
     "lt": "atlyginimas",
@@ -415,7 +429,8 @@
         "Locative": "atlyginimuose",
         "Vocative": "atlyginimai"
       }
-    }
+    },
+    "en": "salary"
   },
   {
     "lt": "atsakymas",
@@ -442,7 +457,8 @@
         "Locative": "atsakymuose",
         "Vocative": "atsakymai"
       }
-    }
+    },
+    "en": "the answer"
   },
   {
     "lt": "aukštas",
@@ -469,7 +485,8 @@
         "Locative": "aukštuose",
         "Vocative": "aukštai"
       }
-    }
+    },
+    "en": "tall"
   },
   {
     "lt": "automobilis",
@@ -497,7 +514,8 @@
         "Locative": "automobiliuose",
         "Vocative": "automobiliai"
       }
-    }
+    },
+    "en": "car"
   },
   {
     "lt": "baimė",
@@ -525,7 +543,8 @@
         "Locative": "baimėse",
         "Vocative": "baimės"
       }
-    }
+    },
+    "en": "fear"
   },
   {
     "lt": "balas",
@@ -552,7 +571,8 @@
         "Locative": "baluose",
         "Vocative": "balai"
       }
-    }
+    },
+    "en": "score"
   },
   {
     "lt": "batas",
@@ -579,7 +599,8 @@
         "Locative": "batuose",
         "Vocative": "batai"
       }
-    }
+    },
+    "en": "shoe"
   },
   {
     "lt": "beda",
@@ -607,7 +628,8 @@
         "Locative": "bedose",
         "Vocative": "bedos"
       }
-    }
+    },
+    "en": "nothing"
   },
   {
     "lt": "berniukas",
@@ -634,7 +656,8 @@
         "Locative": "berniukuose",
         "Vocative": "berniukai"
       }
-    }
+    },
+    "en": "a boy"
   },
   {
     "lt": "bičiulis",
@@ -662,7 +685,8 @@
         "Locative": "bičiuliuose",
         "Vocative": "bičiuliai"
       }
-    }
+    },
+    "en": "dude"
   },
   {
     "lt": "bilietas",
@@ -689,7 +713,8 @@
         "Locative": "bilietuose",
         "Vocative": "bilietai"
       }
-    }
+    },
+    "en": "ticket"
   },
   {
     "lt": "birželis",
@@ -717,7 +742,8 @@
         "Locative": "birželiuose",
         "Vocative": "birželiai"
       }
-    }
+    },
+    "en": "June"
   },
   {
     "lt": "bokštas",
@@ -744,7 +770,8 @@
         "Locative": "bokštuose",
         "Vocative": "bokštai"
       }
-    }
+    },
+    "en": "the tower"
   },
   {
     "lt": "brolis",
@@ -772,7 +799,8 @@
         "Locative": "broliuose",
         "Vocative": "broliai"
       }
-    }
+    },
+    "en": "brother"
   },
   {
     "lt": "burna",
@@ -800,7 +828,8 @@
         "Locative": "burnose",
         "Vocative": "burnos"
       }
-    }
+    },
+    "en": "the mouth"
   },
   {
     "lt": "butas",
@@ -827,7 +856,8 @@
         "Locative": "butuose",
         "Vocative": "butai"
       }
-    }
+    },
+    "en": "apartment"
   },
   {
     "lt": "centimetras",
@@ -854,7 +884,8 @@
         "Locative": "centimetruose",
         "Vocative": "centimetrai"
       }
-    }
+    },
+    "en": "centimeter"
   },
   {
     "lt": "centras",
@@ -881,7 +912,8 @@
         "Locative": "centruose",
         "Vocative": "centrai"
       }
-    }
+    },
+    "en": "center"
   },
   {
     "lt": "charakteris",
@@ -909,7 +941,8 @@
         "Locative": "charakteriuose",
         "Vocative": "charakteriai"
       }
-    }
+    },
+    "en": "character"
   },
   {
     "lt": "čia",
@@ -937,7 +970,8 @@
         "Locative": "čiose",
         "Vocative": "čios"
       }
-    }
+    },
+    "en": "here"
   },
   {
     "lt": "cukrus",
@@ -965,7 +999,8 @@
         "Locative": "cukruose",
         "Vocative": "cukrūs"
       }
-    }
+    },
+    "en": "sugar"
   },
   {
     "lt": "daiktas",
@@ -992,7 +1027,8 @@
         "Locative": "daiktuose",
         "Vocative": "daiktai"
       }
-    }
+    },
+    "en": "thing"
   },
   {
     "lt": "daina",
@@ -1020,7 +1056,8 @@
         "Locative": "dainose",
         "Vocative": "dainos"
       }
-    }
+    },
+    "en": "song"
   },
   {
     "lt": "dalyvis",
@@ -1048,7 +1085,8 @@
         "Locative": "dalyviuose",
         "Vocative": "dalyviai"
       }
-    }
+    },
+    "en": "participant"
   },
   {
     "lt": "dangus",
@@ -1076,7 +1114,8 @@
         "Locative": "danguose",
         "Vocative": "dangūs"
       }
-    }
+    },
+    "en": "the sky"
   },
   {
     "lt": "darbas",
@@ -1103,7 +1142,8 @@
         "Locative": "darbuose",
         "Vocative": "darbai"
       }
-    }
+    },
+    "en": "work"
   },
   {
     "lt": "data",
@@ -1131,7 +1171,8 @@
         "Locative": "datose",
         "Vocative": "datos"
       }
-    }
+    },
+    "en": "date"
   },
   {
     "lt": "dėdė",
@@ -1159,7 +1200,8 @@
         "Locative": "dėdėse",
         "Vocative": "dėdės"
       }
-    }
+    },
+    "en": "uncle"
   },
   {
     "lt": "delnas",
@@ -1186,7 +1228,8 @@
         "Locative": "delnuose",
         "Vocative": "delnai"
       }
-    }
+    },
+    "en": "palm"
   },
   {
     "lt": "dėmeys",
@@ -1214,7 +1257,8 @@
         "Locative": "dėmeiuose",
         "Vocative": "dėmeiai"
       }
-    }
+    },
+    "en": "spots"
   },
   {
     "lt": "devyniolika",
@@ -1242,7 +1286,8 @@
         "Locative": "devyniolikose",
         "Vocative": "devyniolikos"
       }
-    }
+    },
+    "en": "nineteen"
   },
   {
     "lt": "dėžė",
@@ -1270,7 +1315,8 @@
         "Locative": "dėžėse",
         "Vocative": "dėžės"
       }
-    }
+    },
+    "en": "a box"
   },
   {
     "lt": "diena",
@@ -1298,7 +1344,8 @@
         "Locative": "dienose",
         "Vocative": "dienos"
       }
-    }
+    },
+    "en": "day"
   },
   {
     "lt": "dievas",
@@ -1325,7 +1372,8 @@
         "Locative": "dievuose",
         "Vocative": "dievai"
       }
-    }
+    },
+    "en": "god"
   },
   {
     "lt": "direktorius",
@@ -1353,7 +1401,8 @@
         "Locative": "direktoriuose",
         "Vocative": "direktoriai"
       }
-    }
+    },
+    "en": "the director"
   },
   {
     "lt": "dovana",
@@ -1381,7 +1430,8 @@
         "Locative": "dovanose",
         "Vocative": "dovanos"
       }
-    }
+    },
+    "en": "a gift"
   },
   {
     "lt": "draugas",
@@ -1408,7 +1458,8 @@
         "Locative": "drauguose",
         "Vocative": "draugai"
       }
-    }
+    },
+    "en": "a friend"
   },
   {
     "lt": "draugystė",
@@ -1436,7 +1487,8 @@
         "Locative": "draugystėse",
         "Vocative": "draugystės"
       }
-    }
+    },
+    "en": "friendship"
   },
   {
     "lt": "druska",
@@ -1464,7 +1516,8 @@
         "Locative": "druskose",
         "Vocative": "druskos"
       }
-    }
+    },
+    "en": "salt"
   },
   {
     "lt": "duktė",
@@ -1492,7 +1545,8 @@
         "Locative": "dukteryse",
         "Vocative": "dukterys"
       }
-    }
+    },
+    "en": "daughter"
   },
   {
     "lt": "duona",
@@ -1520,7 +1574,8 @@
         "Locative": "duonose",
         "Vocative": "duonos"
       }
-    }
+    },
+    "en": "bread"
   },
   {
     "lt": "durys",
@@ -1548,7 +1603,8 @@
         "Locative": "duriuose",
         "Vocative": "duriai"
       }
-    }
+    },
+    "en": "the door"
   },
   {
     "lt": "dvylika",
@@ -1576,7 +1632,8 @@
         "Locative": "dvylikose",
         "Vocative": "dvylikos"
       }
-    }
+    },
+    "en": "twelve"
   },
   {
     "lt": "džiaugsmas",
@@ -1603,7 +1660,8 @@
         "Locative": "džiaugsmuose",
         "Vocative": "džiaugsmai"
       }
-    }
+    },
+    "en": "joy"
   },
   {
     "lt": "eilė",
@@ -1632,7 +1690,8 @@
         "Locative": "eilėse",
         "Vocative": "eilės"
       }
-    }
+    },
+    "en": "row"
   },
   {
     "lt": "eismas",
@@ -1659,7 +1718,8 @@
         "Locative": "eismuose",
         "Vocative": "eismai"
       }
-    }
+    },
+    "en": "traffic"
   },
   {
     "lt": "ežeras",
@@ -1686,7 +1746,8 @@
         "Locative": "ežeruose",
         "Vocative": "ežerai"
       }
-    }
+    },
+    "en": "lake"
   },
   {
     "lt": "forma",
@@ -1714,7 +1775,8 @@
         "Locative": "formose",
         "Vocative": "formos"
       }
-    }
+    },
+    "en": "form"
   },
   {
     "lt": "gabalas",
@@ -1741,7 +1803,8 @@
         "Locative": "gabaluose",
         "Vocative": "gabalai"
       }
-    }
+    },
+    "en": "a piece"
   },
   {
     "lt": "galas",
@@ -1768,7 +1831,8 @@
         "Locative": "galuose",
         "Vocative": "galai"
       }
-    }
+    },
+    "en": "the end"
   },
   {
     "lt": "galimybė",
@@ -1796,7 +1860,8 @@
         "Locative": "galimybėse",
         "Vocative": "galimybės"
       }
-    }
+    },
+    "en": "possibility"
   },
   {
     "lt": "galva",
@@ -1824,7 +1889,8 @@
         "Locative": "galvose",
         "Vocative": "galvos"
       }
-    }
+    },
+    "en": "the head"
   },
   {
     "lt": "gamta",
@@ -1852,7 +1918,8 @@
         "Locative": "gamtose",
         "Vocative": "gamtos"
       }
-    }
+    },
+    "en": "nature"
   },
   {
     "lt": "gamyba",
@@ -1880,7 +1947,8 @@
         "Locative": "gamybose",
         "Vocative": "gamybos"
       }
-    }
+    },
+    "en": "production"
   },
   {
     "lt": "gamykla",
@@ -1908,7 +1976,8 @@
         "Locative": "gamyklose",
         "Vocative": "gamyklos"
       }
-    }
+    },
+    "en": "factory"
   },
   {
     "lt": "garas",
@@ -1935,7 +2004,8 @@
         "Locative": "garuose",
         "Vocative": "garai"
       }
-    }
+    },
+    "en": "steam"
   },
   {
     "lt": "gatvė",
@@ -1963,7 +2033,8 @@
         "Locative": "gatvėse",
         "Vocative": "gatvės"
       }
-    }
+    },
+    "en": "street"
   },
   {
     "lt": "gegužė",
@@ -1991,7 +2062,8 @@
         "Locative": "gegužėse",
         "Vocative": "gegužės"
       }
-    }
+    },
+    "en": "may"
   },
   {
     "lt": "gėlė",
@@ -2019,7 +2091,8 @@
         "Locative": "gėlėse",
         "Vocative": "gėlės"
       }
-    }
+    },
+    "en": "a flower"
   },
   {
     "lt": "geležinkelis",
@@ -2047,7 +2120,8 @@
         "Locative": "geležinkeliuose",
         "Vocative": "geležinkeliai"
       }
-    }
+    },
+    "en": "railway"
   },
   {
     "lt": "gėrimas",
@@ -2074,7 +2148,8 @@
         "Locative": "gėrimuose",
         "Vocative": "gėrimai"
       }
-    }
+    },
+    "en": "beverage, drink"
   },
   {
     "lt": "gimtinė",
@@ -2102,7 +2177,8 @@
         "Locative": "gimtinėse",
         "Vocative": "gimtinės"
       }
-    }
+    },
+    "en": "homeland"
   },
   {
     "lt": "grindys",
@@ -2130,7 +2206,8 @@
         "Locative": "grindžiuose",
         "Vocative": "grindžiai"
       }
-    }
+    },
+    "en": "floor (bottom part of a space)"
   },
   {
     "lt": "grupė",
@@ -2158,7 +2235,8 @@
         "Locative": "grupėse",
         "Vocative": "grupės"
       }
-    }
+    },
+    "en": "group"
   },
   {
     "lt": "gyvenimas",
@@ -2185,7 +2263,8 @@
         "Locative": "gyvenimuose",
         "Vocative": "gyvenimai"
       }
-    }
+    },
+    "en": "life the time between birth and death"
   },
   {
     "lt": "herojus",
@@ -2213,7 +2292,8 @@
         "Locative": "herojuose",
         "Vocative": "herojūs"
       }
-    }
+    },
+    "en": "hero"
   },
   {
     "lt": "intereas",
@@ -2240,7 +2320,8 @@
         "Locative": "intereuose",
         "Vocative": "intereai"
       }
-    }
+    },
+    "en": "interest"
   },
   {
     "lt": "išsilavinimas",
@@ -2267,7 +2348,8 @@
         "Locative": "išsilavinimuose",
         "Vocative": "išsilavinimai"
       }
-    }
+    },
+    "en": "education"
   },
   {
     "lt": "išskyrus",
@@ -2295,7 +2377,8 @@
         "Locative": "išskyruose",
         "Vocative": "išskyrūs"
       }
-    }
+    },
+    "en": "except"
   },
   {
     "lt": "įstatymas",
@@ -2322,7 +2405,8 @@
         "Locative": "įstatymuose",
         "Vocative": "įstatymai"
       }
-    }
+    },
+    "en": "the law"
   },
   {
     "lt": "istorija",
@@ -2350,7 +2434,8 @@
         "Locative": "istorijose",
         "Vocative": "istorijos"
       }
-    }
+    },
+    "en": "story"
   },
   {
     "lt": "išvada",
@@ -2378,7 +2463,8 @@
         "Locative": "išvadose",
         "Vocative": "išvados"
       }
-    }
+    },
+    "en": "conclusion"
   },
   {
     "lt": "jaunimas",
@@ -2405,7 +2491,8 @@
         "Locative": "jaunimuose",
         "Vocative": "jaunimai"
       }
-    }
+    },
+    "en": "the youth"
   },
   {
     "lt": "jaunuolis",
@@ -2433,7 +2520,8 @@
         "Locative": "jaunuoliuose",
         "Vocative": "jaunuoliai"
       }
-    }
+    },
+    "en": "young man"
   },
   {
     "lt": "jėga",
@@ -2461,7 +2549,8 @@
         "Locative": "jėgose",
         "Vocative": "jėgos"
       }
-    }
+    },
+    "en": "strength"
   },
   {
     "lt": "judėjimas",
@@ -2488,7 +2577,8 @@
         "Locative": "judėjimuose",
         "Vocative": "judėjimai"
       }
-    }
+    },
+    "en": "movement"
   },
   {
     "lt": "juokas",
@@ -2515,7 +2605,8 @@
         "Locative": "juokuose",
         "Vocative": "juokai"
       }
-    }
+    },
+    "en": "laughter"
   },
   {
     "lt": "jūra",
@@ -2543,7 +2634,8 @@
         "Locative": "jūrose",
         "Vocative": "jūros"
       }
-    }
+    },
+    "en": "the sea"
   },
   {
     "lt": "kada",
@@ -2571,7 +2663,8 @@
         "Locative": "kadose",
         "Vocative": "kados"
       }
-    }
+    },
+    "en": "when"
   },
   {
     "lt": "kaimas",
@@ -2598,7 +2691,8 @@
         "Locative": "kaimuose",
         "Vocative": "kaimai"
       }
-    }
+    },
+    "en": "the village"
   },
   {
     "lt": "kaimynas",
@@ -2625,7 +2719,8 @@
         "Locative": "kaimynuose",
         "Vocative": "kaimynai"
       }
-    }
+    },
+    "en": "a neighbor"
   },
   {
     "lt": "kaina",
@@ -2653,7 +2748,8 @@
         "Locative": "kainose",
         "Vocative": "kainos"
       }
-    }
+    },
+    "en": "the price"
   },
   {
     "lt": "kaklas",
@@ -2680,7 +2776,8 @@
         "Locative": "kakluose",
         "Vocative": "kaklai"
       }
-    }
+    },
+    "en": "the neck"
   },
   {
     "lt": "kakta",
@@ -2708,7 +2805,8 @@
         "Locative": "kaktose",
         "Vocative": "kaktos"
       }
-    }
+    },
+    "en": "forehead"
   },
   {
     "lt": "kalba",
@@ -2736,7 +2834,8 @@
         "Locative": "kalbose",
         "Vocative": "kalbos"
       }
-    }
+    },
+    "en": "language"
   },
   {
     "lt": "kalnas",
@@ -2763,7 +2862,8 @@
         "Locative": "kalnuose",
         "Vocative": "kalnai"
       }
-    }
+    },
+    "en": "the mountain"
   },
   {
     "lt": "kambarys",
@@ -2791,7 +2891,8 @@
         "Locative": "kambariuose",
         "Vocative": "kambariai"
       }
-    }
+    },
+    "en": "room"
   },
   {
     "lt": "kampas",
@@ -2818,7 +2919,8 @@
         "Locative": "kampuose",
         "Vocative": "kampai"
       }
-    }
+    },
+    "en": "angle"
   },
   {
     "lt": "kapitalas",
@@ -2845,7 +2947,8 @@
         "Locative": "kapitaluose",
         "Vocative": "kapitalai"
       }
-    }
+    },
+    "en": "capital"
   },
   {
     "lt": "karas",
@@ -2872,7 +2975,8 @@
         "Locative": "karuose",
         "Vocative": "karai"
       }
-    }
+    },
+    "en": "the war"
   },
   {
     "lt": "kariuomenė",
@@ -2900,7 +3004,8 @@
         "Locative": "kariuomenėse",
         "Vocative": "kariuomenės"
       }
-    }
+    },
+    "en": "army"
   },
   {
     "lt": "katė",
@@ -2928,7 +3033,8 @@
         "Locative": "katėse",
         "Vocative": "katės"
       }
-    }
+    },
+    "en": "a cat"
   },
   {
     "lt": "kava",
@@ -2956,7 +3062,8 @@
         "Locative": "kavose",
         "Vocative": "kavos"
       }
-    }
+    },
+    "en": "coffee"
   },
   {
     "lt": "kavinė",
@@ -2984,7 +3091,8 @@
         "Locative": "kavinėse",
         "Vocative": "kavinės"
       }
-    }
+    },
+    "en": "cafe"
   },
   {
     "lt": "kėdė",
@@ -3013,7 +3121,8 @@
         "Locative": "kėdėse",
         "Vocative": "kėdės"
       }
-    }
+    },
+    "en": "a chair"
   },
   {
     "lt": "keitimas",
@@ -3040,7 +3149,8 @@
         "Locative": "keitimuose",
         "Vocative": "keitimai"
       }
-    }
+    },
+    "en": "exchange"
   },
   {
     "lt": "kelias",
@@ -3069,7 +3179,8 @@
         "Locative": "keliuose",
         "Vocative": "keliai"
       }
-    }
+    },
+    "en": "road"
   },
   {
     "lt": "kelionė",
@@ -3097,7 +3208,8 @@
         "Locative": "kelionėse",
         "Vocative": "kelionės"
       }
-    }
+    },
+    "en": "trip"
   },
   {
     "lt": "kepurė",
@@ -3125,7 +3237,8 @@
         "Locative": "kepurėse",
         "Vocative": "kepurės"
       }
-    }
+    },
+    "en": "hat"
   },
   {
     "lt": "keturiolika",
@@ -3153,7 +3266,8 @@
         "Locative": "keturiolikose",
         "Vocative": "keturiolikos"
       }
-    }
+    },
+    "en": "fourteen"
   },
   {
     "lt": "ketvirtadienis",
@@ -3181,7 +3295,8 @@
         "Locative": "ketvirtadieniuose",
         "Vocative": "ketvirtadieniai"
       }
-    }
+    },
+    "en": "thursday"
   },
   {
     "lt": "kiaušinis",
@@ -3209,7 +3324,8 @@
         "Locative": "kiaušiniuose",
         "Vocative": "kiaušiniai"
       }
-    }
+    },
+    "en": "an egg"
   },
   {
     "lt": "kiekis",
@@ -3237,7 +3353,8 @@
         "Locative": "kiekiuose",
         "Vocative": "kiekiai"
       }
-    }
+    },
+    "en": "quantity"
   },
   {
     "lt": "kiemas",
@@ -3264,7 +3381,8 @@
         "Locative": "kiemuose",
         "Vocative": "kiemai"
       }
-    }
+    },
+    "en": "yard"
   },
   {
     "lt": "kilometras",
@@ -3291,7 +3409,8 @@
         "Locative": "kilometruose",
         "Vocative": "kilometrai"
       }
-    }
+    },
+    "en": "kilometer"
   },
   {
     "lt": "kinas",
@@ -3318,7 +3437,8 @@
         "Locative": "kinuose",
         "Vocative": "kinai"
       }
-    }
+    },
+    "en": "cinema"
   },
   {
     "lt": "kišenė",
@@ -3346,7 +3466,8 @@
         "Locative": "kišenėse",
         "Vocative": "kišenės"
       }
-    }
+    },
+    "en": "pocket"
   },
   {
     "lt": "klasė",
@@ -3374,7 +3495,8 @@
         "Locative": "klasėse",
         "Vocative": "klasės"
       }
-    }
+    },
+    "en": "class"
   },
   {
     "lt": "klausimas",
@@ -3401,7 +3523,8 @@
         "Locative": "klausimuose",
         "Vocative": "klausimai"
       }
-    }
+    },
+    "en": "question"
   },
   {
     "lt": "klubas",
@@ -3428,7 +3551,8 @@
         "Locative": "klubuose",
         "Vocative": "klubai"
       }
-    }
+    },
+    "en": "club"
   },
   {
     "lt": "knyga",
@@ -3456,7 +3580,8 @@
         "Locative": "knygose",
         "Vocative": "knygos"
       }
-    }
+    },
+    "en": "book"
   },
   {
     "lt": "koja",
@@ -3484,7 +3609,8 @@
         "Locative": "kojose",
         "Vocative": "kojos"
       }
-    }
+    },
+    "en": "leg"
   },
   {
     "lt": "kojinė",
@@ -3512,7 +3638,8 @@
         "Locative": "kojinėse",
         "Vocative": "kojinės"
       }
-    }
+    },
+    "en": "sock"
   },
   {
     "lt": "kokybė",
@@ -3540,7 +3667,8 @@
         "Locative": "kokybėse",
         "Vocative": "kokybės"
       }
-    }
+    },
+    "en": "quality"
   },
   {
     "lt": "komanda",
@@ -3568,7 +3696,8 @@
         "Locative": "komandose",
         "Vocative": "komandos"
       }
-    }
+    },
+    "en": "team"
   },
   {
     "lt": "koncertas",
@@ -3595,7 +3724,8 @@
         "Locative": "koncertuose",
         "Vocative": "koncertai"
       }
-    }
+    },
+    "en": "concert"
   },
   {
     "lt": "koridorius",
@@ -3623,7 +3753,8 @@
         "Locative": "koridoriuose",
         "Vocative": "koridoriai"
       }
-    }
+    },
+    "en": "corridor"
   },
   {
     "lt": "kostiumas",
@@ -3650,7 +3781,8 @@
         "Locative": "kostiumuose",
         "Vocative": "kostiumai"
       }
-    }
+    },
+    "en": "suit"
   },
   {
     "lt": "kovas",
@@ -3677,7 +3809,8 @@
         "Locative": "kovuose",
         "Vocative": "kovai"
       }
-    }
+    },
+    "en": "march"
   },
   {
     "lt": "krantas",
@@ -3704,7 +3837,8 @@
         "Locative": "krantuose",
         "Vocative": "krantai"
       }
-    }
+    },
+    "en": "shore"
   },
   {
     "lt": "kraštas",
@@ -3731,7 +3865,8 @@
         "Locative": "kraštuose",
         "Vocative": "kraštai"
       }
-    }
+    },
+    "en": "edge"
   },
   {
     "lt": "krūtinė",
@@ -3759,7 +3894,8 @@
         "Locative": "krūtinėse",
         "Vocative": "krūtinės"
       }
-    }
+    },
+    "en": "chest"
   },
   {
     "lt": "kultūra",
@@ -3787,7 +3923,8 @@
         "Locative": "kultūrose",
         "Vocative": "kultūros"
       }
-    }
+    },
+    "en": "culture"
   },
   {
     "lt": "kuo",
@@ -3815,7 +3952,8 @@
         "Locative": "kenyse",
         "Vocative": "kenys"
       }
-    }
+    },
+    "en": "what"
   },
   {
     "lt": "kuras",
@@ -3842,7 +3980,8 @@
         "Locative": "kuruose",
         "Vocative": "kurai"
       }
-    }
+    },
+    "en": "fuel"
   },
   {
     "lt": "laba diena",
@@ -3870,7 +4009,8 @@
         "Locative": "laba dienose",
         "Vocative": "laba dienos"
       }
-    }
+    },
+    "en": "good day"
   },
   {
     "lt": "labas",
@@ -3897,7 +4037,8 @@
         "Locative": "labuose",
         "Vocative": "labai"
       }
-    }
+    },
+    "en": "hello"
   },
   {
     "lt": "laida",
@@ -3925,7 +4066,8 @@
         "Locative": "laidose",
         "Vocative": "laidos"
       }
-    }
+    },
+    "en": "show"
   },
   {
     "lt": "laikas",
@@ -3952,7 +4094,8 @@
         "Locative": "laikuose",
         "Vocative": "laikai"
       }
-    }
+    },
+    "en": "time"
   },
   {
     "lt": "laimė",
@@ -3980,7 +4123,8 @@
         "Locative": "laimėse",
         "Vocative": "laimės"
       }
-    }
+    },
+    "en": "happiness"
   },
   {
     "lt": "laipsnis",
@@ -4008,7 +4152,8 @@
         "Locative": "laipsniuose",
         "Vocative": "laipsniai"
       }
-    }
+    },
+    "en": "degree"
   },
   {
     "lt": "laiškas",
@@ -4035,7 +4180,8 @@
         "Locative": "laiškuose",
         "Vocative": "laiškai"
       }
-    }
+    },
+    "en": "letter"
   },
   {
     "lt": "laivas",
@@ -4062,7 +4208,8 @@
         "Locative": "laivuose",
         "Vocative": "laivai"
       }
-    }
+    },
+    "en": "the ship"
   },
   {
     "lt": "langas",
@@ -4089,7 +4236,8 @@
         "Locative": "languose",
         "Vocative": "langai"
       }
-    }
+    },
+    "en": "the window"
   },
   {
     "lt": "lapas",
@@ -4116,7 +4264,8 @@
         "Locative": "lapuose",
         "Vocative": "lapai"
       }
-    }
+    },
+    "en": "leaf"
   },
   {
     "lt": "laukas",
@@ -4143,7 +4292,8 @@
         "Locative": "laukuose",
         "Vocative": "laukai"
       }
-    }
+    },
+    "en": "the field"
   },
   {
     "lt": "laužas",
@@ -4170,7 +4320,8 @@
         "Locative": "laužuose",
         "Vocative": "laužai"
       }
-    }
+    },
+    "en": "scrap"
   },
   {
     "lt": "lėkštė",
@@ -4198,7 +4349,8 @@
         "Locative": "lėkštėse",
         "Vocative": "lėkštės"
       }
-    }
+    },
+    "en": "plate"
   },
   {
     "lt": "lėktuvas",
@@ -4225,7 +4377,8 @@
         "Locative": "lėktuvuose",
         "Vocative": "lėktuvai"
       }
-    }
+    },
+    "en": "airplane"
   },
   {
     "lt": "lenta",
@@ -4253,7 +4406,8 @@
         "Locative": "lentose",
         "Vocative": "lentos"
       }
-    }
+    },
+    "en": "board"
   },
   {
     "lt": "lepa",
@@ -4281,7 +4435,8 @@
         "Locative": "lepose",
         "Vocative": "lepos"
       }
-    }
+    },
+    "en": "lepa"
   },
   {
     "lt": "lietus",
@@ -4309,7 +4464,8 @@
         "Locative": "lietuose",
         "Vocative": "lietūs"
       }
-    }
+    },
+    "en": "the rain"
   },
   {
     "lt": "likimas",
@@ -4336,7 +4492,8 @@
         "Locative": "likimuose",
         "Vocative": "likimai"
       }
-    }
+    },
+    "en": "destiny"
   },
   {
     "lt": "linija",
@@ -4364,7 +4521,8 @@
         "Locative": "linijose",
         "Vocative": "linijos"
       }
-    }
+    },
+    "en": "line"
   },
   {
     "lt": "lova",
@@ -4392,7 +4550,8 @@
         "Locative": "lovose",
         "Vocative": "lovos"
       }
-    }
+    },
+    "en": "the bed"
   },
   {
     "lt": "maistas",
@@ -4419,7 +4578,8 @@
         "Locative": "maistuose",
         "Vocative": "maistai"
       }
-    }
+    },
+    "en": "food"
   },
   {
     "lt": "mama",
@@ -4447,7 +4607,8 @@
         "Locative": "mamose",
         "Vocative": "mamos"
       }
-    }
+    },
+    "en": "mother"
   },
   {
     "lt": "mašina",
@@ -4475,7 +4636,8 @@
         "Locative": "mašinose",
         "Vocative": "mašinos"
       }
-    }
+    },
+    "en": "machine"
   },
   {
     "lt": "medžiaga",
@@ -4503,7 +4665,8 @@
         "Locative": "medžiagose",
         "Vocative": "medžiagos"
       }
-    }
+    },
+    "en": "material"
   },
   {
     "lt": "meilė",
@@ -4531,7 +4694,8 @@
         "Locative": "meilėse",
         "Vocative": "meilės"
       }
-    }
+    },
+    "en": "love"
   },
   {
     "lt": "meistras",
@@ -4559,7 +4723,8 @@
         "Locative": "meistruose",
         "Vocative": "meistrai"
       }
-    }
+    },
+    "en": "the master"
   },
   {
     "lt": "mėnuo",
@@ -4587,7 +4752,8 @@
         "Locative": "mėnesiuose",
         "Vocative": "mėnesiai"
       }
-    }
+    },
+    "en": "month"
   },
   {
     "lt": "mergaitė",
@@ -4615,7 +4781,8 @@
         "Locative": "mergaitėse",
         "Vocative": "mergaitės"
       }
-    }
+    },
+    "en": "a girl"
   },
   {
     "lt": "mergina",
@@ -4643,7 +4810,8 @@
         "Locative": "merginose",
         "Vocative": "merginos"
       }
-    }
+    },
+    "en": "a girl"
   },
   {
     "lt": "mėsa",
@@ -4671,7 +4839,8 @@
         "Locative": "mėsose",
         "Vocative": "mėsos"
       }
-    }
+    },
+    "en": "meat"
   },
   {
     "lt": "metras",
@@ -4698,7 +4867,8 @@
         "Locative": "metruose",
         "Vocative": "metrai"
       }
-    }
+    },
+    "en": "meter"
   },
   {
     "lt": "miestas",
@@ -4725,7 +4895,8 @@
         "Locative": "miestuose",
         "Vocative": "miestai"
       }
-    }
+    },
+    "en": "city"
   },
   {
     "lt": "milimetras",
@@ -4752,7 +4923,8 @@
         "Locative": "milimetruose",
         "Vocative": "milimetrai"
       }
-    }
+    },
+    "en": "millimeter"
   },
   {
     "lt": "minutė",
@@ -4780,7 +4952,8 @@
         "Locative": "minutėse",
         "Vocative": "minutės"
       }
-    }
+    },
+    "en": "minute (unit of time)"
   },
   {
     "lt": "miškas",
@@ -4807,7 +4980,8 @@
         "Locative": "miškuose",
         "Vocative": "miškai"
       }
-    }
+    },
+    "en": "the forest"
   },
   {
     "lt": "močiutė",
@@ -4835,7 +5009,8 @@
         "Locative": "močiutėse",
         "Vocative": "močiutės"
       }
-    }
+    },
+    "en": "grandmother"
   },
   {
     "lt": "mokinys",
@@ -4863,7 +5038,8 @@
         "Locative": "mokiniuose",
         "Vocative": "mokiniai"
       }
-    }
+    },
+    "en": "student"
   },
   {
     "lt": "mokslas",
@@ -4891,7 +5067,8 @@
         "Locative": "moksluose",
         "Vocative": "mokslai"
       }
-    }
+    },
+    "en": "science"
   },
   {
     "lt": "moksleivis",
@@ -4919,7 +5096,8 @@
         "Locative": "moksleiviuose",
         "Vocative": "moksleiviai"
       }
-    }
+    },
+    "en": "a student"
   },
   {
     "lt": "mokykla",
@@ -4947,7 +5125,8 @@
         "Locative": "mokyklose",
         "Vocative": "mokyklos"
       }
-    }
+    },
+    "en": "school (institution dedicated to teaching and learning) school (establishment)"
   },
   {
     "lt": "momentas",
@@ -4974,7 +5153,8 @@
         "Locative": "momentuose",
         "Vocative": "momentai"
       }
-    }
+    },
+    "en": "moment"
   },
   {
     "lt": "monė",
@@ -5002,7 +5182,8 @@
         "Locative": "monėse",
         "Vocative": "monės"
       }
-    }
+    },
+    "en": "lady"
   },
   {
     "lt": "moteris",
@@ -5030,7 +5211,8 @@
         "Locative": "moteryse",
         "Vocative": "moterys"
       }
-    }
+    },
+    "en": "woman"
   },
   {
     "lt": "motina",
@@ -5058,7 +5240,8 @@
         "Locative": "motinose",
         "Vocative": "motinos"
       }
-    }
+    },
+    "en": "mother"
   },
   {
     "lt": "muzika",
@@ -5086,7 +5269,8 @@
         "Locative": "muzikose",
         "Vocative": "muzikos"
       }
-    }
+    },
+    "en": "music"
   },
   {
     "lt": "namas",
@@ -5113,7 +5297,8 @@
         "Locative": "namuose",
         "Vocative": "namai"
       }
-    }
+    },
+    "en": "house"
   },
   {
     "lt": "narys",
@@ -5141,7 +5326,8 @@
         "Locative": "nariuose",
         "Vocative": "nariai"
       }
-    }
+    },
+    "en": "member"
   },
   {
     "lt": "nosinė",
@@ -5169,7 +5355,8 @@
         "Locative": "nosinėse",
         "Vocative": "nosinės"
       }
-    }
+    },
+    "en": "handkerchief"
   },
   {
     "lt": "nugara",
@@ -5197,7 +5384,8 @@
         "Locative": "nugarose",
         "Vocative": "nugaros"
       }
-    }
+    },
+    "en": "the back"
   },
   {
     "lt": "numeris",
@@ -5225,7 +5413,8 @@
         "Locative": "numeriuose",
         "Vocative": "numeriai"
       }
-    }
+    },
+    "en": "number"
   },
   {
     "lt": "nuo",
@@ -5253,7 +5442,8 @@
         "Locative": "nenyse",
         "Vocative": "nenys"
       }
-    }
+    },
+    "en": "from"
   },
   {
     "lt": "nuomonė",
@@ -5281,7 +5471,8 @@
         "Locative": "nuomonėse",
         "Vocative": "nuomonės"
       }
-    }
+    },
+    "en": "opinion"
   },
   {
     "lt": "obuolys",
@@ -5309,7 +5500,8 @@
         "Locative": "obuoliuose",
         "Vocative": "obuoliai"
       }
-    }
+    },
+    "en": "an apple"
   },
   {
     "lt": "oda",
@@ -5337,7 +5529,8 @@
         "Locative": "odose",
         "Vocative": "odos"
       }
-    }
+    },
+    "en": "the skin"
   },
   {
     "lt": "oras",
@@ -5364,7 +5557,8 @@
         "Locative": "oruose",
         "Vocative": "orai"
       }
-    }
+    },
+    "en": "weather"
   },
   {
     "lt": "pagalba",
@@ -5392,7 +5586,8 @@
         "Locative": "pagalbose",
         "Vocative": "pagalbos"
       }
-    }
+    },
+    "en": "help"
   },
   {
     "lt": "pamoka",
@@ -5420,7 +5615,8 @@
         "Locative": "pamokose",
         "Vocative": "pamokos"
       }
-    }
+    },
+    "en": "a lesson"
   },
   {
     "lt": "para",
@@ -5448,7 +5644,8 @@
         "Locative": "parose",
         "Vocative": "paros"
       }
-    }
+    },
+    "en": "para"
   },
   {
     "lt": "parduotuvė",
@@ -5476,7 +5673,8 @@
         "Locative": "parduotuvėse",
         "Vocative": "parduotuvės"
       }
-    }
+    },
+    "en": "shop"
   },
   {
     "lt": "parkas",
@@ -5503,7 +5701,8 @@
         "Locative": "parkuose",
         "Vocative": "parkai"
       }
-    }
+    },
+    "en": "park"
   },
   {
     "lt": "pasaka",
@@ -5531,7 +5730,8 @@
         "Locative": "pasakose",
         "Vocative": "pasakos"
       }
-    }
+    },
+    "en": "a fairy tale"
   },
   {
     "lt": "pasaulis",
@@ -5559,7 +5759,8 @@
         "Locative": "pasauliuose",
         "Vocative": "pasauliai"
       }
-    }
+    },
+    "en": "the world"
   },
   {
     "lt": "pastatas",
@@ -5586,7 +5787,8 @@
         "Locative": "pastatuose",
         "Vocative": "pastatai"
       }
-    }
+    },
+    "en": "building"
   },
   {
     "lt": "patalpa",
@@ -5614,7 +5816,8 @@
         "Locative": "patalpose",
         "Vocative": "patalpos"
       }
-    }
+    },
+    "en": "room"
   },
   {
     "lt": "patarimas",
@@ -5641,7 +5844,8 @@
         "Locative": "patarimuose",
         "Vocative": "patarimai"
       }
-    }
+    },
+    "en": "advice"
   },
   {
     "lt": "pavardė",
@@ -5669,7 +5873,8 @@
         "Locative": "pavardėse",
         "Vocative": "pavardės"
       }
-    }
+    },
+    "en": "last name"
   },
   {
     "lt": "pavasaris",
@@ -5697,7 +5902,8 @@
         "Locative": "pavasariuose",
         "Vocative": "pavasariai"
       }
-    }
+    },
+    "en": "spring"
   },
   {
     "lt": "paveikslas",
@@ -5724,7 +5930,8 @@
         "Locative": "paveiksluose",
         "Vocative": "paveikslai"
       }
-    }
+    },
+    "en": "picture"
   },
   {
     "lt": "pavyzdys",
@@ -5752,7 +5959,8 @@
         "Locative": "pavyzdžiuose",
         "Vocative": "pavyzdžiai"
       }
-    }
+    },
+    "en": "example"
   },
   {
     "lt": "pėdsakas",
@@ -5779,7 +5987,8 @@
         "Locative": "pėdsakuose",
         "Vocative": "pėdsakai"
       }
-    }
+    },
+    "en": "footprint"
   },
   {
     "lt": "peilis",
@@ -5807,7 +6016,8 @@
         "Locative": "peiliuose",
         "Vocative": "peiliai"
       }
-    }
+    },
+    "en": "knife"
   },
   {
     "lt": "penas",
@@ -5834,7 +6044,8 @@
         "Locative": "penuose",
         "Vocative": "penai"
       }
-    }
+    },
+    "en": "penis"
   },
   {
     "lt": "penkiolika",
@@ -5862,7 +6073,8 @@
         "Locative": "penkiolikose",
         "Vocative": "penkiolikos"
       }
-    }
+    },
+    "en": "fifteen"
   },
   {
     "lt": "penktadienis",
@@ -5890,7 +6102,8 @@
         "Locative": "penktadieniuose",
         "Vocative": "penktadieniai"
       }
-    }
+    },
+    "en": "friday"
   },
   {
     "lt": "pergalė",
@@ -5918,7 +6131,8 @@
         "Locative": "pergalėse",
         "Vocative": "pergalės"
       }
-    }
+    },
+    "en": "victory"
   },
   {
     "lt": "petys",
@@ -5946,7 +6160,8 @@
         "Locative": "pečiuose",
         "Vocative": "pečiai"
       }
-    }
+    },
+    "en": "shoulder"
   },
   {
     "lt": "pieštukas",
@@ -5973,7 +6188,8 @@
         "Locative": "pieštukuose",
         "Vocative": "pieštukai"
       }
-    }
+    },
+    "en": "pencil"
   },
   {
     "lt": "pirmadienis",
@@ -6001,7 +6217,8 @@
         "Locative": "pirmadieniuose",
         "Vocative": "pirmadieniai"
       }
-    }
+    },
+    "en": "monday"
   },
   {
     "lt": "pirštas",
@@ -6028,7 +6245,8 @@
         "Locative": "pirštuose",
         "Vocative": "pirštai"
       }
-    }
+    },
+    "en": "finger"
   },
   {
     "lt": "planas",
@@ -6055,7 +6273,8 @@
         "Locative": "planuose",
         "Vocative": "planai"
       }
-    }
+    },
+    "en": "plan"
   },
   {
     "lt": "plėtra",
@@ -6083,7 +6302,8 @@
         "Locative": "plėtrose",
         "Vocative": "plėtros"
       }
-    }
+    },
+    "en": "development"
   },
   {
     "lt": "pokalbis",
@@ -6111,7 +6331,8 @@
         "Locative": "pokalbiuose",
         "Vocative": "pokalbiai"
       }
-    }
+    },
+    "en": "conversation"
   },
   {
     "lt": "popierius",
@@ -6139,7 +6360,8 @@
         "Locative": "popieriuose",
         "Vocative": "popieriai"
       }
-    }
+    },
+    "en": "paper"
   },
   {
     "lt": "pradžia",
@@ -6167,7 +6389,8 @@
         "Locative": "pradžiose",
         "Vocative": "pradžios"
       }
-    }
+    },
+    "en": "beginning"
   },
   {
     "lt": "prasmė",
@@ -6195,7 +6418,9 @@
         "Locative": "prasmėse",
         "Vocative": "prasmės"
       }
-    }
+    },
+    "en": "sense, meaning",
+    "gender": "f"
   },
   {
     "lt": "prekė",
@@ -6223,7 +6448,9 @@
         "Locative": "prekėse",
         "Vocative": "prekės"
       }
-    }
+    },
+    "en": "article, product, wares, merchandise",
+    "gender": "f"
   },
   {
     "lt": "premonė",
@@ -6251,7 +6478,8 @@
         "Locative": "premonėse",
         "Vocative": "premonės"
       }
-    }
+    },
+    "en": "premonition"
   },
   {
     "lt": "prezidentas",
@@ -6278,7 +6506,8 @@
         "Locative": "prezidentuose",
         "Vocative": "prezidentai"
       }
-    }
+    },
+    "en": "the president"
   },
   {
     "lt": "profesija",
@@ -6306,7 +6535,9 @@
         "Locative": "profesijose",
         "Vocative": "profesijos"
       }
-    }
+    },
+    "en": "profession",
+    "gender": "f"
   },
   {
     "lt": "puodelis",
@@ -6334,7 +6565,8 @@
         "Locative": "puodeliuose",
         "Vocative": "puodeliai"
       }
-    }
+    },
+    "en": "cup"
   },
   {
     "lt": "pusė",
@@ -6363,7 +6595,8 @@
         "Locative": "pusėse",
         "Vocative": "pusės"
       }
-    }
+    },
+    "en": "half"
   },
   {
     "lt": "puslapis",
@@ -6391,7 +6624,9 @@
         "Locative": "puslapiuose",
         "Vocative": "puslapiai"
       }
-    }
+    },
+    "en": "page",
+    "gender": "m"
   },
   {
     "lt": "rajonas",
@@ -6418,7 +6653,8 @@
         "Locative": "rajonuose",
         "Vocative": "rajonai"
       }
-    }
+    },
+    "en": "district"
   },
   {
     "lt": "ranka",
@@ -6446,7 +6682,8 @@
         "Locative": "rankose",
         "Vocative": "rankos"
       }
-    }
+    },
+    "en": "hand"
   },
   {
     "lt": "rankena",
@@ -6474,7 +6711,8 @@
         "Locative": "rankenose",
         "Vocative": "rankenos"
       }
-    }
+    },
+    "en": "handle"
   },
   {
     "lt": "rašiklis",
@@ -6502,7 +6740,8 @@
         "Locative": "rašikliuose",
         "Vocative": "rašikliai"
       }
-    }
+    },
+    "en": "a pen"
   },
   {
     "lt": "ratas",
@@ -6529,7 +6768,9 @@
         "Locative": "ratuose",
         "Vocative": "ratai"
       }
-    }
+    },
+    "en": "wheel",
+    "gender": "m"
   },
   {
     "lt": "renginys",
@@ -6557,7 +6798,8 @@
         "Locative": "renginiuose",
         "Vocative": "renginiai"
       }
-    }
+    },
+    "en": "event"
   },
   {
     "lt": "rezultatas",
@@ -6584,7 +6826,8 @@
         "Locative": "rezultatuose",
         "Vocative": "rezultatai"
       }
-    }
+    },
+    "en": "the result"
   },
   {
     "lt": "riba",
@@ -6612,7 +6855,8 @@
         "Locative": "ribose",
         "Vocative": "ribos"
       }
-    }
+    },
+    "en": "limit"
   },
   {
     "lt": "rinka",
@@ -6640,7 +6884,8 @@
         "Locative": "rinkose",
         "Vocative": "rinkos"
       }
-    }
+    },
+    "en": "the market"
   },
   {
     "lt": "ruduo",
@@ -6668,7 +6913,8 @@
         "Locative": "rudenyse",
         "Vocative": "rudenys"
       }
-    }
+    },
+    "en": "autumn"
   },
   {
     "lt": "rūkas",
@@ -6695,7 +6941,8 @@
         "Locative": "rūkuose",
         "Vocative": "rūkai"
       }
-    }
+    },
+    "en": "the fog"
   },
   {
     "lt": "ryšys",
@@ -6723,7 +6970,8 @@
         "Locative": "ryšiuose",
         "Vocative": "ryšiai"
       }
-    }
+    },
+    "en": "connection"
   },
   {
     "lt": "rytas",
@@ -6750,7 +6998,8 @@
         "Locative": "rytuose",
         "Vocative": "rytai"
       }
-    }
+    },
+    "en": "the morning"
   },
   {
     "lt": "šakutė",
@@ -6778,7 +7027,8 @@
         "Locative": "šakutėse",
         "Vocative": "šakutės"
       }
-    }
+    },
+    "en": "fork"
   },
   {
     "lt": "sala",
@@ -6806,7 +7056,8 @@
         "Locative": "salose",
         "Vocative": "salos"
       }
-    }
+    },
+    "en": "island"
   },
   {
     "lt": "salė",
@@ -6834,7 +7085,8 @@
         "Locative": "salėse",
         "Vocative": "salės"
       }
-    }
+    },
+    "en": "hall"
   },
   {
     "lt": "šalia",
@@ -6862,7 +7114,8 @@
         "Locative": "šaliose",
         "Vocative": "šalios"
       }
-    }
+    },
+    "en": "next to"
   },
   {
     "lt": "sąlyga",
@@ -6890,7 +7143,8 @@
         "Locative": "sąlygose",
         "Vocative": "sąlygos"
       }
-    }
+    },
+    "en": "condition"
   },
   {
     "lt": "sąskaita",
@@ -6918,7 +7172,8 @@
         "Locative": "sąskaitose",
         "Vocative": "sąskaitos"
       }
-    }
+    },
+    "en": "account"
   },
   {
     "lt": "šaukštas",
@@ -6945,7 +7200,8 @@
         "Locative": "šaukštuose",
         "Vocative": "šaukštai"
       }
-    }
+    },
+    "en": "a spoon"
   },
   {
     "lt": "saulė",
@@ -6973,7 +7229,8 @@
         "Locative": "saulėse",
         "Vocative": "saulės"
       }
-    }
+    },
+    "en": "the sun"
   },
   {
     "lt": "savaitė",
@@ -7001,7 +7258,8 @@
         "Locative": "savaitėse",
         "Vocative": "savaitės"
       }
-    }
+    },
+    "en": "a week"
   },
   {
     "lt": "šeima",
@@ -7029,7 +7287,8 @@
         "Locative": "šeimose",
         "Vocative": "šeimos"
       }
-    }
+    },
+    "en": "family"
   },
   {
     "lt": "sekmadienis",
@@ -7057,7 +7316,8 @@
         "Locative": "sekmadieniuose",
         "Vocative": "sekmadieniai"
       }
-    }
+    },
+    "en": "sunday"
   },
   {
     "lt": "sėkmė",
@@ -7085,7 +7345,8 @@
         "Locative": "sėkmėse",
         "Vocative": "sėkmės"
       }
-    }
+    },
+    "en": "success"
   },
   {
     "lt": "sekundė",
@@ -7113,7 +7374,8 @@
         "Locative": "sekundėse",
         "Vocative": "sekundės"
       }
-    }
+    },
+    "en": "a second"
   },
   {
     "lt": "sela",
@@ -7141,7 +7403,8 @@
         "Locative": "selose",
         "Vocative": "selos"
       }
-    }
+    },
+    "en": "saddle"
   },
   {
     "lt": "sena",
@@ -7170,7 +7433,8 @@
         "Locative": "senose",
         "Vocative": "senos"
       }
-    }
+    },
+    "en": "old"
   },
   {
     "lt": "senelis",
@@ -7198,7 +7462,8 @@
         "Locative": "seneliuose",
         "Vocative": "seneliai"
       }
-    }
+    },
+    "en": "grandfather"
   },
   {
     "lt": "septyniolika",
@@ -7226,7 +7491,8 @@
         "Locative": "septyniolikose",
         "Vocative": "septyniolikos"
       }
-    }
+    },
+    "en": "seventeen"
   },
   {
     "lt": "šešiolika",
@@ -7254,7 +7520,8 @@
         "Locative": "šešiolikose",
         "Vocative": "šešiolikos"
       }
-    }
+    },
+    "en": "sixteen"
   },
   {
     "lt": "šeštadienis",
@@ -7282,7 +7549,8 @@
         "Locative": "šeštadieniuose",
         "Vocative": "šeštadieniai"
       }
-    }
+    },
+    "en": "saturday"
   },
   {
     "lt": "sesuo",
@@ -7310,7 +7578,8 @@
         "Locative": "seseryse",
         "Vocative": "seserys"
       }
-    }
+    },
+    "en": "sister"
   },
   {
     "lt": "šiaurė",
@@ -7338,7 +7607,8 @@
         "Locative": "šiaurėse",
         "Vocative": "šiaurės"
       }
-    }
+    },
+    "en": "the north"
   },
   {
     "lt": "skaičius",
@@ -7367,7 +7637,8 @@
         "Locative": "skaičiuose",
         "Vocative": "skaičiai"
       }
-    }
+    },
+    "en": "number"
   },
   {
     "lt": "sklypas",
@@ -7394,7 +7665,8 @@
         "Locative": "sklypuose",
         "Vocative": "sklypai"
       }
-    }
+    },
+    "en": "plot"
   },
   {
     "lt": "skruostas",
@@ -7421,7 +7693,8 @@
         "Locative": "skruostuose",
         "Vocative": "skruostai"
       }
-    }
+    },
+    "en": "cheek"
   },
   {
     "lt": "sniegas",
@@ -7448,7 +7721,8 @@
         "Locative": "snieguose",
         "Vocative": "sniegai"
       }
-    }
+    },
+    "en": "the snow"
   },
   {
     "lt": "sodas",
@@ -7475,7 +7749,8 @@
         "Locative": "soduose",
         "Vocative": "sodai"
       }
-    }
+    },
+    "en": "the garden"
   },
   {
     "lt": "šonas",
@@ -7502,7 +7777,8 @@
         "Locative": "šonuose",
         "Vocative": "šonai"
       }
-    }
+    },
+    "en": "the side"
   },
   {
     "lt": "spalis",
@@ -7530,7 +7806,8 @@
         "Locative": "spaliuose",
         "Vocative": "spaliai"
       }
-    }
+    },
+    "en": "October"
   },
   {
     "lt": "spalva",
@@ -7558,7 +7835,8 @@
         "Locative": "spalvose",
         "Vocative": "spalvos"
       }
-    }
+    },
+    "en": "color"
   },
   {
     "lt": "spinta",
@@ -7586,7 +7864,8 @@
         "Locative": "spintose",
         "Vocative": "spintos"
       }
-    }
+    },
+    "en": "cabinet, wardrobe"
   },
   {
     "lt": "sprendimas",
@@ -7613,7 +7892,8 @@
         "Locative": "sprendimuose",
         "Vocative": "sprendimai"
       }
-    }
+    },
+    "en": "solution"
   },
   {
     "lt": "sriuba",
@@ -7641,7 +7921,8 @@
         "Locative": "sriubose",
         "Vocative": "sriubos"
       }
-    }
+    },
+    "en": "soup"
   },
   {
     "lt": "staiga",
@@ -7669,7 +7950,8 @@
         "Locative": "staigose",
         "Vocative": "staigos"
       }
-    }
+    },
+    "en": "suddenly"
   },
   {
     "lt": "stalas",
@@ -7696,7 +7978,8 @@
         "Locative": "staluose",
         "Vocative": "stalai"
       }
-    }
+    },
+    "en": "the table"
   },
   {
     "lt": "statyba",
@@ -7724,7 +8007,8 @@
         "Locative": "statybose",
         "Vocative": "statybos"
       }
-    }
+    },
+    "en": "construction"
   },
   {
     "lt": "statybininkas",
@@ -7751,7 +8035,8 @@
         "Locative": "statybininkuose",
         "Vocative": "statybininkai"
       }
-    }
+    },
+    "en": "builder"
   },
   {
     "lt": "stiklas",
@@ -7778,7 +8063,8 @@
         "Locative": "stikluose",
         "Vocative": "stiklai"
       }
-    }
+    },
+    "en": "glass"
   },
   {
     "lt": "stiklinė",
@@ -7806,7 +8092,8 @@
         "Locative": "stiklinėse",
         "Vocative": "stiklinės"
       }
-    }
+    },
+    "en": "a glass"
   },
   {
     "lt": "stogas",
@@ -7833,7 +8120,8 @@
         "Locative": "stoguose",
         "Vocative": "stogai"
       }
-    }
+    },
+    "en": "the roof"
   },
   {
     "lt": "stotelė",
@@ -7861,7 +8149,8 @@
         "Locative": "stotelėse",
         "Vocative": "stotelės"
       }
-    }
+    },
+    "en": "stop"
   },
   {
     "lt": "straipsnis",
@@ -7889,7 +8178,8 @@
         "Locative": "straipsniuose",
         "Vocative": "straipsniai"
       }
-    }
+    },
+    "en": "article"
   },
   {
     "lt": "striukė",
@@ -7917,7 +8207,8 @@
         "Locative": "striukėse",
         "Vocative": "striukės"
       }
-    }
+    },
+    "en": "jacket"
   },
   {
     "lt": "studentas",
@@ -7944,7 +8235,8 @@
         "Locative": "studentuose",
         "Vocative": "studentai"
       }
-    }
+    },
+    "en": "student"
   },
   {
     "lt": "suknelė",
@@ -7972,7 +8264,8 @@
         "Locative": "suknelėse",
         "Vocative": "suknelės"
       }
-    }
+    },
+    "en": "a dress"
   },
   {
     "lt": "sūnus",
@@ -8000,7 +8293,8 @@
         "Locative": "sūnuose",
         "Vocative": "sūnūs"
       }
-    }
+    },
+    "en": "son"
   },
   {
     "lt": "šuo",
@@ -8028,7 +8322,8 @@
         "Locative": "šunyse",
         "Vocative": "šunys"
       }
-    }
+    },
+    "en": "a dog"
   },
   {
     "lt": "sūris",
@@ -8056,7 +8351,8 @@
         "Locative": "sūriuose",
         "Vocative": "sūriai"
       }
-    }
+    },
+    "en": "cheese"
   },
   {
     "lt": "susirinkimas",
@@ -8083,7 +8379,8 @@
         "Locative": "susirinkimuose",
         "Vocative": "susirinkimai"
       }
-    }
+    },
+    "en": "meeting"
   },
   {
     "lt": "susitikimas",
@@ -8110,7 +8407,8 @@
         "Locative": "susitikimuose",
         "Vocative": "susitikimai"
       }
-    }
+    },
+    "en": "a meeting"
   },
   {
     "lt": "svajonė",
@@ -8138,7 +8436,8 @@
         "Locative": "svajonėse",
         "Vocative": "svajonės"
       }
-    }
+    },
+    "en": "a dream"
   },
   {
     "lt": "svečias",
@@ -8166,7 +8465,8 @@
         "Locative": "svečiuose",
         "Vocative": "svečiai"
       }
-    }
+    },
+    "en": "a guest"
   },
   {
     "lt": "sveikata",
@@ -8194,7 +8494,8 @@
         "Locative": "sveikatose",
         "Vocative": "sveikatos"
       }
-    }
+    },
+    "en": "health"
   },
   {
     "lt": "šventė",
@@ -8222,7 +8523,8 @@
         "Locative": "šventėse",
         "Vocative": "šventės"
       }
-    }
+    },
+    "en": "holiday"
   },
   {
     "lt": "šviesa",
@@ -8250,7 +8552,8 @@
         "Locative": "šviesose",
         "Vocative": "šviesos"
       }
-    }
+    },
+    "en": "the light"
   },
   {
     "lt": "svoris",
@@ -8278,7 +8581,8 @@
         "Locative": "svoriuose",
         "Vocative": "svoriai"
       }
-    }
+    },
+    "en": "weight"
   },
   {
     "lt": "šypsena",
@@ -8306,7 +8610,8 @@
         "Locative": "šypsenose",
         "Vocative": "šypsenos"
       }
-    }
+    },
+    "en": "smile"
   },
   {
     "lt": "taika",
@@ -8334,7 +8639,8 @@
         "Locative": "taikose",
         "Vocative": "taikos"
       }
-    }
+    },
+    "en": "peace"
   },
   {
     "lt": "tamsa",
@@ -8362,7 +8668,8 @@
         "Locative": "tamsose",
         "Vocative": "tamsos"
       }
-    }
+    },
+    "en": "darkness"
   },
   {
     "lt": "tauta",
@@ -8390,7 +8697,8 @@
         "Locative": "tautose",
         "Vocative": "tautos"
       }
-    }
+    },
+    "en": "the nation"
   },
   {
     "lt": "teatras",
@@ -8417,7 +8725,8 @@
         "Locative": "teatruose",
         "Vocative": "teatrai"
       }
-    }
+    },
+    "en": "theater"
   },
   {
     "lt": "technika",
@@ -8445,7 +8754,8 @@
         "Locative": "technikose",
         "Vocative": "technikos"
       }
-    }
+    },
+    "en": "technique"
   },
   {
     "lt": "teisė",
@@ -8473,7 +8783,8 @@
         "Locative": "teisėse",
         "Vocative": "teisės"
       }
-    }
+    },
+    "en": "the right"
   },
   {
     "lt": "telefonas",
@@ -8500,7 +8811,8 @@
         "Locative": "telefonuose",
         "Vocative": "telefonai"
       }
-    }
+    },
+    "en": "phone"
   },
   {
     "lt": "tema",
@@ -8528,7 +8840,8 @@
         "Locative": "temose",
         "Vocative": "temos"
       }
-    }
+    },
+    "en": "topic"
   },
   {
     "lt": "teta",
@@ -8556,7 +8869,8 @@
         "Locative": "tetose",
         "Vocative": "tetos"
       }
-    }
+    },
+    "en": "aunt"
   },
   {
     "lt": "tėvas",
@@ -8583,7 +8897,8 @@
         "Locative": "tėvuose",
         "Vocative": "tėvai"
       }
-    }
+    },
+    "en": "father"
   },
   {
     "lt": "tiesa",
@@ -8611,7 +8926,8 @@
         "Locative": "tiesose",
         "Vocative": "tiesos"
       }
-    }
+    },
+    "en": "true"
   },
   {
     "lt": "tikslas",
@@ -8638,7 +8954,8 @@
         "Locative": "tiksluose",
         "Vocative": "tikslai"
       }
-    }
+    },
+    "en": "purpose"
   },
   {
     "lt": "tiltas",
@@ -8665,7 +8982,8 @@
         "Locative": "tiltuose",
         "Vocative": "tiltai"
       }
-    }
+    },
+    "en": "bridge"
   },
   {
     "lt": "traukinys",
@@ -8693,7 +9011,8 @@
         "Locative": "traukiniuose",
         "Vocative": "traukiniai"
       }
-    }
+    },
+    "en": "the train"
   },
   {
     "lt": "trečiadienis",
@@ -8721,7 +9040,8 @@
         "Locative": "trečiadieniuose",
         "Vocative": "trečiadieniai"
       }
-    }
+    },
+    "en": "wednesday"
   },
   {
     "lt": "triukšmas",
@@ -8748,7 +9068,8 @@
         "Locative": "triukšmuose",
         "Vocative": "triukšmai"
       }
-    }
+    },
+    "en": "noise"
   },
   {
     "lt": "trylika",
@@ -8776,7 +9097,8 @@
         "Locative": "trylikose",
         "Vocative": "trylikos"
       }
-    }
+    },
+    "en": "thirteen"
   },
   {
     "lt": "trys",
@@ -8804,7 +9126,8 @@
         "Locative": "triuose",
         "Vocative": "triai"
       }
-    }
+    },
+    "en": "three"
   },
   {
     "lt": "tvarka",
@@ -8832,7 +9155,8 @@
         "Locative": "tvarkose",
         "Vocative": "tvarkos"
       }
-    }
+    },
+    "en": "order"
   },
   {
     "lt": "ūgis",
@@ -8860,7 +9184,8 @@
         "Locative": "ūgiuose",
         "Vocative": "ūgiai"
       }
-    }
+    },
+    "en": "height"
   },
   {
     "lt": "ūkis",
@@ -8888,7 +9213,8 @@
         "Locative": "ūkiuose",
         "Vocative": "ūkiai"
       }
-    }
+    },
+    "en": "the farm"
   },
   {
     "lt": "universitetas",
@@ -8915,7 +9241,8 @@
         "Locative": "universitetuose",
         "Vocative": "universitetai"
       }
-    }
+    },
+    "en": "university"
   },
   {
     "lt": "upė",
@@ -8943,7 +9270,8 @@
         "Locative": "upėse",
         "Vocative": "upės"
       }
-    }
+    },
+    "en": "the river"
   },
   {
     "lt": "užsiėmimas",
@@ -8970,7 +9298,8 @@
         "Locative": "užsiėmimuose",
         "Vocative": "užsiėmimai"
       }
-    }
+    },
+    "en": "occupation"
   },
   {
     "lt": "užuolaida",
@@ -8998,7 +9327,8 @@
         "Locative": "užuolaidose",
         "Vocative": "užuolaidos"
       }
-    }
+    },
+    "en": "curtain"
   },
   {
     "lt": "vadovas",
@@ -9025,7 +9355,8 @@
         "Locative": "vadovuose",
         "Vocative": "vadovai"
       }
-    }
+    },
+    "en": "manager"
   },
   {
     "lt": "vadybininkas",
@@ -9052,7 +9383,8 @@
         "Locative": "vadybininkuose",
         "Vocative": "vadybininkai"
       }
-    }
+    },
+    "en": "the manager"
   },
   {
     "lt": "vaikas",
@@ -9079,7 +9411,8 @@
         "Locative": "vaikuose",
         "Vocative": "vaikai"
       }
-    }
+    },
+    "en": "child"
   },
   {
     "lt": "vaikinas",
@@ -9106,7 +9439,8 @@
         "Locative": "vaikinuose",
         "Vocative": "vaikinai"
       }
-    }
+    },
+    "en": "a guy"
   },
   {
     "lt": "vaizdas",
@@ -9134,7 +9468,8 @@
         "Locative": "vaizduose",
         "Vocative": "vaizdai"
       }
-    }
+    },
+    "en": "image"
   },
   {
     "lt": "vakaras",
@@ -9161,7 +9496,8 @@
         "Locative": "vakaruose",
         "Vocative": "vakarai"
       }
-    }
+    },
+    "en": "evening"
   },
   {
     "lt": "vakarienė",
@@ -9189,7 +9525,8 @@
         "Locative": "vakarienėse",
         "Vocative": "vakarienės"
       }
-    }
+    },
+    "en": "dinner"
   },
   {
     "lt": "valanda",
@@ -9217,7 +9554,8 @@
         "Locative": "valandose",
         "Vocative": "valandos"
       }
-    }
+    },
+    "en": "an hour"
   },
   {
     "lt": "valdžia",
@@ -9245,7 +9583,8 @@
         "Locative": "valdžiose",
         "Vocative": "valdžios"
       }
-    }
+    },
+    "en": "power"
   },
   {
     "lt": "valstybė",
@@ -9273,7 +9612,8 @@
         "Locative": "valstybėse",
         "Vocative": "valstybės"
       }
-    }
+    },
+    "en": "state"
   },
   {
     "lt": "vandenynas",
@@ -9300,7 +9640,8 @@
         "Locative": "vandenynuose",
         "Vocative": "vandenynai"
       }
-    }
+    },
+    "en": "the ocean"
   },
   {
     "lt": "vanduo",
@@ -9328,7 +9669,8 @@
         "Locative": "vandenyse",
         "Vocative": "vandenys"
       }
-    }
+    },
+    "en": "water"
   },
   {
     "lt": "vardas",
@@ -9355,7 +9697,8 @@
         "Locative": "varduose",
         "Vocative": "vardai"
       }
-    }
+    },
+    "en": "name"
   },
   {
     "lt": "vasara",
@@ -9383,7 +9726,8 @@
         "Locative": "vasarose",
         "Vocative": "vasaros"
       }
-    }
+    },
+    "en": "summer"
   },
   {
     "lt": "vasaris",
@@ -9411,7 +9755,8 @@
         "Locative": "vasariuose",
         "Vocative": "vasariai"
       }
-    }
+    },
+    "en": "February"
   },
   {
     "lt": "veidas",
@@ -9438,7 +9783,8 @@
         "Locative": "veiduose",
         "Vocative": "veidai"
       }
-    }
+    },
+    "en": "face"
   },
   {
     "lt": "velnias",
@@ -9466,7 +9812,8 @@
         "Locative": "velniuose",
         "Vocative": "velniai"
       }
-    }
+    },
+    "en": "the devil"
   },
   {
     "lt": "vidurdienis",
@@ -9494,7 +9841,8 @@
         "Locative": "vidurdieniuose",
         "Vocative": "vidurdieniai"
       }
-    }
+    },
+    "en": "noon"
   },
   {
     "lt": "vienuolika",
@@ -9522,7 +9870,8 @@
         "Locative": "vienuolikose",
         "Vocative": "vienuolikos"
       }
-    }
+    },
+    "en": "eleven"
   },
   {
     "lt": "vieta",
@@ -9550,7 +9899,8 @@
         "Locative": "vietose",
         "Vocative": "vietos"
       }
-    }
+    },
+    "en": "place"
   },
   {
     "lt": "viršininkas",
@@ -9577,7 +9927,8 @@
         "Locative": "viršininkuose",
         "Vocative": "viršininkai"
       }
-    }
+    },
+    "en": "the boss"
   },
   {
     "lt": "viršus",
@@ -9605,7 +9956,8 @@
         "Locative": "viršuose",
         "Vocative": "viršūs"
       }
-    }
+    },
+    "en": "the top"
   },
   {
     "lt": "virtuvė",
@@ -9633,7 +9985,8 @@
         "Locative": "virtuvėse",
         "Vocative": "virtuvės"
       }
-    }
+    },
+    "en": "kitchen"
   },
   {
     "lt": "visuomenė",
@@ -9661,7 +10014,8 @@
         "Locative": "visuomenėse",
         "Vocative": "visuomenės"
       }
-    }
+    },
+    "en": "society"
   },
   {
     "lt": "vynas",
@@ -9688,7 +10042,8 @@
         "Locative": "vynuose",
         "Vocative": "vynai"
       }
-    }
+    },
+    "en": "wine"
   },
   {
     "lt": "vyras",
@@ -9715,7 +10070,8 @@
         "Locative": "vyruose",
         "Vocative": "vyrai"
       }
-    }
+    },
+    "en": "a man"
   },
   {
     "lt": "žaidimas",
@@ -9742,7 +10098,8 @@
         "Locative": "žaidimuose",
         "Vocative": "žaidimai"
       }
-    }
+    },
+    "en": "the game"
   },
   {
     "lt": "žandikaulis",
@@ -9770,7 +10127,8 @@
         "Locative": "žandikauliuose",
         "Vocative": "žandikauliai"
       }
-    }
+    },
+    "en": "jaw"
   },
   {
     "lt": "žemė",
@@ -9798,7 +10156,8 @@
         "Locative": "žemėse",
         "Vocative": "žemės"
       }
-    }
+    },
+    "en": "land"
   },
   {
     "lt": "žiema",
@@ -9826,7 +10185,8 @@
         "Locative": "žiemose",
         "Vocative": "žiemos"
       }
-    }
+    },
+    "en": "winter"
   },
   {
     "lt": "žingsnis",
@@ -9854,7 +10214,8 @@
         "Locative": "žingsniuose",
         "Vocative": "žingsniai"
       }
-    }
+    },
+    "en": "step"
   },
   {
     "lt": "žmogus",
@@ -9882,7 +10243,8 @@
         "Locative": "žmonėse",
         "Vocative": "žmonės"
       }
-    }
+    },
+    "en": "a person"
   },
   {
     "lt": "žmona",
@@ -9910,7 +10272,8 @@
         "Locative": "žmonose",
         "Vocative": "žmonos"
       }
-    }
+    },
+    "en": "wife"
   },
   {
     "lt": "žolė",
@@ -9938,7 +10301,8 @@
         "Locative": "žolėse",
         "Vocative": "žolės"
       }
-    }
+    },
+    "en": "grass"
   },
   {
     "lt": "žurnalas",
@@ -9965,7 +10329,8 @@
         "Locative": "žurnaluose",
         "Vocative": "žurnalai"
       }
-    }
+    },
+    "en": "magazine"
   },
   {
     "lt": "žvilgsnis",
@@ -9993,6 +10358,7 @@
         "Locative": "žvilgsniuose",
         "Vocative": "žvilgsniai"
       }
-    }
+    },
+    "en": "look"
   }
 ]
