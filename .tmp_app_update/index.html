@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; img-src 'self' data:; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com data:; script-src 'self'; media-src 'self' https://translate.google.com https://translate.googleapis.com data: blob:; connect-src 'self' https://translate.google.com https://translate.googleapis.com; object-src 'none'; base-uri 'none'; frame-ancestors 'none';"
+      content="default-src 'self'; img-src 'self' data:; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com data:; script-src 'self' 'unsafe-inline'; media-src 'self' https://translate.google.com https://translate.googleapis.com data: blob:; connect-src 'self' https://translate.google.com https://translate.googleapis.com; object-src 'none'; base-uri 'none'; frame-ancestors 'none';"
     />
     <meta http-equiv="Referrer-Policy" content="no-referrer" />
     <title>Lithuanian Practice</title>
@@ -16,6 +16,20 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css?v=20260511a" />
+    <script>
+      window.TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
+        "mood": "vilnius",
+        "voice": "editorial",
+        "density": "cozy"
+      }/*EDITMODE-END*/;
+      (function () {
+        var d = window.TWEAK_DEFAULTS;
+        var h = document.documentElement;
+        h.dataset.mood = d.mood;
+        h.dataset.voice = d.voice;
+        h.dataset.density = d.density;
+      })();
+    </script>
   </head>
   <body>
     <div class="page">
@@ -60,7 +74,7 @@
             <div
               id="freqChips"
               class="freq-chips"
-              role="group"
+              role="radiogroup"
               aria-label="Word frequency band"
               data-all="true"
             ></div>
@@ -77,7 +91,6 @@
           <div id="verbControls" class="control-group">
             <label for="formSelect" class="eyebrow">Tense / form</label>
             <select id="formSelect">
-              <option value="random">Random · any tense</option>
               <option value="present">Esamasis · present</option>
               <option value="past">Būtasis · past</option>
               <option value="future">Būsimasis · future</option>
@@ -134,7 +147,6 @@
 
           <section class="card answer-card">
             <label for="answerInput" class="eyebrow">Atsakymas</label>
-            <p id="answerDrillMeta" class="answer-drill-meta"></p>
             <input
               id="answerInput"
               type="text"
@@ -165,7 +177,7 @@
     </div>
 
     <script src="app-config.js"></script>
-    <script src="app.js?v=20260511a"></script>
+    <script src="app.js?v=20260509g"></script>
     <script src="frequency-chips.js?v=20260511a"></script>
     <script src="tweaks.js?v=20260511a"></script>
   </body>

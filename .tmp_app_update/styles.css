@@ -27,6 +27,10 @@
 
   --d: 1;
 
+  /* ── Vilnius (default) ───────────────────────────────────
+     Warm bone paper, deep forest-ink, saffron primary.
+     Less pastel than the previous cream — chroma turned up
+     on the accents, ink pushed darker for real contrast.    */
   --paper:      oklch(0.975 0.014 92);
   --paper-2:    oklch(0.945 0.020 88);
   --paper-edge: oklch(0.86  0.026 85);
@@ -37,17 +41,21 @@
   --ink-muted:  oklch(0.52  0.022 130);
   --ink-faint:  oklch(0.72  0.018 110);
 
+  /* Flag accents (used assertively, not pastel) */
   --saffron:        oklch(0.80  0.165 82);
   --saffron-deep:   oklch(0.68  0.165 75);
   --saffron-ink:    oklch(0.42  0.130 70);
   --saffron-wash:   oklch(0.94  0.060 85);
+
   --forest:         oklch(0.46  0.115 150);
   --forest-deep:    oklch(0.34  0.095 150);
   --forest-wash:    oklch(0.93  0.045 150);
+
   --crimson:        oklch(0.54  0.180 28);
   --crimson-deep:   oklch(0.44  0.165 28);
   --crimson-wash:   oklch(0.94  0.055 28);
 
+  /* Legacy aliases (some JS / inline styles may still reference) */
   --amber:      var(--saffron);
   --amber-ink:  var(--saffron-ink);
   --amber-wash: var(--saffron-wash);
@@ -60,25 +68,32 @@
   --shadow-tone: oklch(0.18 0.025 145 / 0.20);
 }
 
+/* ── Mood: Midnight ─────────────────────────────────────── */
+
 [data-mood="midnight"] {
   --paper:      oklch(0.18  0.022 240);
   --paper-2:    oklch(0.22  0.024 240);
   --paper-edge: oklch(0.32  0.024 240);
   --rule:       oklch(0.40  0.026 240);
+
   --ink:        oklch(0.96  0.012 90);
   --ink-soft:   oklch(0.80  0.014 90);
   --ink-muted:  oklch(0.62  0.014 90);
   --ink-faint:  oklch(0.46  0.018 240);
+
   --saffron:        oklch(0.84  0.155 82);
   --saffron-deep:   oklch(0.74  0.160 78);
   --saffron-ink:    oklch(0.92  0.140 85);
   --saffron-wash:   oklch(0.30  0.075 80);
+
   --forest:         oklch(0.74  0.135 148);
   --forest-deep:    oklch(0.62  0.140 148);
   --forest-wash:    oklch(0.30  0.075 148);
+
   --crimson:        oklch(0.72  0.170 28);
   --crimson-deep:   oklch(0.58  0.180 28);
   --crimson-wash:   oklch(0.30  0.080 28);
+
   --grain-dot:  oklch(1 0 0 / 0.05);
   --grain-bg-a: oklch(0.16  0.022 240);
   --grain-bg-b: oklch(0.14  0.022 240);
@@ -87,24 +102,32 @@
                  0 14px 36px -18px oklch(0 0 0 / 0.55);
 }
 
+/* ── Mood: Linen — quietest, almost monochrome ──────────── */
+
 [data-mood="linen"] {
   --paper:      oklch(0.985 0.004 80);
   --paper-2:    oklch(0.965 0.006 80);
   --paper-edge: oklch(0.88  0.008 80);
   --rule:       oklch(0.80  0.010 80);
+
   --ink:        oklch(0.18  0.010 80);
   --ink-soft:   oklch(0.36  0.010 80);
   --ink-muted:  oklch(0.55  0.010 80);
   --ink-faint:  oklch(0.74  0.008 80);
+
   --saffron:        oklch(0.78  0.150 82);
   --saffron-deep:   oklch(0.66  0.155 78);
   --saffron-ink:    oklch(0.42  0.120 70);
   --saffron-wash:   oklch(0.95  0.050 85);
+
   --forest:         oklch(0.46  0.115 150);
   --forest-wash:    oklch(0.94  0.040 150);
+
   --crimson:        oklch(0.54  0.175 28);
   --crimson-wash:   oklch(0.95  0.050 28);
 }
+
+/* ── Voice variants ─────────────────────────────────────── */
 
 [data-voice="modernist"] {
   --font-display: "Bricolage Grotesque", ui-sans-serif, sans-serif;
@@ -119,6 +142,8 @@
   --display-weight: 400;
   --display-tracking: -0.01em;
 }
+
+/* ── Density variants ───────────────────────────────────── */
 
 [data-density="airy"]    { --d: 1.24; }
 [data-density="cozy"]    { --d: 1; }
@@ -151,7 +176,7 @@ body {
   padding: clamp(1.25rem, 2.5vw, 2.25rem) clamp(1rem, 3vw, 2rem) 3rem;
 }
 
-/* ── Topbar ───────────────────────────────────────────────── */
+/* ── Topbar ─────────────────────────────────────────────── */
 
 .topbar {
   display: flex;
@@ -169,6 +194,7 @@ body {
   gap: 0.85rem;
 }
 
+/* Flag-band brand mark — three stacked stripes (yellow / green / red) */
 .brand-mark {
   width: 40px;
   height: 28px;
@@ -182,12 +208,10 @@ body {
   font-size: 0;
   flex: none;
 }
-
 .brand-mark > span {
   flex: 1;
   display: block;
 }
-
 .brand-mark > span:nth-child(1) { background: var(--saffron); }
 .brand-mark > span:nth-child(2) { background: var(--forest); }
 .brand-mark > span:nth-child(3) { background: var(--crimson); }
@@ -214,11 +238,11 @@ body {
 }
 
 .ghost-link {
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   color: var(--ink-soft);
   text-decoration: none;
   border: 1px solid var(--paper-edge);
-  padding: 0.45rem 0.7rem;
+  padding: 0.42rem 0.7rem;
   border-radius: var(--radius-md);
   background: var(--paper-2);
   transition: border-color 120ms ease, color 120ms ease, background 120ms ease;
@@ -230,12 +254,12 @@ body {
   background: var(--paper);
 }
 
-/* ── Layout ───────────────────────────────────────────────── */
+/* ── Layout ─────────────────────────────────────────────── */
 
 .layout {
   display: grid;
-  grid-template-columns: minmax(0, 240px) minmax(0, 1fr);
-  gap: calc(2.25rem * var(--d));
+  grid-template-columns: 248px minmax(0, 1fr);
+  gap: calc(2.4rem * var(--d));
   align-items: start;
 }
 
@@ -243,35 +267,30 @@ body {
   position: sticky;
   top: 1.25rem;
   display: grid;
-  gap: calc(1.4rem * var(--d));
-  padding-right: 1.25rem;
+  gap: calc(1.3rem * var(--d));
+  padding-right: 1.4rem;
   border-right: 1px solid var(--paper-edge);
   min-width: 0;
-  width: 100%;
-  max-width: 100%;
-  box-sizing: border-box;
-  overflow-x: clip;
 }
 
 .study {
   display: grid;
-  gap: calc(1.25rem * var(--d));
+  gap: calc(1.2rem * var(--d));
   min-width: 0;
 }
 
-/* ── Sidebar controls ─────────────────────────────────────── */
+/* ── Sidebar controls ───────────────────────────────────── */
 
 .control-group {
   display: grid;
-  gap: 0.5rem;
+  gap: 0.55rem;
   min-width: 0;
-  max-width: 100%;
 }
 
 .eyebrow {
   font-family: var(--font-mono);
-  font-size: 0.7rem;
-  letter-spacing: 0.08em;
+  font-size: 0.68rem;
+  letter-spacing: 0.10em;
   text-transform: uppercase;
   color: var(--ink-muted);
   font-weight: 500;
@@ -284,97 +303,122 @@ select {
   -webkit-appearance: none;
   width: 100%;
   font-family: var(--font-ui);
-  font-size: 0.92rem;
+  font-size: 0.9rem;
   color: var(--ink);
   background: var(--paper);
   border: 1px solid var(--paper-edge);
   border-radius: var(--radius-md);
-  padding: 0.55rem 2rem 0.55rem 0.75rem;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8' fill='none' stroke='%23645e54' stroke-width='1.6' stroke-linecap='round'><path d='M1 1.5l5 5 5-5'/></svg>");
+  padding: 0.55rem 2rem 0.55rem 0.7rem;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8' fill='none' stroke='%235a5346' stroke-width='1.6' stroke-linecap='round'><path d='M1 1.5l5 5 5-5'/></svg>");
   background-repeat: no-repeat;
   background-position: right 0.7rem center;
   background-size: 11px;
-  transition: border-color 120ms ease, background-color 120ms ease;
+  transition: border-color 120ms ease, box-shadow 120ms ease;
 }
 
 select:hover { border-color: var(--ink-faint); }
 select:focus {
   outline: none;
-  border-color: var(--amber);
-  box-shadow: 0 0 0 3px var(--amber-wash);
+  border-color: var(--saffron-deep);
+  box-shadow: 0 0 0 3px var(--saffron-wash);
 }
 
 .stats {
   margin: 0.25rem 0 0;
   font-family: var(--font-mono);
   font-size: 0.7rem;
-  line-height: 1.5;
+  line-height: 1.55;
   color: var(--ink-muted);
 }
 
-/* ── Frequency chip rail ──────────────────────────────────── */
+/* ── Frequency selector (rebuilt — no overflow) ─────────── */
 
-.freq-group {
-  gap: 0.45rem;
-  min-width: 0;
-  max-width: 100%;
-}
+.freq-group { gap: 0.55rem; }
 
 .freq-head {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: flex-start;
-  gap: 0.35rem 0.5rem;
+  align-items: baseline;
+  gap: 0.5rem;
   min-width: 0;
 }
 
 .freq-hint {
   font-family: var(--font-mono);
-  font-size: 0.68rem;
+  font-size: 0.66rem;
   color: var(--ink-soft);
   letter-spacing: 0.02em;
   text-align: right;
-  flex: 1 1 8rem;
+  flex: 1 1 auto;
   min-width: 0;
-  max-width: 100%;
-  line-height: 1.35;
-  white-space: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
+/* The chips container holds: an "All" pill on its own row,
+   then a tight 10-column grid for digits 0-9. Renderer in
+   frequency-chips.js builds it that way. */
 .freq-chips {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 4px;
-  padding: 4px;
-  max-width: 100%;
-  box-sizing: border-box;
+  gap: 6px;
+  min-width: 0;
+}
+
+.freq-chip-all {
+  width: 100%;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
   background: var(--paper-2);
   border: 1px solid var(--paper-edge);
   border-radius: var(--radius-md);
+  padding: 0.5rem 0.6rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 120ms ease, color 120ms ease, border-color 120ms ease;
+}
+
+.freq-chip-all:hover {
+  color: var(--ink);
+  border-color: var(--ink-faint);
+  background: var(--paper);
+}
+
+.freq-chip-all.active {
+  background: var(--ink);
+  color: var(--paper);
+  border-color: var(--ink);
+  box-shadow: 0 1px 0 oklch(1 0 0 / 0.06) inset;
 }
 
 .freq-grid {
   display: grid;
   grid-template-columns: repeat(10, minmax(0, 1fr));
-  gap: 4px;
+  gap: 2px;
+  padding: 3px;
+  background: var(--paper-2);
+  border: 1px solid var(--paper-edge);
+  border-radius: var(--radius-md);
+  min-width: 0;
 }
 
 .freq-chip {
-  min-width: 0;
-  max-width: 100%;
   font-family: var(--font-mono);
-  font-size: 0.64rem;
+  font-size: 0.7rem;
   font-weight: 500;
   color: var(--ink-muted);
   background: transparent;
   border: 1px solid transparent;
-  border-radius: 5px;
-  padding: 0.4rem 0.12rem;
+  border-radius: 4px;
+  padding: 0.32rem 0;
   text-align: center;
   cursor: pointer;
+  min-width: 0;
   transition: background 120ms ease, color 120ms ease;
-  box-sizing: border-box;
 }
 
 .freq-chip:hover {
@@ -387,25 +431,10 @@ select:focus {
   color: var(--paper);
 }
 
-.freq-chip-all {
-  width: 100%;
-  text-align: center;
-  padding-left: 0.45rem;
-  padding-right: 0.45rem;
-  font-size: 0.62rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-
-.freq-chip-all.active {
-  background: var(--ink);
-  color: var(--paper);
-}
-
+/* dim digits when "All" is the source of truth — they read as the scale */
 .freq-chips[data-all="true"] .freq-chip {
   color: var(--ink-faint);
 }
-
 .freq-chips[data-all="true"] .freq-chip:hover {
   color: var(--ink);
 }
@@ -439,7 +468,7 @@ select:focus {
   border: 0;
 }
 
-/* ── Cards ────────────────────────────────────────────────── */
+/* ── Cards ──────────────────────────────────────────────── */
 
 .card {
   position: relative;
@@ -450,7 +479,7 @@ select:focus {
   box-shadow: var(--shadow-card);
 }
 
-/* ── Prompt card (the protagonist) ────────────────────────── */
+/* ── Prompt card (the protagonist) ──────────────────────── */
 
 .prompt-card {
   position: relative;
@@ -458,17 +487,16 @@ select:focus {
   overflow: hidden;
 }
 
+/* a quiet flag stripe down the left edge of the prompt card */
 .prompt-card::before {
   content: "";
   position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
+  left: 0; top: 0; bottom: 0;
   width: 4px;
   background:
     linear-gradient(180deg,
       var(--saffron) 0%, var(--saffron) 33.333%,
-      var(--forest) 33.333%, var(--forest) 66.666%,
+      var(--forest)  33.333%, var(--forest)  66.666%,
       var(--crimson) 66.666%, var(--crimson) 100%);
 }
 
@@ -520,11 +548,9 @@ select:focus {
   border-top: 1px dashed var(--paper-edge);
 }
 
-.prompt-context:empty {
-  display: none;
-}
+.prompt-context:empty { display: none; }
 
-/* ── Answer card ──────────────────────────────────────────── */
+/* ── Answer card ────────────────────────────────────────── */
 
 .answer-card {
   display: grid;
@@ -533,40 +559,6 @@ select:focus {
 
 .answer-card label {
   margin-bottom: -0.15rem;
-}
-
-.answer-drill-meta {
-  margin: -0.1rem 0 0;
-  font-family: var(--font-ui);
-  font-size: 0.88rem;
-  line-height: 1.45;
-  letter-spacing: 0.01em;
-}
-
-.answer-drill-meta:empty {
-  display: none;
-}
-
-.answer-drill-tense {
-  color: var(--ink-muted);
-  font-weight: 500;
-}
-
-.answer-drill-person {
-  color: var(--ink-faint);
-  font-weight: 500;
-}
-
-.answer-drill-lemma {
-  color: var(--ink-faint);
-  font-style: var(--display-italic);
-  font-family: var(--font-display);
-  font-weight: var(--display-weight);
-}
-
-.answer-drill-sep {
-  color: var(--ink-faint);
-  opacity: 0.45;
 }
 
 input[type="text"] {
@@ -600,7 +592,7 @@ input[type="text"]:focus {
   margin-top: 0.15rem;
 }
 
-/* ── Buttons ──────────────────────────────────────────────── */
+/* ── Buttons ────────────────────────────────────────────── */
 
 button {
   font-family: var(--font-ui);
@@ -616,9 +608,7 @@ button {
     transform 120ms ease;
 }
 
-button:active {
-  transform: translateY(1px);
-}
+button:active { transform: translateY(1px); }
 
 .primary-btn {
   background: var(--ink);
@@ -667,7 +657,7 @@ button:active {
   background: var(--saffron-wash);
 }
 
-/* ── Result line ──────────────────────────────────────────── */
+/* ── Result line ────────────────────────────────────────── */
 
 .result {
   margin: 0.35rem 0 0;
@@ -681,6 +671,7 @@ button:active {
 
 .result:empty { display: none; }
 
+/* OK = forest green from the flag */
 .result.ok,
 #resultText.ok {
   color: var(--forest-deep);
@@ -690,6 +681,7 @@ button:active {
   border-radius: 0 var(--radius-md) var(--radius-md) 0;
 }
 
+/* BAD = crimson red from the flag */
 .result.bad,
 #resultText.bad {
   color: var(--crimson-deep);
@@ -699,7 +691,7 @@ button:active {
   border-radius: 0 var(--radius-md) var(--radius-md) 0;
 }
 
-/* ── History ──────────────────────────────────────────────── */
+/* ── History ────────────────────────────────────────────── */
 
 .history-card {
   padding: calc(1.25rem * var(--d)) calc(1.4rem * var(--d)) calc(1.3rem * var(--d));
@@ -789,7 +781,7 @@ button:active {
   font-size: 0.72rem;
 }
 
-/* ── Footer ───────────────────────────────────────────────── */
+/* ── Footer ─────────────────────────────────────────────── */
 
 .footer {
   margin-top: 2.5rem;
@@ -811,13 +803,13 @@ button:active {
   color: var(--ink-soft);
 }
 
-/* ── Tweaks panel ─────────────────────────────────────────── */
+/* ── Tweaks panel ───────────────────────────────────────── */
 
 .tweaks-panel {
   position: fixed;
   bottom: 1rem;
   right: 1rem;
-  width: 300px;
+  width: 308px;
   background: var(--paper);
   border: 1px solid var(--paper-edge);
   border-radius: var(--radius-lg);
@@ -844,14 +836,14 @@ button:active {
 .tweaks-title {
   font-family: var(--font-display);
   font-style: var(--display-italic);
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   letter-spacing: -0.005em;
 }
 .tweaks-eyebrow {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.62rem;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.10em;
   color: var(--ink-muted);
 }
 
@@ -883,15 +875,15 @@ button:active {
 }
 .tweaks-label {
   font-family: var(--font-mono);
-  font-size: 0.7rem;
-  letter-spacing: 0.08em;
+  font-size: 0.68rem;
+  letter-spacing: 0.10em;
   text-transform: uppercase;
   color: var(--ink-muted);
   font-weight: 500;
 }
 .tweaks-sub {
   font-family: var(--font-mono);
-  font-size: 0.62rem;
+  font-size: 0.6rem;
   letter-spacing: 0.04em;
   color: var(--ink-faint);
 }
@@ -923,37 +915,38 @@ button:active {
 .tweaks-opt.active .lbl { color: var(--paper); }
 
 .tweaks-opt .sw {
-  width: 18px; height: 18px;
+  width: 22px; height: 22px;
   border-radius: 50%;
-  border: 1px solid oklch(0 0 0 / 0.08);
+  border: 1px solid oklch(0 0 0 / 0.12);
   display: block;
 }
 .tweaks-opt .preview {
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   line-height: 1;
   display: block;
-  height: 18px;
+  height: 22px;
 }
 .tweaks-opt .ico {
   font-family: var(--font-mono);
-  font-size: 0.95rem;
+  font-size: 1rem;
   line-height: 1;
-  height: 18px;
+  height: 22px;
   display: block;
 }
 .tweaks-opt .lbl {
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   font-weight: 500;
   letter-spacing: 0.01em;
   color: var(--ink-muted);
 }
 .tweaks-opt:hover .lbl { color: var(--ink); }
+.tweaks-opt.active .lbl { color: var(--paper); }
 
 @media (max-width: 520px) {
   .tweaks-panel { left: 1rem; right: 1rem; width: auto; }
 }
 
-/* ── Responsive ───────────────────────────────────────────── */
+/* ── Responsive ─────────────────────────────────────────── */
 
 @media (max-width: 860px) {
   .layout {
@@ -971,6 +964,7 @@ button:active {
     padding-bottom: 1.25rem;
   }
   .stats { grid-column: 1 / -1; }
+  .freq-group { grid-column: 1 / -1; }
   .prompt-word { font-size: clamp(2.2rem, 9vw, 3rem); }
 }
 

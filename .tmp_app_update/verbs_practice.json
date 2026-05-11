@@ -1,0 +1,10449 @@
+[
+  {
+    "lt": "apsirengti",
+    "lt_ascii": "apsirengti",
+    "ru": "одеться",
+    "groups": [
+      100
+    ],
+    "present": [
+      "apsirengiu",
+      "apsirengi",
+      "apsirengia",
+      "apsirengiame",
+      "apsirengiate",
+      "apsirengia"
+    ],
+    "past": [
+      "apsirengiau",
+      "apsirengei",
+      "apsirengė",
+      "apsirengėme",
+      "apsirengėte",
+      "apsirengė"
+    ],
+    "future": [
+      "apsirengsiu",
+      "apsirengsi",
+      "apsirengs",
+      "apsirengsime",
+      "apsirengsite",
+      "apsirengs"
+    ],
+    "usedTo": [
+      "apsirengdavau",
+      "apsirengdavai",
+      "apsirengdavo",
+      "apsirengdavome",
+      "apsirengdavote",
+      "apsirengdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "apsirengčiau",
+      "apsirengtum(ei)",
+      "apsirengtų",
+      "apsirengtu(mė)me",
+      "apsirengtu(mė)te",
+      "apsirengtų"
+    ],
+    "imperative": [
+      "",
+      "apsirenk",
+      "",
+      "apsirenkime",
+      "apsirenkite",
+      ""
+    ]
+  },
+  {
+    "lt": "arti",
+    "lt_ascii": "arti",
+    "ru": "близко",
+    "groups": [
+      400
+    ],
+    "present": [
+      "ariu",
+      "ari",
+      "aria",
+      "ariame",
+      "ariate",
+      "aria"
+    ],
+    "past": [
+      "ariau",
+      "arei",
+      "arė",
+      "arėme",
+      "arėte",
+      "arė"
+    ],
+    "future": [
+      "arsiu",
+      "arsi",
+      "ars",
+      "arsime",
+      "arsite",
+      "ars"
+    ],
+    "usedTo": [
+      "ardavau",
+      "ardavai",
+      "ardavo",
+      "ardavome",
+      "ardavote",
+      "ardavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "arčiau",
+      "artum(ei)",
+      "artų",
+      "artu(mė)me",
+      "artu(mė)te",
+      "artų"
+    ],
+    "imperative": [
+      "",
+      "ark",
+      "",
+      "arkime",
+      "arkite",
+      ""
+    ]
+  },
+  {
+    "lt": "ateiti",
+    "lt_ascii": "ateiti",
+    "ru": "подойти",
+    "groups": [
+      800
+    ],
+    "present": [
+      "ateinu",
+      "ateini",
+      "ateina",
+      "ateiname",
+      "ateinate",
+      "ateina"
+    ],
+    "past": [
+      "atėjau",
+      "atėjai",
+      "atėjo",
+      "atėjome",
+      "atėjote",
+      "atėjo"
+    ],
+    "future": [
+      "ateisiu",
+      "ateisi",
+      "ateis",
+      "ateisime",
+      "ateisite",
+      "ateis"
+    ],
+    "usedTo": [
+      "ateidavau",
+      "ateidavai",
+      "ateidavo",
+      "ateidavome",
+      "ateidavote",
+      "ateidavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "ateičiau",
+      "ateitum(ei)",
+      "ateitų",
+      "ateitu(mė)me",
+      "ateitu(mė)te",
+      "ateitų"
+    ],
+    "imperative": [
+      "",
+      "ateik",
+      "",
+      "ateikime",
+      "ateikite",
+      ""
+    ]
+  },
+  {
+    "lt": "atlikti",
+    "lt_ascii": "atlikti",
+    "ru": "выполнить",
+    "groups": [
+      700
+    ],
+    "present": [
+      "atlieku",
+      "atlieki",
+      "atlieka",
+      "atliekame",
+      "atliekate",
+      "atlieka"
+    ],
+    "past": [
+      "atlikau",
+      "atlikai",
+      "atliko",
+      "atlikome",
+      "atlikote",
+      "atliko"
+    ],
+    "future": [
+      "atliksiu",
+      "atliksi",
+      "atliks",
+      "atliksime",
+      "atliksite",
+      "atliks"
+    ],
+    "usedTo": [
+      "atlikdavau",
+      "atlikdavai",
+      "atlikdavo",
+      "atlikdavome",
+      "atlikdavote",
+      "atlikdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "atlikčiau",
+      "atliktum(ei)",
+      "atliktų",
+      "atliktu(mė)me",
+      "atliktu(mė)te",
+      "atliktų"
+    ],
+    "imperative": [
+      "",
+      "atlik",
+      "",
+      "atlikime",
+      "atlikite",
+      ""
+    ]
+  },
+  {
+    "lt": "atnešti",
+    "lt_ascii": "atnesti",
+    "ru": "принести",
+    "groups": [
+      300
+    ],
+    "present": [
+      "atnešu",
+      "atneši",
+      "atneša",
+      "atnešame",
+      "atnešate",
+      "atneša"
+    ],
+    "past": [
+      "atnešiau",
+      "atnešei",
+      "atnešė",
+      "atnešėme",
+      "atnešėte",
+      "atnešė"
+    ],
+    "future": [
+      "atneššiu",
+      "atnešši",
+      "atnešš",
+      "atneššime",
+      "atneššite",
+      "atnešš"
+    ],
+    "usedTo": [
+      "atnešdavau",
+      "atnešdavai",
+      "atnešdavo",
+      "atnešdavome",
+      "atnešdavote",
+      "atnešdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "atneščiau",
+      "atneštum(ei)",
+      "atneštų",
+      "atneštu(mė)me",
+      "atneštu(mė)te",
+      "atneštų"
+    ],
+    "imperative": [
+      "",
+      "atnešk",
+      "",
+      "atneškime",
+      "atneškite",
+      ""
+    ]
+  },
+  {
+    "lt": "atrodyti",
+    "lt_ascii": "atrodyti",
+    "ru": "выглядеть",
+    "groups": [
+      900
+    ],
+    "present": [
+      "atrodžau",
+      "atrodai",
+      "atrodo",
+      "atrodome",
+      "atrodote",
+      "atrodo"
+    ],
+    "past": [
+      "",
+      "atrodei",
+      "atrodė",
+      "atrodėme",
+      "atrodėte",
+      "atrodė"
+    ],
+    "future": [
+      "atrodysiu",
+      "atrodysi",
+      "atrodys",
+      "atrodysime",
+      "atrodysite",
+      "atrodys"
+    ],
+    "usedTo": [
+      "atrodydavau",
+      "atrodydavai",
+      "atrodydavo",
+      "atrodydavome",
+      "atrodydavote",
+      "atrodydavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "atrodyčiau",
+      "atrodytum(ei)",
+      "atrodytų",
+      "atrodytu(mė)me",
+      "atrodytu(mė)te",
+      "atrodytų"
+    ],
+    "imperative": [
+      "",
+      "atrodyk",
+      "",
+      "atrodykime",
+      "atrodykite",
+      ""
+    ]
+  },
+  {
+    "lt": "atsakyti",
+    "lt_ascii": "atsakyti",
+    "ru": "ответить",
+    "groups": [
+      100
+    ],
+    "present": [
+      "atsakau",
+      "atsakai",
+      "atsako",
+      "atsakome",
+      "atsakote",
+      "atsako"
+    ],
+    "past": [
+      "atsakiau",
+      "atsakei",
+      "atsakė",
+      "atsakėme",
+      "atsakėte",
+      "atsakė"
+    ],
+    "future": [
+      "atsakysiu",
+      "atsakysi",
+      "atsakys",
+      "atsakysime",
+      "atsakysite",
+      "atsakys"
+    ],
+    "usedTo": [
+      "atsakydavau",
+      "atsakydavai",
+      "atsakydavo",
+      "atsakydavome",
+      "atsakydavote",
+      "atsakydavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "atsakyčiau",
+      "atsakytum(ei)",
+      "atsakytų",
+      "atsakytu(mė)me",
+      "atsakytu(mė)te",
+      "atsakytų"
+    ],
+    "imperative": [
+      "",
+      "atsakyk",
+      "",
+      "atsakykime",
+      "atsakykite",
+      ""
+    ]
+  },
+  {
+    "lt": "atsidurti",
+    "lt_ascii": "atsidurti",
+    "ru": "оказаться",
+    "groups": [
+      300
+    ],
+    "present": [
+      "atsiduriu",
+      "atsiduri",
+      "atsiduria",
+      "atsiduriame",
+      "atsiduriate",
+      "atsiduria"
+    ],
+    "past": [
+      "atsidūriau",
+      "atsidūrei",
+      "atsidūrė",
+      "atsidūrėme",
+      "atsidūrėte",
+      "atsidūrė"
+    ],
+    "future": [
+      "atsidursiu",
+      "atsidursi",
+      "atsidurs",
+      "atsidursime",
+      "atsidursite",
+      "atsidurs"
+    ],
+    "usedTo": [
+      "atsidurdavau",
+      "atsidurdavai",
+      "atsidurdavo",
+      "atsidurdavome",
+      "atsidurdavote",
+      "atsidurdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "atsidurčiau",
+      "atsidurtum(ei)",
+      "atsidurtų",
+      "atsidurtu(mė)me",
+      "atsidurtu(mė)te",
+      "atsidurtų"
+    ],
+    "imperative": [
+      "",
+      "atsidurk",
+      "",
+      "atsidurkime",
+      "atsidurkite",
+      ""
+    ]
+  },
+  {
+    "lt": "atsiminti",
+    "lt_ascii": "atsiminti",
+    "ru": "помнить",
+    "groups": [
+      200
+    ],
+    "present": [
+      "atsiminu",
+      "atsimini",
+      "atsimina",
+      "atsiminame",
+      "atsiminate",
+      "atsimina"
+    ],
+    "past": [
+      "atsimyniau",
+      "atsimynei",
+      "atsimynė",
+      "atsimynėme",
+      "atsimynėte",
+      "atsimynė"
+    ],
+    "future": [
+      "atsiminsiu",
+      "atsiminsi",
+      "atsimins",
+      "atsiminsime",
+      "atsiminsite",
+      "atsimins"
+    ],
+    "usedTo": [
+      "atsimindavau",
+      "atsimindavai",
+      "atsimindavo",
+      "atsimindavome",
+      "atsimindavote",
+      "atsimindavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "atsiminčiau",
+      "atsimintum(ei)",
+      "atsimintų",
+      "atsimintu(mė)me",
+      "atsimintu(mė)te",
+      "atsimintų"
+    ],
+    "imperative": [
+      "",
+      "atsimink",
+      "",
+      "atsiminkime",
+      "atsiminkite",
+      ""
+    ]
+  },
+  {
+    "lt": "atsisakyti",
+    "lt_ascii": "atsisakyti",
+    "ru": "отказаться",
+    "groups": [
+      300
+    ],
+    "present": [
+      "atsisakau",
+      "atsisakai",
+      "atsisako",
+      "atsisakome",
+      "atsisakote",
+      "atsisako"
+    ],
+    "past": [
+      "atsisakiau",
+      "atsisakei",
+      "atsisakė",
+      "atsisakėme",
+      "atsisakėte",
+      "atsisakė"
+    ],
+    "future": [
+      "atsisakysiu",
+      "atsisakysi",
+      "atsisakys",
+      "atsisakysime",
+      "atsisakysite",
+      "atsisakys"
+    ],
+    "usedTo": [
+      "atsisakydavau",
+      "atsisakydavai",
+      "atsisakydavo",
+      "atsisakydavome",
+      "atsisakydavote",
+      "atsisakydavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "atsisakyčiau",
+      "atsisakytum(ei)",
+      "atsisakytų",
+      "atsisakytu(mė)me",
+      "atsisakytu(mė)te",
+      "atsisakytų"
+    ],
+    "imperative": [
+      "",
+      "atsisakyk",
+      "",
+      "atsisakykime",
+      "atsisakykite",
+      ""
+    ]
+  },
+  {
+    "lt": "atsitikti",
+    "lt_ascii": "atsitikti",
+    "ru": "случиться",
+    "groups": [
+      400
+    ],
+    "present": [
+      "atsitinku",
+      "atsitinki",
+      "atsitinka",
+      "atsitinkame",
+      "atsitinkate",
+      "atsitinka"
+    ],
+    "past": [
+      "atsitikau",
+      "atsitikai",
+      "atsitiko",
+      "atsitikome",
+      "atsitikote",
+      "atsitiko"
+    ],
+    "future": [
+      "atsitiksiu",
+      "atsitiksi",
+      "atsitiks",
+      "atsitiksime",
+      "atsitiksite",
+      "atsitiks"
+    ],
+    "usedTo": [
+      "atsitikdavau",
+      "atsitikdavai",
+      "atsitikdavo",
+      "atsitikdavome",
+      "atsitikdavote",
+      "atsitikdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "atsitikčiau",
+      "atsitiktum(ei)",
+      "atsitiktų",
+      "atsitiktu(mė)me",
+      "atsitiktu(mė)te",
+      "atsitiktų"
+    ],
+    "imperative": [
+      "",
+      "atsitik",
+      "",
+      "atsitikime",
+      "atsitikite",
+      ""
+    ]
+  },
+  {
+    "lt": "atvažiuoti",
+    "lt_ascii": "atvaziuoti",
+    "ru": "приехать",
+    "groups": [
+      300
+    ],
+    "present": [
+      "atvažiuoju",
+      "atvažiuoji",
+      "atvažiuoja",
+      "atvažiuojame",
+      "atvažiuojate",
+      "atvažiuoja"
+    ],
+    "past": [
+      "atvažiavau",
+      "atvažiavai",
+      "atvažiavo",
+      "atvažiavome",
+      "atvažiavote",
+      "atvažiavo"
+    ],
+    "future": [
+      "atvažiuosiu",
+      "atvažiuosi",
+      "atvažiuos",
+      "atvažiuosime",
+      "atvažiuosite",
+      "atvažiuos"
+    ],
+    "usedTo": [
+      "atvažiuodavau",
+      "atvažiuodavai",
+      "atvažiuodavo",
+      "atvažiuodavome",
+      "atvažiuodavote",
+      "atvažiuodavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "atvažiuočiau",
+      "atvažiuotum(ei)",
+      "atvažiuotų",
+      "atvažiuotu(mė)me",
+      "atvažiuotu(mė)te",
+      "atvažiuotų"
+    ],
+    "imperative": [
+      "",
+      "atvažiuok",
+      "",
+      "atvažiuokime",
+      "atvažiuokite",
+      ""
+    ]
+  },
+  {
+    "lt": "augti",
+    "lt_ascii": "augti",
+    "ru": "расти",
+    "groups": [
+      500
+    ],
+    "present": [
+      "augu",
+      "augi",
+      "auga",
+      "augame",
+      "augate",
+      "auga"
+    ],
+    "past": [
+      "augau",
+      "augai",
+      "augo",
+      "augome",
+      "augote",
+      "augo"
+    ],
+    "future": [
+      "augsiu",
+      "augsi",
+      "augs",
+      "augsime",
+      "augsite",
+      "augs"
+    ],
+    "usedTo": [
+      "augdavau",
+      "augdavai",
+      "augdavo",
+      "augdavome",
+      "augdavote",
+      "augdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "augčiau",
+      "augtum(ei)",
+      "augtų",
+      "augtu(mė)me",
+      "augtu(mė)te",
+      "augtų"
+    ],
+    "imperative": [
+      "",
+      "auk",
+      "",
+      "aukime",
+      "aukite",
+      ""
+    ]
+  },
+  {
+    "lt": "baigtis",
+    "lt_ascii": "baigtis",
+    "ru": "кончиться",
+    "groups": [
+      700
+    ],
+    "present": [
+      "baigiuosi",
+      "baigiesi",
+      "baigiasi",
+      "baigiamės",
+      "baigiatės",
+      "baigiasi"
+    ],
+    "past": [
+      "baigiausi",
+      "baigeisi",
+      "baigėsi",
+      "baigėmės",
+      "baigėtės",
+      "baigėsi"
+    ],
+    "future": [
+      "baigsiusi",
+      "baigsisi",
+      "baigsis",
+      "baigsimės",
+      "baigsitės",
+      "baigsis"
+    ],
+    "usedTo": [
+      "baigdavausi",
+      "baigdavaisi",
+      "baigdavosi",
+      "baigdavomės",
+      "baigdavotės",
+      "baigdavosi"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "baigčiausi",
+      "baigtumeisi",
+      "baigtųsi",
+      "baigtu(mė)mės",
+      "baigtu(mė)tės",
+      "baigtųsi"
+    ],
+    "imperative": [
+      "",
+      "baiks",
+      "",
+      "baikimės",
+      "baikitės",
+      ""
+    ]
+  },
+  {
+    "lt": "bandyti",
+    "lt_ascii": "bandyti",
+    "ru": "пытаться",
+    "groups": [
+      600
+    ],
+    "present": [
+      "bandžau",
+      "bandai",
+      "bando",
+      "bandome",
+      "bandote",
+      "bando"
+    ],
+    "past": [
+      "",
+      "bandei",
+      "bandė",
+      "bandėme",
+      "bandėte",
+      "bandė"
+    ],
+    "future": [
+      "bandysiu",
+      "bandysi",
+      "bandys",
+      "bandysime",
+      "bandysite",
+      "bandys"
+    ],
+    "usedTo": [
+      "bandydavau",
+      "bandydavai",
+      "bandydavo",
+      "bandydavome",
+      "bandydavote",
+      "bandydavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "bandyčiau",
+      "bandytum(ei)",
+      "bandytų",
+      "bandytu(mė)me",
+      "bandytu(mė)te",
+      "bandytų"
+    ],
+    "imperative": [
+      "",
+      "bandyk",
+      "",
+      "bandykime",
+      "bandykite",
+      ""
+    ]
+  },
+  {
+    "lt": "bėgti",
+    "lt_ascii": "begti",
+    "ru": "бежать",
+    "groups": [
+      300
+    ],
+    "present": [
+      "bėgu",
+      "bėgi",
+      "bėga",
+      "bėgame",
+      "bėgate",
+      "bėga"
+    ],
+    "past": [
+      "bėgau",
+      "bėgai",
+      "bėgo",
+      "bėgome",
+      "bėgote",
+      "bėgo"
+    ],
+    "future": [
+      "bėgsiu",
+      "bėgsi",
+      "bėgs",
+      "bėgsime",
+      "bėgsite",
+      "bėgs"
+    ],
+    "usedTo": [
+      "bėgdavau",
+      "bėgdavai",
+      "bėgdavo",
+      "bėgdavome",
+      "bėgdavote",
+      "bėgdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "bėgčiau",
+      "bėgtum(ei)",
+      "bėgtų",
+      "bėgtu(mė)me",
+      "bėgtu(mė)te",
+      "bėgtų"
+    ],
+    "imperative": [
+      "",
+      "bėk",
+      "",
+      "bėkime",
+      "bėkite",
+      ""
+    ]
+  },
+  {
+    "lt": "bijoti",
+    "lt_ascii": "bijoti",
+    "ru": "бояться",
+    "groups": [
+      300
+    ],
+    "present": [
+      "bijau",
+      "bijai",
+      "bijo",
+      "bijome",
+      "bijote",
+      "bijo"
+    ],
+    "past": [
+      "bijojau",
+      "bijojai",
+      "bijojo",
+      "bijojome",
+      "bijojote",
+      "bijojo"
+    ],
+    "future": [
+      "bijosiu",
+      "bijosi",
+      "bijos",
+      "bijosime",
+      "bijosite",
+      "bijos"
+    ],
+    "usedTo": [
+      "bijodavau",
+      "bijodavai",
+      "bijodavo",
+      "bijodavome",
+      "bijodavote",
+      "bijodavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "bijočiau",
+      "bijotum(ei)",
+      "bijotų",
+      "bijotu(mė)me",
+      "bijotu(mė)te",
+      "bijotų"
+    ],
+    "imperative": [
+      "",
+      "bijok",
+      "",
+      "bijokime",
+      "bijokite",
+      ""
+    ]
+  },
+  {
+    "lt": "bučiuoti",
+    "lt_ascii": "buciuoti",
+    "ru": "целовать",
+    "groups": [
+      800
+    ],
+    "present": [
+      "bučiuoju",
+      "bučiuoji",
+      "bučiuoja",
+      "bučiuojame",
+      "bučiuojate",
+      "bučiuoja"
+    ],
+    "past": [
+      "bučiavau",
+      "bučiavai",
+      "bučiavo",
+      "bučiavome",
+      "bučiavote",
+      "bučiavo"
+    ],
+    "future": [
+      "bučiuosiu",
+      "bučiuosi",
+      "bučiuos",
+      "bučiuosime",
+      "bučiuosite",
+      "bučiuos"
+    ],
+    "usedTo": [
+      "bučiuodavau",
+      "bučiuodavai",
+      "bučiuodavo",
+      "bučiuodavome",
+      "bučiuodavote",
+      "bučiuodavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "bučiuočiau",
+      "bučiuotum(ei)",
+      "bučiuotų",
+      "bučiuotu(mė)me",
+      "bučiuotu(mė)te",
+      "bučiuotų"
+    ],
+    "imperative": [
+      "",
+      "bučiuok",
+      "",
+      "bučiuokime",
+      "bučiuokite",
+      ""
+    ]
+  },
+  {
+    "lt": "budintis",
+    "lt_ascii": "budintis",
+    "ru": "дежурный",
+    "groups": [
+      900
+    ],
+    "present": [
+      "budinuosi",
+      "budiniesi",
+      "budinasi",
+      "budinamės",
+      "budinatės",
+      "budinasi"
+    ],
+    "past": [
+      "budinausi",
+      "budinaisi",
+      "budinosi",
+      "budinomės",
+      "budinotės",
+      "budinosi"
+    ],
+    "future": [
+      "budinsiusi",
+      "budinsisi",
+      "budinsis",
+      "budinsimės",
+      "budinsitės",
+      "budinsis"
+    ],
+    "usedTo": [
+      "budindavausi",
+      "budindavaisi",
+      "budindavosi",
+      "budindavomės",
+      "budindavotės",
+      "budindavosi"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "budinčiausi",
+      "budintumeisi",
+      "budintųsi",
+      "budintu(mė)mės",
+      "budintu(mė)tės",
+      "budintųsi"
+    ],
+    "imperative": [
+      "",
+      "budinks",
+      "",
+      "budinkimės",
+      "budinkitės",
+      ""
+    ]
+  },
+  {
+    "lt": "būti",
+    "lt_ascii": "buti",
+    "ru": "быть",
+    "groups": [
+      100,
+      400
+    ],
+    "present": [
+      "yru",
+      "yri",
+      "yra",
+      "yrame",
+      "yrate",
+      "yra"
+    ],
+    "past": [
+      "buvau",
+      "buvai",
+      "buvo",
+      "buvome",
+      "buvote",
+      "buvo"
+    ],
+    "future": [
+      "būsiu",
+      "būsi",
+      "būs",
+      "būsime",
+      "būsite",
+      "būs"
+    ],
+    "usedTo": [
+      "būdavau",
+      "būdavai",
+      "būdavo",
+      "būdavome",
+      "būdavote",
+      "būdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "būčiau",
+      "būtum(ei)",
+      "būtų",
+      "būtu(mė)me",
+      "būtu(mė)te",
+      "būtų"
+    ],
+    "imperative": [
+      "",
+      "būk",
+      "",
+      "būkime",
+      "būkite",
+      ""
+    ]
+  },
+  {
+    "lt": "dainuoti",
+    "lt_ascii": "dainuoti",
+    "ru": "петь",
+    "groups": [
+      400
+    ],
+    "present": [
+      "dainuoju",
+      "dainuoji",
+      "dainuoja",
+      "dainuojame",
+      "dainuojate",
+      "dainuoja"
+    ],
+    "past": [
+      "dainavau",
+      "dainavai",
+      "dainavo",
+      "dainavome",
+      "dainavote",
+      "dainavo"
+    ],
+    "future": [
+      "dainuosiu",
+      "dainuosi",
+      "dainuos",
+      "dainuosime",
+      "dainuosite",
+      "dainuos"
+    ],
+    "usedTo": [
+      "dainuodavau",
+      "dainuodavai",
+      "dainuodavo",
+      "dainuodavome",
+      "dainuodavote",
+      "dainuodavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "dainuočiau",
+      "dainuotum(ei)",
+      "dainuotų",
+      "dainuotu(mė)me",
+      "dainuotu(mė)te",
+      "dainuotų"
+    ],
+    "imperative": [
+      "",
+      "dainuok",
+      "",
+      "dainuokime",
+      "dainuokite",
+      ""
+    ]
+  },
+  {
+    "lt": "dalinti",
+    "lt_ascii": "dalinti",
+    "ru": "делить",
+    "groups": [
+      800
+    ],
+    "present": [
+      "dalinu",
+      "dalini",
+      "dalina",
+      "daliname",
+      "dalinate",
+      "dalina"
+    ],
+    "past": [
+      "dalinau",
+      "dalinai",
+      "dalino",
+      "dalinome",
+      "dalinote",
+      "dalino"
+    ],
+    "future": [
+      "dalinsiu",
+      "dalinsi",
+      "dalins",
+      "dalinsime",
+      "dalinsite",
+      "dalins"
+    ],
+    "usedTo": [
+      "dalindavau",
+      "dalindavai",
+      "dalindavo",
+      "dalindavome",
+      "dalindavote",
+      "dalindavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "dalinčiau",
+      "dalintum(ei)",
+      "dalintų",
+      "dalintu(mė)me",
+      "dalintu(mė)te",
+      "dalintų"
+    ],
+    "imperative": [
+      "",
+      "dalink",
+      "",
+      "dalinkime",
+      "dalinkite",
+      ""
+    ]
+  },
+  {
+    "lt": "dalyvauti",
+    "lt_ascii": "dalyvauti",
+    "ru": "участвовать",
+    "groups": [
+      900
+    ],
+    "present": [
+      "dalyvauju",
+      "dalyvauji",
+      "dalyvauja",
+      "dalyvaujame",
+      "dalyvaujate",
+      "dalyvauja"
+    ],
+    "past": [
+      "dalyvavau",
+      "dalyvavai",
+      "dalyvavo",
+      "dalyvavome",
+      "dalyvavote",
+      "dalyvavo"
+    ],
+    "future": [
+      "dalyvausiu",
+      "dalyvausi",
+      "dalyvaus",
+      "dalyvausime",
+      "dalyvausite",
+      "dalyvaus"
+    ],
+    "usedTo": [
+      "dalyvaudavau",
+      "dalyvaudavai",
+      "dalyvaudavo",
+      "dalyvaudavome",
+      "dalyvaudavote",
+      "dalyvaudavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "dalyvaučiau",
+      "dalyvautum(ei)",
+      "dalyvautų",
+      "dalyvautu(mė)me",
+      "dalyvautu(mė)te",
+      "dalyvautų"
+    ],
+    "imperative": [
+      "",
+      "dalyvauk",
+      "",
+      "dalyvaukime",
+      "dalyvaukite",
+      ""
+    ]
+  },
+  {
+    "lt": "daryti",
+    "lt_ascii": "daryti",
+    "ru": "делать",
+    "groups": [
+      100
+    ],
+    "present": [
+      "darau",
+      "darai",
+      "daro",
+      "darome",
+      "darote",
+      "daro"
+    ],
+    "past": [
+      "dariau",
+      "darei",
+      "darė",
+      "darėme",
+      "darėte",
+      "darė"
+    ],
+    "future": [
+      "darysiu",
+      "darysi",
+      "darys",
+      "darysime",
+      "darysite",
+      "darys"
+    ],
+    "usedTo": [
+      "darydavau",
+      "darydavai",
+      "darydavo",
+      "darydavome",
+      "darydavote",
+      "darydavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "daryčiau",
+      "darytum(ei)",
+      "darytų",
+      "darytu(mė)me",
+      "darytu(mė)te",
+      "darytų"
+    ],
+    "imperative": [
+      "",
+      "daryk",
+      "",
+      "darykime",
+      "darykite",
+      ""
+    ]
+  },
+  {
+    "lt": "darytis",
+    "lt_ascii": "darytis",
+    "ru": "делаться",
+    "groups": [
+      700
+    ],
+    "present": [
+      "darausi",
+      "daraisi",
+      "darosi",
+      "daromės",
+      "darotės",
+      "darosi"
+    ],
+    "past": [
+      "dariausi",
+      "dareisi",
+      "darėsi",
+      "darėmės",
+      "darėtės",
+      "darėsi"
+    ],
+    "future": [
+      "darysiusi",
+      "darysisi",
+      "darysis",
+      "darysimės",
+      "darysitės",
+      "darysis"
+    ],
+    "usedTo": [
+      "darydavausi",
+      "darydavaisi",
+      "darydavosi",
+      "darydavomės",
+      "darydavotės",
+      "darydavosi"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "daryčiausi",
+      "darytumeisi",
+      "darytųsi",
+      "darytu(mė)mės",
+      "darytu(mė)tės",
+      "darytųsi"
+    ],
+    "imperative": [
+      "",
+      "daryks",
+      "",
+      "darykimės",
+      "darykitės",
+      ""
+    ]
+  },
+  {
+    "lt": "degti",
+    "lt_ascii": "degti",
+    "ru": "гореть",
+    "groups": [
+      700
+    ],
+    "present": [
+      "degu",
+      "degi",
+      "dega",
+      "degame",
+      "degate",
+      "dega"
+    ],
+    "past": [
+      "degiau",
+      "degei",
+      "degė",
+      "degėme",
+      "degėte",
+      "degė"
+    ],
+    "future": [
+      "degsiu",
+      "degsi",
+      "degs",
+      "degsime",
+      "degsite",
+      "degs"
+    ],
+    "usedTo": [
+      "degdavau",
+      "degdavai",
+      "degdavo",
+      "degdavome",
+      "degdavote",
+      "degdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "degčiau",
+      "degtum(ei)",
+      "degtų",
+      "degtu(mė)me",
+      "degtu(mė)te",
+      "degtų"
+    ],
+    "imperative": [
+      "",
+      "dek",
+      "",
+      "dekime",
+      "dekite",
+      ""
+    ]
+  },
+  {
+    "lt": "dėkoti",
+    "lt_ascii": "dekoti",
+    "ru": "благодарить",
+    "groups": [
+      200
+    ],
+    "present": [
+      "dėkoju",
+      "dėkoji",
+      "dėkoja",
+      "dėkojame",
+      "dėkojate",
+      "dėkoja"
+    ],
+    "past": [
+      "dėkojau",
+      "dėkojai",
+      "dėkojo",
+      "dėkojome",
+      "dėkojote",
+      "dėkojo"
+    ],
+    "future": [
+      "dėkosiu",
+      "dėkosi",
+      "dėkos",
+      "dėkosime",
+      "dėkosite",
+      "dėkos"
+    ],
+    "usedTo": [
+      "dėkodavau",
+      "dėkodavai",
+      "dėkodavo",
+      "dėkodavome",
+      "dėkodavote",
+      "dėkodavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "dėkočiau",
+      "dėkotum(ei)",
+      "dėkotų",
+      "dėkotu(mė)me",
+      "dėkotu(mė)te",
+      "dėkotų"
+    ],
+    "imperative": [
+      "",
+      "dėkok",
+      "",
+      "dėkokime",
+      "dėkokite",
+      ""
+    ]
+  },
+  {
+    "lt": "dėti",
+    "lt_ascii": "deti",
+    "ru": "класть",
+    "groups": [
+      100
+    ],
+    "present": [
+      "dedžu",
+      "dedi",
+      "deda",
+      "dedame",
+      "dedate",
+      "deda"
+    ],
+    "past": [
+      "dėjau",
+      "dėjai",
+      "dėjo",
+      "dėjome",
+      "dėjote",
+      "dėjo"
+    ],
+    "future": [
+      "dėsiu",
+      "dėsi",
+      "dės",
+      "dėsime",
+      "dėsite",
+      "dės"
+    ],
+    "usedTo": [
+      "dėdavau",
+      "dėdavai",
+      "dėdavo",
+      "dėdavome",
+      "dėdavote",
+      "dėdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "dėčiau",
+      "dėtum(ei)",
+      "dėtų",
+      "dėtu(mė)me",
+      "dėtu(mė)te",
+      "dėtų"
+    ],
+    "imperative": [
+      "",
+      "dėk",
+      "",
+      "dėkime",
+      "dėkite",
+      ""
+    ]
+  },
+  {
+    "lt": "dingti",
+    "lt_ascii": "dingti",
+    "ru": "исчезнуть",
+    "groups": [
+      800
+    ],
+    "present": [
+      "dingstu",
+      "dingsti",
+      "dingsta",
+      "dingstame",
+      "dingstate",
+      "dingsta"
+    ],
+    "past": [
+      "dingau",
+      "dingai",
+      "dingo",
+      "dingome",
+      "dingote",
+      "dingo"
+    ],
+    "future": [
+      "dingsiu",
+      "dingsi",
+      "dings",
+      "dingsime",
+      "dingsite",
+      "dings"
+    ],
+    "usedTo": [
+      "dingdavau",
+      "dingdavai",
+      "dingdavo",
+      "dingdavome",
+      "dingdavote",
+      "dingdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "dingčiau",
+      "dingtum(ei)",
+      "dingtų",
+      "dingtu(mė)me",
+      "dingtu(mė)te",
+      "dingtų"
+    ],
+    "imperative": [
+      "",
+      "dink",
+      "",
+      "dinkime",
+      "dinkite",
+      ""
+    ]
+  },
+  {
+    "lt": "dirbti",
+    "lt_ascii": "dirbti",
+    "ru": "работать",
+    "groups": [
+      100,
+      600
+    ],
+    "present": [
+      "dirbu",
+      "dirbi",
+      "dirba",
+      "dirbame",
+      "dirbate",
+      "dirba"
+    ],
+    "past": [
+      "dirbau",
+      "dirbai",
+      "dirbo",
+      "dirbome",
+      "dirbote",
+      "dirbo"
+    ],
+    "future": [
+      "dirbsiu",
+      "dirbsi",
+      "dirbs",
+      "dirbsime",
+      "dirbsite",
+      "dirbs"
+    ],
+    "usedTo": [
+      "dirbdavau",
+      "dirbdavai",
+      "dirbdavo",
+      "dirbdavome",
+      "dirbdavote",
+      "dirbdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "dirbčiau",
+      "dirbtum(ei)",
+      "dirbtų",
+      "dirbtu(mė)me",
+      "dirbtu(mė)te",
+      "dirbtų"
+    ],
+    "imperative": [
+      "",
+      "dirbk",
+      "",
+      "dirbkime",
+      "dirbkite",
+      ""
+    ]
+  },
+  {
+    "lt": "duoti",
+    "lt_ascii": "duoti",
+    "ru": "дать",
+    "groups": [
+      100
+    ],
+    "present": [
+      "duodžu",
+      "duodi",
+      "duoda",
+      "duodame",
+      "duodate",
+      "duoda"
+    ],
+    "past": [
+      "daviau",
+      "davei",
+      "davė",
+      "davėme",
+      "davėte",
+      "davė"
+    ],
+    "future": [
+      "duosiu",
+      "duosi",
+      "duos",
+      "duosime",
+      "duosite",
+      "duos"
+    ],
+    "usedTo": [
+      "duodavau",
+      "duodavai",
+      "duodavo",
+      "duodavome",
+      "duodavote",
+      "duodavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "duočiau",
+      "duotum(ei)",
+      "duotų",
+      "duotu(mė)me",
+      "duotu(mė)te",
+      "duotų"
+    ],
+    "imperative": [
+      "",
+      "duok",
+      "",
+      "duokime",
+      "duokite",
+      ""
+    ]
+  },
+  {
+    "lt": "eiti",
+    "lt_ascii": "eiti",
+    "ru": "идти",
+    "groups": [
+      100
+    ],
+    "present": [
+      "einu",
+      "eini",
+      "eina",
+      "einame",
+      "einate",
+      "eina"
+    ],
+    "past": [
+      "ėjau",
+      "ėjai",
+      "ėjo",
+      "ėjome",
+      "ėjote",
+      "ėjo"
+    ],
+    "future": [
+      "eisiu",
+      "eisi",
+      "eis",
+      "eisime",
+      "eisite",
+      "eis"
+    ],
+    "usedTo": [
+      "eidavau",
+      "eidavai",
+      "eidavo",
+      "eidavome",
+      "eidavote",
+      "eidavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "eičiau",
+      "eitum(ei)",
+      "eitų",
+      "eitu(mė)me",
+      "eitu(mė)te",
+      "eitų"
+    ],
+    "imperative": [
+      "",
+      "eik",
+      "",
+      "eikime",
+      "eikite",
+      ""
+    ]
+  },
+  {
+    "lt": "galėti",
+    "lt_ascii": "galeti",
+    "ru": "мочь",
+    "groups": [
+      100
+    ],
+    "present": [
+      "galiu",
+      "gali",
+      "gali",
+      "galime",
+      "galite",
+      "gali"
+    ],
+    "past": [
+      "galėjau",
+      "galėjai",
+      "galėjo",
+      "galėjome",
+      "galėjote",
+      "galėjo"
+    ],
+    "future": [
+      "galėsiu",
+      "galėsi",
+      "galės",
+      "galėsime",
+      "galėsite",
+      "galės"
+    ],
+    "usedTo": [
+      "galėdavau",
+      "galėdavai",
+      "galėdavo",
+      "galėdavome",
+      "galėdavote",
+      "galėdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "galėčiau",
+      "galėtum(ei)",
+      "galėtų",
+      "galėtu(mė)me",
+      "galėtu(mė)te",
+      "galėtų"
+    ],
+    "imperative": [
+      "",
+      "galėk",
+      "",
+      "galėkime",
+      "galėkite",
+      ""
+    ]
+  },
+  {
+    "lt": "galvoti",
+    "lt_ascii": "galvoti",
+    "ru": "думать",
+    "groups": [
+      100
+    ],
+    "present": [
+      "galvoju",
+      "galvoji",
+      "galvoja",
+      "galvojame",
+      "galvojate",
+      "galvoja"
+    ],
+    "past": [
+      "galvojau",
+      "galvojai",
+      "galvojo",
+      "galvojome",
+      "galvojote",
+      "galvojo"
+    ],
+    "future": [
+      "galvosiu",
+      "galvosi",
+      "galvos",
+      "galvosime",
+      "galvosite",
+      "galvos"
+    ],
+    "usedTo": [
+      "galvodavau",
+      "galvodavai",
+      "galvodavo",
+      "galvodavome",
+      "galvodavote",
+      "galvodavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "galvočiau",
+      "galvotum(ei)",
+      "galvotų",
+      "galvotu(mė)me",
+      "galvotu(mė)te",
+      "galvotų"
+    ],
+    "imperative": [
+      "",
+      "galvok",
+      "",
+      "galvokime",
+      "galvokite",
+      ""
+    ]
+  },
+  {
+    "lt": "gaminti",
+    "lt_ascii": "gaminti",
+    "ru": "готовить (еду)",
+    "groups": [
+      400,
+      700
+    ],
+    "present": [
+      "gaminu",
+      "gamini",
+      "gamina",
+      "gaminame",
+      "gaminate",
+      "gamina"
+    ],
+    "past": [
+      "gaminau",
+      "gaminai",
+      "gamino",
+      "gaminome",
+      "gaminote",
+      "gamino"
+    ],
+    "future": [
+      "gaminsiu",
+      "gaminsi",
+      "gamins",
+      "gaminsime",
+      "gaminsite",
+      "gamins"
+    ],
+    "usedTo": [
+      "gamindavau",
+      "gamindavai",
+      "gamindavo",
+      "gamindavome",
+      "gamindavote",
+      "gamindavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "gaminčiau",
+      "gamintum(ei)",
+      "gamintų",
+      "gamintu(mė)me",
+      "gamintu(mė)te",
+      "gamintų"
+    ],
+    "imperative": [
+      "",
+      "gamink",
+      "",
+      "gaminkime",
+      "gaminkite",
+      ""
+    ]
+  },
+  {
+    "lt": "gauti",
+    "lt_ascii": "gauti",
+    "ru": "получить",
+    "groups": [
+      200
+    ],
+    "present": [
+      "gaunu",
+      "gauni",
+      "gauna",
+      "gauname",
+      "gaunate",
+      "gauna"
+    ],
+    "past": [
+      "gavau",
+      "gavai",
+      "gavo",
+      "gavome",
+      "gavote",
+      "gavo"
+    ],
+    "future": [
+      "gausiu",
+      "gausi",
+      "gaus",
+      "gausime",
+      "gausite",
+      "gaus"
+    ],
+    "usedTo": [
+      "gaudavau",
+      "gaudavai",
+      "gaudavo",
+      "gaudavome",
+      "gaudavote",
+      "gaudavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "gaučiau",
+      "gautum(ei)",
+      "gautų",
+      "gautu(mė)me",
+      "gautu(mė)te",
+      "gautų"
+    ],
+    "imperative": [
+      "",
+      "gauk",
+      "",
+      "gaukime",
+      "gaukite",
+      ""
+    ]
+  },
+  {
+    "lt": "gautis",
+    "lt_ascii": "gautis",
+    "ru": "получиться",
+    "groups": [
+      500
+    ],
+    "present": [
+      "gaunuosi",
+      "gauniesi",
+      "gaunasi",
+      "gaunamės",
+      "gaunatės",
+      "gaunasi"
+    ],
+    "past": [
+      "gavausi",
+      "gavaisi",
+      "gavosi",
+      "gavomės",
+      "gavotės",
+      "gavosi"
+    ],
+    "future": [
+      "gausiusi",
+      "gausisi",
+      "gausis",
+      "gausimės",
+      "gausitės",
+      "gausis"
+    ],
+    "usedTo": [
+      "gaudavausi",
+      "gaudavaisi",
+      "gaudavosi",
+      "gaudavomės",
+      "gaudavotės",
+      "gaudavosi"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "gaučiausi",
+      "gautumeisi",
+      "gautųsi",
+      "gautu(mė)mės",
+      "gautu(mė)tės",
+      "gautųsi"
+    ],
+    "imperative": [
+      "",
+      "gauks",
+      "",
+      "gaukimės",
+      "gaukitės",
+      ""
+    ]
+  },
+  {
+    "lt": "gerti",
+    "lt_ascii": "gerti",
+    "ru": "пить",
+    "groups": [
+      900
+    ],
+    "present": [
+      "geriu",
+      "geri",
+      "geria",
+      "geriame",
+      "geriate",
+      "geria"
+    ],
+    "past": [
+      "gėriau",
+      "gėrei",
+      "gėrė",
+      "gėrėme",
+      "gėrėte",
+      "gėrė"
+    ],
+    "future": [
+      "gersiu",
+      "gersi",
+      "gers",
+      "gersime",
+      "gersite",
+      "gers"
+    ],
+    "usedTo": [
+      "gerdavau",
+      "gerdavai",
+      "gerdavo",
+      "gerdavome",
+      "gerdavote",
+      "gerdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "gerčiau",
+      "gertum(ei)",
+      "gertų",
+      "gertu(mė)me",
+      "gertu(mė)te",
+      "gertų"
+    ],
+    "imperative": [
+      "",
+      "gerk",
+      "",
+      "gerkime",
+      "gerkite",
+      ""
+    ]
+  },
+  {
+    "lt": "gimti",
+    "lt_ascii": "gimti",
+    "ru": "родиться",
+    "groups": [
+      900
+    ],
+    "present": [
+      "gimstu",
+      "gimsti",
+      "gimsta",
+      "gimstame",
+      "gimstate",
+      "gimsta"
+    ],
+    "past": [
+      "gimiau",
+      "gimei",
+      "gimė",
+      "gimėme",
+      "gimėte",
+      "gimė"
+    ],
+    "future": [
+      "gimsiu",
+      "gimsi",
+      "gims",
+      "gimsime",
+      "gimsite",
+      "gims"
+    ],
+    "usedTo": [
+      "gimdavau",
+      "gimdavai",
+      "gimdavo",
+      "gimdavome",
+      "gimdavote",
+      "gimdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "gimčiau",
+      "gimtum(ei)",
+      "gimtų",
+      "gimtu(mė)me",
+      "gimtu(mė)te",
+      "gimtų"
+    ],
+    "imperative": [
+      "",
+      "gimk",
+      "",
+      "gimkime",
+      "gimkite",
+      ""
+    ]
+  },
+  {
+    "lt": "girdėti",
+    "lt_ascii": "girdeti",
+    "ru": "слышать",
+    "groups": [
+      200
+    ],
+    "present": [
+      "girdžiu",
+      "girdi",
+      "girdi",
+      "girdime",
+      "girdite",
+      "girdi"
+    ],
+    "past": [
+      "girdėjau",
+      "girdėjai",
+      "girdėjo",
+      "girdėjome",
+      "girdėjote",
+      "girdėjo"
+    ],
+    "future": [
+      "girdėsiu",
+      "girdėsi",
+      "girdės",
+      "girdėsime",
+      "girdėsite",
+      "girdės"
+    ],
+    "usedTo": [
+      "girdėdavau",
+      "girdėdavai",
+      "girdėdavo",
+      "girdėdavome",
+      "girdėdavote",
+      "girdėdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "girdėčiau",
+      "girdėtum(ei)",
+      "girdėtų",
+      "girdėtu(mė)me",
+      "girdėtu(mė)te",
+      "girdėtų"
+    ],
+    "imperative": [
+      "",
+      "girdėk",
+      "",
+      "girdėkime",
+      "girdėkite",
+      ""
+    ]
+  },
+  {
+    "lt": "griebti",
+    "lt_ascii": "griebti",
+    "ru": "хватать",
+    "groups": [
+      800
+    ],
+    "present": [
+      "griebiu",
+      "griebi",
+      "griebia",
+      "griebiame",
+      "griebiate",
+      "griebia"
+    ],
+    "past": [
+      "griebiau",
+      "griebei",
+      "griebė",
+      "griebėme",
+      "griebėte",
+      "griebė"
+    ],
+    "future": [
+      "griebsiu",
+      "griebsi",
+      "griebs",
+      "griebsime",
+      "griebsite",
+      "griebs"
+    ],
+    "usedTo": [
+      "griebdavau",
+      "griebdavai",
+      "griebdavo",
+      "griebdavome",
+      "griebdavote",
+      "griebdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "griebčiau",
+      "griebtum(ei)",
+      "griebtų",
+      "griebtu(mė)me",
+      "griebtu(mė)te",
+      "griebtų"
+    ],
+    "imperative": [
+      "",
+      "griebk",
+      "",
+      "griebkime",
+      "griebkite",
+      ""
+    ]
+  },
+  {
+    "lt": "groti",
+    "lt_ascii": "groti",
+    "ru": "играть (на инструменте)",
+    "groups": [
+      700
+    ],
+    "present": [
+      "groju",
+      "groji",
+      "groja",
+      "grojame",
+      "grojate",
+      "groja"
+    ],
+    "past": [
+      "grojau",
+      "grojai",
+      "grojo",
+      "grojome",
+      "grojote",
+      "grojo"
+    ],
+    "future": [
+      "grosiu",
+      "grosi",
+      "gros",
+      "grosime",
+      "grosite",
+      "gros"
+    ],
+    "usedTo": [
+      "grodavau",
+      "grodavai",
+      "grodavo",
+      "grodavome",
+      "grodavote",
+      "grodavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "gročiau",
+      "grotum(ei)",
+      "grotų",
+      "grotu(mė)me",
+      "grotu(mė)te",
+      "grotų"
+    ],
+    "imperative": [
+      "",
+      "grok",
+      "",
+      "grokime",
+      "grokite",
+      ""
+    ]
+  },
+  {
+    "lt": "gulėti",
+    "lt_ascii": "guleti",
+    "ru": "лежать",
+    "groups": [
+      200
+    ],
+    "present": [
+      "guliu",
+      "guli",
+      "guli",
+      "gulime",
+      "gulite",
+      "guli"
+    ],
+    "past": [
+      "gulėjau",
+      "gulėjai",
+      "gulėjo",
+      "gulėjome",
+      "gulėjote",
+      "gulėjo"
+    ],
+    "future": [
+      "gulėsiu",
+      "gulėsi",
+      "gulės",
+      "gulėsime",
+      "gulėsite",
+      "gulės"
+    ],
+    "usedTo": [
+      "gulėdavau",
+      "gulėdavai",
+      "gulėdavo",
+      "gulėdavome",
+      "gulėdavote",
+      "gulėdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "gulėčiau",
+      "gulėtum(ei)",
+      "gulėtų",
+      "gulėtu(mė)me",
+      "gulėtu(mė)te",
+      "gulėtų"
+    ],
+    "imperative": [
+      "",
+      "gulėk",
+      "",
+      "gulėkime",
+      "gulėkite",
+      ""
+    ]
+  },
+  {
+    "lt": "gyventi",
+    "lt_ascii": "gyventi",
+    "ru": "жить",
+    "groups": [
+      100
+    ],
+    "present": [
+      "gyvenu",
+      "gyveni",
+      "gyvena",
+      "gyvename",
+      "gyvenate",
+      "gyvena"
+    ],
+    "past": [
+      "gyvenau",
+      "gyvenai",
+      "gyveno",
+      "gyvenome",
+      "gyvenote",
+      "gyveno"
+    ],
+    "future": [
+      "gyvensiu",
+      "gyvensi",
+      "gyvens",
+      "gyvensime",
+      "gyvensite",
+      "gyvens"
+    ],
+    "usedTo": [
+      "gyvendavau",
+      "gyvendavai",
+      "gyvendavo",
+      "gyvendavome",
+      "gyvendavote",
+      "gyvendavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "gyvenčiau",
+      "gyventum(ei)",
+      "gyventų",
+      "gyventu(mė)me",
+      "gyventu(mė)te",
+      "gyventų"
+    ],
+    "imperative": [
+      "",
+      "gyvenk",
+      "",
+      "gyvenkime",
+      "gyvenkite",
+      ""
+    ]
+  },
+  {
+    "lt": "ieškoti",
+    "lt_ascii": "ieskoti",
+    "ru": "искать",
+    "groups": [
+      400
+    ],
+    "present": [
+      "ieškau",
+      "ieškai",
+      "ieško",
+      "ieškome",
+      "ieškote",
+      "ieško"
+    ],
+    "past": [
+      "ieškojau",
+      "ieškojai",
+      "ieškojo",
+      "ieškojome",
+      "ieškojote",
+      "ieškojo"
+    ],
+    "future": [
+      "ieškosiu",
+      "ieškosi",
+      "ieškos",
+      "ieškosime",
+      "ieškosite",
+      "ieškos"
+    ],
+    "usedTo": [
+      "ieškodavau",
+      "ieškodavai",
+      "ieškodavo",
+      "ieškodavome",
+      "ieškodavote",
+      "ieškodavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "ieškočiau",
+      "ieškotum(ei)",
+      "ieškotų",
+      "ieškotu(mė)me",
+      "ieškotu(mė)te",
+      "ieškotų"
+    ],
+    "imperative": [
+      "",
+      "ieškok",
+      "",
+      "ieškokime",
+      "ieškokite",
+      ""
+    ]
+  },
+  {
+    "lt": "ilsėtis",
+    "lt_ascii": "ilsetis",
+    "ru": "отдыхать",
+    "groups": [
+      900
+    ],
+    "present": [
+      "ilsiusi",
+      "ilsisi",
+      "ilsisi",
+      "ilsimės",
+      "ilsitės",
+      "ilsisi"
+    ],
+    "past": [
+      "ilsėjausi",
+      "ilsėjaisi",
+      "ilsėjosi",
+      "ilsėjomės",
+      "ilsėjotės",
+      "ilsėjosi"
+    ],
+    "future": [
+      "ilsėsiusi",
+      "ilsėsisi",
+      "ilsėsis",
+      "ilsėsimės",
+      "ilsėsitės",
+      "ilsėsis"
+    ],
+    "usedTo": [
+      "ilsėdavausi",
+      "ilsėdavaisi",
+      "ilsėdavosi",
+      "ilsėdavomės",
+      "ilsėdavotės",
+      "ilsėdavosi"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "ilsėčiausi",
+      "ilsėtumeisi",
+      "ilsėtųsi",
+      "ilsėtu(mė)mės",
+      "ilsėtu(mė)tės",
+      "ilsėtųsi"
+    ],
+    "imperative": [
+      "",
+      "ilsėks",
+      "",
+      "ilsėkimės",
+      "ilsėkitės",
+      ""
+    ]
+  },
+  {
+    "lt": "imti",
+    "lt_ascii": "imti",
+    "ru": "брать",
+    "groups": [
+      100
+    ],
+    "present": [
+      "imu",
+      "imi",
+      "ima",
+      "imame",
+      "imate",
+      "ima"
+    ],
+    "past": [
+      "ėmiau",
+      "ėmei",
+      "ėmė",
+      "ėmėme",
+      "ėmėte",
+      "ėmė"
+    ],
+    "future": [
+      "imsiu",
+      "imsi",
+      "ims",
+      "imsime",
+      "imsite",
+      "ims"
+    ],
+    "usedTo": [
+      "imdavau",
+      "imdavai",
+      "imdavo",
+      "imdavome",
+      "imdavote",
+      "imdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "imčiau",
+      "imtum(ei)",
+      "imtų",
+      "imtu(mė)me",
+      "imtu(mė)te",
+      "imtų"
+    ],
+    "imperative": [
+      "",
+      "imk",
+      "",
+      "imkime",
+      "imkite",
+      ""
+    ]
+  },
+  {
+    "lt": "imtis",
+    "lt_ascii": "imtis",
+    "ru": "браться",
+    "groups": [
+      800
+    ],
+    "present": [
+      "imuosi",
+      "imiesi",
+      "imasi",
+      "imamės",
+      "imatės",
+      "imasi"
+    ],
+    "past": [
+      "ėmiausi",
+      "ėmeisi",
+      "ėmėsi",
+      "ėmėmės",
+      "ėmėtės",
+      "ėmėsi"
+    ],
+    "future": [
+      "imsiusi",
+      "imsisi",
+      "imsis",
+      "imsimės",
+      "imsitės",
+      "imsis"
+    ],
+    "usedTo": [
+      "imdavausi",
+      "imdavaisi",
+      "imdavosi",
+      "imdavomės",
+      "imdavotės",
+      "imdavosi"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "imčiausi",
+      "imtumeisi",
+      "imtųsi",
+      "imtu(mė)mės",
+      "imtu(mė)tės",
+      "imtųsi"
+    ],
+    "imperative": [
+      "",
+      "imks",
+      "",
+      "imkimės",
+      "imkitės",
+      ""
+    ]
+  },
+  {
+    "lt": "išeiti",
+    "lt_ascii": "iseiti",
+    "ru": "выйти",
+    "groups": [
+      200,
+      400
+    ],
+    "present": [
+      "išeinu",
+      "išeini",
+      "išeina",
+      "išeiname",
+      "išeinate",
+      "išeina"
+    ],
+    "past": [
+      "išėjau",
+      "išėjai",
+      "išėjo",
+      "išėjome",
+      "išėjote",
+      "išėjo"
+    ],
+    "future": [
+      "išeisiu",
+      "išeisi",
+      "išeis",
+      "išeisime",
+      "išeisite",
+      "išeis"
+    ],
+    "usedTo": [
+      "išeidavau",
+      "išeidavai",
+      "išeidavo",
+      "išeidavome",
+      "išeidavote",
+      "išeidavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "išeičiau",
+      "išeitum(ei)",
+      "išeitų",
+      "išeitu(mė)me",
+      "išeitu(mė)te",
+      "išeitų"
+    ],
+    "imperative": [
+      "",
+      "išeik",
+      "",
+      "išeikime",
+      "išeikite",
+      ""
+    ]
+  },
+  {
+    "lt": "iškviesti",
+    "lt_ascii": "iskviesti",
+    "ru": "вызвать",
+    "groups": [
+      600
+    ],
+    "present": [
+      "iškviečiu",
+      "iškvieči",
+      "iškviečia",
+      "iškviečiame",
+      "iškviečiate",
+      "iškviečia"
+    ],
+    "past": [
+      "",
+      "iškvietei",
+      "iškvietė",
+      "iškvietėme",
+      "iškvietėte",
+      "iškvietė"
+    ],
+    "future": [
+      "iškviesiu",
+      "iškviesi",
+      "iškvies",
+      "iškviesime",
+      "iškviesite",
+      "iškvies"
+    ],
+    "usedTo": [
+      "iškviesdavau",
+      "iškviesdavai",
+      "iškviesdavo",
+      "iškviesdavome",
+      "iškviesdavote",
+      "iškviesdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "iškviesčiau",
+      "iškviestum(ei)",
+      "iškviestų",
+      "iškviestu(mė)me",
+      "iškviestu(mė)te",
+      "iškviestų"
+    ],
+    "imperative": [
+      "",
+      "iškviesk",
+      "",
+      "iškvieskime",
+      "iškvieskite",
+      ""
+    ]
+  },
+  {
+    "lt": "išvažiuoti",
+    "lt_ascii": "isvaziuoti",
+    "ru": "уехать",
+    "groups": [
+      600
+    ],
+    "present": [
+      "išvažiuoju",
+      "išvažiuoji",
+      "išvažiuoja",
+      "išvažiuojame",
+      "išvažiuojate",
+      "išvažiuoja"
+    ],
+    "past": [
+      "išvažiavau",
+      "išvažiavai",
+      "išvažiavo",
+      "išvažiavome",
+      "išvažiavote",
+      "išvažiavo"
+    ],
+    "future": [
+      "išvažiuosiu",
+      "išvažiuosi",
+      "išvažiuos",
+      "išvažiuosime",
+      "išvažiuosite",
+      "išvažiuos"
+    ],
+    "usedTo": [
+      "išvažiuodavau",
+      "išvažiuodavai",
+      "išvažiuodavo",
+      "išvažiuodavome",
+      "išvažiuodavote",
+      "išvažiuodavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "išvažiuočiau",
+      "išvažiuotum(ei)",
+      "išvažiuotų",
+      "išvažiuotu(mė)me",
+      "išvažiuotu(mė)te",
+      "išvažiuotų"
+    ],
+    "imperative": [
+      "",
+      "išvažiuok",
+      "",
+      "išvažiuokime",
+      "išvažiuokite",
+      ""
+    ]
+  },
+  {
+    "lt": "jausti",
+    "lt_ascii": "jausti",
+    "ru": "чувствовать, ощущать",
+    "groups": [
+      500
+    ],
+    "present": [
+      "jaučiu",
+      "jauči",
+      "jaučia",
+      "jaučiame",
+      "jaučiate",
+      "jaučia"
+    ],
+    "past": [
+      "",
+      "jautei",
+      "jautė",
+      "jautėme",
+      "jautėte",
+      "jautė"
+    ],
+    "future": [
+      "jausiu",
+      "jausi",
+      "jaus",
+      "jausime",
+      "jausite",
+      "jaus"
+    ],
+    "usedTo": [
+      "jausdavau",
+      "jausdavai",
+      "jausdavo",
+      "jausdavome",
+      "jausdavote",
+      "jausdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "jausčiau",
+      "jaustum(ei)",
+      "jaustų",
+      "jaustu(mė)me",
+      "jaustu(mė)te",
+      "jaustų"
+    ],
+    "imperative": [
+      "",
+      "jausk",
+      "",
+      "jauskime",
+      "jauskite",
+      ""
+    ]
+  },
+  {
+    "lt": "jungti",
+    "lt_ascii": "jungti",
+    "ru": "соединять",
+    "groups": [
+      800
+    ],
+    "present": [
+      "jungiu",
+      "jungi",
+      "jungia",
+      "jungiame",
+      "jungiate",
+      "jungia"
+    ],
+    "past": [
+      "jungiau",
+      "jungei",
+      "jungė",
+      "jungėme",
+      "jungėte",
+      "jungė"
+    ],
+    "future": [
+      "jungsiu",
+      "jungsi",
+      "jungs",
+      "jungsime",
+      "jungsite",
+      "jungs"
+    ],
+    "usedTo": [
+      "jungdavau",
+      "jungdavai",
+      "jungdavo",
+      "jungdavome",
+      "jungdavote",
+      "jungdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "jungčiau",
+      "jungtum(ei)",
+      "jungtų",
+      "jungtu(mė)me",
+      "jungtu(mė)te",
+      "jungtų"
+    ],
+    "imperative": [
+      "",
+      "junk",
+      "",
+      "junkime",
+      "junkite",
+      ""
+    ]
+  },
+  {
+    "lt": "kabėti",
+    "lt_ascii": "kabeti",
+    "ru": "висеть",
+    "groups": [
+      700
+    ],
+    "present": [
+      "kabu",
+      "kabi",
+      "kaba",
+      "kabame",
+      "kabate",
+      "kaba"
+    ],
+    "past": [
+      "kabėjau",
+      "kabėjai",
+      "kabėjo",
+      "kabėjome",
+      "kabėjote",
+      "kabėjo"
+    ],
+    "future": [
+      "kabėsiu",
+      "kabėsi",
+      "kabės",
+      "kabėsime",
+      "kabėsite",
+      "kabės"
+    ],
+    "usedTo": [
+      "kabėdavau",
+      "kabėdavai",
+      "kabėdavo",
+      "kabėdavome",
+      "kabėdavote",
+      "kabėdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "kabėčiau",
+      "kabėtum(ei)",
+      "kabėtų",
+      "kabėtu(mė)me",
+      "kabėtu(mė)te",
+      "kabėtų"
+    ],
+    "imperative": [
+      "",
+      "kabėk",
+      "",
+      "kabėkime",
+      "kabėkite",
+      ""
+    ]
+  },
+  {
+    "lt": "kainuoti",
+    "lt_ascii": "kainuoti",
+    "ru": "стоить",
+    "groups": [
+      500
+    ],
+    "present": [
+      "kainuoju",
+      "kainuoji",
+      "kainuoja",
+      "kainuojame",
+      "kainuojate",
+      "kainuoja"
+    ],
+    "past": [
+      "kainavau",
+      "kainavai",
+      "kainavo",
+      "kainavome",
+      "kainavote",
+      "kainavo"
+    ],
+    "future": [
+      "kainuosiu",
+      "kainuosi",
+      "kainuos",
+      "kainuosime",
+      "kainuosite",
+      "kainuos"
+    ],
+    "usedTo": [
+      "kainuodavau",
+      "kainuodavai",
+      "kainuodavo",
+      "kainuodavome",
+      "kainuodavote",
+      "kainuodavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "kainuočiau",
+      "kainuotum(ei)",
+      "kainuotų",
+      "kainuotu(mė)me",
+      "kainuotu(mė)te",
+      "kainuotų"
+    ],
+    "imperative": [
+      "",
+      "kainuok",
+      "",
+      "kainuokime",
+      "kainuokite",
+      ""
+    ]
+  },
+  {
+    "lt": "kalbėti",
+    "lt_ascii": "kalbeti",
+    "ru": "говорить",
+    "groups": [
+      100,
+      500
+    ],
+    "present": [
+      "kalbu",
+      "kalbi",
+      "kalba",
+      "kalbame",
+      "kalbate",
+      "kalba"
+    ],
+    "past": [
+      "kalbėjau",
+      "kalbėjai",
+      "kalbėjo",
+      "kalbėjome",
+      "kalbėjote",
+      "kalbėjo"
+    ],
+    "future": [
+      "kalbėsiu",
+      "kalbėsi",
+      "kalbės",
+      "kalbėsime",
+      "kalbėsite",
+      "kalbės"
+    ],
+    "usedTo": [
+      "kalbėdavau",
+      "kalbėdavai",
+      "kalbėdavo",
+      "kalbėdavome",
+      "kalbėdavote",
+      "kalbėdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "kalbėčiau",
+      "kalbėtum(ei)",
+      "kalbėtų",
+      "kalbėtu(mė)me",
+      "kalbėtu(mė)te",
+      "kalbėtų"
+    ],
+    "imperative": [
+      "",
+      "kalbėk",
+      "",
+      "kalbėkime",
+      "kalbėkite",
+      ""
+    ]
+  },
+  {
+    "lt": "keisti",
+    "lt_ascii": "keisti",
+    "ru": "менять",
+    "groups": [
+      300
+    ],
+    "present": [
+      "keičiu",
+      "keiči",
+      "keičia",
+      "keičiame",
+      "keičiate",
+      "keičia"
+    ],
+    "past": [
+      "",
+      "keitei",
+      "keitė",
+      "keitėme",
+      "keitėte",
+      "keitė"
+    ],
+    "future": [
+      "keisiu",
+      "keisi",
+      "keis",
+      "keisime",
+      "keisite",
+      "keis"
+    ],
+    "usedTo": [
+      "keisdavau",
+      "keisdavai",
+      "keisdavo",
+      "keisdavome",
+      "keisdavote",
+      "keisdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "keisčiau",
+      "keistum(ei)",
+      "keistų",
+      "keistu(mė)me",
+      "keistu(mė)te",
+      "keistų"
+    ],
+    "imperative": [
+      "",
+      "keisk",
+      "",
+      "keiskime",
+      "keiskite",
+      ""
+    ]
+  },
+  {
+    "lt": "kelti",
+    "lt_ascii": "kelti",
+    "ru": "поднимать",
+    "groups": [
+      400
+    ],
+    "present": [
+      "keliu",
+      "keli",
+      "kelia",
+      "keliame",
+      "keliate",
+      "kelia"
+    ],
+    "past": [
+      "kėliau",
+      "kėlei",
+      "kėlė",
+      "kėlėme",
+      "kėlėte",
+      "kėlė"
+    ],
+    "future": [
+      "kelsiu",
+      "kelsi",
+      "kels",
+      "kelsime",
+      "kelsite",
+      "kels"
+    ],
+    "usedTo": [
+      "keldavau",
+      "keldavai",
+      "keldavo",
+      "keldavome",
+      "keldavote",
+      "keldavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "kelčiau",
+      "keltum(ei)",
+      "keltų",
+      "keltu(mė)me",
+      "keltu(mė)te",
+      "keltų"
+    ],
+    "imperative": [
+      "",
+      "kelk",
+      "",
+      "kelkime",
+      "kelkite",
+      ""
+    ]
+  },
+  {
+    "lt": "keltis",
+    "lt_ascii": "keltis",
+    "ru": "вставать",
+    "groups": [
+      300
+    ],
+    "present": [
+      "keliuosi",
+      "keliesi",
+      "keliasi",
+      "keliamės",
+      "keliatės",
+      "keliasi"
+    ],
+    "past": [
+      "kėliausi",
+      "kėleisi",
+      "kėlėsi",
+      "kėlėmės",
+      "kėlėtės",
+      "kėlėsi"
+    ],
+    "future": [
+      "kelsiusi",
+      "kelsisi",
+      "kelsis",
+      "kelsimės",
+      "kelsitės",
+      "kelsis"
+    ],
+    "usedTo": [
+      "keldavausi",
+      "keldavaisi",
+      "keldavosi",
+      "keldavomės",
+      "keldavotės",
+      "keldavosi"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "kelčiausi",
+      "keltumeisi",
+      "keltųsi",
+      "keltu(mė)mės",
+      "keltu(mė)tės",
+      "keltųsi"
+    ],
+    "imperative": [
+      "",
+      "kelks",
+      "",
+      "kelkimės",
+      "kelkitės",
+      ""
+    ]
+  },
+  {
+    "lt": "kilti",
+    "lt_ascii": "kilti",
+    "ru": "подниматься",
+    "groups": [
+      400
+    ],
+    "present": [
+      "kylu",
+      "kyli",
+      "kyla",
+      "kylame",
+      "kylate",
+      "kyla"
+    ],
+    "past": [
+      "kilau",
+      "kilai",
+      "kilo",
+      "kilome",
+      "kilote",
+      "kilo"
+    ],
+    "future": [
+      "kilsiu",
+      "kilsi",
+      "kils",
+      "kilsime",
+      "kilsite",
+      "kils"
+    ],
+    "usedTo": [
+      "kildavau",
+      "kildavai",
+      "kildavo",
+      "kildavome",
+      "kildavote",
+      "kildavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "kilčiau",
+      "kiltum(ei)",
+      "kiltų",
+      "kiltu(mė)me",
+      "kiltu(mė)te",
+      "kiltų"
+    ],
+    "imperative": [
+      "",
+      "kilk",
+      "",
+      "kilkime",
+      "kilkite",
+      ""
+    ]
+  },
+  {
+    "lt": "klausti",
+    "lt_ascii": "klausti",
+    "ru": "спрашивать",
+    "groups": [
+      100
+    ],
+    "present": [
+      "klausiu",
+      "klausi",
+      "klausia",
+      "klausiame",
+      "klausiate",
+      "klausia"
+    ],
+    "past": [
+      "klausiau",
+      "klausei",
+      "klausė",
+      "klausėme",
+      "klausėte",
+      "klausė"
+    ],
+    "future": [
+      "klausiu",
+      "klausi",
+      "klaus",
+      "klausime",
+      "klausite",
+      "klaus"
+    ],
+    "usedTo": [
+      "klausdavau",
+      "klausdavai",
+      "klausdavo",
+      "klausdavome",
+      "klausdavote",
+      "klausdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "klausčiau",
+      "klaustum(ei)",
+      "klaustų",
+      "klaustu(mė)me",
+      "klaustu(mė)te",
+      "klaustų"
+    ],
+    "imperative": [
+      "",
+      "klausk",
+      "",
+      "klauskime",
+      "klauskite",
+      ""
+    ]
+  },
+  {
+    "lt": "klausyti",
+    "lt_ascii": "klausyti",
+    "ru": "слушать",
+    "groups": [
+      200
+    ],
+    "present": [
+      "klausau",
+      "klausai",
+      "klauso",
+      "klausome",
+      "klausote",
+      "klauso"
+    ],
+    "past": [
+      "klausiau",
+      "klausei",
+      "klausė",
+      "klausėme",
+      "klausėte",
+      "klausė"
+    ],
+    "future": [
+      "klausysiu",
+      "klausysi",
+      "klausys",
+      "klausysime",
+      "klausysite",
+      "klausys"
+    ],
+    "usedTo": [
+      "klausydavau",
+      "klausydavai",
+      "klausydavo",
+      "klausydavome",
+      "klausydavote",
+      "klausydavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "klausyčiau",
+      "klausytum(ei)",
+      "klausytų",
+      "klausytu(mė)me",
+      "klausytu(mė)te",
+      "klausytų"
+    ],
+    "imperative": [
+      "",
+      "klausyk",
+      "",
+      "klausykime",
+      "klausykite",
+      ""
+    ]
+  },
+  {
+    "lt": "kovoti",
+    "lt_ascii": "kovoti",
+    "ru": "бороться",
+    "groups": [
+      900
+    ],
+    "present": [
+      "kovoju",
+      "kovoji",
+      "kovoja",
+      "kovojame",
+      "kovojate",
+      "kovoja"
+    ],
+    "past": [
+      "kovojau",
+      "kovojai",
+      "kovojo",
+      "kovojome",
+      "kovojote",
+      "kovojo"
+    ],
+    "future": [
+      "kovosiu",
+      "kovosi",
+      "kovos",
+      "kovosime",
+      "kovosite",
+      "kovos"
+    ],
+    "usedTo": [
+      "kovodavau",
+      "kovodavai",
+      "kovodavo",
+      "kovodavome",
+      "kovodavote",
+      "kovodavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "kovočiau",
+      "kovotum(ei)",
+      "kovotų",
+      "kovotu(mė)me",
+      "kovotu(mė)te",
+      "kovotų"
+    ],
+    "imperative": [
+      "",
+      "kovok",
+      "",
+      "kovokime",
+      "kovokite",
+      ""
+    ]
+  },
+  {
+    "lt": "kreiptis",
+    "lt_ascii": "kreiptis",
+    "ru": "обращаться",
+    "groups": [
+      600
+    ],
+    "present": [
+      "kreipiuosi",
+      "kreipiesi",
+      "kreipiasi",
+      "kreipiamės",
+      "kreipiatės",
+      "kreipiasi"
+    ],
+    "past": [
+      "kreipiausi",
+      "kreipeisi",
+      "kreipėsi",
+      "kreipėmės",
+      "kreipėtės",
+      "kreipėsi"
+    ],
+    "future": [
+      "kreipsiusi",
+      "kreipsisi",
+      "kreipsis",
+      "kreipsimės",
+      "kreipsitės",
+      "kreipsis"
+    ],
+    "usedTo": [
+      "kreipdavausi",
+      "kreipdavaisi",
+      "kreipdavosi",
+      "kreipdavomės",
+      "kreipdavotės",
+      "kreipdavosi"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "kreipčiausi",
+      "kreiptumeisi",
+      "kreiptųsi",
+      "kreiptu(mė)mės",
+      "kreiptu(mė)tės",
+      "kreiptųsi"
+    ],
+    "imperative": [
+      "",
+      "kreipks",
+      "",
+      "kreipkimės",
+      "kreipkitės",
+      ""
+    ]
+  },
+  {
+    "lt": "kristi",
+    "lt_ascii": "kristi",
+    "ru": "падать",
+    "groups": [
+      700
+    ],
+    "present": [
+      "krentu",
+      "krenti",
+      "krenta",
+      "krentame",
+      "krentate",
+      "krenta"
+    ],
+    "past": [
+      "kritau",
+      "kritai",
+      "krito",
+      "kritome",
+      "kritote",
+      "krito"
+    ],
+    "future": [
+      "krisiu",
+      "krisi",
+      "kris",
+      "krisime",
+      "krisite",
+      "kris"
+    ],
+    "usedTo": [
+      "krisdavau",
+      "krisdavai",
+      "krisdavo",
+      "krisdavome",
+      "krisdavote",
+      "krisdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "krisčiau",
+      "kristum(ei)",
+      "kristų",
+      "kristu(mė)me",
+      "kristu(mė)te",
+      "kristų"
+    ],
+    "imperative": [
+      "",
+      "krisk",
+      "",
+      "kriskime",
+      "kriskite",
+      ""
+    ]
+  },
+  {
+    "lt": "kviesti",
+    "lt_ascii": "kviesti",
+    "ru": "приглашать",
+    "groups": [
+      900
+    ],
+    "present": [
+      "kviečiu",
+      "kvieči",
+      "kviečia",
+      "kviečiame",
+      "kviečiate",
+      "kviečia"
+    ],
+    "past": [
+      "",
+      "kvietei",
+      "kvietė",
+      "kvietėme",
+      "kvietėte",
+      "kvietė"
+    ],
+    "future": [
+      "kviesiu",
+      "kviesi",
+      "kvies",
+      "kviesime",
+      "kviesite",
+      "kvies"
+    ],
+    "usedTo": [
+      "kviesdavau",
+      "kviesdavai",
+      "kviesdavo",
+      "kviesdavome",
+      "kviesdavote",
+      "kviesdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "kviesčiau",
+      "kviestum(ei)",
+      "kviestų",
+      "kviestu(mė)me",
+      "kviestu(mė)te",
+      "kviestų"
+    ],
+    "imperative": [
+      "",
+      "kviesk",
+      "",
+      "kvieskime",
+      "kvieskite",
+      ""
+    ]
+  },
+  {
+    "lt": "laikyti",
+    "lt_ascii": "laikyti",
+    "ru": "держать",
+    "groups": [
+      400
+    ],
+    "present": [
+      "laikau",
+      "laikai",
+      "laiko",
+      "laikome",
+      "laikote",
+      "laiko"
+    ],
+    "past": [
+      "laikiau",
+      "laikei",
+      "laikė",
+      "laikėme",
+      "laikėte",
+      "laikė"
+    ],
+    "future": [
+      "laikysiu",
+      "laikysi",
+      "laikys",
+      "laikysime",
+      "laikysite",
+      "laikys"
+    ],
+    "usedTo": [
+      "laikydavau",
+      "laikydavai",
+      "laikydavo",
+      "laikydavome",
+      "laikydavote",
+      "laikydavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "laikyčiau",
+      "laikytum(ei)",
+      "laikytų",
+      "laikytu(mė)me",
+      "laikytu(mė)te",
+      "laikytų"
+    ],
+    "imperative": [
+      "",
+      "laikyk",
+      "",
+      "laikykime",
+      "laikykite",
+      ""
+    ]
+  },
+  {
+    "lt": "laikytis",
+    "lt_ascii": "laikytis",
+    "ru": "держаться",
+    "groups": [
+      800
+    ],
+    "present": [
+      "laikausi",
+      "laikaisi",
+      "laikosi",
+      "laikomės",
+      "laikotės",
+      "laikosi"
+    ],
+    "past": [
+      "laikiausi",
+      "laikeisi",
+      "laikėsi",
+      "laikėmės",
+      "laikėtės",
+      "laikėsi"
+    ],
+    "future": [
+      "laikysiusi",
+      "laikysisi",
+      "laikysis",
+      "laikysimės",
+      "laikysitės",
+      "laikysis"
+    ],
+    "usedTo": [
+      "laikydavausi",
+      "laikydavaisi",
+      "laikydavosi",
+      "laikydavomės",
+      "laikydavotės",
+      "laikydavosi"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "laikyčiausi",
+      "laikytumeisi",
+      "laikytųsi",
+      "laikytu(mė)mės",
+      "laikytu(mė)tės",
+      "laikytųsi"
+    ],
+    "imperative": [
+      "",
+      "laikyks",
+      "",
+      "laikykimės",
+      "laikykitės",
+      ""
+    ]
+  },
+  {
+    "lt": "laukti",
+    "lt_ascii": "laukti",
+    "ru": "ждать",
+    "groups": [
+      200,
+      800
+    ],
+    "present": [
+      "laukiu",
+      "lauki",
+      "laukia",
+      "laukiame",
+      "laukiate",
+      "laukia"
+    ],
+    "past": [
+      "laukiau",
+      "laukei",
+      "laukė",
+      "laukėme",
+      "laukėte",
+      "laukė"
+    ],
+    "future": [
+      "lauksiu",
+      "lauksi",
+      "lauks",
+      "lauksime",
+      "lauksite",
+      "lauks"
+    ],
+    "usedTo": [
+      "laukdavau",
+      "laukdavai",
+      "laukdavo",
+      "laukdavome",
+      "laukdavote",
+      "laukdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "laukčiau",
+      "lauktum(ei)",
+      "lauktų",
+      "lauktu(mė)me",
+      "lauktu(mė)te",
+      "lauktų"
+    ],
+    "imperative": [
+      "",
+      "lauk",
+      "",
+      "laukime",
+      "laukite",
+      ""
+    ]
+  },
+  {
+    "lt": "laužyti",
+    "lt_ascii": "lauzyti",
+    "ru": "ломать",
+    "groups": [
+      800
+    ],
+    "present": [
+      "laužau",
+      "laužai",
+      "laužo",
+      "laužome",
+      "laužote",
+      "laužo"
+    ],
+    "past": [
+      "laužiau",
+      "laužei",
+      "laužė",
+      "laužėme",
+      "laužėte",
+      "laužė"
+    ],
+    "future": [
+      "laužysiu",
+      "laužysi",
+      "laužys",
+      "laužysime",
+      "laužysite",
+      "laužys"
+    ],
+    "usedTo": [
+      "laužydavau",
+      "laužydavai",
+      "laužydavo",
+      "laužydavome",
+      "laužydavote",
+      "laužydavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "laužyčiau",
+      "laužytum(ei)",
+      "laužytų",
+      "laužytu(mė)me",
+      "laužytu(mė)te",
+      "laužytų"
+    ],
+    "imperative": [
+      "",
+      "laužyk",
+      "",
+      "laužykime",
+      "laužykite",
+      ""
+    ]
+  },
+  {
+    "lt": "leisti",
+    "lt_ascii": "leisti",
+    "ru": "проводить (время)",
+    "groups": [
+      500,
+      800,
+      900
+    ],
+    "present": [
+      "leidžiu",
+      "leidži",
+      "leidžia",
+      "leidžiame",
+      "leidžiate",
+      "leidžia"
+    ],
+    "past": [
+      "leidau",
+      "leidai",
+      "leido",
+      "leidome",
+      "leidote",
+      "leido"
+    ],
+    "future": [
+      "leisiu",
+      "leisi",
+      "leis",
+      "leisime",
+      "leisite",
+      "leis"
+    ],
+    "usedTo": [
+      "leisdavau",
+      "leisdavai",
+      "leisdavo",
+      "leisdavome",
+      "leisdavote",
+      "leisdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "leisčiau",
+      "leistum(ei)",
+      "leistų",
+      "leistu(mė)me",
+      "leistu(mė)te",
+      "leistų"
+    ],
+    "imperative": [
+      "",
+      "leisk",
+      "",
+      "leiskime",
+      "leiskite",
+      ""
+    ]
+  },
+  {
+    "lt": "likti",
+    "lt_ascii": "likti",
+    "ru": "остаться",
+    "groups": [
+      200
+    ],
+    "present": [
+      "lieku",
+      "lieki",
+      "lieka",
+      "liekame",
+      "liekate",
+      "lieka"
+    ],
+    "past": [
+      "likau",
+      "likai",
+      "liko",
+      "likome",
+      "likote",
+      "liko"
+    ],
+    "future": [
+      "liksiu",
+      "liksi",
+      "liks",
+      "liksime",
+      "liksite",
+      "liks"
+    ],
+    "usedTo": [
+      "likdavau",
+      "likdavai",
+      "likdavo",
+      "likdavome",
+      "likdavote",
+      "likdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "likčiau",
+      "liktum(ei)",
+      "liktų",
+      "liktu(mė)me",
+      "liktu(mė)te",
+      "liktų"
+    ],
+    "imperative": [
+      "",
+      "lik",
+      "",
+      "likime",
+      "likite",
+      ""
+    ]
+  },
+  {
+    "lt": "lošti",
+    "lt_ascii": "losti",
+    "ru": "играть (в азартные игры)",
+    "groups": [
+      700
+    ],
+    "present": [
+      "lošiu",
+      "loši",
+      "lošia",
+      "lošiame",
+      "lošiate",
+      "lošia"
+    ],
+    "past": [
+      "lošiau",
+      "lošei",
+      "lošė",
+      "lošėme",
+      "lošėte",
+      "lošė"
+    ],
+    "future": [
+      "loššiu",
+      "lošši",
+      "lošš",
+      "loššime",
+      "loššite",
+      "lošš"
+    ],
+    "usedTo": [
+      "lošdavau",
+      "lošdavai",
+      "lošdavo",
+      "lošdavome",
+      "lošdavote",
+      "lošdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "loščiau",
+      "loštum(ei)",
+      "loštų",
+      "loštu(mė)me",
+      "loštu(mė)te",
+      "loštų"
+    ],
+    "imperative": [
+      "",
+      "lošk",
+      "",
+      "loškime",
+      "loškite",
+      ""
+    ]
+  },
+  {
+    "lt": "mesti",
+    "lt_ascii": "mesti",
+    "ru": "бросить",
+    "groups": [
+      500
+    ],
+    "present": [
+      "metu",
+      "meti",
+      "meta",
+      "metame",
+      "metate",
+      "meta"
+    ],
+    "past": [
+      "",
+      "metei",
+      "metė",
+      "metėme",
+      "metėte",
+      "metė"
+    ],
+    "future": [
+      "mesiu",
+      "mesi",
+      "mes",
+      "mesime",
+      "mesite",
+      "mes"
+    ],
+    "usedTo": [
+      "mesdavau",
+      "mesdavai",
+      "mesdavo",
+      "mesdavome",
+      "mesdavote",
+      "mesdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "mesčiau",
+      "mestum(ei)",
+      "mestų",
+      "mestu(mė)me",
+      "mestu(mė)te",
+      "mestų"
+    ],
+    "imperative": [
+      "",
+      "mesk",
+      "",
+      "meskime",
+      "meskite",
+      ""
+    ]
+  },
+  {
+    "lt": "miegoti",
+    "lt_ascii": "miegoti",
+    "ru": "спать",
+    "groups": [
+      400
+    ],
+    "present": [
+      "miegu",
+      "miegi",
+      "miega",
+      "miegame",
+      "miegate",
+      "miega"
+    ],
+    "past": [
+      "miegojau",
+      "miegojai",
+      "miegojo",
+      "miegojome",
+      "miegojote",
+      "miegojo"
+    ],
+    "future": [
+      "miegosiu",
+      "miegosi",
+      "miegos",
+      "miegosime",
+      "miegosite",
+      "miegos"
+    ],
+    "usedTo": [
+      "miegodavau",
+      "miegodavai",
+      "miegodavo",
+      "miegodavome",
+      "miegodavote",
+      "miegodavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "miegočiau",
+      "miegotum(ei)",
+      "miegotų",
+      "miegotu(mė)me",
+      "miegotu(mė)te",
+      "miegotų"
+    ],
+    "imperative": [
+      "",
+      "miegok",
+      "",
+      "miegokime",
+      "miegokite",
+      ""
+    ]
+  },
+  {
+    "lt": "mirti",
+    "lt_ascii": "mirti",
+    "ru": "умирать",
+    "groups": [
+      400
+    ],
+    "present": [
+      "mirštu",
+      "miršti",
+      "miršta",
+      "mirštame",
+      "mirštate",
+      "miršta"
+    ],
+    "past": [
+      "miriau",
+      "mirei",
+      "mirė",
+      "mirėme",
+      "mirėte",
+      "mirė"
+    ],
+    "future": [
+      "mirsiu",
+      "mirsi",
+      "mirs",
+      "mirsime",
+      "mirsite",
+      "mirs"
+    ],
+    "usedTo": [
+      "mirdavau",
+      "mirdavai",
+      "mirdavo",
+      "mirdavome",
+      "mirdavote",
+      "mirdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "mirčiau",
+      "mirtum(ei)",
+      "mirtų",
+      "mirtu(mė)me",
+      "mirtu(mė)te",
+      "mirtų"
+    ],
+    "imperative": [
+      "",
+      "mirk",
+      "",
+      "mirkime",
+      "mirkite",
+      ""
+    ]
+  },
+  {
+    "lt": "mokėti",
+    "lt_ascii": "moketi",
+    "ru": "уметь",
+    "groups": [
+      300,
+      900
+    ],
+    "present": [
+      "moku",
+      "moki",
+      "moka",
+      "mokame",
+      "mokate",
+      "moka"
+    ],
+    "past": [
+      "mokėjau",
+      "mokėjai",
+      "mokėjo",
+      "mokėjome",
+      "mokėjote",
+      "mokėjo"
+    ],
+    "future": [
+      "mokėsiu",
+      "mokėsi",
+      "mokės",
+      "mokėsime",
+      "mokėsite",
+      "mokės"
+    ],
+    "usedTo": [
+      "mokėdavau",
+      "mokėdavai",
+      "mokėdavo",
+      "mokėdavome",
+      "mokėdavote",
+      "mokėdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "mokėčiau",
+      "mokėtum(ei)",
+      "mokėtų",
+      "mokėtu(mė)me",
+      "mokėtu(mė)te",
+      "mokėtų"
+    ],
+    "imperative": [
+      "",
+      "mokėk",
+      "",
+      "mokėkime",
+      "mokėkite",
+      ""
+    ]
+  },
+  {
+    "lt": "mokyti",
+    "lt_ascii": "mokyti",
+    "ru": "учить",
+    "groups": [
+      500
+    ],
+    "present": [
+      "mokau",
+      "mokai",
+      "moko",
+      "mokome",
+      "mokote",
+      "moko"
+    ],
+    "past": [
+      "mokiau",
+      "mokei",
+      "mokė",
+      "mokėme",
+      "mokėte",
+      "mokė"
+    ],
+    "future": [
+      "mokysiu",
+      "mokysi",
+      "mokys",
+      "mokysime",
+      "mokysite",
+      "mokys"
+    ],
+    "usedTo": [
+      "mokydavau",
+      "mokydavai",
+      "mokydavo",
+      "mokydavome",
+      "mokydavote",
+      "mokydavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "mokyčiau",
+      "mokytum(ei)",
+      "mokytų",
+      "mokytu(mė)me",
+      "mokytu(mė)te",
+      "mokytų"
+    ],
+    "imperative": [
+      "",
+      "mokyk",
+      "",
+      "mokykime",
+      "mokykite",
+      ""
+    ]
+  },
+  {
+    "lt": "mokytis",
+    "lt_ascii": "mokytis",
+    "ru": "учиться",
+    "groups": [
+      500
+    ],
+    "present": [
+      "mokausi",
+      "mokaisi",
+      "mokosi",
+      "mokomės",
+      "mokotės",
+      "mokosi"
+    ],
+    "past": [
+      "mokiausi",
+      "mokeisi",
+      "mokėsi",
+      "mokėmės",
+      "mokėtės",
+      "mokėsi"
+    ],
+    "future": [
+      "mokysiusi",
+      "mokysisi",
+      "mokysis",
+      "mokysimės",
+      "mokysitės",
+      "mokysis"
+    ],
+    "usedTo": [
+      "mokydavausi",
+      "mokydavaisi",
+      "mokydavosi",
+      "mokydavomės",
+      "mokydavotės",
+      "mokydavosi"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "mokyčiausi",
+      "mokytumeisi",
+      "mokytųsi",
+      "mokytu(mė)mės",
+      "mokytu(mė)tės",
+      "mokytųsi"
+    ],
+    "imperative": [
+      "",
+      "mokyks",
+      "",
+      "mokykimės",
+      "mokykitės",
+      ""
+    ]
+  },
+  {
+    "lt": "mušti",
+    "lt_ascii": "musti",
+    "ru": "бить",
+    "groups": [
+      600
+    ],
+    "present": [
+      "mušu",
+      "muši",
+      "muša",
+      "mušame",
+      "mušate",
+      "muša"
+    ],
+    "past": [
+      "mušiau",
+      "mušei",
+      "mušė",
+      "mušėme",
+      "mušėte",
+      "mušė"
+    ],
+    "future": [
+      "muššiu",
+      "mušši",
+      "mušš",
+      "muššime",
+      "muššite",
+      "mušš"
+    ],
+    "usedTo": [
+      "mušdavau",
+      "mušdavai",
+      "mušdavo",
+      "mušdavome",
+      "mušdavote",
+      "mušdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "muščiau",
+      "muštum(ei)",
+      "muštų",
+      "muštu(mė)me",
+      "muštu(mė)te",
+      "muštų"
+    ],
+    "imperative": [
+      "",
+      "mušk",
+      "",
+      "muškime",
+      "muškite",
+      ""
+    ]
+  },
+  {
+    "lt": "mylėti",
+    "lt_ascii": "myleti",
+    "ru": "любить",
+    "groups": [
+      200
+    ],
+    "present": [
+      "myliu",
+      "myli",
+      "myli",
+      "mylime",
+      "mylite",
+      "myli"
+    ],
+    "past": [
+      "mylėjau",
+      "mylėjai",
+      "mylėjo",
+      "mylėjome",
+      "mylėjote",
+      "mylėjo"
+    ],
+    "future": [
+      "mylėsiu",
+      "mylėsi",
+      "mylės",
+      "mylėsime",
+      "mylėsite",
+      "mylės"
+    ],
+    "usedTo": [
+      "mylėdavau",
+      "mylėdavai",
+      "mylėdavo",
+      "mylėdavome",
+      "mylėdavote",
+      "mylėdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "mylėčiau",
+      "mylėtum(ei)",
+      "mylėtų",
+      "mylėtu(mė)me",
+      "mylėtu(mė)te",
+      "mylėtų"
+    ],
+    "imperative": [
+      "",
+      "mylėk",
+      "",
+      "mylėkime",
+      "mylėkite",
+      ""
+    ]
+  },
+  {
+    "lt": "naudoti",
+    "lt_ascii": "naudoti",
+    "ru": "использовать",
+    "groups": [
+      100
+    ],
+    "present": [
+      "naudoju",
+      "naudoji",
+      "naudoja",
+      "naudojame",
+      "naudojate",
+      "naudoja"
+    ],
+    "past": [
+      "naudojau",
+      "naudojai",
+      "naudojo",
+      "naudojome",
+      "naudojote",
+      "naudojo"
+    ],
+    "future": [
+      "naudosiu",
+      "naudosi",
+      "naudos",
+      "naudosime",
+      "naudosite",
+      "naudos"
+    ],
+    "usedTo": [
+      "naudodavau",
+      "naudodavai",
+      "naudodavo",
+      "naudodavome",
+      "naudodavote",
+      "naudodavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "naudočiau",
+      "naudotum(ei)",
+      "naudotų",
+      "naudotu(mė)me",
+      "naudotu(mė)te",
+      "naudotų"
+    ],
+    "imperative": [
+      "",
+      "naudok",
+      "",
+      "naudokime",
+      "naudokite",
+      ""
+    ]
+  },
+  {
+    "lt": "naudotis",
+    "lt_ascii": "naudotis",
+    "ru": "пользоваться",
+    "groups": [
+      600
+    ],
+    "present": [
+      "naudojuosi",
+      "naudojiesi",
+      "naudojasi",
+      "naudojamės",
+      "naudojatės",
+      "naudojasi"
+    ],
+    "past": [
+      "naudojausi",
+      "naudojaisi",
+      "naudojosi",
+      "naudojomės",
+      "naudojotės",
+      "naudojosi"
+    ],
+    "future": [
+      "naudosiusi",
+      "naudosisi",
+      "naudosis",
+      "naudosimės",
+      "naudositės",
+      "naudosis"
+    ],
+    "usedTo": [
+      "naudodavausi",
+      "naudodavaisi",
+      "naudodavosi",
+      "naudodavomės",
+      "naudodavotės",
+      "naudodavosi"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "naudočiausi",
+      "naudotumeisi",
+      "naudotųsi",
+      "naudotu(mė)mės",
+      "naudotu(mė)tės",
+      "naudotųsi"
+    ],
+    "imperative": [
+      "",
+      "naudoks",
+      "",
+      "naudokimės",
+      "naudokitės",
+      ""
+    ]
+  },
+  {
+    "lt": "nešioti",
+    "lt_ascii": "nesioti",
+    "ru": "носить (одежду)",
+    "groups": [
+      900
+    ],
+    "present": [
+      "nešioju",
+      "nešioji",
+      "nešioja",
+      "nešiojame",
+      "nešiojate",
+      "nešioja"
+    ],
+    "past": [
+      "nešiojau",
+      "nešiojai",
+      "nešiojo",
+      "nešiojome",
+      "nešiojote",
+      "nešiojo"
+    ],
+    "future": [
+      "nešiosiu",
+      "nešiosi",
+      "nešios",
+      "nešiosime",
+      "nešiosite",
+      "nešios"
+    ],
+    "usedTo": [
+      "nešiodavau",
+      "nešiodavai",
+      "nešiodavo",
+      "nešiodavome",
+      "nešiodavote",
+      "nešiodavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "nešiočiau",
+      "nešiotum(ei)",
+      "nešiotų",
+      "nešiotu(mė)me",
+      "nešiotu(mė)te",
+      "nešiotų"
+    ],
+    "imperative": [
+      "",
+      "nešiok",
+      "",
+      "nešiokime",
+      "nešiokite",
+      ""
+    ]
+  },
+  {
+    "lt": "nešti",
+    "lt_ascii": "nesti",
+    "ru": "нести",
+    "groups": [
+      500
+    ],
+    "present": [
+      "nešu",
+      "neši",
+      "neša",
+      "nešame",
+      "nešate",
+      "neša"
+    ],
+    "past": [
+      "nešiau",
+      "nešei",
+      "nešė",
+      "nešėme",
+      "nešėte",
+      "nešė"
+    ],
+    "future": [
+      "neššiu",
+      "nešši",
+      "nešš",
+      "neššime",
+      "neššite",
+      "nešš"
+    ],
+    "usedTo": [
+      "nešdavau",
+      "nešdavai",
+      "nešdavo",
+      "nešdavome",
+      "nešdavote",
+      "nešdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "neščiau",
+      "neštum(ei)",
+      "neštų",
+      "neštu(mė)me",
+      "neštu(mė)te",
+      "neštų"
+    ],
+    "imperative": [
+      "",
+      "nešk",
+      "",
+      "neškime",
+      "neškite",
+      ""
+    ]
+  },
+  {
+    "lt": "norėti",
+    "lt_ascii": "noreti",
+    "ru": "хотеть",
+    "groups": [
+      100
+    ],
+    "present": [
+      "noriu",
+      "nori",
+      "nori",
+      "norime",
+      "norite",
+      "nori"
+    ],
+    "past": [
+      "norėjau",
+      "norėjai",
+      "norėjo",
+      "norėjome",
+      "norėjote",
+      "norėjo"
+    ],
+    "future": [
+      "norėsiu",
+      "norėsi",
+      "norės",
+      "norėsime",
+      "norėsite",
+      "norės"
+    ],
+    "usedTo": [
+      "norėdavau",
+      "norėdavai",
+      "norėdavo",
+      "norėdavome",
+      "norėdavote",
+      "norėdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "norėčiau",
+      "norėtum(ei)",
+      "norėtų",
+      "norėtu(mė)me",
+      "norėtu(mė)te",
+      "norėtų"
+    ],
+    "imperative": [
+      "",
+      "norėk",
+      "",
+      "norėkime",
+      "norėkite",
+      ""
+    ]
+  },
+  {
+    "lt": "nuimti",
+    "lt_ascii": "nuimti",
+    "ru": "снять",
+    "groups": [
+      500,
+      900
+    ],
+    "present": [
+      "nuimu",
+      "nuimi",
+      "nuima",
+      "nuimame",
+      "nuimate",
+      "nuima"
+    ],
+    "past": [
+      "nuėmiau",
+      "nuėmei",
+      "nuėmė",
+      "nuėmėme",
+      "nuėmėte",
+      "nuėmė"
+    ],
+    "future": [
+      "nuimsiu",
+      "nuimsi",
+      "nuims",
+      "nuimsime",
+      "nuimsite",
+      "nuims"
+    ],
+    "usedTo": [
+      "nuimdavau",
+      "nuimdavai",
+      "nuimdavo",
+      "nuimdavome",
+      "nuimdavote",
+      "nuimdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "nuimčiau",
+      "nuimtum(ei)",
+      "nuimtų",
+      "nuimtu(mė)me",
+      "nuimtu(mė)te",
+      "nuimtų"
+    ],
+    "imperative": [
+      "",
+      "nuimk",
+      "",
+      "nuimkime",
+      "nuimkite",
+      ""
+    ]
+  },
+  {
+    "lt": "nurengti",
+    "lt_ascii": "nurengti",
+    "ru": "раздеть",
+    "groups": [
+      700
+    ],
+    "present": [
+      "nurengiu",
+      "nurengi",
+      "nurengia",
+      "nurengiame",
+      "nurengiate",
+      "nurengia"
+    ],
+    "past": [
+      "nurengiau",
+      "nurengei",
+      "nurengė",
+      "nurengėme",
+      "nurengėte",
+      "nurengė"
+    ],
+    "future": [
+      "nurengsiu",
+      "nurengsi",
+      "nurengs",
+      "nurengsime",
+      "nurengsite",
+      "nurengs"
+    ],
+    "usedTo": [
+      "nurengdavau",
+      "nurengdavai",
+      "nurengdavo",
+      "nurengdavome",
+      "nurengdavote",
+      "nurengdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "nurengčiau",
+      "nurengtum(ei)",
+      "nurengtų",
+      "nurengtu(mė)me",
+      "nurengtu(mė)te",
+      "nurengtų"
+    ],
+    "imperative": [
+      "",
+      "nurenk",
+      "",
+      "nurenkime",
+      "nurenkite",
+      ""
+    ]
+  },
+  {
+    "lt": "nustoti",
+    "lt_ascii": "nustoti",
+    "ru": "перестать",
+    "groups": [
+      600
+    ],
+    "present": [
+      "nustoju",
+      "nustoji",
+      "nustoja",
+      "nustojame",
+      "nustojate",
+      "nustoja"
+    ],
+    "past": [
+      "nustojau",
+      "nustojai",
+      "nustojo",
+      "nustojome",
+      "nustojote",
+      "nustojo"
+    ],
+    "future": [
+      "nustosiu",
+      "nustosi",
+      "nustos",
+      "nustosime",
+      "nustosite",
+      "nustos"
+    ],
+    "usedTo": [
+      "nustodavau",
+      "nustodavai",
+      "nustodavo",
+      "nustodavome",
+      "nustodavote",
+      "nustodavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "nustočiau",
+      "nustotum(ei)",
+      "nustotų",
+      "nustotu(mė)me",
+      "nustotu(mė)te",
+      "nustotų"
+    ],
+    "imperative": [
+      "",
+      "nustok",
+      "",
+      "nustokime",
+      "nustokite",
+      ""
+    ]
+  },
+  {
+    "lt": "padėti",
+    "lt_ascii": "padeti",
+    "ru": "помочь",
+    "groups": [
+      300
+    ],
+    "present": [
+      "padedžu",
+      "padedi",
+      "padeda",
+      "padedame",
+      "padedate",
+      "padeda"
+    ],
+    "past": [
+      "padėjau",
+      "padėjai",
+      "padėjo",
+      "padėjome",
+      "padėjote",
+      "padėjo"
+    ],
+    "future": [
+      "padėsiu",
+      "padėsi",
+      "padės",
+      "padėsime",
+      "padėsite",
+      "padės"
+    ],
+    "usedTo": [
+      "padėdavau",
+      "padėdavai",
+      "padėdavo",
+      "padėdavome",
+      "padėdavote",
+      "padėdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "padėčiau",
+      "padėtum(ei)",
+      "padėtų",
+      "padėtu(mė)me",
+      "padėtu(mė)te",
+      "padėtų"
+    ],
+    "imperative": [
+      "",
+      "padėk",
+      "",
+      "padėkime",
+      "padėkite",
+      ""
+    ]
+  },
+  {
+    "lt": "palikti",
+    "lt_ascii": "palikti",
+    "ru": "оставить",
+    "groups": [
+      400
+    ],
+    "present": [
+      "palieku",
+      "palieki",
+      "palieka",
+      "paliekame",
+      "paliekate",
+      "palieka"
+    ],
+    "past": [
+      "palikau",
+      "palikai",
+      "paliko",
+      "palikome",
+      "palikote",
+      "paliko"
+    ],
+    "future": [
+      "paliksiu",
+      "paliksi",
+      "paliks",
+      "paliksime",
+      "paliksite",
+      "paliks"
+    ],
+    "usedTo": [
+      "palikdavau",
+      "palikdavai",
+      "palikdavo",
+      "palikdavome",
+      "palikdavote",
+      "palikdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "palikčiau",
+      "paliktum(ei)",
+      "paliktų",
+      "paliktu(mė)me",
+      "paliktu(mė)te",
+      "paliktų"
+    ],
+    "imperative": [
+      "",
+      "palik",
+      "",
+      "palikime",
+      "palikite",
+      ""
+    ]
+  },
+  {
+    "lt": "parduoti",
+    "lt_ascii": "parduoti",
+    "ru": "продать",
+    "groups": [
+      100
+    ],
+    "present": [
+      "parduodžu",
+      "parduodi",
+      "parduoda",
+      "parduodame",
+      "parduodate",
+      "parduoda"
+    ],
+    "past": [
+      "pardaviau",
+      "pardavei",
+      "pardavė",
+      "pardavėme",
+      "pardavėte",
+      "pardavė"
+    ],
+    "future": [
+      "parduosiu",
+      "parduosi",
+      "parduos",
+      "parduosime",
+      "parduosite",
+      "parduos"
+    ],
+    "usedTo": [
+      "parduodavau",
+      "parduodavai",
+      "parduodavo",
+      "parduodavome",
+      "parduodavote",
+      "parduodavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "parduočiau",
+      "parduotum(ei)",
+      "parduotų",
+      "parduotu(mė)me",
+      "parduotu(mė)te",
+      "parduotų"
+    ],
+    "imperative": [
+      "",
+      "parduok",
+      "",
+      "parduokime",
+      "parduokite",
+      ""
+    ]
+  },
+  {
+    "lt": "pasakyti",
+    "lt_ascii": "pasakyti",
+    "ru": "сказать",
+    "groups": [
+      300
+    ],
+    "present": [
+      "pasakau",
+      "pasakai",
+      "pasako",
+      "pasakome",
+      "pasakote",
+      "pasako"
+    ],
+    "past": [
+      "pasakiau",
+      "pasakei",
+      "pasakė",
+      "pasakėme",
+      "pasakėte",
+      "pasakė"
+    ],
+    "future": [
+      "pasakysiu",
+      "pasakysi",
+      "pasakys",
+      "pasakysime",
+      "pasakysite",
+      "pasakys"
+    ],
+    "usedTo": [
+      "pasakydavau",
+      "pasakydavai",
+      "pasakydavo",
+      "pasakydavome",
+      "pasakydavote",
+      "pasakydavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "pasakyčiau",
+      "pasakytum(ei)",
+      "pasakytų",
+      "pasakytu(mė)me",
+      "pasakytu(mė)te",
+      "pasakytų"
+    ],
+    "imperative": [
+      "",
+      "pasakyk",
+      "",
+      "pasakykime",
+      "pasakykite",
+      ""
+    ]
+  },
+  {
+    "lt": "pasekti",
+    "lt_ascii": "pasekti",
+    "ru": "достать (до чего-либо)",
+    "groups": [
+      500,
+      700
+    ],
+    "present": [
+      "pasenku",
+      "pasenki",
+      "pasenka",
+      "pasenkame",
+      "pasenkate",
+      "pasenka"
+    ],
+    "past": [
+      "pasekau",
+      "pasekai",
+      "paseko",
+      "pasekome",
+      "pasekote",
+      "paseko"
+    ],
+    "future": [
+      "paseksiu",
+      "paseksi",
+      "paseks",
+      "paseksime",
+      "paseksite",
+      "paseks"
+    ],
+    "usedTo": [
+      "pasekdavau",
+      "pasekdavai",
+      "pasekdavo",
+      "pasekdavome",
+      "pasekdavote",
+      "pasekdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "pasekčiau",
+      "pasektum(ei)",
+      "pasektų",
+      "pasektu(mė)me",
+      "pasektu(mė)te",
+      "pasektų"
+    ],
+    "imperative": [
+      "",
+      "pasek",
+      "",
+      "pasekime",
+      "pasekite",
+      ""
+    ]
+  },
+  {
+    "lt": "pasirodyti",
+    "lt_ascii": "pasirodyti",
+    "ru": "появиться",
+    "groups": [
+      300
+    ],
+    "present": [
+      "pasirodžau",
+      "pasirodai",
+      "pasirodo",
+      "pasirodome",
+      "pasirodote",
+      "pasirodo"
+    ],
+    "past": [
+      "",
+      "pasirodei",
+      "pasirodė",
+      "pasirodėme",
+      "pasirodėte",
+      "pasirodė"
+    ],
+    "future": [
+      "pasirodysiu",
+      "pasirodysi",
+      "pasirodys",
+      "pasirodysime",
+      "pasirodysite",
+      "pasirodys"
+    ],
+    "usedTo": [
+      "pasirodydavau",
+      "pasirodydavai",
+      "pasirodydavo",
+      "pasirodydavome",
+      "pasirodydavote",
+      "pasirodydavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "pasirodyčiau",
+      "pasirodytum(ei)",
+      "pasirodytų",
+      "pasirodytu(mė)me",
+      "pasirodytu(mė)te",
+      "pasirodytų"
+    ],
+    "imperative": [
+      "",
+      "pasirodyk",
+      "",
+      "pasirodykime",
+      "pasirodykite",
+      ""
+    ]
+  },
+  {
+    "lt": "pastebėti",
+    "lt_ascii": "pastebeti",
+    "ru": "заметить",
+    "groups": [
+      300
+    ],
+    "present": [
+      "pastebiu",
+      "pastebi",
+      "pastebi",
+      "pastebime",
+      "pastebite",
+      "pastebi"
+    ],
+    "past": [
+      "pastebėjau",
+      "pastebėjai",
+      "pastebėjo",
+      "pastebėjome",
+      "pastebėjote",
+      "pastebėjo"
+    ],
+    "future": [
+      "pastebėsiu",
+      "pastebėsi",
+      "pastebės",
+      "pastebėsime",
+      "pastebėsite",
+      "pastebės"
+    ],
+    "usedTo": [
+      "pastebėdavau",
+      "pastebėdavai",
+      "pastebėdavo",
+      "pastebėdavome",
+      "pastebėdavote",
+      "pastebėdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "pastebėčiau",
+      "pastebėtum(ei)",
+      "pastebėtų",
+      "pastebėtu(mė)me",
+      "pastebėtu(mė)te",
+      "pastebėtų"
+    ],
+    "imperative": [
+      "",
+      "pastebėk",
+      "",
+      "pastebėkime",
+      "pastebėkite",
+      ""
+    ]
+  },
+  {
+    "lt": "pataikyti",
+    "lt_ascii": "pataikyti",
+    "ru": "попасть",
+    "groups": [
+      400
+    ],
+    "present": [
+      "pataikau",
+      "pataikai",
+      "pataiko",
+      "pataikome",
+      "pataikote",
+      "pataiko"
+    ],
+    "past": [
+      "pataikiau",
+      "pataikei",
+      "pataikė",
+      "pataikėme",
+      "pataikėte",
+      "pataikė"
+    ],
+    "future": [
+      "pataikysiu",
+      "pataikysi",
+      "pataikys",
+      "pataikysime",
+      "pataikysite",
+      "pataikys"
+    ],
+    "usedTo": [
+      "pataikydavau",
+      "pataikydavai",
+      "pataikydavo",
+      "pataikydavome",
+      "pataikydavote",
+      "pataikydavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "pataikyčiau",
+      "pataikytum(ei)",
+      "pataikytų",
+      "pataikytu(mė)me",
+      "pataikytu(mė)te",
+      "pataikytų"
+    ],
+    "imperative": [
+      "",
+      "pataikyk",
+      "",
+      "pataikykime",
+      "pataikykite",
+      ""
+    ]
+  },
+  {
+    "lt": "patarti",
+    "lt_ascii": "patarti",
+    "ru": "посоветовать",
+    "groups": [
+      800
+    ],
+    "present": [
+      "patariu",
+      "patari",
+      "pataria",
+      "patariame",
+      "patariate",
+      "pataria"
+    ],
+    "past": [
+      "patariau",
+      "patarei",
+      "patarė",
+      "patarėme",
+      "patarėte",
+      "patarė"
+    ],
+    "future": [
+      "patarsiu",
+      "patarsi",
+      "patars",
+      "patarsime",
+      "patarsite",
+      "patars"
+    ],
+    "usedTo": [
+      "patardavau",
+      "patardavai",
+      "patardavo",
+      "patardavome",
+      "patardavote",
+      "patardavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "patarčiau",
+      "patartum(ei)",
+      "patartų",
+      "patartu(mė)me",
+      "patartu(mė)te",
+      "patartų"
+    ],
+    "imperative": [
+      "",
+      "patark",
+      "",
+      "patarkime",
+      "patarkite",
+      ""
+    ]
+  },
+  {
+    "lt": "perduoti",
+    "lt_ascii": "perduoti",
+    "ru": "передавать",
+    "groups": [
+      500
+    ],
+    "present": [
+      "perduodžu",
+      "perduodi",
+      "perduoda",
+      "perduodame",
+      "perduodate",
+      "perduoda"
+    ],
+    "past": [
+      "perdaviau",
+      "perdavei",
+      "perdavė",
+      "perdavėme",
+      "perdavėte",
+      "perdavė"
+    ],
+    "future": [
+      "perduosiu",
+      "perduosi",
+      "perduos",
+      "perduosime",
+      "perduosite",
+      "perduos"
+    ],
+    "usedTo": [
+      "perduodavau",
+      "perduodavai",
+      "perduodavo",
+      "perduodavome",
+      "perduodavote",
+      "perduodavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "perduočiau",
+      "perduotum(ei)",
+      "perduotų",
+      "perduotu(mė)me",
+      "perduotu(mė)te",
+      "perduotų"
+    ],
+    "imperative": [
+      "",
+      "perduok",
+      "",
+      "perduokime",
+      "perduokite",
+      ""
+    ]
+  },
+  {
+    "lt": "pereiti",
+    "lt_ascii": "pereiti",
+    "ru": "перейти",
+    "groups": [
+      500
+    ],
+    "present": [
+      "pereinu",
+      "pereini",
+      "pereina",
+      "pereiname",
+      "pereinate",
+      "pereina"
+    ],
+    "past": [
+      "perėjau",
+      "perėjai",
+      "perėjo",
+      "perėjome",
+      "perėjote",
+      "perėjo"
+    ],
+    "future": [
+      "pereisiu",
+      "pereisi",
+      "pereis",
+      "pereisime",
+      "pereisite",
+      "pereis"
+    ],
+    "usedTo": [
+      "pereidavau",
+      "pereidavai",
+      "pereidavo",
+      "pereidavome",
+      "pereidavote",
+      "pereidavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "pereičiau",
+      "pereitum(ei)",
+      "pereitų",
+      "pereitu(mė)me",
+      "pereitu(mė)te",
+      "pereitų"
+    ],
+    "imperative": [
+      "",
+      "pereik",
+      "",
+      "pereikime",
+      "pereikite",
+      ""
+    ]
+  },
+  {
+    "lt": "pirkti",
+    "lt_ascii": "pirkti",
+    "ru": "покупать",
+    "groups": [
+      100
+    ],
+    "present": [
+      "perku",
+      "perki",
+      "perka",
+      "perkame",
+      "perkate",
+      "perka"
+    ],
+    "past": [
+      "pirkau",
+      "pirkai",
+      "pirko",
+      "pirkome",
+      "pirkote",
+      "pirko"
+    ],
+    "future": [
+      "pirksiu",
+      "pirksi",
+      "pirks",
+      "pirksime",
+      "pirksite",
+      "pirks"
+    ],
+    "usedTo": [
+      "pirkdavau",
+      "pirkdavai",
+      "pirkdavo",
+      "pirkdavome",
+      "pirkdavote",
+      "pirkdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "pirkčiau",
+      "pirktum(ei)",
+      "pirktų",
+      "pirktu(mė)me",
+      "pirktu(mė)te",
+      "pirktų"
+    ],
+    "imperative": [
+      "",
+      "pirk",
+      "",
+      "pirkime",
+      "pirkite",
+      ""
+    ]
+  },
+  {
+    "lt": "pjaustyti",
+    "lt_ascii": "pjaustyti",
+    "ru": "резать",
+    "groups": [
+      400
+    ],
+    "present": [
+      "pjaustau",
+      "pjaustai",
+      "pjausto",
+      "pjaustome",
+      "pjaustote",
+      "pjausto"
+    ],
+    "past": [
+      "",
+      "pjaustei",
+      "pjaustė",
+      "pjaustėme",
+      "pjaustėte",
+      "pjaustė"
+    ],
+    "future": [
+      "pjaustysiu",
+      "pjaustysi",
+      "pjaustys",
+      "pjaustysime",
+      "pjaustysite",
+      "pjaustys"
+    ],
+    "usedTo": [
+      "pjaustydavau",
+      "pjaustydavai",
+      "pjaustydavo",
+      "pjaustydavome",
+      "pjaustydavote",
+      "pjaustydavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "pjaustyčiau",
+      "pjaustytum(ei)",
+      "pjaustytų",
+      "pjaustytu(mė)me",
+      "pjaustytu(mė)te",
+      "pjaustytų"
+    ],
+    "imperative": [
+      "",
+      "pjaustyk",
+      "",
+      "pjaustykime",
+      "pjaustykite",
+      ""
+    ]
+  },
+  {
+    "lt": "plaukti",
+    "lt_ascii": "plaukti",
+    "ru": "плыть",
+    "groups": [
+      600
+    ],
+    "present": [
+      "plaukiu",
+      "plauki",
+      "plaukia",
+      "plaukiame",
+      "plaukiate",
+      "plaukia"
+    ],
+    "past": [
+      "plaukiau",
+      "plaukei",
+      "plaukė",
+      "plaukėme",
+      "plaukėte",
+      "plaukė"
+    ],
+    "future": [
+      "plauksiu",
+      "plauksi",
+      "plauks",
+      "plauksime",
+      "plauksite",
+      "plauks"
+    ],
+    "usedTo": [
+      "plaukdavau",
+      "plaukdavai",
+      "plaukdavo",
+      "plaukdavome",
+      "plaukdavote",
+      "plaukdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "plaukčiau",
+      "plauktum(ei)",
+      "plauktų",
+      "plauktu(mė)me",
+      "plauktu(mė)te",
+      "plauktų"
+    ],
+    "imperative": [
+      "",
+      "plauk",
+      "",
+      "plaukime",
+      "plaukite",
+      ""
+    ]
+  },
+  {
+    "lt": "plauti",
+    "lt_ascii": "plauti",
+    "ru": "мыть",
+    "groups": [
+      200
+    ],
+    "present": [
+      "plaunu",
+      "plauni",
+      "plauna",
+      "plauname",
+      "plaunate",
+      "plauna"
+    ],
+    "past": [
+      "ploviau",
+      "plovei",
+      "plovė",
+      "plovėme",
+      "plovėte",
+      "plovė"
+    ],
+    "future": [
+      "plausiu",
+      "plausi",
+      "plaus",
+      "plausime",
+      "plausite",
+      "plaus"
+    ],
+    "usedTo": [
+      "plaudavau",
+      "plaudavai",
+      "plaudavo",
+      "plaudavome",
+      "plaudavote",
+      "plaudavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "plaučiau",
+      "plautum(ei)",
+      "plautų",
+      "plautu(mė)me",
+      "plautu(mė)te",
+      "plautų"
+    ],
+    "imperative": [
+      "",
+      "plauk",
+      "",
+      "plaukime",
+      "plaukite",
+      ""
+    ]
+  },
+  {
+    "lt": "pradėti",
+    "lt_ascii": "pradeti",
+    "ru": "начать",
+    "groups": [
+      300
+    ],
+    "present": [
+      "pradedžu",
+      "pradedi",
+      "pradeda",
+      "pradedame",
+      "pradedate",
+      "pradeda"
+    ],
+    "past": [
+      "pradėjau",
+      "pradėjai",
+      "pradėjo",
+      "pradėjome",
+      "pradėjote",
+      "pradėjo"
+    ],
+    "future": [
+      "pradėsiu",
+      "pradėsi",
+      "pradės",
+      "pradėsime",
+      "pradėsite",
+      "pradės"
+    ],
+    "usedTo": [
+      "pradėdavau",
+      "pradėdavai",
+      "pradėdavo",
+      "pradėdavome",
+      "pradėdavote",
+      "pradėdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "pradėčiau",
+      "pradėtum(ei)",
+      "pradėtų",
+      "pradėtu(mė)me",
+      "pradėtu(mė)te",
+      "pradėtų"
+    ],
+    "imperative": [
+      "",
+      "pradėk",
+      "",
+      "pradėkime",
+      "pradėkite",
+      ""
+    ]
+  },
+  {
+    "lt": "praeiti",
+    "lt_ascii": "praeiti",
+    "ru": "пройти",
+    "groups": [
+      400
+    ],
+    "present": [
+      "praeinu",
+      "praeini",
+      "praeina",
+      "praeiname",
+      "praeinate",
+      "praeina"
+    ],
+    "past": [
+      "praėjau",
+      "praėjai",
+      "praėjo",
+      "praėjome",
+      "praėjote",
+      "praėjo"
+    ],
+    "future": [
+      "praeisiu",
+      "praeisi",
+      "praeis",
+      "praeisime",
+      "praeisite",
+      "praeis"
+    ],
+    "usedTo": [
+      "praeidavau",
+      "praeidavai",
+      "praeidavo",
+      "praeidavome",
+      "praeidavote",
+      "praeidavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "praeičiau",
+      "praeitum(ei)",
+      "praeitų",
+      "praeitu(mė)me",
+      "praeitu(mė)te",
+      "praeitų"
+    ],
+    "imperative": [
+      "",
+      "praeik",
+      "",
+      "praeikime",
+      "praeikite",
+      ""
+    ]
+  },
+  {
+    "lt": "pranešti",
+    "lt_ascii": "pranesti",
+    "ru": "сообщить",
+    "groups": [
+      700
+    ],
+    "present": [
+      "pranešu",
+      "praneši",
+      "praneša",
+      "pranešame",
+      "pranešate",
+      "praneša"
+    ],
+    "past": [
+      "pranešiau",
+      "pranešei",
+      "pranešė",
+      "pranešėme",
+      "pranešėte",
+      "pranešė"
+    ],
+    "future": [
+      "praneššiu",
+      "pranešši",
+      "pranešš",
+      "praneššime",
+      "praneššite",
+      "pranešš"
+    ],
+    "usedTo": [
+      "pranešdavau",
+      "pranešdavai",
+      "pranešdavo",
+      "pranešdavome",
+      "pranešdavote",
+      "pranešdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "praneščiau",
+      "praneštum(ei)",
+      "praneštų",
+      "praneštu(mė)me",
+      "praneštu(mė)te",
+      "praneštų"
+    ],
+    "imperative": [
+      "",
+      "pranešk",
+      "",
+      "praneškime",
+      "praneškite",
+      ""
+    ]
+  },
+  {
+    "lt": "prarasti",
+    "lt_ascii": "prarasti",
+    "ru": "потерять",
+    "groups": [
+      600
+    ],
+    "present": [
+      "prarandžu",
+      "prarandi",
+      "praranda",
+      "prarandame",
+      "prarandate",
+      "praranda"
+    ],
+    "past": [
+      "praradau",
+      "praradai",
+      "prarado",
+      "praradome",
+      "praradote",
+      "prarado"
+    ],
+    "future": [
+      "prarasiu",
+      "prarasi",
+      "praras",
+      "prarasime",
+      "prarasite",
+      "praras"
+    ],
+    "usedTo": [
+      "prarasdavau",
+      "prarasdavai",
+      "prarasdavo",
+      "prarasdavome",
+      "prarasdavote",
+      "prarasdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "prarasčiau",
+      "prarastum(ei)",
+      "prarastų",
+      "prarastu(mė)me",
+      "prarastu(mė)te",
+      "prarastų"
+    ],
+    "imperative": [
+      "",
+      "prarask",
+      "",
+      "praraskime",
+      "praraskite",
+      ""
+    ]
+  },
+  {
+    "lt": "prasidėti",
+    "lt_ascii": "prasideti",
+    "ru": "начаться",
+    "groups": [
+      300,
+      900
+    ],
+    "present": [
+      "prasidedžu",
+      "prasidedi",
+      "prasideda",
+      "prasidedame",
+      "prasidedate",
+      "prasideda"
+    ],
+    "past": [
+      "prasidėjau",
+      "prasidėjai",
+      "prasidėjo",
+      "prasidėjome",
+      "prasidėjote",
+      "prasidėjo"
+    ],
+    "future": [
+      "prasidėsiu",
+      "prasidėsi",
+      "prasidės",
+      "prasidėsime",
+      "prasidėsite",
+      "prasidės"
+    ],
+    "usedTo": [
+      "prasidėdavau",
+      "prasidėdavai",
+      "prasidėdavo",
+      "prasidėdavome",
+      "prasidėdavote",
+      "prasidėdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "prasidėčiau",
+      "prasidėtum(ei)",
+      "prasidėtų",
+      "prasidėtu(mė)me",
+      "prasidėtu(mė)te",
+      "prasidėtų"
+    ],
+    "imperative": [
+      "",
+      "prasidėk",
+      "",
+      "prasidėkime",
+      "prasidėkite",
+      ""
+    ]
+  },
+  {
+    "lt": "pridėti",
+    "lt_ascii": "prideti",
+    "ru": "добавить",
+    "groups": [
+      600
+    ],
+    "present": [
+      "pridedžu",
+      "pridedi",
+      "prideda",
+      "pridedame",
+      "pridedate",
+      "prideda"
+    ],
+    "past": [
+      "pridėjau",
+      "pridėjai",
+      "pridėjo",
+      "pridėjome",
+      "pridėjote",
+      "pridėjo"
+    ],
+    "future": [
+      "pridėsiu",
+      "pridėsi",
+      "pridės",
+      "pridėsime",
+      "pridėsite",
+      "pridės"
+    ],
+    "usedTo": [
+      "pridėdavau",
+      "pridėdavai",
+      "pridėdavo",
+      "pridėdavome",
+      "pridėdavote",
+      "pridėdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "pridėčiau",
+      "pridėtum(ei)",
+      "pridėtų",
+      "pridėtu(mė)me",
+      "pridėtu(mė)te",
+      "pridėtų"
+    ],
+    "imperative": [
+      "",
+      "pridėk",
+      "",
+      "pridėkime",
+      "pridėkite",
+      ""
+    ]
+  },
+  {
+    "lt": "priimti",
+    "lt_ascii": "priimti",
+    "ru": "принять",
+    "groups": [
+      800
+    ],
+    "present": [
+      "priimu",
+      "priimi",
+      "priima",
+      "priimame",
+      "priimate",
+      "priima"
+    ],
+    "past": [
+      "priėmiau",
+      "priėmei",
+      "priėmė",
+      "priėmėme",
+      "priėmėte",
+      "priėmė"
+    ],
+    "future": [
+      "priimsiu",
+      "priimsi",
+      "priims",
+      "priimsime",
+      "priimsite",
+      "priims"
+    ],
+    "usedTo": [
+      "priimdavau",
+      "priimdavai",
+      "priimdavo",
+      "priimdavome",
+      "priimdavote",
+      "priimdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "priimčiau",
+      "priimtum(ei)",
+      "priimtų",
+      "priimtu(mė)me",
+      "priimtu(mė)te",
+      "priimtų"
+    ],
+    "imperative": [
+      "",
+      "priimk",
+      "",
+      "priimkime",
+      "priimkite",
+      ""
+    ]
+  },
+  {
+    "lt": "priklausyti",
+    "lt_ascii": "priklausyti",
+    "ru": "зависеть",
+    "groups": [
+      900
+    ],
+    "present": [
+      "priklausau",
+      "priklausai",
+      "priklauso",
+      "priklausome",
+      "priklausote",
+      "priklauso"
+    ],
+    "past": [
+      "priklausiau",
+      "priklausei",
+      "priklausė",
+      "priklausėme",
+      "priklausėte",
+      "priklausė"
+    ],
+    "future": [
+      "priklausysiu",
+      "priklausysi",
+      "priklausys",
+      "priklausysime",
+      "priklausysite",
+      "priklausys"
+    ],
+    "usedTo": [
+      "priklausydavau",
+      "priklausydavai",
+      "priklausydavo",
+      "priklausydavome",
+      "priklausydavote",
+      "priklausydavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "priklausyčiau",
+      "priklausytum(ei)",
+      "priklausytų",
+      "priklausytu(mė)me",
+      "priklausytu(mė)te",
+      "priklausytų"
+    ],
+    "imperative": [
+      "",
+      "priklausyk",
+      "",
+      "priklausykime",
+      "priklausykite",
+      ""
+    ]
+  },
+  {
+    "lt": "prisiminti",
+    "lt_ascii": "prisiminti",
+    "ru": "вспомнить",
+    "groups": [
+      400
+    ],
+    "present": [
+      "prisiminu",
+      "prisimini",
+      "prisimina",
+      "prisiminame",
+      "prisiminate",
+      "prisimina"
+    ],
+    "past": [
+      "prisimyniau",
+      "prisimynei",
+      "prisimynė",
+      "prisimynėme",
+      "prisimynėte",
+      "prisimynė"
+    ],
+    "future": [
+      "prisiminsiu",
+      "prisiminsi",
+      "prisimins",
+      "prisiminsime",
+      "prisiminsite",
+      "prisimins"
+    ],
+    "usedTo": [
+      "prisimindavau",
+      "prisimindavai",
+      "prisimindavo",
+      "prisimindavome",
+      "prisimindavote",
+      "prisimindavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "prisiminčiau",
+      "prisimintum(ei)",
+      "prisimintų",
+      "prisimintu(mė)me",
+      "prisimintu(mė)te",
+      "prisimintų"
+    ],
+    "imperative": [
+      "",
+      "prisimink",
+      "",
+      "prisiminkime",
+      "prisiminkite",
+      ""
+    ]
+  },
+  {
+    "lt": "ragauti",
+    "lt_ascii": "ragauti",
+    "ru": "пробовать (еду)",
+    "groups": [
+      600
+    ],
+    "present": [
+      "ragauju",
+      "ragauji",
+      "ragauja",
+      "ragaujame",
+      "ragaujate",
+      "ragauja"
+    ],
+    "past": [
+      "ragavau",
+      "ragavai",
+      "ragavo",
+      "ragavome",
+      "ragavote",
+      "ragavo"
+    ],
+    "future": [
+      "ragausiu",
+      "ragausi",
+      "ragaus",
+      "ragausime",
+      "ragausite",
+      "ragaus"
+    ],
+    "usedTo": [
+      "ragaudavau",
+      "ragaudavai",
+      "ragaudavo",
+      "ragaudavome",
+      "ragaudavote",
+      "ragaudavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "ragaučiau",
+      "ragautum(ei)",
+      "ragautų",
+      "ragautu(mė)me",
+      "ragautu(mė)te",
+      "ragautų"
+    ],
+    "imperative": [
+      "",
+      "ragauk",
+      "",
+      "ragaukime",
+      "ragaukite",
+      ""
+    ]
+  },
+  {
+    "lt": "rasti",
+    "lt_ascii": "rasti",
+    "ru": "найти",
+    "groups": [
+      200
+    ],
+    "present": [
+      "randžu",
+      "randi",
+      "randa",
+      "randame",
+      "randate",
+      "randa"
+    ],
+    "past": [
+      "radau",
+      "radai",
+      "rado",
+      "radome",
+      "radote",
+      "rado"
+    ],
+    "future": [
+      "rasiu",
+      "rasi",
+      "ras",
+      "rasime",
+      "rasite",
+      "ras"
+    ],
+    "usedTo": [
+      "rasdavau",
+      "rasdavai",
+      "rasdavo",
+      "rasdavome",
+      "rasdavote",
+      "rasdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "rasčiau",
+      "rastum(ei)",
+      "rastų",
+      "rastu(mė)me",
+      "rastu(mė)te",
+      "rastų"
+    ],
+    "imperative": [
+      "",
+      "rask",
+      "",
+      "raskime",
+      "raskite",
+      ""
+    ]
+  },
+  {
+    "lt": "rašyti",
+    "lt_ascii": "rasyti",
+    "ru": "писать",
+    "groups": [
+      200
+    ],
+    "present": [
+      "rašau",
+      "rašai",
+      "rašo",
+      "rašome",
+      "rašote",
+      "rašo"
+    ],
+    "past": [
+      "rašiau",
+      "rašei",
+      "rašė",
+      "rašėme",
+      "rašėte",
+      "rašė"
+    ],
+    "future": [
+      "rašysiu",
+      "rašysi",
+      "rašys",
+      "rašysime",
+      "rašysite",
+      "rašys"
+    ],
+    "usedTo": [
+      "rašydavau",
+      "rašydavai",
+      "rašydavo",
+      "rašydavome",
+      "rašydavote",
+      "rašydavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "rašyčiau",
+      "rašytum(ei)",
+      "rašytų",
+      "rašytu(mė)me",
+      "rašytu(mė)te",
+      "rašytų"
+    ],
+    "imperative": [
+      "",
+      "rašyk",
+      "",
+      "rašykime",
+      "rašykite",
+      ""
+    ]
+  },
+  {
+    "lt": "reikalauti",
+    "lt_ascii": "reikalauti",
+    "ru": "требовать",
+    "groups": [
+      500
+    ],
+    "present": [
+      "reikalauju",
+      "reikalauji",
+      "reikalauja",
+      "reikalaujame",
+      "reikalaujate",
+      "reikalauja"
+    ],
+    "past": [
+      "reikalavau",
+      "reikalavai",
+      "reikalavo",
+      "reikalavome",
+      "reikalavote",
+      "reikalavo"
+    ],
+    "future": [
+      "reikalausiu",
+      "reikalausi",
+      "reikalaus",
+      "reikalausime",
+      "reikalausite",
+      "reikalaus"
+    ],
+    "usedTo": [
+      "reikalaudavau",
+      "reikalaudavai",
+      "reikalaudavo",
+      "reikalaudavome",
+      "reikalaudavote",
+      "reikalaudavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "reikalaučiau",
+      "reikalautum(ei)",
+      "reikalautų",
+      "reikalautu(mė)me",
+      "reikalautu(mė)te",
+      "reikalautų"
+    ],
+    "imperative": [
+      "",
+      "reikalauk",
+      "",
+      "reikalaukime",
+      "reikalaukite",
+      ""
+    ]
+  },
+  {
+    "lt": "reikšti",
+    "lt_ascii": "reiksti",
+    "ru": "значить",
+    "groups": [
+      200,
+      900
+    ],
+    "present": [
+      "reiškiu",
+      "reiški",
+      "reiškia",
+      "reiškiame",
+      "reiškiate",
+      "reiškia"
+    ],
+    "past": [
+      "reiškiau",
+      "reiškei",
+      "reiškė",
+      "reiškėme",
+      "reiškėte",
+      "reiškė"
+    ],
+    "future": [
+      "reikššiu",
+      "reikšši",
+      "reikšš",
+      "reikššime",
+      "reikššite",
+      "reikšš"
+    ],
+    "usedTo": [
+      "reikšdavau",
+      "reikšdavai",
+      "reikšdavo",
+      "reikšdavome",
+      "reikšdavote",
+      "reikšdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "reikščiau",
+      "reikštum(ei)",
+      "reikštų",
+      "reikštu(mė)me",
+      "reikštu(mė)te",
+      "reikštų"
+    ],
+    "imperative": [
+      "",
+      "reikšk",
+      "",
+      "reikškime",
+      "reikškite",
+      ""
+    ]
+  },
+  {
+    "lt": "rinktis",
+    "lt_ascii": "rinktis",
+    "ru": "выбирать",
+    "groups": [
+      900
+    ],
+    "present": [
+      "renkuosi",
+      "renkiesi",
+      "renkasi",
+      "renkamės",
+      "renkatės",
+      "renkasi"
+    ],
+    "past": [
+      "rinkausi",
+      "rinkaisi",
+      "rinkosi",
+      "rinkomės",
+      "rinkotės",
+      "rinkosi"
+    ],
+    "future": [
+      "rinksiusi",
+      "rinksisi",
+      "rinksis",
+      "rinksimės",
+      "rinksitės",
+      "rinksis"
+    ],
+    "usedTo": [
+      "rinkdavausi",
+      "rinkdavaisi",
+      "rinkdavosi",
+      "rinkdavomės",
+      "rinkdavotės",
+      "rinkdavosi"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "rinkčiausi",
+      "rinktumeisi",
+      "rinktųsi",
+      "rinktu(mė)mės",
+      "rinktu(mė)tės",
+      "rinktųsi"
+    ],
+    "imperative": [
+      "",
+      "rinks",
+      "",
+      "rinkimės",
+      "rinkitės",
+      ""
+    ]
+  },
+  {
+    "lt": "rodyti",
+    "lt_ascii": "rodyti",
+    "ru": "показывать",
+    "groups": [
+      300
+    ],
+    "present": [
+      "rodžau",
+      "rodai",
+      "rodo",
+      "rodome",
+      "rodote",
+      "rodo"
+    ],
+    "past": [
+      "",
+      "rodei",
+      "rodė",
+      "rodėme",
+      "rodėte",
+      "rodė"
+    ],
+    "future": [
+      "rodysiu",
+      "rodysi",
+      "rodys",
+      "rodysime",
+      "rodysite",
+      "rodys"
+    ],
+    "usedTo": [
+      "rodydavau",
+      "rodydavai",
+      "rodydavo",
+      "rodydavome",
+      "rodydavote",
+      "rodydavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "rodyčiau",
+      "rodytum(ei)",
+      "rodytų",
+      "rodytu(mė)me",
+      "rodytu(mė)te",
+      "rodytų"
+    ],
+    "imperative": [
+      "",
+      "rodyk",
+      "",
+      "rodykime",
+      "rodykite",
+      ""
+    ]
+  },
+  {
+    "lt": "ruoštis",
+    "lt_ascii": "ruostis",
+    "ru": "готовиться",
+    "groups": [
+      500
+    ],
+    "present": [
+      "ruošiuosi",
+      "ruošiesi",
+      "ruošiasi",
+      "ruošiamės",
+      "ruošiatės",
+      "ruošiasi"
+    ],
+    "past": [
+      "ruošiausi",
+      "ruošeisi",
+      "ruošėsi",
+      "ruošėmės",
+      "ruošėtės",
+      "ruošėsi"
+    ],
+    "future": [
+      "ruoššiusi",
+      "ruoššisi",
+      "ruoššis",
+      "ruoššimės",
+      "ruoššitės",
+      "ruoššis"
+    ],
+    "usedTo": [
+      "ruošdavausi",
+      "ruošdavaisi",
+      "ruošdavosi",
+      "ruošdavomės",
+      "ruošdavotės",
+      "ruošdavosi"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "ruoščiausi",
+      "ruoštumeisi",
+      "ruoštųsi",
+      "ruoštu(mė)mės",
+      "ruoštu(mė)tės",
+      "ruoštųsi"
+    ],
+    "imperative": [
+      "",
+      "ruošks",
+      "",
+      "ruoškimės",
+      "ruoškitės",
+      ""
+    ]
+  },
+  {
+    "lt": "šaukti",
+    "lt_ascii": "saukti",
+    "ru": "звать",
+    "groups": [
+      400
+    ],
+    "present": [
+      "šaukiu",
+      "šauki",
+      "šaukia",
+      "šaukiame",
+      "šaukiate",
+      "šaukia"
+    ],
+    "past": [
+      "šaukiau",
+      "šaukei",
+      "šaukė",
+      "šaukėme",
+      "šaukėte",
+      "šaukė"
+    ],
+    "future": [
+      "šauksiu",
+      "šauksi",
+      "šauks",
+      "šauksime",
+      "šauksite",
+      "šauks"
+    ],
+    "usedTo": [
+      "šaukdavau",
+      "šaukdavai",
+      "šaukdavo",
+      "šaukdavome",
+      "šaukdavote",
+      "šaukdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "šaukčiau",
+      "šauktum(ei)",
+      "šauktų",
+      "šauktu(mė)me",
+      "šauktu(mė)te",
+      "šauktų"
+    ],
+    "imperative": [
+      "",
+      "šauk",
+      "",
+      "šaukime",
+      "šaukite",
+      ""
+    ]
+  },
+  {
+    "lt": "sekti",
+    "lt_ascii": "sekti",
+    "ru": "следить",
+    "groups": [
+      500
+    ],
+    "present": [
+      "senku",
+      "senki",
+      "senka",
+      "senkame",
+      "senkate",
+      "senka"
+    ],
+    "past": [
+      "sekau",
+      "sekai",
+      "seko",
+      "sekome",
+      "sekote",
+      "seko"
+    ],
+    "future": [
+      "seksiu",
+      "seksi",
+      "seks",
+      "seksime",
+      "seksite",
+      "seks"
+    ],
+    "usedTo": [
+      "sekdavau",
+      "sekdavai",
+      "sekdavo",
+      "sekdavome",
+      "sekdavote",
+      "sekdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "sekčiau",
+      "sektum(ei)",
+      "sektų",
+      "sektu(mė)me",
+      "sektu(mė)te",
+      "sektų"
+    ],
+    "imperative": [
+      "",
+      "sek",
+      "",
+      "sekime",
+      "sekite",
+      ""
+    ]
+  },
+  {
+    "lt": "sėsti",
+    "lt_ascii": "sesti",
+    "ru": "сесть",
+    "groups": [
+      300
+    ],
+    "present": [
+      "sėdžu",
+      "sėdi",
+      "sėda",
+      "sėdame",
+      "sėdate",
+      "sėda"
+    ],
+    "past": [
+      "sėdau",
+      "sėdai",
+      "sėdo",
+      "sėdome",
+      "sėdote",
+      "sėdo"
+    ],
+    "future": [
+      "sėsiu",
+      "sėsi",
+      "sės",
+      "sėsime",
+      "sėsite",
+      "sės"
+    ],
+    "usedTo": [
+      "sėsdavau",
+      "sėsdavai",
+      "sėsdavo",
+      "sėsdavome",
+      "sėsdavote",
+      "sėsdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "sėsčiau",
+      "sėstum(ei)",
+      "sėstų",
+      "sėstu(mė)me",
+      "sėstu(mė)te",
+      "sėstų"
+    ],
+    "imperative": [
+      "",
+      "sėsk",
+      "",
+      "sėskime",
+      "sėskite",
+      ""
+    ]
+  },
+  {
+    "lt": "siūlyti",
+    "lt_ascii": "siulyti",
+    "ru": "предлагать",
+    "groups": [
+      500
+    ],
+    "present": [
+      "siūlau",
+      "siūlai",
+      "siūlo",
+      "siūlome",
+      "siūlote",
+      "siūlo"
+    ],
+    "past": [
+      "siūliau",
+      "siūlei",
+      "siūlė",
+      "siūlėme",
+      "siūlėte",
+      "siūlė"
+    ],
+    "future": [
+      "siūlysiu",
+      "siūlysi",
+      "siūlys",
+      "siūlysime",
+      "siūlysite",
+      "siūlys"
+    ],
+    "usedTo": [
+      "siūlydavau",
+      "siūlydavai",
+      "siūlydavo",
+      "siūlydavome",
+      "siūlydavote",
+      "siūlydavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "siūlyčiau",
+      "siūlytum(ei)",
+      "siūlytų",
+      "siūlytu(mė)me",
+      "siūlytu(mė)te",
+      "siūlytų"
+    ],
+    "imperative": [
+      "",
+      "siūlyk",
+      "",
+      "siūlykime",
+      "siūlykite",
+      ""
+    ]
+  },
+  {
+    "lt": "siųsti",
+    "lt_ascii": "siusti",
+    "ru": "посылать",
+    "groups": [
+      900
+    ],
+    "present": [
+      "siunčiu",
+      "siunči",
+      "siunčia",
+      "siunčiame",
+      "siunčiate",
+      "siunčia"
+    ],
+    "past": [
+      "",
+      "siuntei",
+      "siuntė",
+      "siuntėme",
+      "siuntėte",
+      "siuntė"
+    ],
+    "future": [
+      "siųsiu",
+      "siųsi",
+      "siųs",
+      "siųsime",
+      "siųsite",
+      "siųs"
+    ],
+    "usedTo": [
+      "siųsdavau",
+      "siųsdavai",
+      "siųsdavo",
+      "siųsdavome",
+      "siųsdavote",
+      "siųsdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "siųsčiau",
+      "siųstum(ei)",
+      "siųstų",
+      "siųstu(mė)me",
+      "siųstu(mė)te",
+      "siųstų"
+    ],
+    "imperative": [
+      "",
+      "siųsk",
+      "",
+      "siųskime",
+      "siųskite",
+      ""
+    ]
+  },
+  {
+    "lt": "siūti",
+    "lt_ascii": "siuti",
+    "ru": "шить",
+    "groups": [
+      600
+    ],
+    "present": [
+      "siuvu",
+      "siuvi",
+      "siuva",
+      "siuvame",
+      "siuvate",
+      "siuva"
+    ],
+    "past": [
+      "siuvau",
+      "siuvai",
+      "siuvo",
+      "siuvome",
+      "siuvote",
+      "siuvo"
+    ],
+    "future": [
+      "siūsiu",
+      "siūsi",
+      "sius",
+      "siūsime",
+      "siūsite",
+      "sius"
+    ],
+    "usedTo": [
+      "siūdavau",
+      "siūdavai",
+      "siūdavo",
+      "siūdavome",
+      "siūdavote",
+      "siūdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "siūčiau",
+      "siūtum(ei)",
+      "siūtų",
+      "siūtu(mė)me",
+      "siūtu(mė)te",
+      "siūtų"
+    ],
+    "imperative": [
+      "",
+      "siūk",
+      "",
+      "siūkime",
+      "siūkite",
+      ""
+    ]
+  },
+  {
+    "lt": "skaičiuoti",
+    "lt_ascii": "skaiciuoti",
+    "ru": "считать (счёт)",
+    "groups": [
+      200
+    ],
+    "present": [
+      "skaičiuoju",
+      "skaičiuoji",
+      "skaičiuoja",
+      "skaičiuojame",
+      "skaičiuojate",
+      "skaičiuoja"
+    ],
+    "past": [
+      "skaičiavau",
+      "skaičiavai",
+      "skaičiavo",
+      "skaičiavome",
+      "skaičiavote",
+      "skaičiavo"
+    ],
+    "future": [
+      "skaičiuosiu",
+      "skaičiuosi",
+      "skaičiuos",
+      "skaičiuosime",
+      "skaičiuosite",
+      "skaičiuos"
+    ],
+    "usedTo": [
+      "skaičiuodavau",
+      "skaičiuodavai",
+      "skaičiuodavo",
+      "skaičiuodavome",
+      "skaičiuodavote",
+      "skaičiuodavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "skaičiuočiau",
+      "skaičiuotum(ei)",
+      "skaičiuotų",
+      "skaičiuotu(mė)me",
+      "skaičiuotu(mė)te",
+      "skaičiuotų"
+    ],
+    "imperative": [
+      "",
+      "skaičiuok",
+      "",
+      "skaičiuokime",
+      "skaičiuokite",
+      ""
+    ]
+  },
+  {
+    "lt": "skaityti",
+    "lt_ascii": "skaityti",
+    "ru": "читать",
+    "groups": [
+      200
+    ],
+    "present": [
+      "skaitau",
+      "skaitai",
+      "skaito",
+      "skaitome",
+      "skaitote",
+      "skaito"
+    ],
+    "past": [
+      "",
+      "skaitei",
+      "skaitė",
+      "skaitėme",
+      "skaitėte",
+      "skaitė"
+    ],
+    "future": [
+      "skaitysiu",
+      "skaitysi",
+      "skaitys",
+      "skaitysime",
+      "skaitysite",
+      "skaitys"
+    ],
+    "usedTo": [
+      "skaitydavau",
+      "skaitydavai",
+      "skaitydavo",
+      "skaitydavome",
+      "skaitydavote",
+      "skaitydavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "skaityčiau",
+      "skaitytum(ei)",
+      "skaitytų",
+      "skaitytu(mė)me",
+      "skaitytu(mė)te",
+      "skaitytų"
+    ],
+    "imperative": [
+      "",
+      "skaityk",
+      "",
+      "skaitykime",
+      "skaitykite",
+      ""
+    ]
+  },
+  {
+    "lt": "skambinti",
+    "lt_ascii": "skambinti",
+    "ru": "звонить",
+    "groups": [
+      100
+    ],
+    "present": [
+      "skambinu",
+      "skambini",
+      "skambina",
+      "skambiname",
+      "skambinate",
+      "skambina"
+    ],
+    "past": [
+      "skambinau",
+      "skambinai",
+      "skambino",
+      "skambinome",
+      "skambinote",
+      "skambino"
+    ],
+    "future": [
+      "skambinsiu",
+      "skambinsi",
+      "skambins",
+      "skambinsime",
+      "skambinsite",
+      "skambins"
+    ],
+    "usedTo": [
+      "skambindavau",
+      "skambindavai",
+      "skambindavo",
+      "skambindavome",
+      "skambindavote",
+      "skambindavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "skambinčiau",
+      "skambintum(ei)",
+      "skambintų",
+      "skambintu(mė)me",
+      "skambintu(mė)te",
+      "skambintų"
+    ],
+    "imperative": [
+      "",
+      "skambink",
+      "",
+      "skambinkime",
+      "skambinkite",
+      ""
+    ]
+  },
+  {
+    "lt": "skolinti",
+    "lt_ascii": "skolinti",
+    "ru": "одалживать",
+    "groups": [
+      700
+    ],
+    "present": [
+      "skolinu",
+      "skolini",
+      "skolina",
+      "skoliname",
+      "skolinate",
+      "skolina"
+    ],
+    "past": [
+      "skolinau",
+      "skolinai",
+      "skolino",
+      "skolinome",
+      "skolinote",
+      "skolino"
+    ],
+    "future": [
+      "skolinsiu",
+      "skolinsi",
+      "skolins",
+      "skolinsime",
+      "skolinsite",
+      "skolins"
+    ],
+    "usedTo": [
+      "skolindavau",
+      "skolindavai",
+      "skolindavo",
+      "skolindavome",
+      "skolindavote",
+      "skolindavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "skolinčiau",
+      "skolintum(ei)",
+      "skolintų",
+      "skolintu(mė)me",
+      "skolintu(mė)te",
+      "skolintų"
+    ],
+    "imperative": [
+      "",
+      "skolink",
+      "",
+      "skolinkime",
+      "skolinkite",
+      ""
+    ]
+  },
+  {
+    "lt": "skristi",
+    "lt_ascii": "skristi",
+    "ru": "лететь",
+    "groups": [
+      900
+    ],
+    "present": [
+      "skrendžu",
+      "skrendi",
+      "skrenda",
+      "skrendame",
+      "skrendate",
+      "skrenda"
+    ],
+    "past": [
+      "skridau",
+      "skridai",
+      "skrido",
+      "skridome",
+      "skridote",
+      "skrido"
+    ],
+    "future": [
+      "skrisiu",
+      "skrisi",
+      "skris",
+      "skrisime",
+      "skrisite",
+      "skris"
+    ],
+    "usedTo": [
+      "skrisdavau",
+      "skrisdavai",
+      "skrisdavo",
+      "skrisdavome",
+      "skrisdavote",
+      "skrisdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "skrisčiau",
+      "skristum(ei)",
+      "skristų",
+      "skristu(mė)me",
+      "skristu(mė)te",
+      "skristų"
+    ],
+    "imperative": [
+      "",
+      "skrisk",
+      "",
+      "skriskime",
+      "skriskite",
+      ""
+    ]
+  },
+  {
+    "lt": "skubėti",
+    "lt_ascii": "skubeti",
+    "ru": "торопиться",
+    "groups": [
+      900
+    ],
+    "present": [
+      "skubu",
+      "skubi",
+      "skuba",
+      "skubame",
+      "skubate",
+      "skuba"
+    ],
+    "past": [
+      "skubėjau",
+      "skubėjai",
+      "skubėjo",
+      "skubėjome",
+      "skubėjote",
+      "skubėjo"
+    ],
+    "future": [
+      "skubėsiu",
+      "skubėsi",
+      "skubės",
+      "skubėsime",
+      "skubėsite",
+      "skubės"
+    ],
+    "usedTo": [
+      "skubėdavau",
+      "skubėdavai",
+      "skubėdavo",
+      "skubėdavome",
+      "skubėdavote",
+      "skubėdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "skubėčiau",
+      "skubėtum(ei)",
+      "skubėtų",
+      "skubėtu(mė)me",
+      "skubėtu(mė)te",
+      "skubėtų"
+    ],
+    "imperative": [
+      "",
+      "skubėk",
+      "",
+      "skubėkime",
+      "skubėkite",
+      ""
+    ]
+  },
+  {
+    "lt": "smogti",
+    "lt_ascii": "smogti",
+    "ru": "ударить",
+    "groups": [
+      900
+    ],
+    "present": [
+      "smogiu",
+      "smogi",
+      "smogia",
+      "smogiame",
+      "smogiate",
+      "smogia"
+    ],
+    "past": [
+      "smogiau",
+      "smogei",
+      "smogė",
+      "smogėme",
+      "smogėte",
+      "smogė"
+    ],
+    "future": [
+      "smogsiu",
+      "smogsi",
+      "smogs",
+      "smogsime",
+      "smogsite",
+      "smogs"
+    ],
+    "usedTo": [
+      "smogdavau",
+      "smogdavai",
+      "smogdavo",
+      "smogdavome",
+      "smogdavote",
+      "smogdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "smogčiau",
+      "smogtum(ei)",
+      "smogtų",
+      "smogtu(mė)me",
+      "smogtu(mė)te",
+      "smogtų"
+    ],
+    "imperative": [
+      "",
+      "smok",
+      "",
+      "smokime",
+      "smokite",
+      ""
+    ]
+  },
+  {
+    "lt": "šokti",
+    "lt_ascii": "sokti",
+    "ru": "прыгать",
+    "groups": [
+      700,
+      800
+    ],
+    "present": [
+      "šoku",
+      "šoki",
+      "šoka",
+      "šokame",
+      "šokate",
+      "šoka"
+    ],
+    "past": [
+      "šokau",
+      "šokai",
+      "šoko",
+      "šokome",
+      "šokote",
+      "šoko"
+    ],
+    "future": [
+      "šoksiu",
+      "šoksi",
+      "šoks",
+      "šoksime",
+      "šoksite",
+      "šoks"
+    ],
+    "usedTo": [
+      "šokdavau",
+      "šokdavai",
+      "šokdavo",
+      "šokdavome",
+      "šokdavote",
+      "šokdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "šokčiau",
+      "šoktum(ei)",
+      "šoktų",
+      "šoktu(mė)me",
+      "šoktu(mė)te",
+      "šoktų"
+    ],
+    "imperative": [
+      "",
+      "šok",
+      "",
+      "šokime",
+      "šokite",
+      ""
+    ]
+  },
+  {
+    "lt": "spėti",
+    "lt_ascii": "speti",
+    "ru": "успеть",
+    "groups": [
+      700
+    ],
+    "present": [
+      "spėju",
+      "spėji",
+      "spėja",
+      "spėjame",
+      "spėjate",
+      "spėja"
+    ],
+    "past": [
+      "spėjau",
+      "spėjai",
+      "spėjo",
+      "spėjome",
+      "spėjote",
+      "spėjo"
+    ],
+    "future": [
+      "spėsiu",
+      "spėsi",
+      "spės",
+      "spėsime",
+      "spėsite",
+      "spės"
+    ],
+    "usedTo": [
+      "spėdavau",
+      "spėdavai",
+      "spėdavo",
+      "spėdavome",
+      "spėdavote",
+      "spėdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "spėčiau",
+      "spėtum(ei)",
+      "spėtų",
+      "spėtu(mė)me",
+      "spėtu(mė)te",
+      "spėtų"
+    ],
+    "imperative": [
+      "",
+      "spėk",
+      "",
+      "spėkime",
+      "spėkite",
+      ""
+    ]
+  },
+  {
+    "lt": "spręsti",
+    "lt_ascii": "spresti",
+    "ru": "решить",
+    "groups": [
+      200
+    ],
+    "present": [
+      "sprendžiu",
+      "sprendži",
+      "sprendžia",
+      "sprendžiame",
+      "sprendžiate",
+      "sprendžia"
+    ],
+    "past": [
+      "",
+      "sprendei",
+      "sprendė",
+      "sprendėme",
+      "sprendėte",
+      "sprendė"
+    ],
+    "future": [
+      "spręsiu",
+      "spręsi",
+      "spręs",
+      "spręsime",
+      "spręsite",
+      "spręs"
+    ],
+    "usedTo": [
+      "spręsdavau",
+      "spręsdavai",
+      "spręsdavo",
+      "spręsdavome",
+      "spręsdavote",
+      "spręsdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "spręsčiau",
+      "spręstum(ei)",
+      "spręstų",
+      "spręstu(mė)me",
+      "spręstu(mė)te",
+      "spręstų"
+    ],
+    "imperative": [
+      "",
+      "spręsk",
+      "",
+      "spręskime",
+      "spręskite",
+      ""
+    ]
+  },
+  {
+    "lt": "statyti",
+    "lt_ascii": "statyti",
+    "ru": "ставить",
+    "groups": [
+      300,
+      500
+    ],
+    "present": [
+      "statau",
+      "statai",
+      "stato",
+      "statome",
+      "statote",
+      "stato"
+    ],
+    "past": [
+      "",
+      "statei",
+      "statė",
+      "statėme",
+      "statėte",
+      "statė"
+    ],
+    "future": [
+      "statysiu",
+      "statysi",
+      "statys",
+      "statysime",
+      "statysite",
+      "statys"
+    ],
+    "usedTo": [
+      "statydavau",
+      "statydavai",
+      "statydavo",
+      "statydavome",
+      "statydavote",
+      "statydavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "statyčiau",
+      "statytum(ei)",
+      "statytų",
+      "statytu(mė)me",
+      "statytu(mė)te",
+      "statytų"
+    ],
+    "imperative": [
+      "",
+      "statyk",
+      "",
+      "statykime",
+      "statykite",
+      ""
+    ]
+  },
+  {
+    "lt": "stovėti",
+    "lt_ascii": "stoveti",
+    "ru": "стоять",
+    "groups": [
+      300
+    ],
+    "present": [
+      "stoviu",
+      "stovi",
+      "stovi",
+      "stovime",
+      "stovite",
+      "stovi"
+    ],
+    "past": [
+      "stovėjau",
+      "stovėjai",
+      "stovėjo",
+      "stovėjome",
+      "stovėjote",
+      "stovėjo"
+    ],
+    "future": [
+      "stovėsiu",
+      "stovėsi",
+      "stovės",
+      "stovėsime",
+      "stovėsite",
+      "stovės"
+    ],
+    "usedTo": [
+      "stovėdavau",
+      "stovėdavai",
+      "stovėdavo",
+      "stovėdavome",
+      "stovėdavote",
+      "stovėdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "stovėčiau",
+      "stovėtum(ei)",
+      "stovėtų",
+      "stovėtu(mė)me",
+      "stovėtu(mė)te",
+      "stovėtų"
+    ],
+    "imperative": [
+      "",
+      "stovėk",
+      "",
+      "stovėkime",
+      "stovėkite",
+      ""
+    ]
+  },
+  {
+    "lt": "sugalvoti",
+    "lt_ascii": "sugalvoti",
+    "ru": "придумать",
+    "groups": [
+      800
+    ],
+    "present": [
+      "sugalvoju",
+      "sugalvoji",
+      "sugalvoja",
+      "sugalvojame",
+      "sugalvojate",
+      "sugalvoja"
+    ],
+    "past": [
+      "sugalvojau",
+      "sugalvojai",
+      "sugalvojo",
+      "sugalvojome",
+      "sugalvojote",
+      "sugalvojo"
+    ],
+    "future": [
+      "sugalvosiu",
+      "sugalvosi",
+      "sugalvos",
+      "sugalvosime",
+      "sugalvosite",
+      "sugalvos"
+    ],
+    "usedTo": [
+      "sugalvodavau",
+      "sugalvodavai",
+      "sugalvodavo",
+      "sugalvodavome",
+      "sugalvodavote",
+      "sugalvodavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "sugalvočiau",
+      "sugalvotum(ei)",
+      "sugalvotų",
+      "sugalvotu(mė)me",
+      "sugalvotu(mė)te",
+      "sugalvotų"
+    ],
+    "imperative": [
+      "",
+      "sugalvok",
+      "",
+      "sugalvokime",
+      "sugalvokite",
+      ""
+    ]
+  },
+  {
+    "lt": "sukurti",
+    "lt_ascii": "sukurti",
+    "ru": "создать",
+    "groups": [
+      700
+    ],
+    "present": [
+      "sukuriu",
+      "sukuri",
+      "sukuria",
+      "sukuriame",
+      "sukuriate",
+      "sukuria"
+    ],
+    "past": [
+      "sukūriau",
+      "sukūrei",
+      "sukūrė",
+      "sukūrėme",
+      "sukūrėte",
+      "sukūrė"
+    ],
+    "future": [
+      "sukursiu",
+      "sukursi",
+      "sukurs",
+      "sukursime",
+      "sukursite",
+      "sukurs"
+    ],
+    "usedTo": [
+      "sukurdavau",
+      "sukurdavai",
+      "sukurdavo",
+      "sukurdavome",
+      "sukurdavote",
+      "sukurdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "sukurčiau",
+      "sukurtum(ei)",
+      "sukurtų",
+      "sukurtu(mė)me",
+      "sukurtu(mė)te",
+      "sukurtų"
+    ],
+    "imperative": [
+      "",
+      "sukurk",
+      "",
+      "sukurkime",
+      "sukurkite",
+      ""
+    ]
+  },
+  {
+    "lt": "surinkti",
+    "lt_ascii": "surinkti",
+    "ru": "собрать",
+    "groups": [
+      700
+    ],
+    "present": [
+      "surenku",
+      "surenki",
+      "surenka",
+      "surenkame",
+      "surenkate",
+      "surenka"
+    ],
+    "past": [
+      "surinkau",
+      "surinkai",
+      "surinko",
+      "surinkome",
+      "surinkote",
+      "surinko"
+    ],
+    "future": [
+      "surinksiu",
+      "surinksi",
+      "surinks",
+      "surinksime",
+      "surinksite",
+      "surinks"
+    ],
+    "usedTo": [
+      "surinkdavau",
+      "surinkdavai",
+      "surinkdavo",
+      "surinkdavome",
+      "surinkdavote",
+      "surinkdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "surinkčiau",
+      "surinktum(ei)",
+      "surinktų",
+      "surinktu(mė)me",
+      "surinktu(mė)te",
+      "surinktų"
+    ],
+    "imperative": [
+      "",
+      "surink",
+      "",
+      "surinkime",
+      "surinkite",
+      ""
+    ]
+  },
+  {
+    "lt": "susirinkti",
+    "lt_ascii": "susirinkti",
+    "ru": "собраться",
+    "groups": [
+      400
+    ],
+    "present": [
+      "susirenku",
+      "susirenki",
+      "susirenka",
+      "susirenkame",
+      "susirenkate",
+      "susirenka"
+    ],
+    "past": [
+      "susirinkau",
+      "susirinkai",
+      "susirinko",
+      "susirinkome",
+      "susirinkote",
+      "susirinko"
+    ],
+    "future": [
+      "susirinksiu",
+      "susirinksi",
+      "susirinks",
+      "susirinksime",
+      "susirinksite",
+      "susirinks"
+    ],
+    "usedTo": [
+      "susirinkdavau",
+      "susirinkdavai",
+      "susirinkdavo",
+      "susirinkdavome",
+      "susirinkdavote",
+      "susirinkdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "susirinkčiau",
+      "susirinktum(ei)",
+      "susirinktų",
+      "susirinktu(mė)me",
+      "susirinktu(mė)te",
+      "susirinktų"
+    ],
+    "imperative": [
+      "",
+      "susirink",
+      "",
+      "susirinkime",
+      "susirinkite",
+      ""
+    ]
+  },
+  {
+    "lt": "susitikti",
+    "lt_ascii": "susitikti",
+    "ru": "встретиться",
+    "groups": [
+      600
+    ],
+    "present": [
+      "susitinku",
+      "susitinki",
+      "susitinka",
+      "susitinkame",
+      "susitinkate",
+      "susitinka"
+    ],
+    "past": [
+      "susitikau",
+      "susitikai",
+      "susitiko",
+      "susitikome",
+      "susitikote",
+      "susitiko"
+    ],
+    "future": [
+      "susitiksiu",
+      "susitiksi",
+      "susitiks",
+      "susitiksime",
+      "susitiksite",
+      "susitiks"
+    ],
+    "usedTo": [
+      "susitikdavau",
+      "susitikdavai",
+      "susitikdavo",
+      "susitikdavome",
+      "susitikdavote",
+      "susitikdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "susitikčiau",
+      "susitiktum(ei)",
+      "susitiktų",
+      "susitiktu(mė)me",
+      "susitiktu(mė)te",
+      "susitiktų"
+    ],
+    "imperative": [
+      "",
+      "susitik",
+      "",
+      "susitikime",
+      "susitikite",
+      ""
+    ]
+  },
+  {
+    "lt": "sustoti",
+    "lt_ascii": "sustoti",
+    "ru": "остановиться",
+    "groups": [
+      400
+    ],
+    "present": [
+      "sustoju",
+      "sustoji",
+      "sustoja",
+      "sustojame",
+      "sustojate",
+      "sustoja"
+    ],
+    "past": [
+      "sustojau",
+      "sustojai",
+      "sustojo",
+      "sustojome",
+      "sustojote",
+      "sustojo"
+    ],
+    "future": [
+      "sustosiu",
+      "sustosi",
+      "sustos",
+      "sustosime",
+      "sustosite",
+      "sustos"
+    ],
+    "usedTo": [
+      "sustodavau",
+      "sustodavai",
+      "sustodavo",
+      "sustodavome",
+      "sustodavote",
+      "sustodavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "sustočiau",
+      "sustotum(ei)",
+      "sustotų",
+      "sustotu(mė)me",
+      "sustotu(mė)te",
+      "sustotų"
+    ],
+    "imperative": [
+      "",
+      "sustok",
+      "",
+      "sustokime",
+      "sustokite",
+      ""
+    ]
+  },
+  {
+    "lt": "sutikti",
+    "lt_ascii": "sutikti",
+    "ru": "встретить",
+    "groups": [
+      100,
+      600
+    ],
+    "present": [
+      "sutinku",
+      "sutinki",
+      "sutinka",
+      "sutinkame",
+      "sutinkate",
+      "sutinka"
+    ],
+    "past": [
+      "sutikau",
+      "sutikai",
+      "sutiko",
+      "sutikome",
+      "sutikote",
+      "sutiko"
+    ],
+    "future": [
+      "sutiksiu",
+      "sutiksi",
+      "sutiks",
+      "sutiksime",
+      "sutiksite",
+      "sutiks"
+    ],
+    "usedTo": [
+      "sutikdavau",
+      "sutikdavai",
+      "sutikdavo",
+      "sutikdavome",
+      "sutikdavote",
+      "sutikdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "sutikčiau",
+      "sutiktum(ei)",
+      "sutiktų",
+      "sutiktu(mė)me",
+      "sutiktu(mė)te",
+      "sutiktų"
+    ],
+    "imperative": [
+      "",
+      "sutik",
+      "",
+      "sutikime",
+      "sutikite",
+      ""
+    ]
+  },
+  {
+    "lt": "svajoti",
+    "lt_ascii": "svajoti",
+    "ru": "мечтать",
+    "groups": [
+      600
+    ],
+    "present": [
+      "svajoju",
+      "svajoji",
+      "svajoja",
+      "svajojame",
+      "svajojate",
+      "svajoja"
+    ],
+    "past": [
+      "svajojau",
+      "svajojai",
+      "svajojo",
+      "svajojome",
+      "svajojote",
+      "svajojo"
+    ],
+    "future": [
+      "svajosiu",
+      "svajosi",
+      "svajos",
+      "svajosime",
+      "svajosite",
+      "svajos"
+    ],
+    "usedTo": [
+      "svajodavau",
+      "svajodavai",
+      "svajodavo",
+      "svajodavome",
+      "svajodavote",
+      "svajodavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "svajočiau",
+      "svajotum(ei)",
+      "svajotų",
+      "svajotu(mė)me",
+      "svajotu(mė)te",
+      "svajotų"
+    ],
+    "imperative": [
+      "",
+      "svajok",
+      "",
+      "svajokime",
+      "svajokite",
+      ""
+    ]
+  },
+  {
+    "lt": "sveikinti",
+    "lt_ascii": "sveikinti",
+    "ru": "приветствовать",
+    "groups": [
+      700
+    ],
+    "present": [
+      "sveikinu",
+      "sveikini",
+      "sveikina",
+      "sveikiname",
+      "sveikinate",
+      "sveikina"
+    ],
+    "past": [
+      "sveikinau",
+      "sveikinai",
+      "sveikino",
+      "sveikinome",
+      "sveikinote",
+      "sveikino"
+    ],
+    "future": [
+      "sveikinsiu",
+      "sveikinsi",
+      "sveikins",
+      "sveikinsime",
+      "sveikinsite",
+      "sveikins"
+    ],
+    "usedTo": [
+      "sveikindavau",
+      "sveikindavai",
+      "sveikindavo",
+      "sveikindavome",
+      "sveikindavote",
+      "sveikindavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "sveikinčiau",
+      "sveikintum(ei)",
+      "sveikintų",
+      "sveikintu(mė)me",
+      "sveikintu(mė)te",
+      "sveikintų"
+    ],
+    "imperative": [
+      "",
+      "sveikink",
+      "",
+      "sveikinkime",
+      "sveikinkite",
+      ""
+    ]
+  },
+  {
+    "lt": "sveikti",
+    "lt_ascii": "sveikti",
+    "ru": "поправляться",
+    "groups": [
+      900
+    ],
+    "present": [
+      "sveikstu",
+      "sveiksti",
+      "sveiksta",
+      "sveikstame",
+      "sveikstate",
+      "sveiksta"
+    ],
+    "past": [
+      "sveikau",
+      "sveikai",
+      "sveiko",
+      "sveikome",
+      "sveikote",
+      "sveiko"
+    ],
+    "future": [
+      "sveiksiu",
+      "sveiksi",
+      "sveiks",
+      "sveiksime",
+      "sveiksite",
+      "sveiks"
+    ],
+    "usedTo": [
+      "sveikdavau",
+      "sveikdavai",
+      "sveikdavo",
+      "sveikdavome",
+      "sveikdavote",
+      "sveikdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "sveikčiau",
+      "sveiktum(ei)",
+      "sveiktų",
+      "sveiktu(mė)me",
+      "sveiktu(mė)te",
+      "sveiktų"
+    ],
+    "imperative": [
+      "",
+      "sveik",
+      "",
+      "sveikime",
+      "sveikite",
+      ""
+    ]
+  },
+  {
+    "lt": "tikėti",
+    "lt_ascii": "tiketi",
+    "ru": "верить",
+    "groups": [
+      500
+    ],
+    "present": [
+      "tikiu",
+      "tiki",
+      "tiki",
+      "tikime",
+      "tikite",
+      "tiki"
+    ],
+    "past": [
+      "tikėjau",
+      "tikėjai",
+      "tikėjo",
+      "tikėjome",
+      "tikėjote",
+      "tikėjo"
+    ],
+    "future": [
+      "tikėsiu",
+      "tikėsi",
+      "tikės",
+      "tikėsime",
+      "tikėsite",
+      "tikės"
+    ],
+    "usedTo": [
+      "tikėdavau",
+      "tikėdavai",
+      "tikėdavo",
+      "tikėdavome",
+      "tikėdavote",
+      "tikėdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "tikėčiau",
+      "tikėtum(ei)",
+      "tikėtų",
+      "tikėtu(mė)me",
+      "tikėtu(mė)te",
+      "tikėtų"
+    ],
+    "imperative": [
+      "",
+      "tikėk",
+      "",
+      "tikėkime",
+      "tikėkite",
+      ""
+    ]
+  },
+  {
+    "lt": "tikėtis",
+    "lt_ascii": "tiketis",
+    "ru": "надеяться",
+    "groups": [
+      900
+    ],
+    "present": [
+      "tikiusi",
+      "tikisi",
+      "tikisi",
+      "tikimės",
+      "tikitės",
+      "tikisi"
+    ],
+    "past": [
+      "tikėjausi",
+      "tikėjaisi",
+      "tikėjosi",
+      "tikėjomės",
+      "tikėjotės",
+      "tikėjosi"
+    ],
+    "future": [
+      "tikėsiusi",
+      "tikėsisi",
+      "tikėsis",
+      "tikėsimės",
+      "tikėsitės",
+      "tikėsis"
+    ],
+    "usedTo": [
+      "tikėdavausi",
+      "tikėdavaisi",
+      "tikėdavosi",
+      "tikėdavomės",
+      "tikėdavotės",
+      "tikėdavosi"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "tikėčiausi",
+      "tikėtumeisi",
+      "tikėtųsi",
+      "tikėtu(mė)mės",
+      "tikėtu(mė)tės",
+      "tikėtųsi"
+    ],
+    "imperative": [
+      "",
+      "tikėks",
+      "",
+      "tikėkimės",
+      "tikėkitės",
+      ""
+    ]
+  },
+  {
+    "lt": "traukti",
+    "lt_ascii": "traukti",
+    "ru": "тянуть",
+    "groups": [
+      800
+    ],
+    "present": [
+      "traukiu",
+      "trauki",
+      "traukia",
+      "traukiame",
+      "traukiate",
+      "traukia"
+    ],
+    "past": [
+      "traukiau",
+      "traukei",
+      "traukė",
+      "traukėme",
+      "traukėte",
+      "traukė"
+    ],
+    "future": [
+      "trauksiu",
+      "trauksi",
+      "trauks",
+      "trauksime",
+      "trauksite",
+      "trauks"
+    ],
+    "usedTo": [
+      "traukdavau",
+      "traukdavai",
+      "traukdavo",
+      "traukdavome",
+      "traukdavote",
+      "traukdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "traukčiau",
+      "trauktum(ei)",
+      "trauktų",
+      "trauktu(mė)me",
+      "trauktu(mė)te",
+      "trauktų"
+    ],
+    "imperative": [
+      "",
+      "trauk",
+      "",
+      "traukime",
+      "traukite",
+      ""
+    ]
+  },
+  {
+    "lt": "trukdyti",
+    "lt_ascii": "trukdyti",
+    "ru": "мешать",
+    "groups": [
+      600
+    ],
+    "present": [
+      "trukdžau",
+      "trukdai",
+      "trukdo",
+      "trukdome",
+      "trukdote",
+      "trukdo"
+    ],
+    "past": [
+      "",
+      "trukdei",
+      "trukdė",
+      "trukdėme",
+      "trukdėte",
+      "trukdė"
+    ],
+    "future": [
+      "trukdysiu",
+      "trukdysi",
+      "trukdys",
+      "trukdysime",
+      "trukdysite",
+      "trukdys"
+    ],
+    "usedTo": [
+      "trukdydavau",
+      "trukdydavai",
+      "trukdydavo",
+      "trukdydavome",
+      "trukdydavote",
+      "trukdydavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "trukdyčiau",
+      "trukdytum(ei)",
+      "trukdytų",
+      "trukdytu(mė)me",
+      "trukdytu(mė)te",
+      "trukdytų"
+    ],
+    "imperative": [
+      "",
+      "trukdyk",
+      "",
+      "trukdykime",
+      "trukdykite",
+      ""
+    ]
+  },
+  {
+    "lt": "tuoktis",
+    "lt_ascii": "tuoktis",
+    "ru": "жениться",
+    "groups": [
+      600
+    ],
+    "present": [
+      "tuokiuosi",
+      "tuokiesi",
+      "tuokiasi",
+      "tuokiamės",
+      "tuokiatės",
+      "tuokiasi"
+    ],
+    "past": [
+      "tuokiausi",
+      "tuokeisi",
+      "tuokėsi",
+      "tuokėmės",
+      "tuokėtės",
+      "tuokėsi"
+    ],
+    "future": [
+      "tuoksiusi",
+      "tuoksisi",
+      "tuoksis",
+      "tuoksimės",
+      "tuoksitės",
+      "tuoksis"
+    ],
+    "usedTo": [
+      "tuokdavausi",
+      "tuokdavaisi",
+      "tuokdavosi",
+      "tuokdavomės",
+      "tuokdavotės",
+      "tuokdavosi"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "tuokčiausi",
+      "tuoktumeisi",
+      "tuoktųsi",
+      "tuoktu(mė)mės",
+      "tuoktu(mė)tės",
+      "tuoktųsi"
+    ],
+    "imperative": [
+      "",
+      "tuoks",
+      "",
+      "tuokimės",
+      "tuokitės",
+      ""
+    ]
+  },
+  {
+    "lt": "turėti",
+    "lt_ascii": "tureti",
+    "ru": "иметь",
+    "groups": [
+      300
+    ],
+    "present": [
+      "turiu",
+      "turi",
+      "turi",
+      "turime",
+      "turite",
+      "turi"
+    ],
+    "past": [
+      "turėjau",
+      "turėjai",
+      "turėjo",
+      "turėjome",
+      "turėjote",
+      "turėjo"
+    ],
+    "future": [
+      "turėsiu",
+      "turėsi",
+      "turės",
+      "turėsime",
+      "turėsite",
+      "turės"
+    ],
+    "usedTo": [
+      "turėdavau",
+      "turėdavai",
+      "turėdavo",
+      "turėdavome",
+      "turėdavote",
+      "turėdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "turėčiau",
+      "turėtum(ei)",
+      "turėtų",
+      "turėtu(mė)me",
+      "turėtu(mė)te",
+      "turėtų"
+    ],
+    "imperative": [
+      "",
+      "turėk",
+      "",
+      "turėkime",
+      "turėkite",
+      ""
+    ]
+  },
+  {
+    "lt": "tylėti",
+    "lt_ascii": "tyleti",
+    "ru": "молчать",
+    "groups": [
+      400
+    ],
+    "present": [
+      "tyliu",
+      "tyli",
+      "tyli",
+      "tylime",
+      "tylite",
+      "tyli"
+    ],
+    "past": [
+      "tylėjau",
+      "tylėjai",
+      "tylėjo",
+      "tylėjome",
+      "tylėjote",
+      "tylėjo"
+    ],
+    "future": [
+      "tylėsiu",
+      "tylėsi",
+      "tylės",
+      "tylėsime",
+      "tylėsite",
+      "tylės"
+    ],
+    "usedTo": [
+      "tylėdavau",
+      "tylėdavai",
+      "tylėdavo",
+      "tylėdavome",
+      "tylėdavote",
+      "tylėdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "tylėčiau",
+      "tylėtum(ei)",
+      "tylėtų",
+      "tylėtu(mė)me",
+      "tylėtu(mė)te",
+      "tylėtų"
+    ],
+    "imperative": [
+      "",
+      "tylėk",
+      "",
+      "tylėkime",
+      "tylėkite",
+      ""
+    ]
+  },
+  {
+    "lt": "užaugti",
+    "lt_ascii": "uzaugti",
+    "ru": "вырасти",
+    "groups": [
+      400
+    ],
+    "present": [
+      "užaugu",
+      "užaugi",
+      "užauga",
+      "užaugame",
+      "užaugate",
+      "užauga"
+    ],
+    "past": [
+      "užaugau",
+      "užaugai",
+      "užaugo",
+      "užaugome",
+      "užaugote",
+      "užaugo"
+    ],
+    "future": [
+      "užaugsiu",
+      "užaugsi",
+      "užaugs",
+      "užaugsime",
+      "užaugsite",
+      "užaugs"
+    ],
+    "usedTo": [
+      "užaugdavau",
+      "užaugdavai",
+      "užaugdavo",
+      "užaugdavome",
+      "užaugdavote",
+      "užaugdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "užaugčiau",
+      "užaugtum(ei)",
+      "užaugtų",
+      "užaugtu(mė)me",
+      "užaugtu(mė)te",
+      "užaugtų"
+    ],
+    "imperative": [
+      "",
+      "užauk",
+      "",
+      "užaukime",
+      "užaukite",
+      ""
+    ]
+  },
+  {
+    "lt": "užbaigti",
+    "lt_ascii": "uzbaigti",
+    "ru": "закончить",
+    "groups": [
+      600
+    ],
+    "present": [
+      "užbaigiu",
+      "užbaigi",
+      "užbaigia",
+      "užbaigiame",
+      "užbaigiate",
+      "užbaigia"
+    ],
+    "past": [
+      "užbaigiau",
+      "užbaigei",
+      "užbaigė",
+      "užbaigėme",
+      "užbaigėte",
+      "užbaigė"
+    ],
+    "future": [
+      "užbaigsiu",
+      "užbaigsi",
+      "užbaigs",
+      "užbaigsime",
+      "užbaigsite",
+      "užbaigs"
+    ],
+    "usedTo": [
+      "užbaigdavau",
+      "užbaigdavai",
+      "užbaigdavo",
+      "užbaigdavome",
+      "užbaigdavote",
+      "užbaigdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "užbaigčiau",
+      "užbaigtum(ei)",
+      "užbaigtų",
+      "užbaigtu(mė)me",
+      "užbaigtu(mė)te",
+      "užbaigtų"
+    ],
+    "imperative": [
+      "",
+      "užbaik",
+      "",
+      "užbaikime",
+      "užbaikite",
+      ""
+    ]
+  },
+  {
+    "lt": "uždaryti",
+    "lt_ascii": "uzdaryti",
+    "ru": "закрыть",
+    "groups": [
+      800
+    ],
+    "present": [
+      "uždarau",
+      "uždarai",
+      "uždaro",
+      "uždarome",
+      "uždarote",
+      "uždaro"
+    ],
+    "past": [
+      "uždariau",
+      "uždarei",
+      "uždarė",
+      "uždarėme",
+      "uždarėte",
+      "uždarė"
+    ],
+    "future": [
+      "uždarysiu",
+      "uždarysi",
+      "uždarys",
+      "uždarysime",
+      "uždarysite",
+      "uždarys"
+    ],
+    "usedTo": [
+      "uždarydavau",
+      "uždarydavai",
+      "uždarydavo",
+      "uždarydavome",
+      "uždarydavote",
+      "uždarydavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "uždaryčiau",
+      "uždarytum(ei)",
+      "uždarytų",
+      "uždarytu(mė)me",
+      "uždarytu(mė)te",
+      "uždarytų"
+    ],
+    "imperative": [
+      "",
+      "uždaryk",
+      "",
+      "uždarykime",
+      "uždarykite",
+      ""
+    ]
+  },
+  {
+    "lt": "užeiti",
+    "lt_ascii": "uzeiti",
+    "ru": "зайти",
+    "groups": [
+      200
+    ],
+    "present": [
+      "užeinu",
+      "užeini",
+      "užeina",
+      "užeiname",
+      "užeinate",
+      "užeina"
+    ],
+    "past": [
+      "užėjau",
+      "užėjai",
+      "užėjo",
+      "užėjome",
+      "užėjote",
+      "užėjo"
+    ],
+    "future": [
+      "užeisiu",
+      "užeisi",
+      "užeis",
+      "užeisime",
+      "užeisite",
+      "užeis"
+    ],
+    "usedTo": [
+      "užeidavau",
+      "užeidavai",
+      "užeidavo",
+      "užeidavome",
+      "užeidavote",
+      "užeidavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "užeičiau",
+      "užeitum(ei)",
+      "užeitų",
+      "užeitu(mė)me",
+      "užeitu(mė)te",
+      "užeitų"
+    ],
+    "imperative": [
+      "",
+      "užeik",
+      "",
+      "užeikime",
+      "užeikite",
+      ""
+    ]
+  },
+  {
+    "lt": "užimti",
+    "lt_ascii": "uzimti",
+    "ru": "занять (место)",
+    "groups": [
+      500
+    ],
+    "present": [
+      "užimu",
+      "užimi",
+      "užima",
+      "užimame",
+      "užimate",
+      "užima"
+    ],
+    "past": [
+      "užėmiau",
+      "užėmei",
+      "užėmė",
+      "užėmėme",
+      "užėmėte",
+      "užėmė"
+    ],
+    "future": [
+      "užimsiu",
+      "užimsi",
+      "užims",
+      "užimsime",
+      "užimsite",
+      "užims"
+    ],
+    "usedTo": [
+      "užimdavau",
+      "užimdavai",
+      "užimdavo",
+      "užimdavome",
+      "užimdavote",
+      "užimdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "užimčiau",
+      "užimtum(ei)",
+      "užimtų",
+      "užimtu(mė)me",
+      "užimtu(mė)te",
+      "užimtų"
+    ],
+    "imperative": [
+      "",
+      "užimk",
+      "",
+      "užimkime",
+      "užimkite",
+      ""
+    ]
+  },
+  {
+    "lt": "užsiimti",
+    "lt_ascii": "uzsiimti",
+    "ru": "заняться",
+    "groups": [
+      300
+    ],
+    "present": [
+      "užsiimu",
+      "užsiimi",
+      "užsiima",
+      "užsiimame",
+      "užsiimate",
+      "užsiima"
+    ],
+    "past": [
+      "užsiėmiau",
+      "užsiėmei",
+      "užsiėmė",
+      "užsiėmėme",
+      "užsiėmėte",
+      "užsiėmė"
+    ],
+    "future": [
+      "užsiimsiu",
+      "užsiimsi",
+      "užsiims",
+      "užsiimsime",
+      "užsiimsite",
+      "užsiims"
+    ],
+    "usedTo": [
+      "užsiimdavau",
+      "užsiimdavai",
+      "užsiimdavo",
+      "užsiimdavome",
+      "užsiimdavote",
+      "užsiimdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "užsiimčiau",
+      "užsiimtum(ei)",
+      "užsiimtų",
+      "užsiimtu(mė)me",
+      "užsiimtu(mė)te",
+      "užsiimtų"
+    ],
+    "imperative": [
+      "",
+      "užsiimk",
+      "",
+      "užsiimkime",
+      "užsiimkite",
+      ""
+    ]
+  },
+  {
+    "lt": "užtekti",
+    "lt_ascii": "uztekti",
+    "ru": "хватить (на всех)",
+    "groups": [
+      700
+    ],
+    "present": [
+      "užtenku",
+      "užtenki",
+      "užtenka",
+      "užtenkame",
+      "užtenkate",
+      "užtenka"
+    ],
+    "past": [
+      "užtekau",
+      "užtekai",
+      "užteko",
+      "užtekome",
+      "užtekote",
+      "užteko"
+    ],
+    "future": [
+      "užteksiu",
+      "užteksi",
+      "užteks",
+      "užteksime",
+      "užteksite",
+      "užteks"
+    ],
+    "usedTo": [
+      "užtekdavau",
+      "užtekdavai",
+      "užtekdavo",
+      "užtekdavome",
+      "užtekdavote",
+      "užtekdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "užtekčiau",
+      "užtektum(ei)",
+      "užtektų",
+      "užtektu(mė)me",
+      "užtektu(mė)te",
+      "užtektų"
+    ],
+    "imperative": [
+      "",
+      "užtek",
+      "",
+      "užtekime",
+      "užtekite",
+      ""
+    ]
+  },
+  {
+    "lt": "vadinti",
+    "lt_ascii": "vadinti",
+    "ru": "называть",
+    "groups": [
+      500
+    ],
+    "present": [
+      "vadinu",
+      "vadini",
+      "vadina",
+      "vadiname",
+      "vadinate",
+      "vadina"
+    ],
+    "past": [
+      "vadinau",
+      "vadinai",
+      "vadino",
+      "vadinome",
+      "vadinote",
+      "vadino"
+    ],
+    "future": [
+      "vadinsiu",
+      "vadinsi",
+      "vadins",
+      "vadinsime",
+      "vadinsite",
+      "vadins"
+    ],
+    "usedTo": [
+      "vadindavau",
+      "vadindavai",
+      "vadindavo",
+      "vadindavome",
+      "vadindavote",
+      "vadindavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "vadinčiau",
+      "vadintum(ei)",
+      "vadintų",
+      "vadintu(mė)me",
+      "vadintu(mė)te",
+      "vadintų"
+    ],
+    "imperative": [
+      "",
+      "vadink",
+      "",
+      "vadinkime",
+      "vadinkite",
+      ""
+    ]
+  },
+  {
+    "lt": "vadintis",
+    "lt_ascii": "vadintis",
+    "ru": "называться",
+    "groups": [
+      500
+    ],
+    "present": [
+      "vadinuosi",
+      "vadiniesi",
+      "vadinasi",
+      "vadinamės",
+      "vadinatės",
+      "vadinasi"
+    ],
+    "past": [
+      "vadinausi",
+      "vadinaisi",
+      "vadinosi",
+      "vadinomės",
+      "vadinotės",
+      "vadinosi"
+    ],
+    "future": [
+      "vadinsiusi",
+      "vadinsisi",
+      "vadinsis",
+      "vadinsimės",
+      "vadinsitės",
+      "vadinsis"
+    ],
+    "usedTo": [
+      "vadindavausi",
+      "vadindavaisi",
+      "vadindavosi",
+      "vadindavomės",
+      "vadindavotės",
+      "vadindavosi"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "vadinčiausi",
+      "vadintumeisi",
+      "vadintųsi",
+      "vadintu(mė)mės",
+      "vadintu(mė)tės",
+      "vadintųsi"
+    ],
+    "imperative": [
+      "",
+      "vadinks",
+      "",
+      "vadinkimės",
+      "vadinkitės",
+      ""
+    ]
+  },
+  {
+    "lt": "vaidinti",
+    "lt_ascii": "vaidinti",
+    "ru": "играть (на сцене)",
+    "groups": [
+      700
+    ],
+    "present": [
+      "vaidinu",
+      "vaidini",
+      "vaidina",
+      "vaidiname",
+      "vaidinate",
+      "vaidina"
+    ],
+    "past": [
+      "vaidinau",
+      "vaidinai",
+      "vaidino",
+      "vaidinome",
+      "vaidinote",
+      "vaidino"
+    ],
+    "future": [
+      "vaidinsiu",
+      "vaidinsi",
+      "vaidins",
+      "vaidinsime",
+      "vaidinsite",
+      "vaidins"
+    ],
+    "usedTo": [
+      "vaidindavau",
+      "vaidindavai",
+      "vaidindavo",
+      "vaidindavome",
+      "vaidindavote",
+      "vaidindavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "vaidinčiau",
+      "vaidintum(ei)",
+      "vaidintų",
+      "vaidintu(mė)me",
+      "vaidintu(mė)te",
+      "vaidintų"
+    ],
+    "imperative": [
+      "",
+      "vaidink",
+      "",
+      "vaidinkime",
+      "vaidinkite",
+      ""
+    ]
+  },
+  {
+    "lt": "vaikščioti",
+    "lt_ascii": "vaikscioti",
+    "ru": "ходить",
+    "groups": [
+      200
+    ],
+    "present": [
+      "vaikščioju",
+      "vaikščioji",
+      "vaikščioja",
+      "vaikščiojame",
+      "vaikščiojate",
+      "vaikščioja"
+    ],
+    "past": [
+      "vaikščiojau",
+      "vaikščiojai",
+      "vaikščiojo",
+      "vaikščiojome",
+      "vaikščiojote",
+      "vaikščiojo"
+    ],
+    "future": [
+      "vaikščiosiu",
+      "vaikščiosi",
+      "vaikščios",
+      "vaikščiosime",
+      "vaikščiosite",
+      "vaikščios"
+    ],
+    "usedTo": [
+      "vaikščiodavau",
+      "vaikščiodavai",
+      "vaikščiodavo",
+      "vaikščiodavome",
+      "vaikščiodavote",
+      "vaikščiodavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "vaikščiočiau",
+      "vaikščiotum(ei)",
+      "vaikščiotų",
+      "vaikščiotu(mė)me",
+      "vaikščiotu(mė)te",
+      "vaikščiotų"
+    ],
+    "imperative": [
+      "",
+      "vaikščiok",
+      "",
+      "vaikščiokime",
+      "vaikščiokite",
+      ""
+    ]
+  },
+  {
+    "lt": "vaizduoti",
+    "lt_ascii": "vaizduoti",
+    "ru": "представлять (воображать)",
+    "groups": [
+      600
+    ],
+    "present": [
+      "vaizduoju",
+      "vaizduoji",
+      "vaizduoja",
+      "vaizduojame",
+      "vaizduojate",
+      "vaizduoja"
+    ],
+    "past": [
+      "vaizdavau",
+      "vaizdavai",
+      "vaizdavo",
+      "vaizdavome",
+      "vaizdavote",
+      "vaizdavo"
+    ],
+    "future": [
+      "vaizduosiu",
+      "vaizduosi",
+      "vaizduos",
+      "vaizduosime",
+      "vaizduosite",
+      "vaizduos"
+    ],
+    "usedTo": [
+      "vaizduodavau",
+      "vaizduodavai",
+      "vaizduodavo",
+      "vaizduodavome",
+      "vaizduodavote",
+      "vaizduodavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "vaizduočiau",
+      "vaizduotum(ei)",
+      "vaizduotų",
+      "vaizduotu(mė)me",
+      "vaizduotu(mė)te",
+      "vaizduotų"
+    ],
+    "imperative": [
+      "",
+      "vaizduok",
+      "",
+      "vaizduokime",
+      "vaizduokite",
+      ""
+    ]
+  },
+  {
+    "lt": "valgyti",
+    "lt_ascii": "valgyti",
+    "ru": "есть (кушать)",
+    "groups": [
+      600
+    ],
+    "present": [
+      "valgau",
+      "valgai",
+      "valgo",
+      "valgome",
+      "valgote",
+      "valgo"
+    ],
+    "past": [
+      "valgiau",
+      "valgei",
+      "valgė",
+      "valgėme",
+      "valgėte",
+      "valgė"
+    ],
+    "future": [
+      "valgysiu",
+      "valgysi",
+      "valgys",
+      "valgysime",
+      "valgysite",
+      "valgys"
+    ],
+    "usedTo": [
+      "valgydavau",
+      "valgydavai",
+      "valgydavo",
+      "valgydavome",
+      "valgydavote",
+      "valgydavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "valgyčiau",
+      "valgytum(ei)",
+      "valgytų",
+      "valgytu(mė)me",
+      "valgytu(mė)te",
+      "valgytų"
+    ],
+    "imperative": [
+      "",
+      "valgyk",
+      "",
+      "valgykime",
+      "valgykite",
+      ""
+    ]
+  },
+  {
+    "lt": "valyti",
+    "lt_ascii": "valyti",
+    "ru": "чистить",
+    "groups": [
+      900
+    ],
+    "present": [
+      "valau",
+      "valai",
+      "valo",
+      "valome",
+      "valote",
+      "valo"
+    ],
+    "past": [
+      "valiau",
+      "valei",
+      "valė",
+      "valėme",
+      "valėte",
+      "valė"
+    ],
+    "future": [
+      "valysiu",
+      "valysi",
+      "valys",
+      "valysime",
+      "valysite",
+      "valys"
+    ],
+    "usedTo": [
+      "valydavau",
+      "valydavai",
+      "valydavo",
+      "valydavome",
+      "valydavote",
+      "valydavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "valyčiau",
+      "valytum(ei)",
+      "valytų",
+      "valytu(mė)me",
+      "valytu(mė)te",
+      "valytų"
+    ],
+    "imperative": [
+      "",
+      "valyk",
+      "",
+      "valykime",
+      "valykite",
+      ""
+    ]
+  },
+  {
+    "lt": "važiuoti",
+    "lt_ascii": "vaziuoti",
+    "ru": "ехать",
+    "groups": [
+      400
+    ],
+    "present": [
+      "važiuoju",
+      "važiuoji",
+      "važiuoja",
+      "važiuojame",
+      "važiuojate",
+      "važiuoja"
+    ],
+    "past": [
+      "važiavau",
+      "važiavai",
+      "važiavo",
+      "važiavome",
+      "važiavote",
+      "važiavo"
+    ],
+    "future": [
+      "važiuosiu",
+      "važiuosi",
+      "važiuos",
+      "važiuosime",
+      "važiuosite",
+      "važiuos"
+    ],
+    "usedTo": [
+      "važiuodavau",
+      "važiuodavai",
+      "važiuodavo",
+      "važiuodavome",
+      "važiuodavote",
+      "važiuodavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "važiuočiau",
+      "važiuotum(ei)",
+      "važiuotų",
+      "važiuotu(mė)me",
+      "važiuotu(mė)te",
+      "važiuotų"
+    ],
+    "imperative": [
+      "",
+      "važiuok",
+      "",
+      "važiuokime",
+      "važiuokite",
+      ""
+    ]
+  },
+  {
+    "lt": "veikti",
+    "lt_ascii": "veikti",
+    "ru": "действовать",
+    "groups": [
+      800
+    ],
+    "present": [
+      "veikiu",
+      "veiki",
+      "veikia",
+      "veikiame",
+      "veikiate",
+      "veikia"
+    ],
+    "past": [
+      "veikiau",
+      "veikei",
+      "veikė",
+      "veikėme",
+      "veikėte",
+      "veikė"
+    ],
+    "future": [
+      "veiksiu",
+      "veiksi",
+      "veiks",
+      "veiksime",
+      "veiksite",
+      "veiks"
+    ],
+    "usedTo": [
+      "veikdavau",
+      "veikdavai",
+      "veikdavo",
+      "veikdavome",
+      "veikdavote",
+      "veikdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "veikčiau",
+      "veiktum(ei)",
+      "veiktų",
+      "veiktu(mė)me",
+      "veiktu(mė)te",
+      "veiktų"
+    ],
+    "imperative": [
+      "",
+      "veik",
+      "",
+      "veikime",
+      "veikite",
+      ""
+    ]
+  },
+  {
+    "lt": "verkti",
+    "lt_ascii": "verkti",
+    "ru": "плакать",
+    "groups": [
+      800
+    ],
+    "present": [
+      "verkiu",
+      "verki",
+      "verkia",
+      "verkiame",
+      "verkiate",
+      "verkia"
+    ],
+    "past": [
+      "verkiau",
+      "verkei",
+      "verkė",
+      "verkėme",
+      "verkėte",
+      "verkė"
+    ],
+    "future": [
+      "verksiu",
+      "verksi",
+      "verks",
+      "verksime",
+      "verksite",
+      "verks"
+    ],
+    "usedTo": [
+      "verkdavau",
+      "verkdavai",
+      "verkdavo",
+      "verkdavome",
+      "verkdavote",
+      "verkdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "verkčiau",
+      "verktum(ei)",
+      "verktų",
+      "verktu(mė)me",
+      "verktu(mė)te",
+      "verktų"
+    ],
+    "imperative": [
+      "",
+      "verk",
+      "",
+      "verkime",
+      "verkite",
+      ""
+    ]
+  },
+  {
+    "lt": "versti",
+    "lt_ascii": "versti",
+    "ru": "заставлять",
+    "groups": [
+      700
+    ],
+    "present": [
+      "verčiu",
+      "verči",
+      "verčia",
+      "verčiame",
+      "verčiate",
+      "verčia"
+    ],
+    "past": [
+      "",
+      "vertei",
+      "vertė",
+      "vertėme",
+      "vertėte",
+      "vertė"
+    ],
+    "future": [
+      "versiu",
+      "versi",
+      "vers",
+      "versime",
+      "versite",
+      "vers"
+    ],
+    "usedTo": [
+      "versdavau",
+      "versdavai",
+      "versdavo",
+      "versdavome",
+      "versdavote",
+      "versdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "versčiau",
+      "verstum(ei)",
+      "verstų",
+      "verstu(mė)me",
+      "verstu(mė)te",
+      "verstų"
+    ],
+    "imperative": [
+      "",
+      "versk",
+      "",
+      "verskime",
+      "verskite",
+      ""
+    ]
+  },
+  {
+    "lt": "vesti",
+    "lt_ascii": "vesti",
+    "ru": "вести",
+    "groups": [
+      300
+    ],
+    "present": [
+      "vedžu",
+      "vedi",
+      "veda",
+      "vedame",
+      "vedate",
+      "veda"
+    ],
+    "past": [
+      "",
+      "vedei",
+      "vedė",
+      "vedėme",
+      "vedėte",
+      "vedė"
+    ],
+    "future": [
+      "vesiu",
+      "vesi",
+      "ves",
+      "vesime",
+      "vesite",
+      "ves"
+    ],
+    "usedTo": [
+      "vesdavau",
+      "vesdavai",
+      "vesdavo",
+      "vesdavome",
+      "vesdavote",
+      "vesdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "vesčiau",
+      "vestum(ei)",
+      "vestų",
+      "vestu(mė)me",
+      "vestu(mė)te",
+      "vestų"
+    ],
+    "imperative": [
+      "",
+      "vesk",
+      "",
+      "veskime",
+      "veskite",
+      ""
+    ]
+  },
+  {
+    "lt": "vežti",
+    "lt_ascii": "vezti",
+    "ru": "везти",
+    "groups": [
+      300
+    ],
+    "present": [
+      "vežu",
+      "veži",
+      "veža",
+      "vežame",
+      "vežate",
+      "veža"
+    ],
+    "past": [
+      "vežiau",
+      "vežei",
+      "vežė",
+      "vežėme",
+      "vežėte",
+      "vežė"
+    ],
+    "future": [
+      "vežšiu",
+      "vežši",
+      "vežš",
+      "vežšime",
+      "vežšite",
+      "vežš"
+    ],
+    "usedTo": [
+      "veždavau",
+      "veždavai",
+      "veždavo",
+      "veždavome",
+      "veždavote",
+      "veždavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "vežčiau",
+      "vežtum(ei)",
+      "vežtų",
+      "vežtu(mė)me",
+      "vežtu(mė)te",
+      "vežtų"
+    ],
+    "imperative": [
+      "",
+      "vežk",
+      "",
+      "vežkime",
+      "vežkite",
+      ""
+    ]
+  },
+  {
+    "lt": "vykti",
+    "lt_ascii": "vykti",
+    "ru": "отправляться",
+    "groups": [
+      800
+    ],
+    "present": [
+      "vykstu",
+      "vyksti",
+      "vyksta",
+      "vykstame",
+      "vykstate",
+      "vyksta"
+    ],
+    "past": [
+      "vykau",
+      "vykai",
+      "vyko",
+      "vykome",
+      "vykote",
+      "vyko"
+    ],
+    "future": [
+      "vyksiu",
+      "vyksi",
+      "vyks",
+      "vyksime",
+      "vyksite",
+      "vyks"
+    ],
+    "usedTo": [
+      "vykdavau",
+      "vykdavai",
+      "vykdavo",
+      "vykdavome",
+      "vykdavote",
+      "vykdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "vykčiau",
+      "vyktum(ei)",
+      "vyktų",
+      "vyktu(mė)me",
+      "vyktu(mė)te",
+      "vyktų"
+    ],
+    "imperative": [
+      "",
+      "vyk",
+      "",
+      "vykime",
+      "vykite",
+      ""
+    ]
+  },
+  {
+    "lt": "žadėti",
+    "lt_ascii": "zadeti",
+    "ru": "обещать",
+    "groups": [
+      700
+    ],
+    "present": [
+      "žadžu",
+      "žadi",
+      "žada",
+      "žadame",
+      "žadate",
+      "žada"
+    ],
+    "past": [
+      "žadėjau",
+      "žadėjai",
+      "žadėjo",
+      "žadėjome",
+      "žadėjote",
+      "žadėjo"
+    ],
+    "future": [
+      "žadėsiu",
+      "žadėsi",
+      "žadės",
+      "žadėsime",
+      "žadėsite",
+      "žadės"
+    ],
+    "usedTo": [
+      "žadėdavau",
+      "žadėdavai",
+      "žadėdavo",
+      "žadėdavome",
+      "žadėdavote",
+      "žadėdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "žadėčiau",
+      "žadėtum(ei)",
+      "žadėtų",
+      "žadėtu(mė)me",
+      "žadėtu(mė)te",
+      "žadėtų"
+    ],
+    "imperative": [
+      "",
+      "žadėk",
+      "",
+      "žadėkime",
+      "žadėkite",
+      ""
+    ]
+  },
+  {
+    "lt": "žadinti",
+    "lt_ascii": "zadinti",
+    "ru": "будить",
+    "groups": [
+      400
+    ],
+    "present": [
+      "žadinu",
+      "žadini",
+      "žadina",
+      "žadiname",
+      "žadinate",
+      "žadina"
+    ],
+    "past": [
+      "žadinau",
+      "žadinai",
+      "žadino",
+      "žadinome",
+      "žadinote",
+      "žadino"
+    ],
+    "future": [
+      "žadinsiu",
+      "žadinsi",
+      "žadins",
+      "žadinsime",
+      "žadinsite",
+      "žadins"
+    ],
+    "usedTo": [
+      "žadindavau",
+      "žadindavai",
+      "žadindavo",
+      "žadindavome",
+      "žadindavote",
+      "žadindavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "žadinčiau",
+      "žadintum(ei)",
+      "žadintų",
+      "žadintu(mė)me",
+      "žadintu(mė)te",
+      "žadintų"
+    ],
+    "imperative": [
+      "",
+      "žadink",
+      "",
+      "žadinkime",
+      "žadinkite",
+      ""
+    ]
+  },
+  {
+    "lt": "žaisti",
+    "lt_ascii": "zaisti",
+    "ru": "играть (в игры)",
+    "groups": [
+      700
+    ],
+    "present": [
+      "žaidžiu",
+      "žaidži",
+      "žaidžia",
+      "žaidžiame",
+      "žaidžiate",
+      "žaidžia"
+    ],
+    "past": [
+      "",
+      "žaidei",
+      "žaidė",
+      "žaidėme",
+      "žaidėte",
+      "žaidė"
+    ],
+    "future": [
+      "žaisiu",
+      "žaisi",
+      "žais",
+      "žaisime",
+      "žaisite",
+      "žais"
+    ],
+    "usedTo": [
+      "žaisdavau",
+      "žaisdavai",
+      "žaisdavo",
+      "žaisdavome",
+      "žaisdavote",
+      "žaisdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "žaisčiau",
+      "žaistum(ei)",
+      "žaistų",
+      "žaistu(mė)me",
+      "žaistu(mė)te",
+      "žaistų"
+    ],
+    "imperative": [
+      "",
+      "žaisk",
+      "",
+      "žaiskime",
+      "žaiskite",
+      ""
+    ]
+  },
+  {
+    "lt": "žinoti",
+    "lt_ascii": "zinoti",
+    "ru": "знать",
+    "groups": [
+      100
+    ],
+    "present": [
+      "žinau",
+      "žinai",
+      "žino",
+      "žinome",
+      "žinote",
+      "žino"
+    ],
+    "past": [
+      "žinojau",
+      "žinojai",
+      "žinojo",
+      "žinojome",
+      "žinojote",
+      "žinojo"
+    ],
+    "future": [
+      "žinosiu",
+      "žinosi",
+      "žinos",
+      "žinosime",
+      "žinosite",
+      "žinos"
+    ],
+    "usedTo": [
+      "žinodavau",
+      "žinodavai",
+      "žinodavo",
+      "žinodavome",
+      "žinodavote",
+      "žinodavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "žinočiau",
+      "žinotum(ei)",
+      "žinotų",
+      "žinotu(mė)me",
+      "žinotu(mė)te",
+      "žinotų"
+    ],
+    "imperative": [
+      "",
+      "žinok",
+      "",
+      "žinokime",
+      "žinokite",
+      ""
+    ]
+  },
+  {
+    "lt": "žiūrėti",
+    "lt_ascii": "ziureti",
+    "ru": "смотреть",
+    "groups": [
+      100
+    ],
+    "present": [
+      "žiūriu",
+      "žiūri",
+      "žiūri",
+      "žiūrime",
+      "žiūrite",
+      "žiūri"
+    ],
+    "past": [
+      "žiūrėjau",
+      "žiūrėjai",
+      "žiūrėjo",
+      "žiūrėjome",
+      "žiūrėjote",
+      "žiūrėjo"
+    ],
+    "future": [
+      "žiūrėsiu",
+      "žiūrėsi",
+      "žiūrės",
+      "žiūrėsime",
+      "žiūrėsite",
+      "žiūrės"
+    ],
+    "usedTo": [
+      "žiūrėdavau",
+      "žiūrėdavai",
+      "žiūrėdavo",
+      "žiūrėdavome",
+      "žiūrėdavote",
+      "žiūrėdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "žiūrėčiau",
+      "žiūrėtum(ei)",
+      "žiūrėtų",
+      "žiūrėtu(mė)me",
+      "žiūrėtu(mė)te",
+      "žiūrėtų"
+    ],
+    "imperative": [
+      "",
+      "žiūrėk",
+      "",
+      "žiūrėkime",
+      "žiūrėkite",
+      ""
+    ]
+  },
+  {
+    "lt": "žvilgtelėti",
+    "lt_ascii": "zvilgteleti",
+    "ru": "заглянуть",
+    "groups": [
+      800
+    ],
+    "present": [
+      "žvilgtelėju",
+      "žvilgtelėji",
+      "žvilgtelėja",
+      "žvilgtelėjame",
+      "žvilgtelėjate",
+      "žvilgtelėja"
+    ],
+    "past": [
+      "žvilgtelėjau",
+      "žvilgtelėjai",
+      "žvilgtelėjo",
+      "žvilgtelėjome",
+      "žvilgtelėjote",
+      "žvilgtelėjo"
+    ],
+    "future": [
+      "žvilgtelėsiu",
+      "žvilgtelėsi",
+      "žvilgtelės",
+      "žvilgtelėsime",
+      "žvilgtelėsite",
+      "žvilgtelės"
+    ],
+    "usedTo": [
+      "žvilgtelėdavau",
+      "žvilgtelėdavai",
+      "žvilgtelėdavo",
+      "žvilgtelėdavome",
+      "žvilgtelėdavote",
+      "žvilgtelėdavo"
+    ],
+    "participlePastMasc": "",
+    "conditional": [
+      "žvilgtelėčiau",
+      "žvilgtelėtum(ei)",
+      "žvilgtelėtų",
+      "žvilgtelėtu(mė)me",
+      "žvilgtelėtu(mė)te",
+      "žvilgtelėtų"
+    ],
+    "imperative": [
+      "",
+      "žvilgtelėk",
+      "",
+      "žvilgtelėkime",
+      "žvilgtelėkite",
+      ""
+    ]
+  }
+]

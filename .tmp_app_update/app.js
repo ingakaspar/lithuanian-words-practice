@@ -77,47 +77,14 @@ function applyWordGroupFilter() {
 function renderGroupSelector() {
   if (!wordGroupSelect) return;
   const groups = collectAvailableGroups();
-  const options = ['<option value="all" selected>All groups (0-900)</option>'];
-  const nonZeroGroups = groups.filter((g) => g !== 0);
-  const rankedLabels = [
-    "most popular words",
-    "next most popular",
-    "medium-high frequency",
-    "medium frequency",
-    "medium-lower frequency",
-    "less frequent",
-    "less frequent",
-    "advanced frequency",
-    "rarest in this PDF set",
-  ];
-
-  function labelForGroup(groupId) {
-    if (GROUP_LABELS[groupId]) {
-      return GROUP_LABELS[groupId];
-    }
-    if (groupId === 0) {
-      return "Group 0 - helper words";
-    }
-    const idx = nonZeroGroups.indexOf(groupId);
-    if (idx >= 0) {
-      const ordinal = idx + 1;
-      const tail = rankedLabels[idx] || "frequency band";
-      return `Group ${ordinal} - ${tail}`;
-    }
-    return `Group ${groupId}`;
-  }
-
+  const options = ['<option value="all">All groups (0-900)</option>'];
   for (const g of groups) {
     const meta = pdfStats?.group_counts?.[String(g)];
     const count = meta ? ` (${Number(meta.nouns_raw || 0) + Number(meta.verbs_raw || 0)} words in PDF)` : "";
-    const label = labelForGroup(g);
+    const label = GROUP_LABELS[g] || `Group ${g}`;
     options.push(`<option value="${g}">${label}${count}</option>`);
   }
   wordGroupSelect.innerHTML = options.join("");
-  // Keep "all" as a safe default after option list rebuild.
-  for (const opt of wordGroupSelect.options) {
-    opt.selected = opt.value === "all";
-  }
 }
 
 const practiceModeSelect = document.getElementById("practiceMode");
@@ -135,26 +102,7 @@ const nextBtn = document.getElementById("nextBtn");
 const resultText = document.getElementById("resultText");
 const historyList = document.getElementById("historyList");
 const nounMeta = document.getElementById("nounMeta");
-const promptKicker = document.getElementById("promptKicker");
-const answerDrillMeta = document.getElementById("answerDrillMeta");
 const wordGroupSelect = document.getElementById("wordGroupSelect");
-
-/** Short labels for the verb drill line (Lithuanian + English). */
-const VERB_TENSE_UI = {
-  present: { lt: "Esamasis", en: "present" },
-  past: { lt: "Būtasis", en: "past" },
-  future: { lt: "Būsimasis", en: "future" },
-  usedTo: { lt: "Būdavo", en: "used to" },
-  conditional: { lt: "Sąlyginis", en: "conditional" },
-  imperative: { lt: "Liepiamoji", en: "imperative" }
-};
-
-function verbQuestionKicker(formType, personIdx) {
-  const row = VERB_TENSE_UI[formType];
-  const tense = row ? `${row.lt} (${row.en})` : String(formType);
-  const who = ltPronounsDiacritic[personIdx] || "—";
-  return `Conjugate · ${tense} · ${who}`;
-}
 
 const NOUN_CASE_ORDER = [
   "Genitive",
@@ -429,12 +377,7 @@ let state = {
   nounReason: "",
   hintShown: false,
   /** Count of „Tikrinti“ presses on the current question (for first-try weighting). */
-  checksThisQuestion: 0,
-  /**
-   * After a correct check, set to true in a microtask so a duplicate click listener
-   * in the same event turn cannot advance before feedback is shown.
-   */
-  correctFeedbackAcknowledged: false
+  checksThisQuestion: 0
 };
 
 let historyItems = [];
@@ -466,29 +409,6 @@ function escapeHtml(text) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#39;");
-}
-
-function clearAnswerDrillMeta() {
-  if (!answerDrillMeta) return;
-  answerDrillMeta.textContent = "";
-}
-
-/** Muted tense / person / lemma line above the answer field (verbs). */
-function renderVerbAnswerDrillMeta(formType, personIdx, lemmaLt) {
-  if (!answerDrillMeta) return;
-  const row = VERB_TENSE_UI[formType];
-  const tense = row ? `${row.lt} (${row.en})` : String(formType);
-  const who = ltPronounsDiacritic[personIdx] || "—";
-  const lemma = String(lemmaLt || "").trim();
-  answerDrillMeta.innerHTML = `<span class="answer-drill-tense">${escapeHtml(tense)}</span><span class="answer-drill-sep" aria-hidden="true"> · </span><span class="answer-drill-person">${escapeHtml(who)}</span><span class="answer-drill-sep" aria-hidden="true"> · </span><span class="answer-drill-lemma">${escapeHtml(lemma)}</span>`;
-}
-
-/** Muted case / number / nominative line above the answer field (nouns). */
-function renderNounAnswerDrillMeta(nounCase, nounNumber, nomSg) {
-  if (!answerDrillMeta) return;
-  const num = nounNumber === "Plural" ? "plural" : "singular";
-  const nom = String(nomSg || "").trim();
-  answerDrillMeta.innerHTML = `<span class="answer-drill-tense">${escapeHtml(String(nounCase))}</span><span class="answer-drill-sep" aria-hidden="true"> · </span><span class="answer-drill-person">${escapeHtml(num)}</span><span class="answer-drill-sep" aria-hidden="true"> · </span><span class="answer-drill-lemma">${escapeHtml(nom)}</span>`;
 }
 
 function getTtsProxyUrl() {
@@ -756,8 +676,6 @@ function showComingSoonForMode(mode) {
     resultText.textContent = "";
     resultText.className = "";
   }
-  clearAnswerDrillMeta();
-  state.correctFeedbackAcknowledged = false;
   if (answerInput) {
     answerInput.value = "";
     answerInput.placeholder = "—";
@@ -831,7 +749,6 @@ function renderHistory() {
 }
 
 function formLabel(formType) {
-  if (formType === "random") return "random";
   if (formType === "present") return "present";
   if (formType === "past") return "past";
   if (formType === "future") return "future";
@@ -847,35 +764,15 @@ function newVerbQuestion() {
       ? "Нет доступных глаголов в текущих данных."
       : "Nėra veiksložodžių duomenų. Paleisk serverį iš aplanko: python3 -m http.server";
     personText.textContent = "";
-    if (promptKicker) promptKicker.textContent = "Verbs";
-    clearAnswerDrillMeta();
     return;
   }
-  const selectedFormType = formSelect.value;
-  const availableFormTypes = ["present", "past", "future", "usedTo", "conditional", "imperative"];
-  const candidateFormTypes =
-    selectedFormType === "random" ? availableFormTypes : [selectedFormType];
-  const eligibleFormTypes = candidateFormTypes.filter((ft) =>
-    verbs.some((e) => verbHasAnyFormFor(e, ft))
-  );
-  const formType = eligibleFormTypes.length
-    ? randomChoice(eligibleFormTypes)
-    : selectedFormType === "random"
-      ? "present"
-      : selectedFormType;
+  const formType = formSelect.value;
 
   const pool = verbs.filter((e) => verbHasAnyFormFor(e, formType));
   if (!pool.length) {
     promptText.textContent =
       "Šiai formai nėra lentelių JSON faile. Atnaujink verbs_practice.json: paleisk python3 build_all_practice_data.py.";
     personText.textContent = "";
-    if (promptKicker) promptKicker.textContent = "Verbs";
-    if (resultText) {
-      resultText.textContent = "";
-      resultText.className = "";
-    }
-    state.correctFeedbackAcknowledged = false;
-    clearAnswerDrillMeta();
     return;
   }
 
@@ -898,13 +795,6 @@ function newVerbQuestion() {
     promptText.textContent =
       "Nepavyko sugeneruoti formos. Patikrink naršyklės talpyklą (bandyk perkrauti be talpyklos) ir ar verbs_practice.json turi šios paradigmos masyvus.";
     personText.textContent = "";
-    if (promptKicker) promptKicker.textContent = "Verbs";
-    if (resultText) {
-      resultText.textContent = "";
-      resultText.className = "";
-    }
-    state.correctFeedbackAcknowledged = false;
-    clearAnswerDrillMeta();
     return;
   }
 
@@ -923,12 +813,9 @@ function newVerbQuestion() {
 
   promptText.textContent = entry.lt;
   personText.textContent = `${entry.ru}`;
-  if (promptKicker) promptKicker.textContent = verbQuestionKicker(formType, personIdx);
   if (nounMeta) nounMeta.textContent = "";
   resultText.textContent = "";
   resultText.className = "";
-  state.correctFeedbackAcknowledged = false;
-  renderVerbAnswerDrillMeta(formType, personIdx, entry.lt);
   if (answerInput) answerInput.placeholder = verbInputPlaceholder(formType);
   answerInput.value = state.answerPrefix;
   safeFocus(answerInput);
@@ -954,14 +841,7 @@ function newNounQuestion() {
       ? "Нет доступных существительных в текущих данных."
       : "Nėra daiktavardžių duomenų. Patikrink nouns_practice.json ir serverį (python3 -m http.server).";
     personText.textContent = "";
-    if (promptKicker) promptKicker.textContent = "Nouns";
     if (answerInput) answerInput.placeholder = VERB_ANSWER_PLACEHOLDER;
-    if (resultText) {
-      resultText.textContent = "";
-      resultText.className = "";
-    }
-    state.correctFeedbackAcknowledged = false;
-    clearAnswerDrillMeta();
     return;
   }
 
@@ -1001,14 +881,7 @@ function newNounQuestion() {
   if (!entry || !expected) {
     promptText.textContent = "Nepavyko parinkti daiktavardžio. Pabandyk dar kartą.";
     personText.textContent = "";
-    if (promptKicker) promptKicker.textContent = "Nouns";
     if (answerInput) answerInput.placeholder = VERB_ANSWER_PLACEHOLDER;
-    if (resultText) {
-      resultText.textContent = "";
-      resultText.className = "";
-    }
-    state.correctFeedbackAcknowledged = false;
-    clearAnswerDrillMeta();
     return;
   }
 
@@ -1030,18 +903,12 @@ function newNounQuestion() {
 
   promptText.textContent = nounPromptWithNumberTag(sentence, nounNumber);
   personText.textContent = nounHeaderLine(entry);
-  if (promptKicker) {
-    const numTag = nounNumber === "Plural" ? "plural" : "singular";
-    promptKicker.textContent = `Decline · ${nounCase} · ${numTag}`;
-  }
   if (nounMeta) {
     nounMeta.textContent = `${drill.reason}\n${state.nounSentenceEn}`;
   }
 
   resultText.textContent = "";
   resultText.className = "";
-  state.correctFeedbackAcknowledged = false;
-  renderNounAnswerDrillMeta(nounCase, nounNumber, entry.decl.Singular.Nominative);
   answerInput.value = "";
   if (answerInput) {
     answerInput.placeholder =
@@ -1137,6 +1004,51 @@ async function speakViaProxy(text) {
   }
 }
 
+/** Pick the best Lithuanian voice the browser can offer. */
+function pickLithuanianVoice() {
+  if (!("speechSynthesis" in window)) return null;
+  const voices = window.speechSynthesis.getVoices() || [];
+  // Strict lt-LT first, then any lt*, then any name mentioning Lithuanian.
+  return (
+    voices.find((v) => /^lt-LT$/i.test(v.lang)) ||
+    voices.find((v) => /^lt(-|_|$)/i.test(v.lang)) ||
+    voices.find((v) => /lithuan/i.test(v.name)) ||
+    null
+  );
+}
+
+let _voicesPrimed = false;
+function primeVoices() {
+  if (_voicesPrimed || !("speechSynthesis" in window)) return;
+  // Some browsers populate voices async — nudge them.
+  window.speechSynthesis.getVoices();
+  window.speechSynthesis.onvoiceschanged = () => {
+    _voicesPrimed = true;
+  };
+}
+
+function speakViaWebSpeech(text) {
+  if (!("speechSynthesis" in window)) return false;
+  const phrase = String(text || "").trim();
+  if (!phrase) return false;
+  const voice = pickLithuanianVoice();
+  // If no Lithuanian voice is installed, the OS will likely mangle it —
+  // skip and let the network fallback try.
+  if (!voice) return false;
+  try {
+    window.speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(phrase);
+    u.voice = voice;
+    u.lang = voice.lang || "lt-LT";
+    u.rate = 0.95;
+    u.pitch = 1;
+    window.speechSynthesis.speak(u);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 async function speakCurrentWord() {
   const text =
     getPracticeMode() === "nouns"
@@ -1145,13 +1057,15 @@ async function speakCurrentWord() {
   const phrase = String(text || "").trim();
   if (!phrase) return;
 
+  // 1. Browser-native Lithuanian voice (works offline, no CORS).
+  if (speakViaWebSpeech(phrase)) return;
+
+  // 2. Optional self-hosted proxy (only if configured).
   const proxyOk = await speakViaProxy(phrase);
   if (proxyOk) return;
 
-  // Primary path without backend: Google Translate TTS URL.
+  // 3. Last resort: Google Translate TTS URL.
   playFallbackTts(phrase);
-
-  return;
 }
 
 function checkVerbAnswer() {
@@ -1183,14 +1097,9 @@ function checkVerbAnswer() {
   if (isCorrect) {
     resultText.innerHTML = `Teisingai!<br>Forms: ${safeRefLine}`;
     resultText.className = "ok";
-    state.correctFeedbackAcknowledged = false;
-    queueMicrotask(() => {
-      state.correctFeedbackAcknowledged = true;
-    });
   } else {
     resultText.innerHTML = `Neteisinga. Teisingas variantas: ${safeExpected}<br>Forms: ${safeRefLine}`;
     resultText.className = "bad";
-    state.correctFeedbackAcknowledged = false;
   }
 }
 
@@ -1198,7 +1107,6 @@ function checkNounAnswer() {
   if (!state.nounEntry) {
     resultText.textContent = "Pirma sugeneruok klausimą.";
     resultText.className = "bad";
-    state.correctFeedbackAcknowledged = false;
     return;
   }
   state.checksThisQuestion = (state.checksThisQuestion || 0) + 1;
@@ -1230,14 +1138,9 @@ function checkNounAnswer() {
   if (isCorrect) {
     resultText.innerHTML = `Teisingai!<br>${safeCase}: ${safeCaseForms}`;
     resultText.className = "ok";
-    state.correctFeedbackAcknowledged = false;
-    queueMicrotask(() => {
-      state.correctFeedbackAcknowledged = true;
-    });
   } else {
     resultText.innerHTML = `Neteisinga. Teisingas variantas: ${safeExpected}<br>${safeCase}: ${safeCaseForms}`;
     resultText.className = "bad";
-    state.correctFeedbackAcknowledged = false;
   }
 }
 
@@ -1246,7 +1149,6 @@ function checkAnswer() {
     if (!state.nounEntry) {
       resultText.textContent = "Pirma sugeneruok klausimą.";
       resultText.className = "bad";
-      state.correctFeedbackAcknowledged = false;
       return;
     }
     checkNounAnswer();
@@ -1255,22 +1157,9 @@ function checkAnswer() {
   if (!state.currentEntry) {
     resultText.textContent = "Pirma sugeneruok klausimą.";
     resultText.className = "bad";
-    state.correctFeedbackAcknowledged = false;
     return;
   }
   checkVerbAnswer();
-}
-
-/** Same as Enter: first action checks; when result is already correct, advance to next. */
-function handleCheckButtonClick() {
-  if (resultText.classList.contains("ok")) {
-    if (state.correctFeedbackAcknowledged) {
-      state.correctFeedbackAcknowledged = false;
-      newQuestion();
-    }
-    return;
-  }
-  checkAnswer();
 }
 
 async function loadData() {
@@ -1314,7 +1203,6 @@ async function loadData() {
     promptText.textContent =
       "Nepavyko užkrauti duomenų. Paleisk serverį iš aplanko: python3 -m http.server";
     personText.textContent = verbLoadError && verbLoadError.message ? String(verbLoadError.message) : "";
-    clearAnswerDrillMeta();
     return;
   }
   renderGroupSelector();
@@ -1328,16 +1216,10 @@ async function loadData() {
   newQuestion();
 }
 
-let appEventListenersAttached = false;
-
 function init() {
   if (!formSelect || !answerInput || !checkBtn || !hintBtn || !nextBtn || !historyList) {
     return;
   }
-  if (appEventListenersAttached) {
-    return;
-  }
-  appEventListenersAttached = true;
 
   if (practiceModeSelect) {
     practiceModeSelect.addEventListener("change", () => {
@@ -1364,7 +1246,7 @@ function init() {
       newQuestion();
     }
   });
-  checkBtn.addEventListener("click", handleCheckButtonClick);
+  checkBtn.addEventListener("click", checkAnswer);
   if (speakBtn) {
     speakBtn.addEventListener("click", speakCurrentWord);
   }
@@ -1375,11 +1257,7 @@ function init() {
       return;
     }
     if (resultText.classList.contains("ok")) {
-      if (!state.correctFeedbackAcknowledged) {
-        return;
-      }
       event.preventDefault();
-      state.correctFeedbackAcknowledged = false;
       newQuestion();
       return;
     }
@@ -1393,6 +1271,7 @@ function init() {
     }
   });
 
+  primeVoices();
   updateModePanels();
   renderHistory();
   loadData();

@@ -1,14 +1,14 @@
 /* Renders the multi-select frequency band <select> as:
-     [    All groups    ]      <- single full-width pill
-     [0][1][2][3][4][5][6][7][8][9]   <- 10-col digit grid
+     [    All groups    ]      ← single full-width pill
+     [0][1][2][3][4][5][6][7][8][9]   ← 10-col digit grid
 
    Multi-select rules:
-     - Clicking "All groups" selects ONLY "all" (clears every digit).
-     - Clicking a digit toggles that digit; if any digit is on, "all"
+     • Clicking "All groups" selects ONLY "all" (clears every digit).
+     • Clicking a digit toggles that digit; if any digit is on, "all"
        is removed.
-     - If the user toggles the last remaining digit off, we fall back
+     • If the user toggles the last remaining digit off, we fall back
        to "all" so the practice queue never empties.
-     - The whole row of digits acts dimmed/scale-like while "all" is
+     • The whole row of digits acts dimmed/scale-like while "all" is
        the source of truth (styled in CSS via [data-all="true"]).
 
    The hidden <select id="wordGroupSelect" multiple> remains the source
