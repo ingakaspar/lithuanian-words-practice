@@ -1,0 +1,138 @@
+[
+  {
+    "lt": "aš",
+    "lt_ascii": "as",
+    "ru": "я",
+    "groups": [0, 100, 200, 300, 400, 500, 600, 700, 800, 900],
+    "decl": {
+      "Singular": {
+        "Nominative": "aš",
+        "Genitive": "manęs|mano",
+        "Dative": "man",
+        "Accusative": "mane",
+        "Instrumental": "manimi",
+        "Locative": "manyje"
+      },
+      "Plural": {}
+    }
+  },
+  {
+    "lt": "tu",
+    "lt_ascii": "tu",
+    "ru": "ты",
+    "groups": [0, 100, 200, 300, 400, 500, 600, 700, 800, 900],
+    "decl": {
+      "Singular": {
+        "Nominative": "tu",
+        "Genitive": "tavęs|tavo",
+        "Dative": "tau",
+        "Accusative": "tave",
+        "Instrumental": "tavimi",
+        "Locative": "tavyje"
+      },
+      "Plural": {}
+    }
+  },
+  {
+    "lt": "jis",
+    "lt_ascii": "jis",
+    "ru": "он",
+    "groups": [0, 100, 200, 300, 400, 500, 600, 700, 800, 900],
+    "decl": {
+      "Singular": {
+        "Nominative": "jis",
+        "Genitive": "jo",
+        "Dative": "jam",
+        "Accusative": "jį",
+        "Instrumental": "juo",
+        "Locative": "jame"
+      },
+      "Plural": {}
+    }
+  },
+  {
+    "lt": "ji",
+    "lt_ascii": "ji",
+    "ru": "она",
+    "groups": [0, 100, 200, 300, 400, 500, 600, 700, 800, 900],
+    "decl": {
+      "Singular": {
+        "Nominative": "ji",
+        "Genitive": "jos",
+        "Dative": "jai",
+        "Accusative": "ją",
+        "Instrumental": "ja",
+        "Locative": "joje"
+      },
+      "Plural": {}
+    }
+  },
+  {
+    "lt": "mes",
+    "lt_ascii": "mes",
+    "ru": "мы",
+    "groups": [0, 100, 200, 300, 400, 500, 600, 700, 800, 900],
+    "decl": {
+      "Singular": {},
+      "Plural": {
+        "Nominative": "mes",
+        "Genitive": "mūsų",
+        "Dative": "mums",
+        "Accusative": "mus",
+        "Instrumental": "mumis",
+        "Locative": "mumyse"
+      }
+    }
+  },
+  {
+    "lt": "jūs",
+    "lt_ascii": "jus",
+    "ru": "вы",
+    "groups": [0, 100, 200, 300, 400, 500, 600, 700, 800, 900],
+    "decl": {
+      "Singular": {},
+      "Plural": {
+        "Nominative": "jūs",
+        "Genitive": "jūsų",
+        "Dative": "jums",
+        "Accusative": "jus",
+        "Instrumental": "jumis",
+        "Locative": "jumyse"
+      }
+    }
+  },
+  {
+    "lt": "jie",
+    "lt_ascii": "jie",
+    "ru": "они (м. р.)",
+    "groups": [0, 100, 200, 300, 400, 500, 600, 700, 800, 900],
+    "decl": {
+      "Singular": {},
+      "Plural": {
+        "Nominative": "jie",
+        "Genitive": "jų",
+        "Dative": "jiems",
+        "Accusative": "juos",
+        "Instrumental": "jais",
+        "Locative": "juose"
+      }
+    }
+  },
+  {
+    "lt": "jos",
+    "lt_ascii": "jos",
+    "ru": "они (ж. р.)",
+    "groups": [0, 100, 200, 300, 400, 500, 600, 700, 800, 900],
+    "decl": {
+      "Singular": {},
+      "Plural": {
+        "Nominative": "jos",
+        "Genitive": "jų",
+        "Dative": "joms",
+        "Accusative": "jas",
+        "Instrumental": "jomis",
+        "Locative": "jose"
+      }
+    }
+  }
+]

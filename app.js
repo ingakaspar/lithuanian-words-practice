@@ -1,8 +1,141 @@
 let verbs = [];
 let nouns = [];
+let pronouns = [];
 let verbsAll = [];
 let nounsAll = [];
+let pronounsAll = [];
 let pdfStats = null;
+
+/**
+ * Used when pronouns_practice.json cannot be fetched (file://, wrong cwd, deploy gap).
+ * Keep in sync with pronouns_practice.json; groups span all bands so frequency chips still match.
+ */
+const PRONOUNS_DEFAULT = [
+  {
+    lt: "aš",
+    lt_ascii: "as",
+    ru: "я",
+    groups: [0, 100, 200, 300, 400, 500, 600, 700, 800, 900],
+    decl: {
+      Singular: {
+        Nominative: "aš",
+        Genitive: "manęs|mano",
+        Dative: "man",
+        Accusative: "mane",
+        Instrumental: "manimi",
+        Locative: "manyje"
+      },
+      Plural: {}
+    }
+  },
+  {
+    lt: "tu",
+    lt_ascii: "tu",
+    ru: "ты",
+    groups: [0, 100, 200, 300, 400, 500, 600, 700, 800, 900],
+    decl: {
+      Singular: {
+        Nominative: "tu",
+        Genitive: "tavęs|tavo",
+        Dative: "tau",
+        Accusative: "tave",
+        Instrumental: "tavimi",
+        Locative: "tavyje"
+      },
+      Plural: {}
+    }
+  },
+  {
+    lt: "jis",
+    lt_ascii: "jis",
+    ru: "он",
+    groups: [0, 100, 200, 300, 400, 500, 600, 700, 800, 900],
+    decl: {
+      Singular: {
+        Nominative: "jis",
+        Genitive: "jo",
+        Dative: "jam",
+        Accusative: "jį",
+        Instrumental: "juo",
+        Locative: "jame"
+      },
+      Plural: {}
+    }
+  },
+  {
+    lt: "ji",
+    lt_ascii: "ji",
+    ru: "она",
+    groups: [0, 100, 200, 300, 400, 500, 600, 700, 800, 900],
+    decl: {
+      Singular: {
+        Nominative: "ji",
+        Genitive: "jos",
+        Dative: "jai",
+        Accusative: "ją",
+        Instrumental: "ja",
+        Locative: "joje"
+      },
+      Plural: {}
+    }
+  },
+  {
+    lt: "mes",
+    lt_ascii: "mes",
+    ru: "мы",
+    groups: [0, 100, 200, 300, 400, 500, 600, 700, 800, 900],
+    decl: { Singular: {}, Plural: {
+      Nominative: "mes",
+      Genitive: "mūsų",
+      Dative: "mums",
+      Accusative: "mus",
+      Instrumental: "mumis",
+      Locative: "mumyse"
+    } }
+  },
+  {
+    lt: "jūs",
+    lt_ascii: "jus",
+    ru: "вы",
+    groups: [0, 100, 200, 300, 400, 500, 600, 700, 800, 900],
+    decl: { Singular: {}, Plural: {
+      Nominative: "jūs",
+      Genitive: "jūsų",
+      Dative: "jums",
+      Accusative: "jus",
+      Instrumental: "jumis",
+      Locative: "jumyse"
+    } }
+  },
+  {
+    lt: "jie",
+    lt_ascii: "jie",
+    ru: "они (м. р.)",
+    groups: [0, 100, 200, 300, 400, 500, 600, 700, 800, 900],
+    decl: { Singular: {}, Plural: {
+      Nominative: "jie",
+      Genitive: "jų",
+      Dative: "jiems",
+      Accusative: "juos",
+      Instrumental: "jais",
+      Locative: "juose"
+    } }
+  },
+  {
+    lt: "jos",
+    lt_ascii: "jos",
+    ru: "они (ж. р.)",
+    groups: [0, 100, 200, 300, 400, 500, 600, 700, 800, 900],
+    decl: { Singular: {}, Plural: {
+      Nominative: "jos",
+      Genitive: "jų",
+      Dative: "joms",
+      Accusative: "jas",
+      Instrumental: "jomis",
+      Locative: "jose"
+    } }
+  }
+];
 
 const GROUP_LABELS = {
   0: "Group 0 - helper words",
@@ -32,6 +165,7 @@ function collectAvailableGroups() {
   const set = new Set();
   for (const v of verbsAll) for (const g of getEntryGroups(v)) set.add(g);
   for (const n of nounsAll) for (const g of getEntryGroups(n)) set.add(g);
+  for (const p of pronounsAll) for (const g of getEntryGroups(p)) set.add(g);
   return [...set].sort((a, b) => a - b);
 }
 
@@ -60,11 +194,13 @@ function applyWordGroupFilter() {
   if (selected === "all") {
     verbs = [...verbsAll];
     nouns = [...nounsAll];
+    pronouns = [...pronounsAll];
     return;
   }
   const matches = (e) => getEntryGroups(e).some((g) => selected.has(g));
   verbs = verbsAll.filter(matches);
   nouns = nounsAll.filter(matches);
+  pronouns = pronounsAll.filter(matches);
 }
 
 function renderGroupSelector() {
@@ -129,8 +265,13 @@ const resultText = document.getElementById("resultText");
 const historyList = document.getElementById("historyList");
 const nounMeta = document.getElementById("nounMeta");
 const promptKicker = document.getElementById("promptKicker");
-const answerDrillMeta = document.getElementById("answerDrillMeta");
 const wordGroupSelect = document.getElementById("wordGroupSelect");
+const wordImageWrap = document.getElementById("wordImageWrap");
+const wordImage = document.getElementById("wordImage");
+const answerNumTag = document.getElementById("answerNumTag");
+
+/** AbortController for in-flight image fetches (new question cancels previous). */
+let wordImageAbort = null;
 
 /** Short labels for the verb drill line (Lithuanian + English). */
 const VERB_TENSE_UI = {
@@ -149,6 +290,111 @@ function verbQuestionKicker(formType, personIdx) {
   return `Conjugate · ${tense} · ${who}`;
 }
 
+function stripParensForSearch(s) {
+  return String(s || "")
+    .replace(/\([^)]*\)/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function imageSearchQueryVerb(entry) {
+  const ru = stripParensForSearch(entry.ru);
+  const lt = String(entry.lt || "").trim();
+  return [ru, lt].filter(Boolean).join(" ").trim() || lt;
+}
+
+function imageSearchQueryNoun(entry) {
+  const en = stripParensForSearch(entry.en);
+  const ru = stripParensForSearch(entry.ru);
+  const lt = String(entry.decl?.Singular?.Nominative || entry.lt || "").trim();
+  return [en, ru, lt].filter(Boolean).join(" ").trim() || lt;
+}
+
+function hideWordImage() {
+  if (wordImageAbort) {
+    try {
+      wordImageAbort.abort();
+    } catch {
+      /* ignore */
+    }
+    wordImageAbort = null;
+  }
+  if (wordImageWrap) wordImageWrap.hidden = true;
+  if (wordImage) {
+    wordImage.removeAttribute("src");
+    wordImage.alt = "";
+  }
+}
+
+async function fetchGoogleCseFirstImageUrl(query, signal) {
+  const cfg = window.APP_CONFIG || {};
+  const key = String(cfg.GOOGLE_CSE_API_KEY || "").trim();
+  const cx = String(cfg.GOOGLE_CSE_CX || "").trim();
+  if (!key || !cx) return null;
+  const q = String(query || "").trim().slice(0, 120);
+  if (!q) return null;
+  const url =
+    "https://www.googleapis.com/customsearch/v1" +
+    `?key=${encodeURIComponent(key)}` +
+    `&cx=${encodeURIComponent(cx)}` +
+    `&q=${encodeURIComponent(q)}` +
+    "&searchType=image&num=1&safe=active";
+  try {
+    const r = await fetch(url, { signal, cache: "no-store" });
+    if (!r.ok) return null;
+    const j = await r.json();
+    const item = j.items && j.items[0];
+    return item && item.link ? String(item.link) : null;
+  } catch {
+    return null;
+  }
+}
+
+async function fetchCommonsFirstImageUrl(query, signal) {
+  const q = String(query || "").trim().slice(0, 120);
+  if (!q) return null;
+  const url =
+    "https://commons.wikimedia.org/w/api.php?action=query&format=json&origin=*" +
+    "&generator=search&gsrnamespace=6&gsrlimit=1" +
+    `&gsrsearch=${encodeURIComponent(q)}` +
+    "&prop=imageinfo&iiprop=url|thumburl&iiurlwidth=360";
+  try {
+    const r = await fetch(url, { signal, cache: "no-store" });
+    if (!r.ok) return null;
+    const j = await r.json();
+    const pages = j.query && j.query.pages;
+    if (!pages || typeof pages !== "object") return null;
+    const first = Object.values(pages)[0];
+    const info = first && first.imageinfo && first.imageinfo[0];
+    if (!info) return null;
+    return String(info.thumburl || info.url || "").trim() || null;
+  } catch {
+    return null;
+  }
+}
+
+async function loadWordImageForQuery(query) {
+  if (!wordImage || !wordImageWrap) return;
+  hideWordImage();
+  const q = String(query || "").trim();
+  if (!q) return;
+  const ac = new AbortController();
+  wordImageAbort = ac;
+  const signal = ac.signal;
+
+  let url = await fetchGoogleCseFirstImageUrl(q, signal);
+  if (!signal.aborted && !url) {
+    url = await fetchCommonsFirstImageUrl(q, signal);
+  }
+  if (signal.aborted || !url) {
+    hideWordImage();
+    return;
+  }
+  wordImage.alt = q;
+  wordImage.src = url;
+  wordImageWrap.hidden = false;
+}
+
 const NOUN_CASE_ORDER = [
   "Genitive",
   "Dative",
@@ -158,15 +404,7 @@ const NOUN_CASE_ORDER = [
   "Vocative"
 ];
 
-/** Lithuanian “case question” hints for the answer field (nouns). */
-const NOUN_CASE_INPUT_PLACEHOLDER = {
-  Genitive: "Ko? Kieno? — įrašyk kilmininko formą",
-  Dative: "Kam? — įrašyk naudininko formą",
-  Accusative: "Ką? — įrašyk galininko formą",
-  Instrumental: "Kuo? — įrašyk įnagininko formą",
-  Locative: "Kur? Kame? — įrašyk vietininko formą",
-  Vocative: "Kreipinys — įrašyk kreipinio formą"
-};
+const DEFAULT_NOUN_ANSWER_PLACEHOLDER = "Įrašyk linksnio formą";
 
 const VERB_ANSWER_PLACEHOLDER = "Įrašyk formą";
 
@@ -420,6 +658,10 @@ let state = {
   nounSentence: "",
   nounSentenceEn: "",
   nounReason: "",
+  pronounEntry: null,
+  pronounCase: null,
+  pronounNumber: null,
+  pronounExpectedVariants: [],
   hintShown: false,
   /** Count of „Tikrinti“ presses on the current question (for first-try weighting). */
   checksThisQuestion: 0,
@@ -459,29 +701,6 @@ function escapeHtml(text) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#39;");
-}
-
-function clearAnswerDrillMeta() {
-  if (!answerDrillMeta) return;
-  answerDrillMeta.textContent = "";
-}
-
-/** Muted tense / person / lemma line above the answer field (verbs). */
-function renderVerbAnswerDrillMeta(formType, personIdx, lemmaLt) {
-  if (!answerDrillMeta) return;
-  const row = VERB_TENSE_UI[formType];
-  const tense = row ? `${row.lt} (${row.en})` : String(formType);
-  const who = ltPronounsDiacritic[personIdx] || "—";
-  const lemma = String(lemmaLt || "").trim();
-  answerDrillMeta.innerHTML = `<span class="answer-drill-tense">${escapeHtml(tense)}</span><span class="answer-drill-sep" aria-hidden="true"> · </span><span class="answer-drill-person">${escapeHtml(who)}</span><span class="answer-drill-sep" aria-hidden="true"> · </span><span class="answer-drill-lemma">${escapeHtml(lemma)}</span>`;
-}
-
-/** Muted case / number / nominative line above the answer field (nouns). */
-function renderNounAnswerDrillMeta(nounCase, nounNumber, nomSg) {
-  if (!answerDrillMeta) return;
-  const num = nounNumber === "Plural" ? "plural" : "singular";
-  const nom = String(nomSg || "").trim();
-  answerDrillMeta.innerHTML = `<span class="answer-drill-tense">${escapeHtml(String(nounCase))}</span><span class="answer-drill-sep" aria-hidden="true"> · </span><span class="answer-drill-person">${escapeHtml(num)}</span><span class="answer-drill-sep" aria-hidden="true"> · </span><span class="answer-drill-lemma">${escapeHtml(nom)}</span>`;
 }
 
 function getTtsProxyUrl() {
@@ -577,9 +796,11 @@ function randomChoice(items) {
 
 const LS_WEIGHTS_NOUNS = "ltPractice_weights_nouns_v1";
 const LS_WEIGHTS_VERBS = "ltPractice_weights_verbs_v1";
+const LS_WEIGHTS_PRONOUNS = "ltPractice_weights_pronouns_v1";
 
 let cachedNounWeights = null;
 let cachedVerbWeights = null;
+let cachedPronounWeights = null;
 
 function loadWordWeights(key) {
   try {
@@ -609,12 +830,21 @@ function verbWeights() {
   return cachedVerbWeights;
 }
 
+function pronounWeights() {
+  if (!cachedPronounWeights) cachedPronounWeights = loadWordWeights(LS_WEIGHTS_PRONOUNS);
+  return cachedPronounWeights;
+}
+
 function wordWeightKeyNoun(entry) {
   return entry.lt_ascii || entry.decl?.Singular?.Nominative || entry.lt || "";
 }
 
 function wordWeightKeyVerb(entry) {
   return entry.lt_ascii || entry.lt || "";
+}
+
+function wordWeightKeyPronoun(entry) {
+  return entry.lt_ascii || entry.lt || pronounLemmaDisplay(entry) || "";
 }
 
 function getWordWeight(weights, lemmaKey) {
@@ -734,13 +964,215 @@ function nounThisCaseFormsLine(entry, nounCase) {
   return `sg. ${sgForm} · pl. ${plForm}`;
 }
 
+function longestCommonPrefix2(a, b) {
+  const A = String(a ?? "");
+  const B = String(b ?? "");
+  let i = 0;
+  const lim = Math.min(A.length, B.length);
+  while (i < lim && A[i] === B[i]) i += 1;
+  return i;
+}
+
+/**
+ * Placeholder / light hint: singular and plural surface endings for this case
+ * (shared prefix of the sg and pl forms in that case is stripped).
+ */
+function nounCaseEndingHint(entry, nounCase) {
+  const sg = entry.decl && entry.decl.Singular;
+  const pl = entry.decl && entry.decl.Plural;
+  if (!sg) return DEFAULT_NOUN_ANSWER_PLACEHOLDER;
+  const sgForm = String(sg[nounCase] || "").trim();
+  const plForm = pl && pl[nounCase] ? String(pl[nounCase]).trim() : "";
+  if (!sgForm && !plForm) return DEFAULT_NOUN_ANSWER_PLACEHOLDER;
+  if (!plForm) return sgForm || DEFAULT_NOUN_ANSWER_PLACEHOLDER;
+  if (!sgForm) return plForm;
+  const p = longestCommonPrefix2(sgForm, plForm);
+  const eSg = sgForm.slice(p);
+  const ePl = plForm.slice(p);
+  if (eSg && ePl) return `${eSg} · ${ePl}`;
+  if (eSg) return eSg;
+  if (ePl) return ePl;
+  return sgForm || DEFAULT_NOUN_ANSWER_PLACEHOLDER;
+}
+
+function parsePronounVariants(raw) {
+  if (raw == null) return [];
+  if (Array.isArray(raw)) {
+    return raw.map((x) => String(x).trim()).filter(Boolean);
+  }
+  const s = String(raw).trim();
+  if (!s) return [];
+  if (s.includes("|")) {
+    return s.split("|").map((x) => x.trim()).filter(Boolean);
+  }
+  return [s];
+}
+
+function pronounLemmaDisplay(entry) {
+  const sg = entry.decl && entry.decl.Singular;
+  const pl = entry.decl && entry.decl.Plural;
+  const n =
+    (sg && sg.Nominative && String(sg.Nominative).trim()) ||
+    (pl && pl.Nominative && String(pl.Nominative).trim()) ||
+    String(entry.lt || "").trim();
+  return n || "—";
+}
+
+function pronounHeaderLine(entry) {
+  const ru = String(entry.ru || "").trim();
+  return ru || pronounLemmaDisplay(entry);
+}
+
+function pronounThisCaseFormsLine(entry, nounCase) {
+  const sg = entry.decl && entry.decl.Singular;
+  const pl = entry.decl && entry.decl.Plural;
+  const sgRaw = sg && sg[nounCase] != null ? String(sg[nounCase]).trim() : "";
+  const plRaw = pl && pl[nounCase] != null ? String(pl[nounCase]).trim() : "";
+  const sgForm = sgRaw ? parsePronounVariants(sgRaw).join(" / ") : "—";
+  const plForm = plRaw ? parsePronounVariants(plRaw).join(" / ") : "—";
+  return `sg. ${sgForm} · pl. ${plForm}`;
+}
+
+function availablePronounNumbersForCase(entry, nounCase) {
+  const out = [];
+  for (const num of ["Singular", "Plural"]) {
+    const d = entry.decl && entry.decl[num];
+    if (!d) continue;
+    if (parsePronounVariants(d[nounCase]).length) out.push(num);
+  }
+  return out;
+}
+
+const PRONOUN_RU_ANSWER_CUES = {
+  as: {
+    Singular: {
+      Nominative: "я",
+      Genitive: "меня · моего",
+      Dative: "мне",
+      Accusative: "меня",
+      Instrumental: "мной",
+      Locative: "во мне"
+    }
+  },
+  tu: {
+    Singular: {
+      Nominative: "ты",
+      Genitive: "тебя · твоего",
+      Dative: "тебе",
+      Accusative: "тебя",
+      Instrumental: "тобой",
+      Locative: "в тебе"
+    }
+  },
+  jis: {
+    Singular: {
+      Nominative: "он",
+      Genitive: "его · него",
+      Dative: "ему",
+      Accusative: "его · него",
+      Instrumental: "им",
+      Locative: "в нём"
+    }
+  },
+  ji: {
+    Singular: {
+      Nominative: "она",
+      Genitive: "её · неё",
+      Dative: "ей",
+      Accusative: "её · неё",
+      Instrumental: "ею",
+      Locative: "в ней"
+    }
+  },
+  mes: {
+    Plural: {
+      Nominative: "мы",
+      Genitive: "нас · нашего",
+      Dative: "нам",
+      Accusative: "нас",
+      Instrumental: "нами",
+      Locative: "в нас"
+    }
+  },
+  jus: {
+    Plural: {
+      Nominative: "вы",
+      Genitive: "вас · вашего",
+      Dative: "вам",
+      Accusative: "вас",
+      Instrumental: "вами",
+      Locative: "в вас"
+    }
+  },
+  jie: {
+    Plural: {
+      Nominative: "они (м. р.)",
+      Genitive: "их · них",
+      Dative: "им",
+      Accusative: "их · них",
+      Instrumental: "ими",
+      Locative: "в них"
+    }
+  },
+  jos: {
+    Plural: {
+      Nominative: "они (ж. р.)",
+      Genitive: "их · них",
+      Dative: "им",
+      Accusative: "их · них",
+      Instrumental: "ими",
+      Locative: "в них"
+    }
+  }
+};
+
+function pronounRussianAnswerCue(entry, number, caseName) {
+  const k = String(entry.lt_ascii || entry.lt || "")
+    .trim()
+    .toLowerCase()
+    .normalize("NFC");
+  const grid = PRONOUN_RU_ANSWER_CUES[k];
+  if (!grid) return "";
+  const row = grid[number];
+  if (!row) return "";
+  const s = row[caseName];
+  return s ? String(s).trim() : "";
+}
+
+/** Russian hint in the answer placeholder (spaces, no ·). */
+function pronounRussianPlaceholder(entry, number, caseName) {
+  const cue = pronounRussianAnswerCue(entry, number, caseName);
+  if (!cue) return DEFAULT_NOUN_ANSWER_PLACEHOLDER;
+  return cue.split(/\s*·\s*/).join(" ");
+}
+
+function syncAnswerNumTag() {
+  if (!answerNumTag) return;
+  if (state.nounEntry && state.nounCase) {
+    answerNumTag.textContent = state.nounNumber === "Plural" ? "pl" : "sg";
+    answerNumTag.hidden = false;
+    return;
+  }
+  if (state.pronounEntry && state.pronounCase) {
+    answerNumTag.textContent = state.pronounNumber === "Plural" ? "pl" : "sg";
+    answerNumTag.hidden = false;
+    return;
+  }
+  answerNumTag.textContent = "";
+  answerNumTag.hidden = true;
+}
+
+/** Reset sg/pl chip for the current question (verbs / empty state hide it). */
+function clearAnswerExtras() {
+  syncAnswerNumTag();
+}
+
 function getPracticeMode() {
   const v = practiceModeSelect ? String(practiceModeSelect.value || "verbs") : "verbs";
   return v;
 }
 
 const COMING_SOON_MODES = {
-  pronouns:   { lt: "Įvardžiai",      en: "Pronouns",  blurb: "aš, tu, jis, mūsų, savęs…" },
   adjectives: { lt: "Būdvardžiai",    en: "Adjectives", blurb: "geras, didelė, mažas, gražus…" },
   adverbs:    { lt: "Prieveiksmiai",  en: "Adverbs",   blurb: "greitai, labai, dažnai, jau…" },
   numerals:   { lt: "Skaitvardžiai",  en: "Numerals",  blurb: "vienas, du, trys, penki…" }
@@ -759,16 +1191,22 @@ function showComingSoonForMode(mode) {
     resultText.textContent = "";
     resultText.className = "";
   }
-  clearAnswerDrillMeta();
+  hideWordImage();
   state.correctFeedbackAcknowledged = false;
   if (answerInput) {
     answerInput.value = "";
     answerInput.placeholder = "—";
     answerInput.disabled = true;
   }
+  clearAnswerExtras();
+  state.answerPrefix = "";
   state.practiceMode = mode;
   state.currentEntry = null;
   state.nounEntry = null;
+  state.pronounEntry = null;
+  state.pronounCase = null;
+  state.pronounNumber = null;
+  state.pronounExpectedVariants = [];
   state.expectedAnswers = [];
   return true;
 }
@@ -780,7 +1218,7 @@ function ensureAnswerEnabled() {
 function updateModePanels() {
   const m = getPracticeMode();
   if (verbControls) verbControls.style.display = m === "verbs" ? "grid" : "none";
-  if (nounControls) nounControls.style.display = m === "nouns" ? "grid" : "none";
+  if (nounControls) nounControls.style.display = m === "nouns" || m === "pronouns" ? "grid" : "none";
 }
 
 function generateLtForm(entry, formType, personIdx) {
@@ -845,13 +1283,19 @@ function formLabel(formType) {
 }
 
 function newVerbQuestion() {
+  hideWordImage();
+  clearAnswerExtras();
+  state.pronounEntry = null;
+  state.pronounCase = null;
+  state.pronounNumber = null;
+  state.pronounExpectedVariants = [];
   if (verbs.length === 0) {
     promptText.textContent = verbsAll.length
       ? "Нет доступных глаголов в текущих данных."
       : "Nėra veiksložodžių duomenų. Paleisk serverį iš aplanko: python3 -m http.server";
     personText.textContent = "";
     if (promptKicker) promptKicker.textContent = "Verbs";
-    clearAnswerDrillMeta();
+    clearAnswerExtras();
     return;
   }
   const selectedFormType = formSelect.value;
@@ -878,7 +1322,7 @@ function newVerbQuestion() {
       resultText.className = "";
     }
     state.correctFeedbackAcknowledged = false;
-    clearAnswerDrillMeta();
+    clearAnswerExtras();
     return;
   }
 
@@ -907,7 +1351,7 @@ function newVerbQuestion() {
       resultText.className = "";
     }
     state.correctFeedbackAcknowledged = false;
-    clearAnswerDrillMeta();
+    clearAnswerExtras();
     return;
   }
 
@@ -931,7 +1375,6 @@ function newVerbQuestion() {
   resultText.textContent = "";
   resultText.className = "";
   state.correctFeedbackAcknowledged = false;
-  renderVerbAnswerDrillMeta(formType, personIdx, entry.lt);
   if (answerInput) answerInput.placeholder = verbInputPlaceholder(formType);
   answerInput.value = state.answerPrefix;
   safeFocus(answerInput);
@@ -941,6 +1384,8 @@ function newVerbQuestion() {
   } catch {
     /* ignore */
   }
+  void loadWordImageForQuery(imageSearchQueryVerb(entry));
+  syncAnswerNumTag();
 }
 
 function pickNounCase() {
@@ -951,7 +1396,26 @@ function pickNounCase() {
   return v;
 }
 
+/** Personal pronouns have no vocative drill; map it to another case. */
+function pickPronounCase() {
+  const v = nounCaseSelect ? nounCaseSelect.value : "random";
+  const orderNoVoc = NOUN_CASE_ORDER.filter((c) => c !== "Vocative");
+  if (v === "random") {
+    return randomChoice(orderNoVoc);
+  }
+  if (v === "Vocative") {
+    return randomChoice(orderNoVoc);
+  }
+  return v;
+}
+
 function newNounQuestion() {
+  hideWordImage();
+  clearAnswerExtras();
+  state.pronounEntry = null;
+  state.pronounCase = null;
+  state.pronounNumber = null;
+  state.pronounExpectedVariants = [];
   if (nouns.length === 0) {
     promptText.textContent = nounsAll.length
       ? "Нет доступных существительных в текущих данных."
@@ -959,12 +1423,18 @@ function newNounQuestion() {
     personText.textContent = "";
     if (promptKicker) promptKicker.textContent = "Nouns";
     if (answerInput) answerInput.placeholder = VERB_ANSWER_PLACEHOLDER;
+    if (answerInput) answerInput.value = "";
+    state.answerPrefix = "";
+    state.nounEntry = null;
+    state.nounCase = null;
+    state.nounNumber = null;
+    state.nounExpected = "";
     if (resultText) {
       resultText.textContent = "";
       resultText.className = "";
     }
     state.correctFeedbackAcknowledged = false;
-    clearAnswerDrillMeta();
+    syncAnswerNumTag();
     return;
   }
 
@@ -1006,12 +1476,14 @@ function newNounQuestion() {
     personText.textContent = "";
     if (promptKicker) promptKicker.textContent = "Nouns";
     if (answerInput) answerInput.placeholder = VERB_ANSWER_PLACEHOLDER;
+    if (answerInput) answerInput.value = "";
+    state.answerPrefix = "";
     if (resultText) {
       resultText.textContent = "";
       resultText.className = "";
     }
     state.correctFeedbackAcknowledged = false;
-    clearAnswerDrillMeta();
+    syncAnswerNumTag();
     return;
   }
 
@@ -1040,14 +1512,125 @@ function newNounQuestion() {
   resultText.textContent = "";
   resultText.className = "";
   state.correctFeedbackAcknowledged = false;
-  renderNounAnswerDrillMeta(nounCase, nounNumber, entry.decl.Singular.Nominative);
   answerInput.value = "";
   if (answerInput) {
-    const numTag = nounNumber === "Plural" ? "(pl)" : "(sg)";
-    const caseHint = NOUN_CASE_INPUT_PLACEHOLDER[nounCase] || "Įrašyk linksnio formą";
-    answerInput.placeholder = `${numTag} ${caseHint}`;
+    answerInput.placeholder = nounCaseEndingHint(entry, nounCase);
   }
   safeFocus(answerInput);
+  try {
+    answerInput.setSelectionRange(0, 0);
+  } catch {
+    /* ignore */
+  }
+  syncAnswerNumTag();
+  void loadWordImageForQuery(imageSearchQueryNoun(entry));
+}
+
+function newPronounQuestion() {
+  hideWordImage();
+  clearAnswerExtras();
+  state.currentEntry = null;
+  state.nounEntry = null;
+  state.nounCase = null;
+  state.nounNumber = null;
+  state.nounExpected = "";
+  if (pronouns.length === 0) {
+    promptText.textContent = pronounsAll.length
+      ? "Нет доступных местоимений в текущих данных."
+      : "Nėra įvardžių duomenų. Patikrink pronouns_practice.json ir serverį (python3 -m http.server).";
+    personText.textContent = "";
+    if (promptKicker) promptKicker.textContent = "Įvardžiai · Pronouns";
+    if (answerInput) answerInput.placeholder = VERB_ANSWER_PLACEHOLDER;
+    if (answerInput) answerInput.value = "";
+    state.answerPrefix = "";
+    state.pronounEntry = null;
+    state.pronounCase = null;
+    state.pronounNumber = null;
+    state.pronounExpectedVariants = [];
+    if (resultText) {
+      resultText.textContent = "";
+      resultText.className = "";
+    }
+    state.correctFeedbackAcknowledged = false;
+    syncAnswerNumTag();
+    return;
+  }
+
+  let tries = 0;
+  let entry = null;
+  let pronounCase = null;
+  let pronounNumber = null;
+  let variants = [];
+  const pw = pronounWeights();
+  state.checksThisQuestion = 0;
+
+  while (tries < 100) {
+    pronounCase = pickPronounCase();
+    entry = weightedRandomChoice(pronouns, pw, wordWeightKeyPronoun) || randomChoice(pronouns);
+    const nums = availablePronounNumbersForCase(entry, pronounCase);
+    if (!nums.length) {
+      tries += 1;
+      continue;
+    }
+    pronounNumber = randomChoice(nums);
+    const cell = entry.decl && entry.decl[pronounNumber] && entry.decl[pronounNumber][pronounCase];
+    variants = parsePronounVariants(cell);
+    if (variants.length) {
+      break;
+    }
+    tries += 1;
+  }
+
+  if (!entry || !variants.length) {
+    promptText.textContent = "Nepavyko parinkti įvardžio. Pabandyk dar kartą.";
+    personText.textContent = "";
+    if (promptKicker) promptKicker.textContent = "Įvardžiai · Pronouns";
+    if (answerInput) answerInput.placeholder = VERB_ANSWER_PLACEHOLDER;
+    if (answerInput) answerInput.value = "";
+    state.answerPrefix = "";
+    state.pronounEntry = null;
+    state.pronounCase = null;
+    state.pronounNumber = null;
+    state.pronounExpectedVariants = [];
+    if (resultText) {
+      resultText.textContent = "";
+      resultText.className = "";
+    }
+    state.correctFeedbackAcknowledged = false;
+    syncAnswerNumTag();
+    return;
+  }
+
+  state.practiceMode = "pronouns";
+  state.pronounEntry = entry;
+  state.pronounCase = pronounCase;
+  state.pronounNumber = pronounNumber;
+  state.pronounExpectedVariants = variants;
+  state.hintShown = false;
+
+  promptText.textContent = pronounLemmaDisplay(entry);
+  personText.textContent = pronounHeaderLine(entry);
+  if (promptKicker) {
+    const numTag = pronounNumber === "Plural" ? "plural" : "singular";
+    promptKicker.textContent = `Įvardžiai · Pronouns · ${pronounCase} · ${numTag}`;
+  }
+  if (nounMeta) nounMeta.textContent = "";
+
+  resultText.textContent = "";
+  resultText.className = "";
+  state.correctFeedbackAcknowledged = false;
+  state.answerPrefix = "";
+  answerInput.value = "";
+  if (answerInput) {
+    answerInput.placeholder = pronounRussianPlaceholder(entry, pronounNumber, pronounCase);
+  }
+  safeFocus(answerInput);
+  try {
+    answerInput.setSelectionRange(0, 0);
+  } catch {
+    /* ignore */
+  }
+  syncAnswerNumTag();
 }
 
 function newQuestion() {
@@ -1057,18 +1640,23 @@ function newQuestion() {
   ensureAnswerEnabled();
   if (state.practiceMode === "nouns") {
     newNounQuestion();
+  } else if (state.practiceMode === "pronouns") {
+    newPronounQuestion();
   } else {
     newVerbQuestion();
   }
 }
 
 function showHint() {
-  if (getPracticeMode() === "nouns" && state.nounEntry) {
-    const sg = state.nounEntry.decl.Singular;
-    const hintAcc = sg.Accusative || "";
-    const hintGen = sg.Genitive || "";
-    const hint = state.nounCase === "Accusative" ? hintGen : hintAcc;
-    personText.textContent = `${nounHeaderLine(state.nounEntry)} · Hint: ${hint || "—"}`;
+  if (getPracticeMode() === "nouns" && state.nounEntry && state.nounCase) {
+    const hint = nounCaseEndingHint(state.nounEntry, state.nounCase);
+    personText.textContent = `${nounHeaderLine(state.nounEntry)} · Hint: ${hint}`;
+    state.hintShown = true;
+    return;
+  }
+  if (getPracticeMode() === "pronouns" && state.pronounEntry && state.pronounCase) {
+    const hint = pronounRussianPlaceholder(state.pronounEntry, state.pronounNumber, state.pronounCase);
+    personText.textContent = `${pronounHeaderLine(state.pronounEntry)} · Подсказка: ${hint}`;
     state.hintShown = true;
     return;
   }
@@ -1138,10 +1726,14 @@ async function speakViaProxy(text) {
 }
 
 async function speakCurrentWord() {
-  const text =
-    getPracticeMode() === "nouns"
-      ? state.nounEntry?.decl?.Singular?.Nominative || state.nounEntry?.lt || ""
-      : state.currentEntry?.lt || "";
+  let text = "";
+  if (getPracticeMode() === "nouns") {
+    text = state.nounEntry?.decl?.Singular?.Nominative || state.nounEntry?.lt || "";
+  } else if (getPracticeMode() === "pronouns") {
+    text = state.pronounEntry ? pronounLemmaDisplay(state.pronounEntry) : "";
+  } else {
+    text = state.currentEntry?.lt || "";
+  }
   const phrase = String(text || "").trim();
   if (!phrase) return;
 
@@ -1241,6 +1833,54 @@ function checkNounAnswer() {
   }
 }
 
+function checkPronounAnswer() {
+  if (!state.pronounEntry) {
+    resultText.textContent = "Pirma sugeneruok klausimą.";
+    resultText.className = "bad";
+    state.correctFeedbackAcknowledged = false;
+    return;
+  }
+  state.checksThisQuestion = (state.checksThisQuestion || 0) + 1;
+  const firstTry = state.checksThisQuestion === 1;
+
+  const guess = normalize(answerInput.value);
+  const norms = state.pronounExpectedVariants.map((v) => normalize(v));
+  const isCorrect = norms.some((n) => n === guess);
+  const rawInput = answerInput.value.trim() || "(empty)";
+  const displayCorrect = state.pronounExpectedVariants.join(" / ");
+
+  const wkey = wordWeightKeyPronoun(state.pronounEntry);
+  const pw = pronounWeights();
+  applyAnswerToWordWeights(pw, wkey, { firstTry, isCorrect });
+  saveWordWeights(LS_WEIGHTS_PRONOUNS, pw);
+
+  historyItems.unshift({
+    isCorrect,
+    context: `${pronounLemmaDisplay(state.pronounEntry)} [${state.pronounCase} ${state.pronounNumber}]`,
+    input: rawInput,
+    correct: displayCorrect
+  });
+  renderHistory();
+
+  const caseForms = pronounThisCaseFormsLine(state.pronounEntry, state.pronounCase);
+  const safeCaseForms = escapeHtml(caseForms);
+  const safeExpected = escapeHtml(displayCorrect);
+  const safeCase = escapeHtml(state.pronounCase);
+
+  if (isCorrect) {
+    resultText.innerHTML = `Teisingai!<br>${safeCase}: ${safeCaseForms}`;
+    resultText.className = "ok";
+    state.correctFeedbackAcknowledged = false;
+    queueMicrotask(() => {
+      state.correctFeedbackAcknowledged = true;
+    });
+  } else {
+    resultText.innerHTML = `Neteisinga. Teisingas variantas: ${safeExpected}<br>${safeCase}: ${safeCaseForms}`;
+    resultText.className = "bad";
+    state.correctFeedbackAcknowledged = false;
+  }
+}
+
 function checkAnswer() {
   if (getPracticeMode() === "nouns") {
     if (!state.nounEntry) {
@@ -1250,6 +1890,16 @@ function checkAnswer() {
       return;
     }
     checkNounAnswer();
+    return;
+  }
+  if (getPracticeMode() === "pronouns") {
+    if (!state.pronounEntry) {
+      resultText.textContent = "Pirma sugeneruok klausimą.";
+      resultText.className = "bad";
+      state.correctFeedbackAcknowledged = false;
+      return;
+    }
+    checkPronounAnswer();
     return;
   }
   if (!state.currentEntry) {
@@ -1276,8 +1926,10 @@ function handleCheckButtonClick() {
 async function loadData() {
   verbsAll = [];
   nounsAll = [];
+  pronounsAll = [];
   verbs = [];
   nouns = [];
+  pronouns = [];
   pdfStats = null;
   let verbLoadError = null;
 
@@ -1310,11 +1962,26 @@ async function loadData() {
     /* optional */
   }
 
-  if (!verbsAll.length && !nounsAll.length) {
+  try {
+    const response = await fetch("pronouns_practice.json", { cache: "no-store" });
+    if (response.ok) {
+      const parsed = await response.json();
+      if (Array.isArray(parsed) && parsed.length) {
+        pronounsAll = parsed;
+      }
+    }
+  } catch {
+    /* file:// or missing file */
+  }
+  if (!pronounsAll.length) {
+    pronounsAll = PRONOUNS_DEFAULT.map((row) => JSON.parse(JSON.stringify(row)));
+  }
+
+  if (!verbsAll.length && !nounsAll.length && !pronounsAll.length) {
     promptText.textContent =
       "Nepavyko užkrauti duomenų. Paleisk serverį iš aplanko: python3 -m http.server";
     personText.textContent = verbLoadError && verbLoadError.message ? String(verbLoadError.message) : "";
-    clearAnswerDrillMeta();
+    hideWordImage();
     return;
   }
   renderGroupSelector();
@@ -1322,6 +1989,8 @@ async function loadData() {
 
   if (!verbs.length && nouns.length && practiceModeSelect) {
     practiceModeSelect.value = "nouns";
+  } else if (!verbs.length && !nouns.length && pronouns.length && practiceModeSelect) {
+    practiceModeSelect.value = "pronouns";
   }
 
   updateHeroDataStats();
@@ -1339,6 +2008,13 @@ function init() {
   }
   appEventListenersAttached = true;
 
+  if (wordImage && !wordImage.dataset.bound) {
+    wordImage.dataset.bound = "1";
+    wordImage.addEventListener("error", () => {
+      hideWordImage();
+    });
+  }
+
   if (practiceModeSelect) {
     practiceModeSelect.addEventListener("change", () => {
       updateModePanels();
@@ -1347,7 +2023,7 @@ function init() {
   }
   if (nounCaseSelect) {
     nounCaseSelect.addEventListener("change", () => {
-      if (getPracticeMode() === "nouns") {
+      if (getPracticeMode() === "nouns" || getPracticeMode() === "pronouns") {
         newQuestion();
       }
     });
@@ -1394,6 +2070,7 @@ function init() {
   });
 
   updateModePanels();
+  clearAnswerExtras();
   renderHistory();
   loadData();
 }

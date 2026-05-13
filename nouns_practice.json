@@ -2296,29 +2296,29 @@
     "en": "hero"
   },
   {
-    "lt": "intereas",
-    "lt_ascii": "intereas",
+    "lt": "interesas",
+    "lt_ascii": "interesas",
     "ru": "интерес",
     "groups": [
       800
     ],
     "decl": {
       "Singular": {
-        "Nominative": "intereas",
-        "Genitive": "intereo",
-        "Dative": "intereui",
-        "Accusative": "intereą",
-        "Instrumental": "intereu",
-        "Vocative": "interee"
+        "Nominative": "interesas",
+        "Genitive": "intereso",
+        "Dative": "interesui",
+        "Accusative": "interesą",
+        "Instrumental": "interesu",
+        "Vocative": "interese"
       },
       "Plural": {
-        "Nominative": "intereai",
-        "Genitive": "intereų",
-        "Dative": "intereams",
-        "Accusative": "intereus",
-        "Instrumental": "intereais",
-        "Locative": "intereuose",
-        "Vocative": "intereai"
+        "Nominative": "interesai",
+        "Genitive": "interesų",
+        "Dative": "interesams",
+        "Accusative": "interesus",
+        "Instrumental": "interesais",
+        "Locative": "interesuose",
+        "Vocative": "interesai"
       }
     },
     "en": "interest"
