@@ -3,7 +3,7 @@
   "nouns_raw": 559,
   "verbs_raw": 540,
   "nouns_included": 361,
-  "verbs_included": 183,
+  "verbs_included": 182,
   "group_counts": {
     "0": {
       "nouns_raw": 199,
@@ -33,7 +33,7 @@
       "nouns_raw": 40,
       "verbs_raw": 60,
       "nouns_included": 33,
-      "verbs_included": 24
+      "verbs_included": 23
     },
     "500": {
       "nouns_raw": 40,

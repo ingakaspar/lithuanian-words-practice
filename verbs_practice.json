@@ -57,63 +57,6 @@
     ]
   },
   {
-    "lt": "arti",
-    "lt_ascii": "arti",
-    "ru": "близко",
-    "groups": [
-      400
-    ],
-    "present": [
-      "ariu",
-      "ari",
-      "aria",
-      "ariame",
-      "ariate",
-      "aria"
-    ],
-    "past": [
-      "ariau",
-      "arei",
-      "arė",
-      "arėme",
-      "arėte",
-      "arė"
-    ],
-    "future": [
-      "arsiu",
-      "arsi",
-      "ars",
-      "arsime",
-      "arsite",
-      "ars"
-    ],
-    "usedTo": [
-      "ardavau",
-      "ardavai",
-      "ardavo",
-      "ardavome",
-      "ardavote",
-      "ardavo"
-    ],
-    "participlePastMasc": "",
-    "conditional": [
-      "arčiau",
-      "artum(ei)",
-      "artų",
-      "artu(mė)me",
-      "artu(mė)te",
-      "artų"
-    ],
-    "imperative": [
-      "",
-      "ark",
-      "",
-      "arkime",
-      "arkite",
-      ""
-    ]
-  },
-  {
     "lt": "ateiti",
     "lt_ascii": "ateiti",
     "ru": "подойти",
