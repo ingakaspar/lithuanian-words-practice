@@ -15,7 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Serif+Display:ital@0;1&family=Bricolage+Grotesque:opsz,wght@10..48,400;10..48,500;10..48,600;10..48,700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=20260513b" />
+    <link rel="stylesheet" href="styles.css?v=20260608a" />
   </head>
   <body>
     <div class="page">
@@ -100,6 +100,18 @@
             </select>
           </div>
 
+          <div class="control-group session-group">
+            <div class="freq-head">
+              <span class="eyebrow">Session</span>
+              <button id="resetMasteryBtn" type="button" class="ghost-btn ghost-btn-sm">Reset</button>
+            </div>
+            <p id="sessionStats" class="session-stats">0 answered · 0% first try · 0 learned now</p>
+            <div id="sessionProgress" class="session-progress" hidden>
+              <div class="session-bar-track"><div id="sessionBar" class="session-bar-fill"></div></div>
+            </div>
+            <p id="sessionRegime" class="session-regime"></p>
+          </div>
+
           <p id="dataStats" class="stats"></p>
         </aside>
 
@@ -171,7 +183,7 @@
     </div>
 
     <script src="app-config.js"></script>
-    <script src="app.js?v=20260513b"></script>
+    <script src="app.js?v=20260608a"></script>
     <script src="frequency-chips.js?v=20260511a"></script>
     <script src="tweaks.js?v=20260511a"></script>
   </body>

@@ -269,6 +269,11 @@ const wordGroupSelect = document.getElementById("wordGroupSelect");
 const wordImageWrap = document.getElementById("wordImageWrap");
 const wordImage = document.getElementById("wordImage");
 const answerNumTag = document.getElementById("answerNumTag");
+const scoreStatsEl = document.getElementById("sessionStats");
+const scoreRegimeEl = document.getElementById("sessionRegime");
+const scoreBarEl = document.getElementById("sessionBar");
+const scoreProgressWrap = document.getElementById("sessionProgress");
+const resetMasteryBtn = document.getElementById("resetMasteryBtn");
 
 /** AbortController for in-flight image fetches (new question cancels previous). */
 let wordImageAbort = null;
@@ -893,6 +898,146 @@ function weightedRandomChoice(items, weights, keyFn) {
   return items[items.length - 1];
 }
 
+// ---- Mastery & per-session score ----
+// A "form" is one drillable cell, e.g. (verb, tense, person). A form is
+// marked mastered when answered correctly on the FIRST try. Mastery persists
+// across reloads; the session counters reset every time the page loads.
+const LS_MASTERY = "ltPractice_mastery_v1";
+let cachedMastery = null;
+
+function loadMastery() {
+  if (cachedMastery) return cachedMastery;
+  try {
+    const raw = localStorage.getItem(LS_MASTERY);
+    const o = raw ? JSON.parse(raw) : {};
+    cachedMastery = o && typeof o === "object" ? o : {};
+  } catch {
+    cachedMastery = {};
+  }
+  return cachedMastery;
+}
+
+function saveMastery() {
+  try {
+    localStorage.setItem(LS_MASTERY, JSON.stringify(loadMastery()));
+  } catch {
+    /* private mode / quota */
+  }
+}
+
+function verbFormKey(entry, formType, personIdx) {
+  return `v:${wordWeightKeyVerb(entry)}:${formType}:${personIdx}`;
+}
+
+function nounFormKey(entry, nounCase, number) {
+  return `n:${wordWeightKeyNoun(entry)}:${nounCase}:${number}`;
+}
+
+function pronounFormKey(entry, pronounCase, number) {
+  return `p:${wordWeightKeyPronoun(entry)}:${pronounCase}:${number}`;
+}
+
+function isFormMastered(key) {
+  return Boolean(loadMastery()[key]);
+}
+
+/** Mark a form mastered. Returns true only if it was not mastered before. */
+function markFormMastered(key) {
+  if (!key) return false;
+  const m = loadMastery();
+  if (m[key]) return false;
+  m[key] = 1;
+  saveMastery();
+  return true;
+}
+
+const session = {
+  attempts: 0,
+  firstTryCorrect: 0,
+  masteredThisSession: 0
+};
+
+/** Record one graded answer; returns true if it newly mastered the form. */
+function recordAttempt({ firstTry, isCorrect, formKey }) {
+  session.attempts += 1;
+  if (firstTry && isCorrect) session.firstTryCorrect += 1;
+  let newlyMastered = false;
+  if (firstTry && isCorrect && formKey) {
+    newlyMastered = markFormMastered(formKey);
+    if (newlyMastered) session.masteredThisSession += 1;
+  }
+  renderScore();
+  return newlyMastered;
+}
+
+const VERB_TENSES = ["present", "past", "future", "usedTo", "conditional", "imperative"];
+
+/** Tenses the current selector is drilling (all six when "random"). */
+function verbRegimeTenses() {
+  const selected = formSelect ? formSelect.value : "random";
+  if (selected === "random") return VERB_TENSES;
+  return [VERB_TENSES.includes(selected) ? selected : "present"];
+}
+
+/**
+ * Every drillable verb form in the current selection (difficulty groups +
+ * tense), split into all forms and the ones not yet mastered.
+ */
+function verbRegimeForms() {
+  const tenses = verbRegimeTenses();
+  const all = [];
+  const unmastered = [];
+  for (const e of verbs) {
+    for (const ft of tenses) {
+      for (let i = 0; i < 6; i += 1) {
+        if (!generateLtForm(e, ft, i)) continue;
+        const key = verbFormKey(e, ft, i);
+        const rec = { entry: e, formType: ft, personIdx: i, key };
+        all.push(rec);
+        if (!isFormMastered(key)) unmastered.push(rec);
+      }
+    }
+  }
+  return { all, unmastered };
+}
+
+function resetMastery() {
+  cachedMastery = {};
+  saveMastery();
+  session.attempts = 0;
+  session.firstTryCorrect = 0;
+  session.masteredThisSession = 0;
+  renderScore();
+  newQuestion();
+}
+
+function renderScore() {
+  if (!scoreStatsEl) return;
+  const acc = session.attempts
+    ? Math.round((session.firstTryCorrect / session.attempts) * 100)
+    : 0;
+  scoreStatsEl.textContent = `${session.attempts} answered · ${acc}% first try · ${session.masteredThisSession} learned now`;
+
+  if (getPracticeMode() === "verbs" && verbs.length) {
+    const regime = verbRegimeForms();
+    const total = regime.all.length;
+    const mastered = total - regime.unmastered.length;
+    const pct = total ? Math.round((mastered / total) * 100) : 0;
+    if (scoreRegimeEl) {
+      scoreRegimeEl.textContent = regime.unmastered.length
+        ? `Selection: ${mastered}/${total} forms known (${pct}%)`
+        : `All ${total} forms in this selection mastered 🎉`;
+    }
+    if (scoreBarEl) scoreBarEl.style.width = `${pct}%`;
+    if (scoreProgressWrap) scoreProgressWrap.hidden = false;
+  } else {
+    if (scoreRegimeEl) {
+      scoreRegimeEl.textContent = "Pick Verbs to track mastery per tense.";
+    }
+    if (scoreProgressWrap) scoreProgressWrap.hidden = true;
+  }
+}
+
 /** Lemmas where locative “in the X” is odd, and vocative address is natural. */
 const PERSON_LIKE_LEMMAS = new Set([
   "zmogus",
@@ -1298,21 +1443,8 @@ function newVerbQuestion() {
     clearAnswerExtras();
     return;
   }
-  const selectedFormType = formSelect.value;
-  const availableFormTypes = ["present", "past", "future", "usedTo", "conditional", "imperative"];
-  const candidateFormTypes =
-    selectedFormType === "random" ? availableFormTypes : [selectedFormType];
-  const eligibleFormTypes = candidateFormTypes.filter((ft) =>
-    verbs.some((e) => verbHasAnyFormFor(e, ft))
-  );
-  const formType = eligibleFormTypes.length
-    ? randomChoice(eligibleFormTypes)
-    : selectedFormType === "random"
-      ? "present"
-      : selectedFormType;
-
-  const pool = verbs.filter((e) => verbHasAnyFormFor(e, formType));
-  if (!pool.length) {
+  const regime = verbRegimeForms();
+  if (!regime.all.length) {
     promptText.textContent =
       "Šiai formai nėra lentelių JSON faile. Atnaujink verbs_practice.json: paleisk python3 build_all_practice_data.py.";
     personText.textContent = "";
@@ -1326,22 +1458,18 @@ function newVerbQuestion() {
     return;
   }
 
+  // Drill only forms the learner has not mastered yet. Once every form in the
+  // current selection is mastered, fall back to reviewing the full set.
   const vw = verbWeights();
-  let entry = null;
-  let personIdx = null;
-  let ltForm = "";
-  for (let tries = 0; tries < 120; tries += 1) {
-    entry = weightedRandomChoice(pool, vw, wordWeightKeyVerb) || randomChoice(pool);
-    personIdx = randomPersonIdxWithForm(entry, formType);
-    if (personIdx === null) {
-      continue;
-    }
-    ltForm = generateLtForm(entry, formType, personIdx);
-    if (ltForm) {
-      break;
-    }
-  }
-  if (!ltForm || personIdx === null) {
+  const drillPool = regime.unmastered.length ? regime.unmastered : regime.all;
+  const pick =
+    weightedRandomChoice(drillPool, vw, (rec) => wordWeightKeyVerb(rec.entry)) ||
+    randomChoice(drillPool);
+  const entry = pick.entry;
+  const formType = pick.formType;
+  const personIdx = pick.personIdx;
+  const ltForm = generateLtForm(entry, formType, personIdx);
+  if (!ltForm) {
     promptText.textContent =
       "Nepavyko sugeneruoti formos. Patikrink naršyklės talpyklą (bandyk perkrauti be talpyklos) ir ar verbs_practice.json turi šios paradigmos masyvus.";
     personText.textContent = "";
@@ -1645,6 +1773,7 @@ function newQuestion() {
   } else {
     newVerbQuestion();
   }
+  renderScore();
 }
 
 function showHint() {
@@ -1760,6 +1889,12 @@ function checkVerbAnswer() {
   applyAnswerToWordWeights(vw, wkey, { firstTry, isCorrect });
   saveWordWeights(LS_WEIGHTS_VERBS, vw);
 
+  const newlyMastered = recordAttempt({
+    firstTry,
+    isCorrect,
+    formKey: verbFormKey(state.currentEntry, state.currentForm, state.currentPersonIdx)
+  });
+
   historyItems.unshift({
     isCorrect,
     context: `${ltPronouns[state.currentPersonIdx]} ${state.currentEntry.lt} [${formLabel(state.currentForm)}]`,
@@ -1773,7 +1908,8 @@ function checkVerbAnswer() {
   const safeExpected = escapeHtml(state.expectedAnswers[0]);
 
   if (isCorrect) {
-    resultText.innerHTML = `Teisingai!<br>Forms: ${safeRefLine}`;
+    const learnedTag = newlyMastered ? " · išmokta ✓" : "";
+    resultText.innerHTML = `Teisingai!${learnedTag}<br>Forms: ${safeRefLine}`;
     resultText.className = "ok";
     state.correctFeedbackAcknowledged = false;
     queueMicrotask(() => {
@@ -1805,6 +1941,12 @@ function checkNounAnswer() {
   const nw = nounWeights();
   applyAnswerToWordWeights(nw, wkey, { firstTry, isCorrect });
   saveWordWeights(LS_WEIGHTS_NOUNS, nw);
+
+  recordAttempt({
+    firstTry,
+    isCorrect,
+    formKey: nounFormKey(state.nounEntry, state.nounCase, state.nounNumber)
+  });
 
   historyItems.unshift({
     isCorrect,
@@ -1853,6 +1995,12 @@ function checkPronounAnswer() {
   const pw = pronounWeights();
   applyAnswerToWordWeights(pw, wkey, { firstTry, isCorrect });
   saveWordWeights(LS_WEIGHTS_PRONOUNS, pw);
+
+  recordAttempt({
+    firstTry,
+    isCorrect,
+    formKey: pronounFormKey(state.pronounEntry, state.pronounCase, state.pronounNumber)
+  });
 
   historyItems.unshift({
     isCorrect,
@@ -2040,6 +2188,9 @@ function init() {
       newQuestion();
     }
   });
+  if (resetMasteryBtn) {
+    resetMasteryBtn.addEventListener("click", resetMastery);
+  }
   checkBtn.addEventListener("click", handleCheckButtonClick);
   if (speakBtn) {
     speakBtn.addEventListener("click", speakCurrentWord);
@@ -2072,6 +2223,7 @@ function init() {
   updateModePanels();
   clearAnswerExtras();
   renderHistory();
+  renderScore();
   loadData();
 }
 

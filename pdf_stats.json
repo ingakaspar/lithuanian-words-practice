@@ -3,7 +3,7 @@
   "nouns_raw": 559,
   "verbs_raw": 540,
   "nouns_included": 361,
-  "verbs_included": 182,
+  "verbs_included": 207,
   "group_counts": {
     "0": {
       "nouns_raw": 199,
@@ -15,55 +15,55 @@
       "nouns_raw": 40,
       "verbs_raw": 60,
       "nouns_included": 33,
-      "verbs_included": 22
+      "verbs_included": 24
     },
     "200": {
       "nouns_raw": 40,
       "verbs_raw": 60,
       "nouns_included": 31,
-      "verbs_included": 19
+      "verbs_included": 25
     },
     "300": {
       "nouns_raw": 40,
       "verbs_raw": 60,
       "nouns_included": 36,
-      "verbs_included": 23
+      "verbs_included": 25
     },
     "400": {
       "nouns_raw": 40,
       "verbs_raw": 60,
       "nouns_included": 33,
-      "verbs_included": 23
+      "verbs_included": 24
     },
     "500": {
       "nouns_raw": 40,
       "verbs_raw": 60,
       "nouns_included": 31,
-      "verbs_included": 23
+      "verbs_included": 25
     },
     "600": {
       "nouns_raw": 40,
       "verbs_raw": 60,
       "nouns_included": 36,
-      "verbs_included": 21
+      "verbs_included": 25
     },
     "700": {
       "nouns_raw": 40,
       "verbs_raw": 60,
       "nouns_included": 32,
-      "verbs_included": 23
+      "verbs_included": 25
     },
     "800": {
       "nouns_raw": 40,
       "verbs_raw": 60,
       "nouns_included": 29,
-      "verbs_included": 21
+      "verbs_included": 24
     },
     "900": {
       "nouns_raw": 40,
       "verbs_raw": 60,
       "nouns_included": 30,
-      "verbs_included": 23
+      "verbs_included": 26
     }
   }
 }

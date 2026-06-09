@@ -25,15 +25,21 @@ This generates:
 - `verbs_practice.json`
 - `nouns_practice.json`
 
-## Optional: sync verbs from Cooljugator
+Verb conjugation uses three sources (in `build_practice_data_from_pdf.py`), tried in order:
 
-If you want to refresh verb conjugation tables/translations from Cooljugator:
+1. **Lithuanian-nlp-tools** (`Lithuanian-nlp-tools/conjugator.py`) — local open-source rule engine; covers most regular verbs.
+2. **Cooljugator** — automatic fallback for irregular verbs the rule engine cannot handle (e.g. `matyti`, `suprasti`, `pamiršti`). Russian gloss stays from the PDF; only forms are taken from Cooljugator.
+3. **`MANUAL_CONJUGATIONS`** — hand-checked tables for the last verbs both engines miss (`tęsti`, `geidauti`). Forms verified against morfologija.lietuviuzodynas.lt and zodynas.ru.
+
+Skipped PDF rows that are not real infinitives: `arti` (adverb), `anksti`, `sergantis`, etc.
+
+## Optional: re-sync all verbs from Cooljugator only
 
 ```bash
 python3 sync_verbs_from_cooljugator.py
 ```
 
-This updates `verbs_practice.json`.
+Overwrites conjugation tables (and may replace `ru` with English glosses from Cooljugator).
 
 ## Run locally
 

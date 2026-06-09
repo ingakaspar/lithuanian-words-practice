@@ -1,5 +1,6 @@
 .DS_Store
 .tmp_app_update/
+Lithuanian-nlp-tools/verbs_practice.json
 __pycache__/
 *.pyc
 .env

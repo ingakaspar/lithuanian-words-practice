@@ -4,8 +4,10 @@ import json
 import os
 import re
 import sys
+import time
 import unicodedata
 from pathlib import Path
+from typing import Optional
 
 from PyPDF2 import PdfReader
 
@@ -15,6 +17,35 @@ sys.path.insert(0, str(LT_NLP))
 os.chdir(LT_NLP)
 from conjugator import conjugate  # noqa: E402
 from decliner import decline_noun  # noqa: E402
+
+sys.path.insert(0, str(ROOT))
+import sync_verbs_from_cooljugator as cooljugator  # noqa: E402
+
+# PDF OCR / tagging mistakes — not infinitives for the conjugator.
+SKIP_LT_ASCII = frozenset({"arti", "anksti", "sergantis"})
+# Map broken PDF lemmas to the form open-source conjugators expect.
+LEMMA_ALIASES = {"gržti": "grįžti", "grzti": "grįžti"}
+
+# Hand-checked tables for verbs both the local rules and Cooljugator miss.
+# Sources: morfologija.lietuviuzodynas.lt and zodynas.ru (see README).
+MANUAL_CONJUGATIONS = {
+    "testi": {
+        "present": ["tęsiu", "tęsi", "tęsia", "tęsiame", "tęsiate", "tęsia"],
+        "past": ["tęsiau", "tęsei", "tęsė", "tęsėme", "tęsėte", "tęsė"],
+        "future": ["tęsiu", "tęsi", "tęs", "tęsime", "tęsite", "tęs"],
+        "usedTo": ["tęsdavau", "tęsdavai", "tęsdavo", "tęsdavome", "tęsdavote", "tęsdavo"],
+        "conditional": ["tęsčiau", "tęstum(ei)", "tęstų", "tęstu(mė)me", "tęstu(mė)te", "tęstų"],
+        "imperative": ["", "tęsk", "", "tęskime", "tęskite", ""],
+    },
+    "geidauti": {
+        "present": ["geidauju", "geidauji", "geidauja", "geidaujame", "geidaujate", "geidauja"],
+        "past": ["geidavau", "geidavai", "geidavo", "geidavome", "geidavote", "geidavo"],
+        "future": ["geidausiu", "geidausi", "geidaus", "geidausime", "geidausite", "geidaus"],
+        "usedTo": ["geidaudavau", "geidaudavai", "geidaudavo", "geidaudavome", "geidaudavote", "geidaudavo"],
+        "conditional": ["geidaučiau", "geidautum(ei)", "geidautų", "geidautu(mė)me", "geidautu(mė)te", "geidautų"],
+        "imperative": ["", "geidauk", "", "geidaukime", "geidaukite", ""],
+    },
+}
 
 PDF_PATH = ROOT / "dictt.pdf"
 
@@ -87,6 +118,62 @@ def decl_ok(d: object) -> bool:
         return False
     sg = d.get("Singular")
     return bool(sg and isinstance(sg, dict) and sg.get("Nominative"))
+
+
+def conjugate_open_source(lt: str) -> Optional[dict]:
+    """Lithuanian-nlp-tools rule conjugator (local, open source)."""
+    try:
+        c = conjugate(lt)
+    except (KeyError, IndexError, TypeError, ValueError):
+        return None
+    present = c.get("present") or {}
+    if not (present.get("third person") or "").strip():
+        return None
+    return c
+
+
+def conjugate_cooljugator(lt: str) -> Optional[dict]:
+    """Fallback web conjugator when local rules fail (irregular verbs)."""
+    scratch = {"lt": lt}
+    try:
+        changed, _status = cooljugator.sync_entry(scratch)
+    except Exception:
+        return None
+    if not changed or not scratch.get("present"):
+        return None
+    return scratch
+
+
+def verb_entry_from_conjugation(
+    lt: str, lt_ascii: str, ru: str, groups: set, conj: dict, *, source: str
+) -> dict:
+    if source == "nlp-tools":
+        return {
+            "lt": lt,
+            "lt_ascii": lt_ascii,
+            "ru": ru,
+            "groups": sorted(groups),
+            "present": tense_six(conj.get("present")),
+            "past": tense_six(conj.get("past")),
+            "future": tense_six(conj.get("future")),
+            "usedTo": tense_six(conj.get("past iterative")),
+            "participlePastMasc": "",
+            "conditional": conditional_six(conj.get("conditional")),
+            "imperative": imperative_six(conj.get("imperative")),
+        }
+    return {
+        "lt": lt,
+        "lt_ascii": lt_ascii,
+        "ru": ru,
+        "groups": sorted(groups),
+        "present": conj.get("present") or ["", "", "", "", "", ""],
+        "past": conj.get("past") or ["", "", "", "", "", ""],
+        "future": conj.get("future") or ["", "", "", "", "", ""],
+        "usedTo": conj.get("usedTo") or ["", "", "", "", "", ""],
+        "participlePastMasc": "",
+        "conditional": conj.get("conditional") or ["", "", "", "", "", ""],
+        "imperative": conj.get("imperative") or ["", "", "", "", "", ""],
+    }
 
 
 def clean_lt_word(raw: str) -> str:
@@ -174,33 +261,46 @@ def build_verbs(rows: list[dict]) -> list[dict]:
             merged[key]["groups"].add(r["group"])
 
     out = []
+    nlp_n = cool_n = manual_n = 0
     for v in merged.values():
-        lt = v["lt"]
+        lt_ascii = v["lt_ascii"]
+        if lt_ascii in SKIP_LT_ASCII:
+            continue
+        lt = LEMMA_ALIASES.get(v["lt"], LEMMA_ALIASES.get(lt_ascii, v["lt"]))
         if not (lt.endswith("ti") or lt.endswith("tis")):
             continue
-        try:
-            c = conjugate(lt)
-        except (KeyError, IndexError, TypeError, ValueError):
+
+        conj = conjugate_open_source(lt)
+        source = "nlp-tools"
+        if not conj:
+            conj = conjugate_cooljugator(lt)
+            source = "cooljugator"
+            time.sleep(0.25)
+        if not conj:
+            manual = MANUAL_CONJUGATIONS.get(strip_lt(lt))
+            if manual:
+                conj = dict(manual)
+                source = "manual"
+        if not conj:
             continue
-        present = c.get("present") or {}
-        if not (present.get("third person") or "").strip():
-            continue
+
+        entry_lt_ascii = strip_lt(lt)
         out.append(
-            {
-                "lt": lt,
-                "lt_ascii": v["lt_ascii"],
-                "ru": v["ru"],
-                "groups": sorted(v["groups"]),
-                "present": tense_six(c.get("present")),
-                "past": tense_six(c.get("past")),
-                "future": tense_six(c.get("future")),
-                "usedTo": tense_six(c.get("past iterative")),
-                "participlePastMasc": "",
-                "conditional": conditional_six(c.get("conditional")),
-                "imperative": imperative_six(c.get("imperative")),
-            }
+            verb_entry_from_conjugation(
+                lt, entry_lt_ascii, v["ru"], v["groups"], conj, source=source
+            )
         )
+        if source == "nlp-tools":
+            nlp_n += 1
+        elif source == "manual":
+            manual_n += 1
+        else:
+            cool_n += 1
     out.sort(key=lambda x: x["lt_ascii"])
+    print(
+        f"verbs: {len(out)} total ({nlp_n} nlp-tools, "
+        f"{cool_n} cooljugator fallback, {manual_n} manual)"
+    )
     return out
 
 
