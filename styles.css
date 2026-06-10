@@ -360,6 +360,50 @@ select:focus {
   color: var(--ink-muted);
 }
 
+/* ── Person chips (verb) ──────────────────────────────────── */
+
+.person-eyebrow {
+  margin-top: 0.55rem;
+}
+
+.person-chips {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 4px;
+  padding: 4px;
+  max-width: 100%;
+  box-sizing: border-box;
+  background: var(--paper-2);
+  border: 1px solid var(--paper-edge);
+  border-radius: var(--radius-md);
+}
+
+.person-chip {
+  min-width: 0;
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  font-weight: 500;
+  color: var(--ink-muted);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 0.4rem 0.2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: background 120ms ease, color 120ms ease;
+  box-sizing: border-box;
+}
+
+.person-chip:hover {
+  color: var(--ink);
+  background: var(--paper);
+}
+
+.person-chip.active {
+  background: var(--forest);
+  color: var(--paper);
+}
+
 /* ── Frequency chip rail ──────────────────────────────────── */
 
 .freq-group {

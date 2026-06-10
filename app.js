@@ -269,6 +269,7 @@ const wordGroupSelect = document.getElementById("wordGroupSelect");
 const wordImageWrap = document.getElementById("wordImageWrap");
 const wordImage = document.getElementById("wordImage");
 const answerNumTag = document.getElementById("answerNumTag");
+const personChips = document.getElementById("personChips");
 const scoreStatsEl = document.getElementById("sessionStats");
 const scoreRegimeEl = document.getElementById("sessionRegime");
 const scoreBarEl = document.getElementById("sessionBar");
@@ -980,16 +981,29 @@ function verbRegimeTenses() {
 }
 
 /**
+ * Person indices (0=aš … 5=jie/jos) the learner chose to drill. Defaults to
+ * all six; if everything is somehow off, falls back to all.
+ */
+function verbRegimePersons() {
+  if (!personChips) return [0, 1, 2, 3, 4, 5];
+  const active = Array.from(personChips.querySelectorAll(".person-chip.active"))
+    .map((el) => Number(el.dataset.person))
+    .filter((n) => Number.isInteger(n) && n >= 0 && n < 6);
+  return active.length ? active : [0, 1, 2, 3, 4, 5];
+}
+
+/**
  * Every drillable verb form in the current selection (difficulty groups +
  * tense), split into all forms and the ones not yet mastered.
  */
 function verbRegimeForms() {
   const tenses = verbRegimeTenses();
+  const persons = verbRegimePersons();
   const all = [];
   const unmastered = [];
   for (const e of verbs) {
     for (const ft of tenses) {
-      for (let i = 0; i < 6; i += 1) {
+      for (const i of persons) {
         if (!generateLtForm(e, ft, i)) continue;
         const key = verbFormKey(e, ft, i);
         const rec = { entry: e, formType: ft, personIdx: i, key };
@@ -2188,6 +2202,23 @@ function init() {
       newQuestion();
     }
   });
+  if (personChips) {
+    personChips.addEventListener("click", (event) => {
+      const chip = event.target.closest(".person-chip");
+      if (!chip || !personChips.contains(chip)) return;
+      const active = personChips.querySelectorAll(".person-chip.active");
+      // Keep at least one person selected.
+      if (chip.classList.contains("active") && active.length === 1) return;
+      const nowActive = !chip.classList.contains("active");
+      chip.classList.toggle("active", nowActive);
+      chip.setAttribute("aria-pressed", nowActive ? "true" : "false");
+      if (getPracticeMode() === "verbs") {
+        newQuestion();
+      } else {
+        renderScore();
+      }
+    });
+  }
   if (resetMasteryBtn) {
     resetMasteryBtn.addEventListener("click", resetMastery);
   }
